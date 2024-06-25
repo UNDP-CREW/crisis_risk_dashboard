@@ -1,0 +1,3241 @@
+country,year,status,sub_indicator,score,sub_indicator_category,country_iso
+Afghanistan,2024,NF,electoral_process,0,political_rights,AFG
+Afghanistan,2024,NF,pluralism_participation,0,political_rights,AFG
+Afghanistan,2024,NF,functioning_government,1,political_rights,AFG
+Afghanistan,2024,NF,freedom_of_expression,0,civil_liberties,AFG
+Afghanistan,2024,NF,right_to_assembly,3,civil_liberties,AFG
+Afghanistan,2024,NF,rule_of_law,0,civil_liberties,AFG
+Afghanistan,2024,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2024,NF,political_rights,1,aggregation,AFG
+Afghanistan,2024,NF,civil_liberties,5,aggregation,AFG
+Afghanistan,2024,NF,total,6,aggregation,AFG
+Bangladesh,2024,PF,electoral_process,4,political_rights,BGD
+Bangladesh,2024,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2024,PF,functioning_government,4,political_rights,BGD
+Bangladesh,2024,PF,freedom_of_expression,6,civil_liberties,BGD
+Bangladesh,2024,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2024,PF,rule_of_law,5,civil_liberties,BGD
+Bangladesh,2024,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2024,PF,political_rights,15,aggregation,BGD
+Bangladesh,2024,PF,civil_liberties,25,aggregation,BGD
+Bangladesh,2024,PF,total,40,aggregation,BGD
+Bhutan,2024,PF,electoral_process,10,political_rights,BTN
+Bhutan,2024,PF,pluralism_participation,13,political_rights,BTN
+Bhutan,2024,PF,functioning_government,8,political_rights,BTN
+Bhutan,2024,PF,freedom_of_expression,10,civil_liberties,BTN
+Bhutan,2024,PF,right_to_assembly,5,civil_liberties,BTN
+Bhutan,2024,PF,rule_of_law,9,civil_liberties,BTN
+Bhutan,2024,PF,personal_autonomy,9,civil_liberties,BTN
+Bhutan,2024,PF,political_rights,30,aggregation,BTN
+Bhutan,2024,PF,civil_liberties,33,aggregation,BTN
+Bhutan,2024,PF,total,63,aggregation,BTN
+Cambodia,2024,NF,electoral_process,0,political_rights,KHM
+Cambodia,2024,NF,pluralism_participation,2,political_rights,KHM
+Cambodia,2024,NF,functioning_government,2,political_rights,KHM
+Cambodia,2024,NF,freedom_of_expression,7,civil_liberties,KHM
+Cambodia,2024,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2024,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2024,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2024,NF,political_rights,4,aggregation,KHM
+Cambodia,2024,NF,civil_liberties,19,aggregation,KHM
+Cambodia,2024,NF,total,23,aggregation,KHM
+China,2024,NF,electoral_process,0,political_rights,CHN
+China,2024,NF,pluralism_participation,0,political_rights,CHN
+China,2024,NF,functioning_government,1,political_rights,CHN
+China,2024,NF,freedom_of_expression,1,civil_liberties,CHN
+China,2024,NF,right_to_assembly,2,civil_liberties,CHN
+China,2024,NF,rule_of_law,2,civil_liberties,CHN
+China,2024,NF,personal_autonomy,6,civil_liberties,CHN
+China,2024,NF,political_rights,-2,aggregation,CHN
+China,2024,NF,civil_liberties,11,aggregation,CHN
+China,2024,NF,total,9,aggregation,CHN
+Fiji,2024,PF,electoral_process,8,political_rights,FJI
+Fiji,2024,PF,pluralism_participation,11,political_rights,FJI
+Fiji,2024,PF,functioning_government,8,political_rights,FJI
+Fiji,2024,PF,freedom_of_expression,14,civil_liberties,FJI
+Fiji,2024,PF,right_to_assembly,8,civil_liberties,FJI
+Fiji,2024,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2024,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2024,PF,political_rights,27,aggregation,FJI
+Fiji,2024,PF,civil_liberties,39,aggregation,FJI
+Fiji,2024,PF,total,66,aggregation,FJI
+Hong Kong,2024,PF,electoral_process,0,political_rights,HKG
+Hong Kong,2024,PF,pluralism_participation,4,political_rights,HKG
+Hong Kong,2024,PF,functioning_government,5,political_rights,HKG
+Hong Kong,2024,PF,freedom_of_expression,7,civil_liberties,HKG
+Hong Kong,2024,PF,right_to_assembly,3,civil_liberties,HKG
+Hong Kong,2024,PF,rule_of_law,9,civil_liberties,HKG
+Hong Kong,2024,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2024,PF,political_rights,9,aggregation,HKG
+Hong Kong,2024,PF,civil_liberties,32,aggregation,HKG
+Hong Kong,2024,PF,total,41,aggregation,HKG
+India,2024,PF,electoral_process,12,political_rights,IND
+India,2024,PF,pluralism_participation,12,political_rights,IND
+India,2024,PF,functioning_government,9,political_rights,IND
+India,2024,PF,freedom_of_expression,9,civil_liberties,IND
+India,2024,PF,right_to_assembly,7,civil_liberties,IND
+India,2024,PF,rule_of_law,8,civil_liberties,IND
+India,2024,PF,personal_autonomy,9,civil_liberties,IND
+India,2024,PF,political_rights,33,aggregation,IND
+India,2024,PF,civil_liberties,33,aggregation,IND
+India,2024,PF,total,66,aggregation,IND
+Indonesia,2024,PF,electoral_process,11,political_rights,IDN
+Indonesia,2024,PF,pluralism_participation,12,political_rights,IDN
+Indonesia,2024,PF,functioning_government,6,political_rights,IDN
+Indonesia,2024,PF,freedom_of_expression,9,civil_liberties,IDN
+Indonesia,2024,PF,right_to_assembly,6,civil_liberties,IDN
+Indonesia,2024,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2024,PF,personal_autonomy,8,civil_liberties,IDN
+Indonesia,2024,PF,political_rights,29,aggregation,IDN
+Indonesia,2024,PF,civil_liberties,28,aggregation,IDN
+Indonesia,2024,PF,total,57,aggregation,IDN
+Iran,2024,NF,electoral_process,2,political_rights,IRN
+Iran,2024,NF,pluralism_participation,2,political_rights,IRN
+Iran,2024,NF,functioning_government,0,political_rights,IRN
+Iran,2024,NF,freedom_of_expression,0,civil_liberties,IRN
+Iran,2024,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2024,NF,rule_of_law,2,civil_liberties,IRN
+Iran,2024,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2024,NF,political_rights,4,aggregation,IRN
+Iran,2024,NF,civil_liberties,7,aggregation,IRN
+Iran,2024,NF,total,11,aggregation,IRN
+Laos,2024,NF,electoral_process,0,political_rights,LAO
+Laos,2024,NF,pluralism_participation,0,political_rights,LAO
+Laos,2024,NF,functioning_government,2,political_rights,LAO
+Laos,2024,NF,freedom_of_expression,3,civil_liberties,LAO
+Laos,2024,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2024,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2024,NF,personal_autonomy,6,civil_liberties,LAO
+Laos,2024,NF,political_rights,2,aggregation,LAO
+Laos,2024,NF,civil_liberties,11,aggregation,LAO
+Laos,2024,NF,total,13,aggregation,LAO
+Malaysia,2024,PF,electoral_process,6,political_rights,MYS
+Malaysia,2024,PF,pluralism_participation,10,political_rights,MYS
+Malaysia,2024,PF,functioning_government,6,political_rights,MYS
+Malaysia,2024,PF,freedom_of_expression,8,civil_liberties,MYS
+Malaysia,2024,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2024,PF,rule_of_law,8,civil_liberties,MYS
+Malaysia,2024,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2024,PF,political_rights,22,aggregation,MYS
+Malaysia,2024,PF,civil_liberties,31,aggregation,MYS
+Malaysia,2024,PF,total,53,aggregation,MYS
+Maldives,2024,PF,electoral_process,8,political_rights,MDV
+Maldives,2024,PF,pluralism_participation,8,political_rights,MDV
+Maldives,2024,PF,functioning_government,5,political_rights,MDV
+Maldives,2024,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2024,PF,right_to_assembly,6,civil_liberties,MDV
+Maldives,2024,PF,rule_of_law,7,civil_liberties,MDV
+Maldives,2024,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2024,PF,political_rights,21,aggregation,MDV
+Maldives,2024,PF,civil_liberties,23,aggregation,MDV
+Maldives,2024,PF,total,44,aggregation,MDV
+Mongolia,2024,F,electoral_process,11,political_rights,MNG
+Mongolia,2024,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2024,F,functioning_government,9,political_rights,MNG
+Mongolia,2024,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2024,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2024,F,rule_of_law,11,civil_liberties,MNG
+Mongolia,2024,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2024,F,political_rights,36,aggregation,MNG
+Mongolia,2024,F,civil_liberties,48,aggregation,MNG
+Mongolia,2024,F,total,84,aggregation,MNG
+Myanmar,2024,NF,electoral_process,0,political_rights,MMR
+Myanmar,2024,NF,pluralism_participation,3,political_rights,MMR
+Myanmar,2024,NF,functioning_government,1,political_rights,MMR
+Myanmar,2024,NF,freedom_of_expression,3,civil_liberties,MMR
+Myanmar,2024,NF,right_to_assembly,2,civil_liberties,MMR
+Myanmar,2024,NF,rule_of_law,0,civil_liberties,MMR
+Myanmar,2024,NF,personal_autonomy,3,civil_liberties,MMR
+Myanmar,2024,NF,political_rights,0,aggregation,MMR
+Myanmar,2024,NF,civil_liberties,8,aggregation,MMR
+Myanmar,2024,NF,total,8,aggregation,MMR
+Nepal,2024,PF,electoral_process,11,political_rights,NPL
+Nepal,2024,PF,pluralism_participation,11,political_rights,NPL
+Nepal,2024,PF,functioning_government,6,political_rights,NPL
+Nepal,2024,PF,freedom_of_expression,10,civil_liberties,NPL
+Nepal,2024,PF,right_to_assembly,8,civil_liberties,NPL
+Nepal,2024,PF,rule_of_law,8,civil_liberties,NPL
+Nepal,2024,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2024,PF,political_rights,28,aggregation,NPL
+Nepal,2024,PF,civil_liberties,34,aggregation,NPL
+Nepal,2024,PF,total,62,aggregation,NPL
+North Korea,2024,NF,electoral_process,0,political_rights,PRK
+North Korea,2024,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2024,NF,functioning_government,0,political_rights,PRK
+North Korea,2024,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2024,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2024,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2024,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2024,NF,political_rights,0,aggregation,PRK
+North Korea,2024,NF,civil_liberties,3,aggregation,PRK
+North Korea,2024,NF,total,3,aggregation,PRK
+Pakistan,2024,PF,electoral_process,5,political_rights,PAK
+Pakistan,2024,PF,pluralism_participation,5,political_rights,PAK
+Pakistan,2024,PF,functioning_government,4,political_rights,PAK
+Pakistan,2024,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2024,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2024,PF,rule_of_law,3,civil_liberties,PAK
+Pakistan,2024,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2024,PF,political_rights,14,aggregation,PAK
+Pakistan,2024,PF,civil_liberties,21,aggregation,PAK
+Pakistan,2024,PF,total,35,aggregation,PAK
+Papua New Guinea,2024,PF,electoral_process,6,political_rights,PNG
+Papua New Guinea,2024,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2024,PF,functioning_government,3,political_rights,PNG
+Papua New Guinea,2024,PF,freedom_of_expression,14,civil_liberties,PNG
+Papua New Guinea,2024,PF,right_to_assembly,10,civil_liberties,PNG
+Papua New Guinea,2024,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2024,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2024,PF,political_rights,22,aggregation,PNG
+Papua New Guinea,2024,PF,civil_liberties,39,aggregation,PNG
+Papua New Guinea,2024,PF,total,61,aggregation,PNG
+Philippines,2024,PF,electoral_process,9,political_rights,PHL
+Philippines,2024,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2024,PF,functioning_government,6,political_rights,PHL
+Philippines,2024,PF,freedom_of_expression,11,civil_liberties,PHL
+Philippines,2024,PF,right_to_assembly,7,civil_liberties,PHL
+Philippines,2024,PF,rule_of_law,5,civil_liberties,PHL
+Philippines,2024,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2024,PF,political_rights,25,aggregation,PHL
+Philippines,2024,PF,civil_liberties,33,aggregation,PHL
+Philippines,2024,PF,total,58,aggregation,PHL
+Solomon Islands,2024,F,electoral_process,8,political_rights,SLB
+Solomon Islands,2024,F,pluralism_participation,13,political_rights,SLB
+Solomon Islands,2024,F,functioning_government,7,political_rights,SLB
+Solomon Islands,2024,F,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2024,F,right_to_assembly,10,civil_liberties,SLB
+Solomon Islands,2024,F,rule_of_law,11,civil_liberties,SLB
+Solomon Islands,2024,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2024,F,political_rights,28,aggregation,SLB
+Solomon Islands,2024,F,civil_liberties,47,aggregation,SLB
+Solomon Islands,2024,F,total,75,aggregation,SLB
+South Korea,2024,F,electoral_process,11,political_rights,KOR
+South Korea,2024,F,pluralism_participation,13,political_rights,KOR
+South Korea,2024,F,functioning_government,9,political_rights,KOR
+South Korea,2024,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2024,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2024,F,rule_of_law,12,civil_liberties,KOR
+South Korea,2024,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2024,F,political_rights,33,aggregation,KOR
+South Korea,2024,F,civil_liberties,50,aggregation,KOR
+South Korea,2024,F,total,83,aggregation,KOR
+Sri Lanka,2024,PF,electoral_process,9,political_rights,LKA
+Sri Lanka,2024,PF,pluralism_participation,9,political_rights,LKA
+Sri Lanka,2024,PF,functioning_government,5,political_rights,LKA
+Sri Lanka,2024,PF,freedom_of_expression,9,civil_liberties,LKA
+Sri Lanka,2024,PF,right_to_assembly,8,civil_liberties,LKA
+Sri Lanka,2024,PF,rule_of_law,7,civil_liberties,LKA
+Sri Lanka,2024,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2024,PF,political_rights,22,aggregation,LKA
+Sri Lanka,2024,PF,civil_liberties,32,aggregation,LKA
+Sri Lanka,2024,PF,total,54,aggregation,LKA
+Thailand,2024,PF,electoral_process,3,political_rights,THA
+Thailand,2024,PF,pluralism_participation,6,political_rights,THA
+Thailand,2024,PF,functioning_government,3,political_rights,THA
+Thailand,2024,PF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2024,PF,right_to_assembly,3,civil_liberties,THA
+Thailand,2024,PF,rule_of_law,5,civil_liberties,THA
+Thailand,2024,PF,personal_autonomy,10,civil_liberties,THA
+Thailand,2024,PF,political_rights,12,aggregation,THA
+Thailand,2024,PF,civil_liberties,24,aggregation,THA
+Thailand,2024,PF,total,36,aggregation,THA
+Timor-Leste,2024,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2024,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2024,F,functioning_government,8,political_rights,TLS
+Timor-Leste,2024,F,freedom_of_expression,14,civil_liberties,TLS
+Timor-Leste,2024,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2024,F,rule_of_law,8,civil_liberties,TLS
+Timor-Leste,2024,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2024,F,political_rights,33,aggregation,TLS
+Timor-Leste,2024,F,civil_liberties,39,aggregation,TLS
+Timor-Leste,2024,F,total,72,aggregation,TLS
+Vanuatu,2024,F,electoral_process,10,political_rights,VUT
+Vanuatu,2024,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2024,F,functioning_government,7,political_rights,VUT
+Vanuatu,2024,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2024,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2024,F,rule_of_law,13,civil_liberties,VUT
+Vanuatu,2024,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2024,F,political_rights,32,aggregation,VUT
+Vanuatu,2024,F,civil_liberties,50,aggregation,VUT
+Vanuatu,2024,F,total,82,aggregation,VUT
+Vietnam,2024,NF,electoral_process,0,political_rights,VNM
+Vietnam,2024,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2024,NF,functioning_government,3,political_rights,VNM
+Vietnam,2024,NF,freedom_of_expression,3,civil_liberties,VNM
+Vietnam,2024,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2024,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2024,NF,personal_autonomy,7,civil_liberties,VNM
+Vietnam,2024,NF,political_rights,4,aggregation,VNM
+Vietnam,2024,NF,civil_liberties,15,aggregation,VNM
+Vietnam,2024,NF,total,19,aggregation,VNM
+Afghanistan,2023,NF,electoral_process,0,political_rights,AFG
+Afghanistan,2023,NF,pluralism_participation,0,political_rights,AFG
+Afghanistan,2023,NF,functioning_government,1,political_rights,AFG
+Afghanistan,2023,NF,freedom_of_expression,2,civil_liberties,AFG
+Afghanistan,2023,NF,right_to_assembly,3,civil_liberties,AFG
+Afghanistan,2023,NF,rule_of_law,0,civil_liberties,AFG
+Afghanistan,2023,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2023,NF,political_rights,1,aggregation,AFG
+Afghanistan,2023,NF,civil_liberties,7,aggregation,AFG
+Afghanistan,2023,NF,total,8,aggregation,AFG
+Bangladesh,2023,PF,electoral_process,4,political_rights,BGD
+Bangladesh,2023,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2023,PF,functioning_government,4,political_rights,BGD
+Bangladesh,2023,PF,freedom_of_expression,6,civil_liberties,BGD
+Bangladesh,2023,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2023,PF,rule_of_law,5,civil_liberties,BGD
+Bangladesh,2023,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2023,PF,political_rights,15,aggregation,BGD
+Bangladesh,2023,PF,civil_liberties,25,aggregation,BGD
+Bangladesh,2023,PF,total,40,aggregation,BGD
+Bhutan,2023,PF,electoral_process,10,political_rights,BTN
+Bhutan,2023,PF,pluralism_participation,12,political_rights,BTN
+Bhutan,2023,PF,functioning_government,8,political_rights,BTN
+Bhutan,2023,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2023,PF,right_to_assembly,5,civil_liberties,BTN
+Bhutan,2023,PF,rule_of_law,9,civil_liberties,BTN
+Bhutan,2023,PF,personal_autonomy,9,civil_liberties,BTN
+Bhutan,2023,PF,political_rights,29,aggregation,BTN
+Bhutan,2023,PF,civil_liberties,32,aggregation,BTN
+Bhutan,2023,PF,total,61,aggregation,BTN
+Cambodia,2023,NF,electoral_process,1,political_rights,KHM
+Cambodia,2023,NF,pluralism_participation,2,political_rights,KHM
+Cambodia,2023,NF,functioning_government,2,political_rights,KHM
+Cambodia,2023,NF,freedom_of_expression,7,civil_liberties,KHM
+Cambodia,2023,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2023,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2023,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2023,NF,political_rights,5,aggregation,KHM
+Cambodia,2023,NF,civil_liberties,19,aggregation,KHM
+Cambodia,2023,NF,total,24,aggregation,KHM
+China,2023,NF,electoral_process,0,political_rights,CHN
+China,2023,NF,pluralism_participation,0,political_rights,CHN
+China,2023,NF,functioning_government,1,political_rights,CHN
+China,2023,NF,freedom_of_expression,1,civil_liberties,CHN
+China,2023,NF,right_to_assembly,2,civil_liberties,CHN
+China,2023,NF,rule_of_law,2,civil_liberties,CHN
+China,2023,NF,personal_autonomy,6,civil_liberties,CHN
+China,2023,NF,political_rights,-2,aggregation,CHN
+China,2023,NF,civil_liberties,11,aggregation,CHN
+China,2023,NF,total,9,aggregation,CHN
+Fiji,2023,PF,electoral_process,7,political_rights,FJI
+Fiji,2023,PF,pluralism_participation,10,political_rights,FJI
+Fiji,2023,PF,functioning_government,7,political_rights,FJI
+Fiji,2023,PF,freedom_of_expression,11,civil_liberties,FJI
+Fiji,2023,PF,right_to_assembly,7,civil_liberties,FJI
+Fiji,2023,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2023,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2023,PF,political_rights,24,aggregation,FJI
+Fiji,2023,PF,civil_liberties,35,aggregation,FJI
+Fiji,2023,PF,total,59,aggregation,FJI
+Hong Kong,2023,PF,electoral_process,0,political_rights,HKG
+Hong Kong,2023,PF,pluralism_participation,5,political_rights,HKG
+Hong Kong,2023,PF,functioning_government,5,political_rights,HKG
+Hong Kong,2023,PF,freedom_of_expression,7,civil_liberties,HKG
+Hong Kong,2023,PF,right_to_assembly,3,civil_liberties,HKG
+Hong Kong,2023,PF,rule_of_law,9,civil_liberties,HKG
+Hong Kong,2023,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2023,PF,political_rights,10,aggregation,HKG
+Hong Kong,2023,PF,civil_liberties,32,aggregation,HKG
+Hong Kong,2023,PF,total,42,aggregation,HKG
+India,2023,PF,electoral_process,12,political_rights,IND
+India,2023,PF,pluralism_participation,12,political_rights,IND
+India,2023,PF,functioning_government,9,political_rights,IND
+India,2023,PF,freedom_of_expression,9,civil_liberties,IND
+India,2023,PF,right_to_assembly,7,civil_liberties,IND
+India,2023,PF,rule_of_law,8,civil_liberties,IND
+India,2023,PF,personal_autonomy,9,civil_liberties,IND
+India,2023,PF,political_rights,33,aggregation,IND
+India,2023,PF,civil_liberties,33,aggregation,IND
+India,2023,PF,total,66,aggregation,IND
+Indonesia,2023,PF,electoral_process,11,political_rights,IDN
+Indonesia,2023,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2023,PF,functioning_government,6,political_rights,IDN
+Indonesia,2023,PF,freedom_of_expression,9,civil_liberties,IDN
+Indonesia,2023,PF,right_to_assembly,6,civil_liberties,IDN
+Indonesia,2023,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2023,PF,personal_autonomy,8,civil_liberties,IDN
+Indonesia,2023,PF,political_rights,30,aggregation,IDN
+Indonesia,2023,PF,civil_liberties,28,aggregation,IDN
+Indonesia,2023,PF,total,58,aggregation,IDN
+Iran,2023,NF,electoral_process,2,political_rights,IRN
+Iran,2023,NF,pluralism_participation,2,political_rights,IRN
+Iran,2023,NF,functioning_government,0,political_rights,IRN
+Iran,2023,NF,freedom_of_expression,1,civil_liberties,IRN
+Iran,2023,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2023,NF,rule_of_law,2,civil_liberties,IRN
+Iran,2023,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2023,NF,political_rights,4,aggregation,IRN
+Iran,2023,NF,civil_liberties,8,aggregation,IRN
+Iran,2023,NF,total,12,aggregation,IRN
+Laos,2023,NF,electoral_process,0,political_rights,LAO
+Laos,2023,NF,pluralism_participation,0,political_rights,LAO
+Laos,2023,NF,functioning_government,2,political_rights,LAO
+Laos,2023,NF,freedom_of_expression,3,civil_liberties,LAO
+Laos,2023,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2023,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2023,NF,personal_autonomy,6,civil_liberties,LAO
+Laos,2023,NF,political_rights,2,aggregation,LAO
+Laos,2023,NF,civil_liberties,11,aggregation,LAO
+Laos,2023,NF,total,13,aggregation,LAO
+Malaysia,2023,PF,electoral_process,6,political_rights,MYS
+Malaysia,2023,PF,pluralism_participation,10,political_rights,MYS
+Malaysia,2023,PF,functioning_government,6,political_rights,MYS
+Malaysia,2023,PF,freedom_of_expression,8,civil_liberties,MYS
+Malaysia,2023,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2023,PF,rule_of_law,8,civil_liberties,MYS
+Malaysia,2023,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2023,PF,political_rights,22,aggregation,MYS
+Malaysia,2023,PF,civil_liberties,31,aggregation,MYS
+Malaysia,2023,PF,total,53,aggregation,MYS
+Maldives,2023,PF,electoral_process,7,political_rights,MDV
+Maldives,2023,PF,pluralism_participation,8,political_rights,MDV
+Maldives,2023,PF,functioning_government,4,political_rights,MDV
+Maldives,2023,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2023,PF,right_to_assembly,5,civil_liberties,MDV
+Maldives,2023,PF,rule_of_law,7,civil_liberties,MDV
+Maldives,2023,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2023,PF,political_rights,19,aggregation,MDV
+Maldives,2023,PF,civil_liberties,22,aggregation,MDV
+Maldives,2023,PF,total,41,aggregation,MDV
+Mongolia,2023,F,electoral_process,11,political_rights,MNG
+Mongolia,2023,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2023,F,functioning_government,9,political_rights,MNG
+Mongolia,2023,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2023,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2023,F,rule_of_law,11,civil_liberties,MNG
+Mongolia,2023,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2023,F,political_rights,36,aggregation,MNG
+Mongolia,2023,F,civil_liberties,48,aggregation,MNG
+Mongolia,2023,F,total,84,aggregation,MNG
+Myanmar,2023,NF,electoral_process,0,political_rights,MMR
+Myanmar,2023,NF,pluralism_participation,3,political_rights,MMR
+Myanmar,2023,NF,functioning_government,1,political_rights,MMR
+Myanmar,2023,NF,freedom_of_expression,3,civil_liberties,MMR
+Myanmar,2023,NF,right_to_assembly,2,civil_liberties,MMR
+Myanmar,2023,NF,rule_of_law,0,civil_liberties,MMR
+Myanmar,2023,NF,personal_autonomy,4,civil_liberties,MMR
+Myanmar,2023,NF,political_rights,0,aggregation,MMR
+Myanmar,2023,NF,civil_liberties,9,aggregation,MMR
+Myanmar,2023,NF,total,9,aggregation,MMR
+Nepal,2023,PF,electoral_process,10,political_rights,NPL
+Nepal,2023,PF,pluralism_participation,11,political_rights,NPL
+Nepal,2023,PF,functioning_government,5,political_rights,NPL
+Nepal,2023,PF,freedom_of_expression,10,civil_liberties,NPL
+Nepal,2023,PF,right_to_assembly,7,civil_liberties,NPL
+Nepal,2023,PF,rule_of_law,7,civil_liberties,NPL
+Nepal,2023,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2023,PF,political_rights,26,aggregation,NPL
+Nepal,2023,PF,civil_liberties,32,aggregation,NPL
+Nepal,2023,PF,total,58,aggregation,NPL
+North Korea,2023,NF,electoral_process,0,political_rights,PRK
+North Korea,2023,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2023,NF,functioning_government,0,political_rights,PRK
+North Korea,2023,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2023,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2023,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2023,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2023,NF,political_rights,0,aggregation,PRK
+North Korea,2023,NF,civil_liberties,3,aggregation,PRK
+North Korea,2023,NF,total,3,aggregation,PRK
+Pakistan,2023,PF,electoral_process,5,political_rights,PAK
+Pakistan,2023,PF,pluralism_participation,6,political_rights,PAK
+Pakistan,2023,PF,functioning_government,4,political_rights,PAK
+Pakistan,2023,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2023,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2023,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2023,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2023,PF,political_rights,15,aggregation,PAK
+Pakistan,2023,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2023,PF,total,37,aggregation,PAK
+Papua New Guinea,2023,PF,electoral_process,6,political_rights,PNG
+Papua New Guinea,2023,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2023,PF,functioning_government,3,political_rights,PNG
+Papua New Guinea,2023,PF,freedom_of_expression,14,civil_liberties,PNG
+Papua New Guinea,2023,PF,right_to_assembly,10,civil_liberties,PNG
+Papua New Guinea,2023,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2023,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2023,PF,political_rights,22,aggregation,PNG
+Papua New Guinea,2023,PF,civil_liberties,39,aggregation,PNG
+Papua New Guinea,2023,PF,total,61,aggregation,PNG
+Philippines,2023,PF,electoral_process,9,political_rights,PHL
+Philippines,2023,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2023,PF,functioning_government,6,political_rights,PHL
+Philippines,2023,PF,freedom_of_expression,11,civil_liberties,PHL
+Philippines,2023,PF,right_to_assembly,7,civil_liberties,PHL
+Philippines,2023,PF,rule_of_law,5,civil_liberties,PHL
+Philippines,2023,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2023,PF,political_rights,25,aggregation,PHL
+Philippines,2023,PF,civil_liberties,33,aggregation,PHL
+Philippines,2023,PF,total,58,aggregation,PHL
+Solomon Islands,2023,F,electoral_process,8,political_rights,SLB
+Solomon Islands,2023,F,pluralism_participation,14,political_rights,SLB
+Solomon Islands,2023,F,functioning_government,7,political_rights,SLB
+Solomon Islands,2023,F,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2023,F,right_to_assembly,10,civil_liberties,SLB
+Solomon Islands,2023,F,rule_of_law,11,civil_liberties,SLB
+Solomon Islands,2023,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2023,F,political_rights,29,aggregation,SLB
+Solomon Islands,2023,F,civil_liberties,47,aggregation,SLB
+Solomon Islands,2023,F,total,76,aggregation,SLB
+South Korea,2023,F,electoral_process,11,political_rights,KOR
+South Korea,2023,F,pluralism_participation,13,political_rights,KOR
+South Korea,2023,F,functioning_government,9,political_rights,KOR
+South Korea,2023,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2023,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2023,F,rule_of_law,12,civil_liberties,KOR
+South Korea,2023,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2023,F,political_rights,33,aggregation,KOR
+South Korea,2023,F,civil_liberties,50,aggregation,KOR
+South Korea,2023,F,total,83,aggregation,KOR
+Sri Lanka,2023,PF,electoral_process,9,political_rights,LKA
+Sri Lanka,2023,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2023,PF,functioning_government,5,political_rights,LKA
+Sri Lanka,2023,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2023,PF,right_to_assembly,8,civil_liberties,LKA
+Sri Lanka,2023,PF,rule_of_law,7,civil_liberties,LKA
+Sri Lanka,2023,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2023,PF,political_rights,23,aggregation,LKA
+Sri Lanka,2023,PF,civil_liberties,31,aggregation,LKA
+Sri Lanka,2023,PF,total,54,aggregation,LKA
+Thailand,2023,NF,electoral_process,1,political_rights,THA
+Thailand,2023,NF,pluralism_participation,3,political_rights,THA
+Thailand,2023,NF,functioning_government,2,political_rights,THA
+Thailand,2023,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2023,NF,right_to_assembly,3,civil_liberties,THA
+Thailand,2023,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2023,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2023,NF,political_rights,6,aggregation,THA
+Thailand,2023,NF,civil_liberties,24,aggregation,THA
+Thailand,2023,NF,total,30,aggregation,THA
+Timor-Leste,2023,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2023,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2023,F,functioning_government,8,political_rights,TLS
+Timor-Leste,2023,F,freedom_of_expression,14,civil_liberties,TLS
+Timor-Leste,2023,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2023,F,rule_of_law,8,civil_liberties,TLS
+Timor-Leste,2023,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2023,F,political_rights,33,aggregation,TLS
+Timor-Leste,2023,F,civil_liberties,39,aggregation,TLS
+Timor-Leste,2023,F,total,72,aggregation,TLS
+Vanuatu,2023,F,electoral_process,10,political_rights,VUT
+Vanuatu,2023,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2023,F,functioning_government,8,political_rights,VUT
+Vanuatu,2023,F,freedom_of_expression,14,civil_liberties,VUT
+Vanuatu,2023,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2023,F,rule_of_law,13,civil_liberties,VUT
+Vanuatu,2023,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2023,F,political_rights,33,aggregation,VUT
+Vanuatu,2023,F,civil_liberties,49,aggregation,VUT
+Vanuatu,2023,F,total,82,aggregation,VUT
+Vietnam,2023,NF,electoral_process,0,political_rights,VNM
+Vietnam,2023,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2023,NF,functioning_government,3,political_rights,VNM
+Vietnam,2023,NF,freedom_of_expression,3,civil_liberties,VNM
+Vietnam,2023,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2023,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2023,NF,personal_autonomy,7,civil_liberties,VNM
+Vietnam,2023,NF,political_rights,4,aggregation,VNM
+Vietnam,2023,NF,civil_liberties,15,aggregation,VNM
+Vietnam,2023,NF,total,19,aggregation,VNM
+Afghanistan,2022,NF,electoral_process,0,political_rights,AFG
+Afghanistan,2022,NF,pluralism_participation,0,political_rights,AFG
+Afghanistan,2022,NF,functioning_government,1,political_rights,AFG
+Afghanistan,2022,NF,freedom_of_expression,4,civil_liberties,AFG
+Afghanistan,2022,NF,right_to_assembly,3,civil_liberties,AFG
+Afghanistan,2022,NF,rule_of_law,0,civil_liberties,AFG
+Afghanistan,2022,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2022,NF,political_rights,1,aggregation,AFG
+Afghanistan,2022,NF,civil_liberties,9,aggregation,AFG
+Afghanistan,2022,NF,total,10,aggregation,AFG
+Bangladesh,2022,PF,electoral_process,4,political_rights,BGD
+Bangladesh,2022,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2022,PF,functioning_government,4,political_rights,BGD
+Bangladesh,2022,PF,freedom_of_expression,6,civil_liberties,BGD
+Bangladesh,2022,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2022,PF,rule_of_law,4,civil_liberties,BGD
+Bangladesh,2022,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2022,PF,political_rights,15,aggregation,BGD
+Bangladesh,2022,PF,civil_liberties,24,aggregation,BGD
+Bangladesh,2022,PF,total,39,aggregation,BGD
+Bhutan,2022,PF,electoral_process,10,political_rights,BTN
+Bhutan,2022,PF,pluralism_participation,12,political_rights,BTN
+Bhutan,2022,PF,functioning_government,8,political_rights,BTN
+Bhutan,2022,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2022,PF,right_to_assembly,5,civil_liberties,BTN
+Bhutan,2022,PF,rule_of_law,9,civil_liberties,BTN
+Bhutan,2022,PF,personal_autonomy,9,civil_liberties,BTN
+Bhutan,2022,PF,political_rights,29,aggregation,BTN
+Bhutan,2022,PF,civil_liberties,32,aggregation,BTN
+Bhutan,2022,PF,total,61,aggregation,BTN
+Cambodia,2022,NF,electoral_process,1,political_rights,KHM
+Cambodia,2022,NF,pluralism_participation,2,political_rights,KHM
+Cambodia,2022,NF,functioning_government,2,political_rights,KHM
+Cambodia,2022,NF,freedom_of_expression,7,civil_liberties,KHM
+Cambodia,2022,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2022,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2022,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2022,NF,political_rights,5,aggregation,KHM
+Cambodia,2022,NF,civil_liberties,19,aggregation,KHM
+Cambodia,2022,NF,total,24,aggregation,KHM
+China,2022,NF,electoral_process,0,political_rights,CHN
+China,2022,NF,pluralism_participation,0,political_rights,CHN
+China,2022,NF,functioning_government,1,political_rights,CHN
+China,2022,NF,freedom_of_expression,1,civil_liberties,CHN
+China,2022,NF,right_to_assembly,2,civil_liberties,CHN
+China,2022,NF,rule_of_law,2,civil_liberties,CHN
+China,2022,NF,personal_autonomy,6,civil_liberties,CHN
+China,2022,NF,political_rights,-2,aggregation,CHN
+China,2022,NF,civil_liberties,11,aggregation,CHN
+China,2022,NF,total,9,aggregation,CHN
+Fiji,2022,PF,electoral_process,7,political_rights,FJI
+Fiji,2022,PF,pluralism_participation,9,political_rights,FJI
+Fiji,2022,PF,functioning_government,7,political_rights,FJI
+Fiji,2022,PF,freedom_of_expression,11,civil_liberties,FJI
+Fiji,2022,PF,right_to_assembly,7,civil_liberties,FJI
+Fiji,2022,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2022,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2022,PF,political_rights,23,aggregation,FJI
+Fiji,2022,PF,civil_liberties,35,aggregation,FJI
+Fiji,2022,PF,total,58,aggregation,FJI
+Hong Kong,2022,PF,electoral_process,0,political_rights,HKG
+Hong Kong,2022,PF,pluralism_participation,5,political_rights,HKG
+Hong Kong,2022,PF,functioning_government,5,political_rights,HKG
+Hong Kong,2022,PF,freedom_of_expression,8,civil_liberties,HKG
+Hong Kong,2022,PF,right_to_assembly,3,civil_liberties,HKG
+Hong Kong,2022,PF,rule_of_law,9,civil_liberties,HKG
+Hong Kong,2022,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2022,PF,political_rights,10,aggregation,HKG
+Hong Kong,2022,PF,civil_liberties,33,aggregation,HKG
+Hong Kong,2022,PF,total,43,aggregation,HKG
+India,2022,PF,electoral_process,12,political_rights,IND
+India,2022,PF,pluralism_participation,12,political_rights,IND
+India,2022,PF,functioning_government,9,political_rights,IND
+India,2022,PF,freedom_of_expression,9,civil_liberties,IND
+India,2022,PF,right_to_assembly,7,civil_liberties,IND
+India,2022,PF,rule_of_law,8,civil_liberties,IND
+India,2022,PF,personal_autonomy,9,civil_liberties,IND
+India,2022,PF,political_rights,33,aggregation,IND
+India,2022,PF,civil_liberties,33,aggregation,IND
+India,2022,PF,total,66,aggregation,IND
+Indonesia,2022,PF,electoral_process,11,political_rights,IDN
+Indonesia,2022,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2022,PF,functioning_government,6,political_rights,IDN
+Indonesia,2022,PF,freedom_of_expression,9,civil_liberties,IDN
+Indonesia,2022,PF,right_to_assembly,6,civil_liberties,IDN
+Indonesia,2022,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2022,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2022,PF,political_rights,30,aggregation,IDN
+Indonesia,2022,PF,civil_liberties,29,aggregation,IDN
+Indonesia,2022,PF,total,59,aggregation,IDN
+Iran,2022,NF,electoral_process,2,political_rights,IRN
+Iran,2022,NF,pluralism_participation,2,political_rights,IRN
+Iran,2022,NF,functioning_government,0,political_rights,IRN
+Iran,2022,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2022,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2022,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2022,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2022,NF,political_rights,4,aggregation,IRN
+Iran,2022,NF,civil_liberties,10,aggregation,IRN
+Iran,2022,NF,total,14,aggregation,IRN
+Laos,2022,NF,electoral_process,0,political_rights,LAO
+Laos,2022,NF,pluralism_participation,0,political_rights,LAO
+Laos,2022,NF,functioning_government,2,political_rights,LAO
+Laos,2022,NF,freedom_of_expression,3,civil_liberties,LAO
+Laos,2022,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2022,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2022,NF,personal_autonomy,6,civil_liberties,LAO
+Laos,2022,NF,political_rights,2,aggregation,LAO
+Laos,2022,NF,civil_liberties,11,aggregation,LAO
+Laos,2022,NF,total,13,aggregation,LAO
+Malaysia,2022,PF,electoral_process,6,political_rights,MYS
+Malaysia,2022,PF,pluralism_participation,9,political_rights,MYS
+Malaysia,2022,PF,functioning_government,5,political_rights,MYS
+Malaysia,2022,PF,freedom_of_expression,8,civil_liberties,MYS
+Malaysia,2022,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2022,PF,rule_of_law,7,civil_liberties,MYS
+Malaysia,2022,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2022,PF,political_rights,20,aggregation,MYS
+Malaysia,2022,PF,civil_liberties,30,aggregation,MYS
+Malaysia,2022,PF,total,50,aggregation,MYS
+Maldives,2022,PF,electoral_process,7,political_rights,MDV
+Maldives,2022,PF,pluralism_participation,8,political_rights,MDV
+Maldives,2022,PF,functioning_government,4,political_rights,MDV
+Maldives,2022,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2022,PF,right_to_assembly,5,civil_liberties,MDV
+Maldives,2022,PF,rule_of_law,6,civil_liberties,MDV
+Maldives,2022,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2022,PF,political_rights,19,aggregation,MDV
+Maldives,2022,PF,civil_liberties,21,aggregation,MDV
+Maldives,2022,PF,total,40,aggregation,MDV
+Mongolia,2022,F,electoral_process,11,political_rights,MNG
+Mongolia,2022,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2022,F,functioning_government,9,political_rights,MNG
+Mongolia,2022,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2022,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2022,F,rule_of_law,11,civil_liberties,MNG
+Mongolia,2022,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2022,F,political_rights,36,aggregation,MNG
+Mongolia,2022,F,civil_liberties,48,aggregation,MNG
+Mongolia,2022,F,total,84,aggregation,MNG
+Myanmar,2022,NF,electoral_process,0,political_rights,MMR
+Myanmar,2022,NF,pluralism_participation,3,political_rights,MMR
+Myanmar,2022,NF,functioning_government,1,political_rights,MMR
+Myanmar,2022,NF,freedom_of_expression,3,civil_liberties,MMR
+Myanmar,2022,NF,right_to_assembly,2,civil_liberties,MMR
+Myanmar,2022,NF,rule_of_law,0,civil_liberties,MMR
+Myanmar,2022,NF,personal_autonomy,4,civil_liberties,MMR
+Myanmar,2022,NF,political_rights,0,aggregation,MMR
+Myanmar,2022,NF,civil_liberties,9,aggregation,MMR
+Myanmar,2022,NF,total,9,aggregation,MMR
+Nepal,2022,PF,electoral_process,10,political_rights,NPL
+Nepal,2022,PF,pluralism_participation,10,political_rights,NPL
+Nepal,2022,PF,functioning_government,5,political_rights,NPL
+Nepal,2022,PF,freedom_of_expression,10,civil_liberties,NPL
+Nepal,2022,PF,right_to_assembly,7,civil_liberties,NPL
+Nepal,2022,PF,rule_of_law,7,civil_liberties,NPL
+Nepal,2022,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2022,PF,political_rights,25,aggregation,NPL
+Nepal,2022,PF,civil_liberties,32,aggregation,NPL
+Nepal,2022,PF,total,57,aggregation,NPL
+North Korea,2022,NF,electoral_process,0,political_rights,PRK
+North Korea,2022,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2022,NF,functioning_government,0,political_rights,PRK
+North Korea,2022,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2022,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2022,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2022,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2022,NF,political_rights,0,aggregation,PRK
+North Korea,2022,NF,civil_liberties,3,aggregation,PRK
+North Korea,2022,NF,total,3,aggregation,PRK
+Pakistan,2022,PF,electoral_process,5,political_rights,PAK
+Pakistan,2022,PF,pluralism_participation,6,political_rights,PAK
+Pakistan,2022,PF,functioning_government,4,political_rights,PAK
+Pakistan,2022,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2022,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2022,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2022,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2022,PF,political_rights,15,aggregation,PAK
+Pakistan,2022,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2022,PF,total,37,aggregation,PAK
+Papua New Guinea,2022,PF,electoral_process,7,political_rights,PNG
+Papua New Guinea,2022,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2022,PF,functioning_government,3,political_rights,PNG
+Papua New Guinea,2022,PF,freedom_of_expression,14,civil_liberties,PNG
+Papua New Guinea,2022,PF,right_to_assembly,10,civil_liberties,PNG
+Papua New Guinea,2022,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2022,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2022,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2022,PF,civil_liberties,39,aggregation,PNG
+Papua New Guinea,2022,PF,total,62,aggregation,PNG
+Philippines,2022,PF,electoral_process,9,political_rights,PHL
+Philippines,2022,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2022,PF,functioning_government,6,political_rights,PHL
+Philippines,2022,PF,freedom_of_expression,11,civil_liberties,PHL
+Philippines,2022,PF,right_to_assembly,6,civil_liberties,PHL
+Philippines,2022,PF,rule_of_law,3,civil_liberties,PHL
+Philippines,2022,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2022,PF,political_rights,25,aggregation,PHL
+Philippines,2022,PF,civil_liberties,30,aggregation,PHL
+Philippines,2022,PF,total,55,aggregation,PHL
+Solomon Islands,2022,F,electoral_process,9,political_rights,SLB
+Solomon Islands,2022,F,pluralism_participation,14,political_rights,SLB
+Solomon Islands,2022,F,functioning_government,7,political_rights,SLB
+Solomon Islands,2022,F,freedom_of_expression,16,civil_liberties,SLB
+Solomon Islands,2022,F,right_to_assembly,10,civil_liberties,SLB
+Solomon Islands,2022,F,rule_of_law,11,civil_liberties,SLB
+Solomon Islands,2022,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2022,F,political_rights,30,aggregation,SLB
+Solomon Islands,2022,F,civil_liberties,49,aggregation,SLB
+Solomon Islands,2022,F,total,79,aggregation,SLB
+South Korea,2022,F,electoral_process,11,political_rights,KOR
+South Korea,2022,F,pluralism_participation,13,political_rights,KOR
+South Korea,2022,F,functioning_government,9,political_rights,KOR
+South Korea,2022,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2022,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2022,F,rule_of_law,12,civil_liberties,KOR
+South Korea,2022,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2022,F,political_rights,33,aggregation,KOR
+South Korea,2022,F,civil_liberties,50,aggregation,KOR
+South Korea,2022,F,total,83,aggregation,KOR
+Sri Lanka,2022,PF,electoral_process,9,political_rights,LKA
+Sri Lanka,2022,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2022,PF,functioning_government,5,political_rights,LKA
+Sri Lanka,2022,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2022,PF,right_to_assembly,9,civil_liberties,LKA
+Sri Lanka,2022,PF,rule_of_law,7,civil_liberties,LKA
+Sri Lanka,2022,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2022,PF,political_rights,23,aggregation,LKA
+Sri Lanka,2022,PF,civil_liberties,32,aggregation,LKA
+Sri Lanka,2022,PF,total,55,aggregation,LKA
+Thailand,2022,NF,electoral_process,1,political_rights,THA
+Thailand,2022,NF,pluralism_participation,2,political_rights,THA
+Thailand,2022,NF,functioning_government,2,political_rights,THA
+Thailand,2022,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2022,NF,right_to_assembly,3,civil_liberties,THA
+Thailand,2022,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2022,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2022,NF,political_rights,5,aggregation,THA
+Thailand,2022,NF,civil_liberties,24,aggregation,THA
+Thailand,2022,NF,total,29,aggregation,THA
+Timor-Leste,2022,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2022,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2022,F,functioning_government,8,political_rights,TLS
+Timor-Leste,2022,F,freedom_of_expression,14,civil_liberties,TLS
+Timor-Leste,2022,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2022,F,rule_of_law,8,civil_liberties,TLS
+Timor-Leste,2022,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2022,F,political_rights,33,aggregation,TLS
+Timor-Leste,2022,F,civil_liberties,39,aggregation,TLS
+Timor-Leste,2022,F,total,72,aggregation,TLS
+Vanuatu,2022,F,electoral_process,10,political_rights,VUT
+Vanuatu,2022,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2022,F,functioning_government,8,political_rights,VUT
+Vanuatu,2022,F,freedom_of_expression,14,civil_liberties,VUT
+Vanuatu,2022,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2022,F,rule_of_law,13,civil_liberties,VUT
+Vanuatu,2022,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2022,F,political_rights,33,aggregation,VUT
+Vanuatu,2022,F,civil_liberties,49,aggregation,VUT
+Vanuatu,2022,F,total,82,aggregation,VUT
+Vietnam,2022,NF,electoral_process,0,political_rights,VNM
+Vietnam,2022,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2022,NF,functioning_government,2,political_rights,VNM
+Vietnam,2022,NF,freedom_of_expression,3,civil_liberties,VNM
+Vietnam,2022,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2022,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2022,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2022,NF,political_rights,3,aggregation,VNM
+Vietnam,2022,NF,civil_liberties,16,aggregation,VNM
+Vietnam,2022,NF,total,19,aggregation,VNM
+Afghanistan,2021,NF,electoral_process,3,political_rights,AFG
+Afghanistan,2021,NF,pluralism_participation,7,political_rights,AFG
+Afghanistan,2021,NF,functioning_government,3,political_rights,AFG
+Afghanistan,2021,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2021,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2021,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2021,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2021,NF,political_rights,13,aggregation,AFG
+Afghanistan,2021,NF,civil_liberties,14,aggregation,AFG
+Afghanistan,2021,NF,total,27,aggregation,AFG
+Bangladesh,2021,PF,electoral_process,4,political_rights,BGD
+Bangladesh,2021,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2021,PF,functioning_government,4,political_rights,BGD
+Bangladesh,2021,PF,freedom_of_expression,6,civil_liberties,BGD
+Bangladesh,2021,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2021,PF,rule_of_law,4,civil_liberties,BGD
+Bangladesh,2021,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2021,PF,political_rights,15,aggregation,BGD
+Bangladesh,2021,PF,civil_liberties,24,aggregation,BGD
+Bangladesh,2021,PF,total,39,aggregation,BGD
+Bhutan,2021,PF,electoral_process,10,political_rights,BTN
+Bhutan,2021,PF,pluralism_participation,12,political_rights,BTN
+Bhutan,2021,PF,functioning_government,9,political_rights,BTN
+Bhutan,2021,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2021,PF,right_to_assembly,5,civil_liberties,BTN
+Bhutan,2021,PF,rule_of_law,8,civil_liberties,BTN
+Bhutan,2021,PF,personal_autonomy,9,civil_liberties,BTN
+Bhutan,2021,PF,political_rights,30,aggregation,BTN
+Bhutan,2021,PF,civil_liberties,31,aggregation,BTN
+Bhutan,2021,PF,total,61,aggregation,BTN
+Cambodia,2021,NF,electoral_process,1,political_rights,KHM
+Cambodia,2021,NF,pluralism_participation,2,political_rights,KHM
+Cambodia,2021,NF,functioning_government,2,political_rights,KHM
+Cambodia,2021,NF,freedom_of_expression,7,civil_liberties,KHM
+Cambodia,2021,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2021,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2021,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2021,NF,political_rights,5,aggregation,KHM
+Cambodia,2021,NF,civil_liberties,19,aggregation,KHM
+Cambodia,2021,NF,total,24,aggregation,KHM
+China,2021,NF,electoral_process,0,political_rights,CHN
+China,2021,NF,pluralism_participation,0,political_rights,CHN
+China,2021,NF,functioning_government,1,political_rights,CHN
+China,2021,NF,freedom_of_expression,1,civil_liberties,CHN
+China,2021,NF,right_to_assembly,2,civil_liberties,CHN
+China,2021,NF,rule_of_law,2,civil_liberties,CHN
+China,2021,NF,personal_autonomy,6,civil_liberties,CHN
+China,2021,NF,political_rights,-2,aggregation,CHN
+China,2021,NF,civil_liberties,11,aggregation,CHN
+China,2021,NF,total,9,aggregation,CHN
+Fiji,2021,PF,electoral_process,8,political_rights,FJI
+Fiji,2021,PF,pluralism_participation,9,political_rights,FJI
+Fiji,2021,PF,functioning_government,7,political_rights,FJI
+Fiji,2021,PF,freedom_of_expression,12,civil_liberties,FJI
+Fiji,2021,PF,right_to_assembly,7,civil_liberties,FJI
+Fiji,2021,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2021,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2021,PF,political_rights,24,aggregation,FJI
+Fiji,2021,PF,civil_liberties,36,aggregation,FJI
+Fiji,2021,PF,total,60,aggregation,FJI
+Hong Kong,2021,PF,electoral_process,2,political_rights,HKG
+Hong Kong,2021,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2021,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2021,PF,freedom_of_expression,9,civil_liberties,HKG
+Hong Kong,2021,PF,right_to_assembly,6,civil_liberties,HKG
+Hong Kong,2021,PF,rule_of_law,9,civil_liberties,HKG
+Hong Kong,2021,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2021,PF,political_rights,15,aggregation,HKG
+Hong Kong,2021,PF,civil_liberties,37,aggregation,HKG
+Hong Kong,2021,PF,total,52,aggregation,HKG
+India,2021,PF,electoral_process,12,political_rights,IND
+India,2021,PF,pluralism_participation,13,political_rights,IND
+India,2021,PF,functioning_government,9,political_rights,IND
+India,2021,PF,freedom_of_expression,9,civil_liberties,IND
+India,2021,PF,right_to_assembly,7,civil_liberties,IND
+India,2021,PF,rule_of_law,8,civil_liberties,IND
+India,2021,PF,personal_autonomy,9,civil_liberties,IND
+India,2021,PF,political_rights,34,aggregation,IND
+India,2021,PF,civil_liberties,33,aggregation,IND
+India,2021,PF,total,67,aggregation,IND
+Indonesia,2021,PF,electoral_process,11,political_rights,IDN
+Indonesia,2021,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2021,PF,functioning_government,6,political_rights,IDN
+Indonesia,2021,PF,freedom_of_expression,9,civil_liberties,IDN
+Indonesia,2021,PF,right_to_assembly,6,civil_liberties,IDN
+Indonesia,2021,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2021,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2021,PF,political_rights,30,aggregation,IDN
+Indonesia,2021,PF,civil_liberties,29,aggregation,IDN
+Indonesia,2021,PF,total,59,aggregation,IDN
+Iran,2021,NF,electoral_process,3,political_rights,IRN
+Iran,2021,NF,pluralism_participation,2,political_rights,IRN
+Iran,2021,NF,functioning_government,1,political_rights,IRN
+Iran,2021,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2021,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2021,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2021,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2021,NF,political_rights,6,aggregation,IRN
+Iran,2021,NF,civil_liberties,10,aggregation,IRN
+Iran,2021,NF,total,16,aggregation,IRN
+Laos,2021,NF,electoral_process,0,political_rights,LAO
+Laos,2021,NF,pluralism_participation,0,political_rights,LAO
+Laos,2021,NF,functioning_government,2,political_rights,LAO
+Laos,2021,NF,freedom_of_expression,3,civil_liberties,LAO
+Laos,2021,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2021,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2021,NF,personal_autonomy,6,civil_liberties,LAO
+Laos,2021,NF,political_rights,2,aggregation,LAO
+Laos,2021,NF,civil_liberties,11,aggregation,LAO
+Laos,2021,NF,total,13,aggregation,LAO
+Malaysia,2021,PF,electoral_process,6,political_rights,MYS
+Malaysia,2021,PF,pluralism_participation,9,political_rights,MYS
+Malaysia,2021,PF,functioning_government,6,political_rights,MYS
+Malaysia,2021,PF,freedom_of_expression,8,civil_liberties,MYS
+Malaysia,2021,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2021,PF,rule_of_law,7,civil_liberties,MYS
+Malaysia,2021,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2021,PF,political_rights,21,aggregation,MYS
+Malaysia,2021,PF,civil_liberties,30,aggregation,MYS
+Malaysia,2021,PF,total,51,aggregation,MYS
+Maldives,2021,PF,electoral_process,7,political_rights,MDV
+Maldives,2021,PF,pluralism_participation,8,political_rights,MDV
+Maldives,2021,PF,functioning_government,4,political_rights,MDV
+Maldives,2021,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2021,PF,right_to_assembly,5,civil_liberties,MDV
+Maldives,2021,PF,rule_of_law,6,civil_liberties,MDV
+Maldives,2021,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2021,PF,political_rights,19,aggregation,MDV
+Maldives,2021,PF,civil_liberties,21,aggregation,MDV
+Maldives,2021,PF,total,40,aggregation,MDV
+Mongolia,2021,F,electoral_process,11,political_rights,MNG
+Mongolia,2021,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2021,F,functioning_government,9,political_rights,MNG
+Mongolia,2021,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2021,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2021,F,rule_of_law,11,civil_liberties,MNG
+Mongolia,2021,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2021,F,political_rights,36,aggregation,MNG
+Mongolia,2021,F,civil_liberties,48,aggregation,MNG
+Mongolia,2021,F,total,84,aggregation,MNG
+Myanmar,2021,NF,electoral_process,5,political_rights,MMR
+Myanmar,2021,NF,pluralism_participation,8,political_rights,MMR
+Myanmar,2021,NF,functioning_government,4,political_rights,MMR
+Myanmar,2021,NF,freedom_of_expression,5,civil_liberties,MMR
+Myanmar,2021,NF,right_to_assembly,5,civil_liberties,MMR
+Myanmar,2021,NF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2021,NF,personal_autonomy,4,civil_liberties,MMR
+Myanmar,2021,NF,political_rights,13,aggregation,MMR
+Myanmar,2021,NF,civil_liberties,15,aggregation,MMR
+Myanmar,2021,NF,total,28,aggregation,MMR
+Nepal,2021,PF,electoral_process,10,political_rights,NPL
+Nepal,2021,PF,pluralism_participation,10,political_rights,NPL
+Nepal,2021,PF,functioning_government,5,political_rights,NPL
+Nepal,2021,PF,freedom_of_expression,10,civil_liberties,NPL
+Nepal,2021,PF,right_to_assembly,7,civil_liberties,NPL
+Nepal,2021,PF,rule_of_law,6,civil_liberties,NPL
+Nepal,2021,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2021,PF,political_rights,25,aggregation,NPL
+Nepal,2021,PF,civil_liberties,31,aggregation,NPL
+Nepal,2021,PF,total,56,aggregation,NPL
+North Korea,2021,NF,electoral_process,0,political_rights,PRK
+North Korea,2021,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2021,NF,functioning_government,0,political_rights,PRK
+North Korea,2021,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2021,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2021,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2021,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2021,NF,political_rights,0,aggregation,PRK
+North Korea,2021,NF,civil_liberties,3,aggregation,PRK
+North Korea,2021,NF,total,3,aggregation,PRK
+Pakistan,2021,PF,electoral_process,5,political_rights,PAK
+Pakistan,2021,PF,pluralism_participation,6,political_rights,PAK
+Pakistan,2021,PF,functioning_government,4,political_rights,PAK
+Pakistan,2021,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2021,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2021,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2021,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2021,PF,political_rights,15,aggregation,PAK
+Pakistan,2021,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2021,PF,total,37,aggregation,PAK
+Papua New Guinea,2021,PF,electoral_process,7,political_rights,PNG
+Papua New Guinea,2021,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2021,PF,functioning_government,3,political_rights,PNG
+Papua New Guinea,2021,PF,freedom_of_expression,14,civil_liberties,PNG
+Papua New Guinea,2021,PF,right_to_assembly,10,civil_liberties,PNG
+Papua New Guinea,2021,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2021,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2021,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2021,PF,civil_liberties,39,aggregation,PNG
+Papua New Guinea,2021,PF,total,62,aggregation,PNG
+Philippines,2021,PF,electoral_process,9,political_rights,PHL
+Philippines,2021,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2021,PF,functioning_government,6,political_rights,PHL
+Philippines,2021,PF,freedom_of_expression,12,civil_liberties,PHL
+Philippines,2021,PF,right_to_assembly,6,civil_liberties,PHL
+Philippines,2021,PF,rule_of_law,3,civil_liberties,PHL
+Philippines,2021,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2021,PF,political_rights,25,aggregation,PHL
+Philippines,2021,PF,civil_liberties,31,aggregation,PHL
+Philippines,2021,PF,total,56,aggregation,PHL
+Solomon Islands,2021,F,electoral_process,9,political_rights,SLB
+Solomon Islands,2021,F,pluralism_participation,14,political_rights,SLB
+Solomon Islands,2021,F,functioning_government,7,political_rights,SLB
+Solomon Islands,2021,F,freedom_of_expression,16,civil_liberties,SLB
+Solomon Islands,2021,F,right_to_assembly,10,civil_liberties,SLB
+Solomon Islands,2021,F,rule_of_law,11,civil_liberties,SLB
+Solomon Islands,2021,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2021,F,political_rights,30,aggregation,SLB
+Solomon Islands,2021,F,civil_liberties,49,aggregation,SLB
+Solomon Islands,2021,F,total,79,aggregation,SLB
+South Korea,2021,F,electoral_process,11,political_rights,KOR
+South Korea,2021,F,pluralism_participation,13,political_rights,KOR
+South Korea,2021,F,functioning_government,9,political_rights,KOR
+South Korea,2021,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2021,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2021,F,rule_of_law,12,civil_liberties,KOR
+South Korea,2021,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2021,F,political_rights,33,aggregation,KOR
+South Korea,2021,F,civil_liberties,50,aggregation,KOR
+South Korea,2021,F,total,83,aggregation,KOR
+Sri Lanka,2021,PF,electoral_process,9,political_rights,LKA
+Sri Lanka,2021,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2021,PF,functioning_government,5,political_rights,LKA
+Sri Lanka,2021,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2021,PF,right_to_assembly,9,civil_liberties,LKA
+Sri Lanka,2021,PF,rule_of_law,8,civil_liberties,LKA
+Sri Lanka,2021,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2021,PF,political_rights,23,aggregation,LKA
+Sri Lanka,2021,PF,civil_liberties,33,aggregation,LKA
+Sri Lanka,2021,PF,total,56,aggregation,LKA
+Thailand,2021,NF,electoral_process,1,political_rights,THA
+Thailand,2021,NF,pluralism_participation,2,political_rights,THA
+Thailand,2021,NF,functioning_government,2,political_rights,THA
+Thailand,2021,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2021,NF,right_to_assembly,4,civil_liberties,THA
+Thailand,2021,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2021,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2021,NF,political_rights,5,aggregation,THA
+Thailand,2021,NF,civil_liberties,25,aggregation,THA
+Thailand,2021,NF,total,30,aggregation,THA
+Timor-Leste,2021,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2021,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2021,F,functioning_government,8,political_rights,TLS
+Timor-Leste,2021,F,freedom_of_expression,14,civil_liberties,TLS
+Timor-Leste,2021,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2021,F,rule_of_law,8,civil_liberties,TLS
+Timor-Leste,2021,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2021,F,political_rights,33,aggregation,TLS
+Timor-Leste,2021,F,civil_liberties,39,aggregation,TLS
+Timor-Leste,2021,F,total,72,aggregation,TLS
+Vanuatu,2021,F,electoral_process,10,political_rights,VUT
+Vanuatu,2021,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2021,F,functioning_government,8,political_rights,VUT
+Vanuatu,2021,F,freedom_of_expression,14,civil_liberties,VUT
+Vanuatu,2021,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2021,F,rule_of_law,13,civil_liberties,VUT
+Vanuatu,2021,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2021,F,political_rights,33,aggregation,VUT
+Vanuatu,2021,F,civil_liberties,49,aggregation,VUT
+Vanuatu,2021,F,total,82,aggregation,VUT
+Vietnam,2021,NF,electoral_process,0,political_rights,VNM
+Vietnam,2021,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2021,NF,functioning_government,2,political_rights,VNM
+Vietnam,2021,NF,freedom_of_expression,3,civil_liberties,VNM
+Vietnam,2021,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2021,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2021,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2021,NF,political_rights,3,aggregation,VNM
+Vietnam,2021,NF,civil_liberties,16,aggregation,VNM
+Vietnam,2021,NF,total,19,aggregation,VNM
+Afghanistan,2020,NF,electoral_process,3,political_rights,AFG
+Afghanistan,2020,NF,pluralism_participation,7,political_rights,AFG
+Afghanistan,2020,NF,functioning_government,3,political_rights,AFG
+Afghanistan,2020,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2020,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2020,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2020,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2020,NF,political_rights,13,aggregation,AFG
+Afghanistan,2020,NF,civil_liberties,14,aggregation,AFG
+Afghanistan,2020,NF,total,27,aggregation,AFG
+Bangladesh,2020,PF,electoral_process,4,political_rights,BGD
+Bangladesh,2020,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2020,PF,functioning_government,4,political_rights,BGD
+Bangladesh,2020,PF,freedom_of_expression,6,civil_liberties,BGD
+Bangladesh,2020,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2020,PF,rule_of_law,4,civil_liberties,BGD
+Bangladesh,2020,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2020,PF,political_rights,15,aggregation,BGD
+Bangladesh,2020,PF,civil_liberties,24,aggregation,BGD
+Bangladesh,2020,PF,total,39,aggregation,BGD
+Bhutan,2020,PF,electoral_process,10,political_rights,BTN
+Bhutan,2020,PF,pluralism_participation,11,political_rights,BTN
+Bhutan,2020,PF,functioning_government,9,political_rights,BTN
+Bhutan,2020,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2020,PF,right_to_assembly,5,civil_liberties,BTN
+Bhutan,2020,PF,rule_of_law,8,civil_liberties,BTN
+Bhutan,2020,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2020,PF,political_rights,29,aggregation,BTN
+Bhutan,2020,PF,civil_liberties,30,aggregation,BTN
+Bhutan,2020,PF,total,59,aggregation,BTN
+Cambodia,2020,NF,electoral_process,1,political_rights,KHM
+Cambodia,2020,NF,pluralism_participation,2,political_rights,KHM
+Cambodia,2020,NF,functioning_government,2,political_rights,KHM
+Cambodia,2020,NF,freedom_of_expression,8,civil_liberties,KHM
+Cambodia,2020,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2020,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2020,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2020,NF,political_rights,5,aggregation,KHM
+Cambodia,2020,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2020,NF,total,25,aggregation,KHM
+China,2020,NF,electoral_process,0,political_rights,CHN
+China,2020,NF,pluralism_participation,0,political_rights,CHN
+China,2020,NF,functioning_government,2,political_rights,CHN
+China,2020,NF,freedom_of_expression,1,civil_liberties,CHN
+China,2020,NF,right_to_assembly,2,civil_liberties,CHN
+China,2020,NF,rule_of_law,2,civil_liberties,CHN
+China,2020,NF,personal_autonomy,6,civil_liberties,CHN
+China,2020,NF,political_rights,-1,aggregation,CHN
+China,2020,NF,civil_liberties,11,aggregation,CHN
+China,2020,NF,total,10,aggregation,CHN
+Fiji,2020,PF,electoral_process,8,political_rights,FJI
+Fiji,2020,PF,pluralism_participation,9,political_rights,FJI
+Fiji,2020,PF,functioning_government,7,political_rights,FJI
+Fiji,2020,PF,freedom_of_expression,12,civil_liberties,FJI
+Fiji,2020,PF,right_to_assembly,7,civil_liberties,FJI
+Fiji,2020,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2020,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2020,PF,political_rights,24,aggregation,FJI
+Fiji,2020,PF,civil_liberties,36,aggregation,FJI
+Fiji,2020,PF,total,60,aggregation,FJI
+Hong Kong,2020,PF,electoral_process,2,political_rights,HKG
+Hong Kong,2020,PF,pluralism_participation,8,political_rights,HKG
+Hong Kong,2020,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2020,PF,freedom_of_expression,10,civil_liberties,HKG
+Hong Kong,2020,PF,right_to_assembly,6,civil_liberties,HKG
+Hong Kong,2020,PF,rule_of_law,10,civil_liberties,HKG
+Hong Kong,2020,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2020,PF,political_rights,16,aggregation,HKG
+Hong Kong,2020,PF,civil_liberties,39,aggregation,HKG
+Hong Kong,2020,PF,total,55,aggregation,HKG
+India,2020,F,electoral_process,12,political_rights,IND
+India,2020,F,pluralism_participation,13,political_rights,IND
+India,2020,F,functioning_government,9,political_rights,IND
+India,2020,F,freedom_of_expression,10,civil_liberties,IND
+India,2020,F,right_to_assembly,8,civil_liberties,IND
+India,2020,F,rule_of_law,9,civil_liberties,IND
+India,2020,F,personal_autonomy,10,civil_liberties,IND
+India,2020,F,political_rights,34,aggregation,IND
+India,2020,F,civil_liberties,37,aggregation,IND
+India,2020,F,total,71,aggregation,IND
+Indonesia,2020,PF,electoral_process,11,political_rights,IDN
+Indonesia,2020,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2020,PF,functioning_government,6,political_rights,IDN
+Indonesia,2020,PF,freedom_of_expression,10,civil_liberties,IDN
+Indonesia,2020,PF,right_to_assembly,7,civil_liberties,IDN
+Indonesia,2020,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2020,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2020,PF,political_rights,30,aggregation,IDN
+Indonesia,2020,PF,civil_liberties,31,aggregation,IDN
+Indonesia,2020,PF,total,61,aggregation,IDN
+Iran,2020,NF,electoral_process,3,political_rights,IRN
+Iran,2020,NF,pluralism_participation,2,political_rights,IRN
+Iran,2020,NF,functioning_government,2,political_rights,IRN
+Iran,2020,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2020,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2020,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2020,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2020,NF,political_rights,7,aggregation,IRN
+Iran,2020,NF,civil_liberties,10,aggregation,IRN
+Iran,2020,NF,total,17,aggregation,IRN
+Laos,2020,NF,electoral_process,0,political_rights,LAO
+Laos,2020,NF,pluralism_participation,0,political_rights,LAO
+Laos,2020,NF,functioning_government,2,political_rights,LAO
+Laos,2020,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2020,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2020,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2020,NF,personal_autonomy,6,civil_liberties,LAO
+Laos,2020,NF,political_rights,2,aggregation,LAO
+Laos,2020,NF,civil_liberties,12,aggregation,LAO
+Laos,2020,NF,total,14,aggregation,LAO
+Malaysia,2020,PF,electoral_process,6,political_rights,MYS
+Malaysia,2020,PF,pluralism_participation,9,political_rights,MYS
+Malaysia,2020,PF,functioning_government,6,political_rights,MYS
+Malaysia,2020,PF,freedom_of_expression,9,civil_liberties,MYS
+Malaysia,2020,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2020,PF,rule_of_law,7,civil_liberties,MYS
+Malaysia,2020,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2020,PF,political_rights,21,aggregation,MYS
+Malaysia,2020,PF,civil_liberties,31,aggregation,MYS
+Malaysia,2020,PF,total,52,aggregation,MYS
+Maldives,2020,PF,electoral_process,7,political_rights,MDV
+Maldives,2020,PF,pluralism_participation,7,political_rights,MDV
+Maldives,2020,PF,functioning_government,4,political_rights,MDV
+Maldives,2020,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2020,PF,right_to_assembly,6,civil_liberties,MDV
+Maldives,2020,PF,rule_of_law,6,civil_liberties,MDV
+Maldives,2020,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2020,PF,political_rights,18,aggregation,MDV
+Maldives,2020,PF,civil_liberties,22,aggregation,MDV
+Maldives,2020,PF,total,40,aggregation,MDV
+Mongolia,2020,F,electoral_process,11,political_rights,MNG
+Mongolia,2020,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2020,F,functioning_government,9,political_rights,MNG
+Mongolia,2020,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2020,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2020,F,rule_of_law,11,civil_liberties,MNG
+Mongolia,2020,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2020,F,political_rights,36,aggregation,MNG
+Mongolia,2020,F,civil_liberties,48,aggregation,MNG
+Mongolia,2020,F,total,84,aggregation,MNG
+Myanmar,2020,NF,electoral_process,5,political_rights,MMR
+Myanmar,2020,NF,pluralism_participation,9,political_rights,MMR
+Myanmar,2020,NF,functioning_government,4,political_rights,MMR
+Myanmar,2020,NF,freedom_of_expression,5,civil_liberties,MMR
+Myanmar,2020,NF,right_to_assembly,6,civil_liberties,MMR
+Myanmar,2020,NF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2020,NF,personal_autonomy,4,civil_liberties,MMR
+Myanmar,2020,NF,political_rights,14,aggregation,MMR
+Myanmar,2020,NF,civil_liberties,16,aggregation,MMR
+Myanmar,2020,NF,total,30,aggregation,MMR
+Nepal,2020,PF,electoral_process,10,political_rights,NPL
+Nepal,2020,PF,pluralism_participation,10,political_rights,NPL
+Nepal,2020,PF,functioning_government,5,political_rights,NPL
+Nepal,2020,PF,freedom_of_expression,10,civil_liberties,NPL
+Nepal,2020,PF,right_to_assembly,7,civil_liberties,NPL
+Nepal,2020,PF,rule_of_law,6,civil_liberties,NPL
+Nepal,2020,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2020,PF,political_rights,25,aggregation,NPL
+Nepal,2020,PF,civil_liberties,31,aggregation,NPL
+Nepal,2020,PF,total,56,aggregation,NPL
+North Korea,2020,NF,electoral_process,0,political_rights,PRK
+North Korea,2020,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2020,NF,functioning_government,0,political_rights,PRK
+North Korea,2020,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2020,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2020,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2020,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2020,NF,political_rights,0,aggregation,PRK
+North Korea,2020,NF,civil_liberties,3,aggregation,PRK
+North Korea,2020,NF,total,3,aggregation,PRK
+Pakistan,2020,PF,electoral_process,5,political_rights,PAK
+Pakistan,2020,PF,pluralism_participation,6,political_rights,PAK
+Pakistan,2020,PF,functioning_government,5,political_rights,PAK
+Pakistan,2020,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2020,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2020,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2020,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2020,PF,political_rights,16,aggregation,PAK
+Pakistan,2020,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2020,PF,total,38,aggregation,PAK
+Papua New Guinea,2020,PF,electoral_process,7,political_rights,PNG
+Papua New Guinea,2020,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2020,PF,functioning_government,3,political_rights,PNG
+Papua New Guinea,2020,PF,freedom_of_expression,14,civil_liberties,PNG
+Papua New Guinea,2020,PF,right_to_assembly,10,civil_liberties,PNG
+Papua New Guinea,2020,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2020,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2020,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2020,PF,civil_liberties,39,aggregation,PNG
+Papua New Guinea,2020,PF,total,62,aggregation,PNG
+Philippines,2020,PF,electoral_process,9,political_rights,PHL
+Philippines,2020,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2020,PF,functioning_government,6,political_rights,PHL
+Philippines,2020,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2020,PF,right_to_assembly,7,civil_liberties,PHL
+Philippines,2020,PF,rule_of_law,3,civil_liberties,PHL
+Philippines,2020,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2020,PF,political_rights,25,aggregation,PHL
+Philippines,2020,PF,civil_liberties,34,aggregation,PHL
+Philippines,2020,PF,total,59,aggregation,PHL
+Solomon Islands,2020,F,electoral_process,9,political_rights,SLB
+Solomon Islands,2020,F,pluralism_participation,14,political_rights,SLB
+Solomon Islands,2020,F,functioning_government,7,political_rights,SLB
+Solomon Islands,2020,F,freedom_of_expression,16,civil_liberties,SLB
+Solomon Islands,2020,F,right_to_assembly,10,civil_liberties,SLB
+Solomon Islands,2020,F,rule_of_law,11,civil_liberties,SLB
+Solomon Islands,2020,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2020,F,political_rights,30,aggregation,SLB
+Solomon Islands,2020,F,civil_liberties,49,aggregation,SLB
+Solomon Islands,2020,F,total,79,aggregation,SLB
+South Korea,2020,F,electoral_process,11,political_rights,KOR
+South Korea,2020,F,pluralism_participation,13,political_rights,KOR
+South Korea,2020,F,functioning_government,9,political_rights,KOR
+South Korea,2020,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2020,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2020,F,rule_of_law,12,civil_liberties,KOR
+South Korea,2020,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2020,F,political_rights,33,aggregation,KOR
+South Korea,2020,F,civil_liberties,50,aggregation,KOR
+South Korea,2020,F,total,83,aggregation,KOR
+Sri Lanka,2020,PF,electoral_process,9,political_rights,LKA
+Sri Lanka,2020,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2020,PF,functioning_government,5,political_rights,LKA
+Sri Lanka,2020,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2020,PF,right_to_assembly,9,civil_liberties,LKA
+Sri Lanka,2020,PF,rule_of_law,8,civil_liberties,LKA
+Sri Lanka,2020,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2020,PF,political_rights,23,aggregation,LKA
+Sri Lanka,2020,PF,civil_liberties,33,aggregation,LKA
+Sri Lanka,2020,PF,total,56,aggregation,LKA
+Thailand,2020,PF,electoral_process,1,political_rights,THA
+Thailand,2020,PF,pluralism_participation,3,political_rights,THA
+Thailand,2020,PF,functioning_government,2,political_rights,THA
+Thailand,2020,PF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2020,PF,right_to_assembly,5,civil_liberties,THA
+Thailand,2020,PF,rule_of_law,5,civil_liberties,THA
+Thailand,2020,PF,personal_autonomy,10,civil_liberties,THA
+Thailand,2020,PF,political_rights,6,aggregation,THA
+Thailand,2020,PF,civil_liberties,26,aggregation,THA
+Thailand,2020,PF,total,32,aggregation,THA
+Timor-Leste,2020,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2020,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2020,F,functioning_government,7,political_rights,TLS
+Timor-Leste,2020,F,freedom_of_expression,14,civil_liberties,TLS
+Timor-Leste,2020,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2020,F,rule_of_law,8,civil_liberties,TLS
+Timor-Leste,2020,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2020,F,political_rights,32,aggregation,TLS
+Timor-Leste,2020,F,civil_liberties,39,aggregation,TLS
+Timor-Leste,2020,F,total,71,aggregation,TLS
+Vanuatu,2020,F,electoral_process,10,political_rights,VUT
+Vanuatu,2020,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2020,F,functioning_government,8,political_rights,VUT
+Vanuatu,2020,F,freedom_of_expression,14,civil_liberties,VUT
+Vanuatu,2020,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2020,F,rule_of_law,13,civil_liberties,VUT
+Vanuatu,2020,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2020,F,political_rights,33,aggregation,VUT
+Vanuatu,2020,F,civil_liberties,49,aggregation,VUT
+Vanuatu,2020,F,total,82,aggregation,VUT
+Vietnam,2020,NF,electoral_process,0,political_rights,VNM
+Vietnam,2020,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2020,NF,functioning_government,2,political_rights,VNM
+Vietnam,2020,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2020,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2020,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2020,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2020,NF,political_rights,3,aggregation,VNM
+Vietnam,2020,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2020,NF,total,20,aggregation,VNM
+Afghanistan,2019,NF,electoral_process,3,political_rights,AFG
+Afghanistan,2019,NF,pluralism_participation,7,political_rights,AFG
+Afghanistan,2019,NF,functioning_government,3,political_rights,AFG
+Afghanistan,2019,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2019,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2019,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2019,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2019,NF,political_rights,13,aggregation,AFG
+Afghanistan,2019,NF,civil_liberties,14,aggregation,AFG
+Afghanistan,2019,NF,total,27,aggregation,AFG
+Bangladesh,2019,PF,electoral_process,5,political_rights,BGD
+Bangladesh,2019,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2019,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2019,PF,freedom_of_expression,6,civil_liberties,BGD
+Bangladesh,2019,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2019,PF,rule_of_law,4,civil_liberties,BGD
+Bangladesh,2019,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2019,PF,political_rights,17,aggregation,BGD
+Bangladesh,2019,PF,civil_liberties,24,aggregation,BGD
+Bangladesh,2019,PF,total,41,aggregation,BGD
+Bhutan,2019,PF,electoral_process,10,political_rights,BTN
+Bhutan,2019,PF,pluralism_participation,11,political_rights,BTN
+Bhutan,2019,PF,functioning_government,9,political_rights,BTN
+Bhutan,2019,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2019,PF,right_to_assembly,5,civil_liberties,BTN
+Bhutan,2019,PF,rule_of_law,8,civil_liberties,BTN
+Bhutan,2019,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2019,PF,political_rights,29,aggregation,BTN
+Bhutan,2019,PF,civil_liberties,30,aggregation,BTN
+Bhutan,2019,PF,total,59,aggregation,BTN
+Cambodia,2019,NF,electoral_process,1,political_rights,KHM
+Cambodia,2019,NF,pluralism_participation,2,political_rights,KHM
+Cambodia,2019,NF,functioning_government,3,political_rights,KHM
+Cambodia,2019,NF,freedom_of_expression,8,civil_liberties,KHM
+Cambodia,2019,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2019,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2019,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2019,NF,political_rights,6,aggregation,KHM
+Cambodia,2019,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2019,NF,total,26,aggregation,KHM
+China,2019,NF,electoral_process,0,political_rights,CHN
+China,2019,NF,pluralism_participation,0,political_rights,CHN
+China,2019,NF,functioning_government,2,political_rights,CHN
+China,2019,NF,freedom_of_expression,2,civil_liberties,CHN
+China,2019,NF,right_to_assembly,2,civil_liberties,CHN
+China,2019,NF,rule_of_law,2,civil_liberties,CHN
+China,2019,NF,personal_autonomy,6,civil_liberties,CHN
+China,2019,NF,political_rights,-1,aggregation,CHN
+China,2019,NF,civil_liberties,12,aggregation,CHN
+China,2019,NF,total,11,aggregation,CHN
+Fiji,2019,PF,electoral_process,8,political_rights,FJI
+Fiji,2019,PF,pluralism_participation,9,political_rights,FJI
+Fiji,2019,PF,functioning_government,7,political_rights,FJI
+Fiji,2019,PF,freedom_of_expression,12,civil_liberties,FJI
+Fiji,2019,PF,right_to_assembly,8,civil_liberties,FJI
+Fiji,2019,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2019,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2019,PF,political_rights,24,aggregation,FJI
+Fiji,2019,PF,civil_liberties,37,aggregation,FJI
+Fiji,2019,PF,total,61,aggregation,FJI
+Hong Kong,2019,PF,electoral_process,2,political_rights,HKG
+Hong Kong,2019,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2019,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2019,PF,freedom_of_expression,12,civil_liberties,HKG
+Hong Kong,2019,PF,right_to_assembly,8,civil_liberties,HKG
+Hong Kong,2019,PF,rule_of_law,11,civil_liberties,HKG
+Hong Kong,2019,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2019,PF,political_rights,15,aggregation,HKG
+Hong Kong,2019,PF,civil_liberties,44,aggregation,HKG
+Hong Kong,2019,PF,total,59,aggregation,HKG
+India,2019,F,electoral_process,12,political_rights,IND
+India,2019,F,pluralism_participation,14,political_rights,IND
+India,2019,F,functioning_government,9,political_rights,IND
+India,2019,F,freedom_of_expression,11,civil_liberties,IND
+India,2019,F,right_to_assembly,10,civil_liberties,IND
+India,2019,F,rule_of_law,9,civil_liberties,IND
+India,2019,F,personal_autonomy,10,civil_liberties,IND
+India,2019,F,political_rights,35,aggregation,IND
+India,2019,F,civil_liberties,40,aggregation,IND
+India,2019,F,total,75,aggregation,IND
+Indonesia,2019,PF,electoral_process,11,political_rights,IDN
+Indonesia,2019,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2019,PF,functioning_government,6,political_rights,IDN
+Indonesia,2019,PF,freedom_of_expression,11,civil_liberties,IDN
+Indonesia,2019,PF,right_to_assembly,7,civil_liberties,IDN
+Indonesia,2019,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2019,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2019,PF,political_rights,30,aggregation,IDN
+Indonesia,2019,PF,civil_liberties,32,aggregation,IDN
+Indonesia,2019,PF,total,62,aggregation,IDN
+Iran,2019,NF,electoral_process,3,political_rights,IRN
+Iran,2019,NF,pluralism_participation,2,political_rights,IRN
+Iran,2019,NF,functioning_government,2,political_rights,IRN
+Iran,2019,NF,freedom_of_expression,3,civil_liberties,IRN
+Iran,2019,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2019,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2019,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2019,NF,political_rights,7,aggregation,IRN
+Iran,2019,NF,civil_liberties,11,aggregation,IRN
+Iran,2019,NF,total,18,aggregation,IRN
+Laos,2019,NF,electoral_process,0,political_rights,LAO
+Laos,2019,NF,pluralism_participation,0,political_rights,LAO
+Laos,2019,NF,functioning_government,2,political_rights,LAO
+Laos,2019,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2019,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2019,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2019,NF,personal_autonomy,6,civil_liberties,LAO
+Laos,2019,NF,political_rights,2,aggregation,LAO
+Laos,2019,NF,civil_liberties,12,aggregation,LAO
+Laos,2019,NF,total,14,aggregation,LAO
+Malaysia,2019,PF,electoral_process,6,political_rights,MYS
+Malaysia,2019,PF,pluralism_participation,9,political_rights,MYS
+Malaysia,2019,PF,functioning_government,6,political_rights,MYS
+Malaysia,2019,PF,freedom_of_expression,9,civil_liberties,MYS
+Malaysia,2019,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2019,PF,rule_of_law,7,civil_liberties,MYS
+Malaysia,2019,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2019,PF,political_rights,21,aggregation,MYS
+Malaysia,2019,PF,civil_liberties,31,aggregation,MYS
+Malaysia,2019,PF,total,52,aggregation,MYS
+Maldives,2019,PF,electoral_process,5,political_rights,MDV
+Maldives,2019,PF,pluralism_participation,6,political_rights,MDV
+Maldives,2019,PF,functioning_government,3,political_rights,MDV
+Maldives,2019,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2019,PF,right_to_assembly,6,civil_liberties,MDV
+Maldives,2019,PF,rule_of_law,5,civil_liberties,MDV
+Maldives,2019,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2019,PF,political_rights,14,aggregation,MDV
+Maldives,2019,PF,civil_liberties,21,aggregation,MDV
+Maldives,2019,PF,total,35,aggregation,MDV
+Mongolia,2019,F,electoral_process,11,political_rights,MNG
+Mongolia,2019,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2019,F,functioning_government,9,political_rights,MNG
+Mongolia,2019,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2019,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2019,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2019,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2019,F,political_rights,36,aggregation,MNG
+Mongolia,2019,F,civil_liberties,49,aggregation,MNG
+Mongolia,2019,F,total,85,aggregation,MNG
+Myanmar,2019,PF,electoral_process,5,political_rights,MMR
+Myanmar,2019,PF,pluralism_participation,8,political_rights,MMR
+Myanmar,2019,PF,functioning_government,4,political_rights,MMR
+Myanmar,2019,PF,freedom_of_expression,5,civil_liberties,MMR
+Myanmar,2019,PF,right_to_assembly,6,civil_liberties,MMR
+Myanmar,2019,PF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2019,PF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2019,PF,political_rights,13,aggregation,MMR
+Myanmar,2019,PF,civil_liberties,17,aggregation,MMR
+Myanmar,2019,PF,total,30,aggregation,MMR
+Nepal,2019,PF,electoral_process,10,political_rights,NPL
+Nepal,2019,PF,pluralism_participation,10,political_rights,NPL
+Nepal,2019,PF,functioning_government,5,political_rights,NPL
+Nepal,2019,PF,freedom_of_expression,9,civil_liberties,NPL
+Nepal,2019,PF,right_to_assembly,6,civil_liberties,NPL
+Nepal,2019,PF,rule_of_law,6,civil_liberties,NPL
+Nepal,2019,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2019,PF,political_rights,25,aggregation,NPL
+Nepal,2019,PF,civil_liberties,29,aggregation,NPL
+Nepal,2019,PF,total,54,aggregation,NPL
+North Korea,2019,NF,electoral_process,0,political_rights,PRK
+North Korea,2019,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2019,NF,functioning_government,0,political_rights,PRK
+North Korea,2019,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2019,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2019,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2019,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2019,NF,political_rights,0,aggregation,PRK
+North Korea,2019,NF,civil_liberties,3,aggregation,PRK
+North Korea,2019,NF,total,3,aggregation,PRK
+Pakistan,2019,PF,electoral_process,5,political_rights,PAK
+Pakistan,2019,PF,pluralism_participation,7,political_rights,PAK
+Pakistan,2019,PF,functioning_government,5,political_rights,PAK
+Pakistan,2019,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2019,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2019,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2019,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2019,PF,political_rights,17,aggregation,PAK
+Pakistan,2019,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2019,PF,total,39,aggregation,PAK
+Papua New Guinea,2019,PF,electoral_process,7,political_rights,PNG
+Papua New Guinea,2019,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2019,PF,functioning_government,3,political_rights,PNG
+Papua New Guinea,2019,PF,freedom_of_expression,14,civil_liberties,PNG
+Papua New Guinea,2019,PF,right_to_assembly,10,civil_liberties,PNG
+Papua New Guinea,2019,PF,rule_of_law,8,civil_liberties,PNG
+Papua New Guinea,2019,PF,personal_autonomy,9,civil_liberties,PNG
+Papua New Guinea,2019,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2019,PF,civil_liberties,41,aggregation,PNG
+Papua New Guinea,2019,PF,total,64,aggregation,PNG
+Philippines,2019,PF,electoral_process,9,political_rights,PHL
+Philippines,2019,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2019,PF,functioning_government,7,political_rights,PHL
+Philippines,2019,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2019,PF,right_to_assembly,8,civil_liberties,PHL
+Philippines,2019,PF,rule_of_law,3,civil_liberties,PHL
+Philippines,2019,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2019,PF,political_rights,26,aggregation,PHL
+Philippines,2019,PF,civil_liberties,35,aggregation,PHL
+Philippines,2019,PF,total,61,aggregation,PHL
+Solomon Islands,2019,F,electoral_process,9,political_rights,SLB
+Solomon Islands,2019,F,pluralism_participation,14,political_rights,SLB
+Solomon Islands,2019,F,functioning_government,7,political_rights,SLB
+Solomon Islands,2019,F,freedom_of_expression,16,civil_liberties,SLB
+Solomon Islands,2019,F,right_to_assembly,10,civil_liberties,SLB
+Solomon Islands,2019,F,rule_of_law,11,civil_liberties,SLB
+Solomon Islands,2019,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2019,F,political_rights,30,aggregation,SLB
+Solomon Islands,2019,F,civil_liberties,49,aggregation,SLB
+Solomon Islands,2019,F,total,79,aggregation,SLB
+South Korea,2019,F,electoral_process,11,political_rights,KOR
+South Korea,2019,F,pluralism_participation,13,political_rights,KOR
+South Korea,2019,F,functioning_government,9,political_rights,KOR
+South Korea,2019,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2019,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2019,F,rule_of_law,12,civil_liberties,KOR
+South Korea,2019,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2019,F,political_rights,33,aggregation,KOR
+South Korea,2019,F,civil_liberties,50,aggregation,KOR
+South Korea,2019,F,total,83,aggregation,KOR
+Sri Lanka,2019,PF,electoral_process,9,political_rights,LKA
+Sri Lanka,2019,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2019,PF,functioning_government,6,political_rights,LKA
+Sri Lanka,2019,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2019,PF,right_to_assembly,8,civil_liberties,LKA
+Sri Lanka,2019,PF,rule_of_law,8,civil_liberties,LKA
+Sri Lanka,2019,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2019,PF,political_rights,24,aggregation,LKA
+Sri Lanka,2019,PF,civil_liberties,32,aggregation,LKA
+Sri Lanka,2019,PF,total,56,aggregation,LKA
+Thailand,2019,NF,electoral_process,0,political_rights,THA
+Thailand,2019,NF,pluralism_participation,3,political_rights,THA
+Thailand,2019,NF,functioning_government,2,political_rights,THA
+Thailand,2019,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2019,NF,right_to_assembly,4,civil_liberties,THA
+Thailand,2019,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2019,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2019,NF,political_rights,5,aggregation,THA
+Thailand,2019,NF,civil_liberties,25,aggregation,THA
+Thailand,2019,NF,total,30,aggregation,THA
+Timor-Leste,2019,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2019,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2019,F,functioning_government,7,political_rights,TLS
+Timor-Leste,2019,F,freedom_of_expression,14,civil_liberties,TLS
+Timor-Leste,2019,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2019,F,rule_of_law,7,civil_liberties,TLS
+Timor-Leste,2019,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2019,F,political_rights,32,aggregation,TLS
+Timor-Leste,2019,F,civil_liberties,38,aggregation,TLS
+Timor-Leste,2019,F,total,70,aggregation,TLS
+Vanuatu,2019,F,electoral_process,10,political_rights,VUT
+Vanuatu,2019,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2019,F,functioning_government,8,political_rights,VUT
+Vanuatu,2019,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2019,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2019,F,rule_of_law,12,civil_liberties,VUT
+Vanuatu,2019,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2019,F,political_rights,33,aggregation,VUT
+Vanuatu,2019,F,civil_liberties,49,aggregation,VUT
+Vanuatu,2019,F,total,82,aggregation,VUT
+Vietnam,2019,NF,electoral_process,0,political_rights,VNM
+Vietnam,2019,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2019,NF,functioning_government,2,political_rights,VNM
+Vietnam,2019,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2019,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2019,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2019,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2019,NF,political_rights,3,aggregation,VNM
+Vietnam,2019,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2019,NF,total,20,aggregation,VNM
+Afghanistan,2018,NF,electoral_process,2,political_rights,AFG
+Afghanistan,2018,NF,pluralism_participation,7,political_rights,AFG
+Afghanistan,2018,NF,functioning_government,3,political_rights,AFG
+Afghanistan,2018,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2018,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2018,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2018,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2018,NF,political_rights,12,aggregation,AFG
+Afghanistan,2018,NF,civil_liberties,14,aggregation,AFG
+Afghanistan,2018,NF,total,26,aggregation,AFG
+Bangladesh,2018,PF,electoral_process,7,political_rights,BGD
+Bangladesh,2018,PF,pluralism_participation,7,political_rights,BGD
+Bangladesh,2018,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2018,PF,freedom_of_expression,7,civil_liberties,BGD
+Bangladesh,2018,PF,right_to_assembly,5,civil_liberties,BGD
+Bangladesh,2018,PF,rule_of_law,5,civil_liberties,BGD
+Bangladesh,2018,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2018,PF,political_rights,19,aggregation,BGD
+Bangladesh,2018,PF,civil_liberties,26,aggregation,BGD
+Bangladesh,2018,PF,total,45,aggregation,BGD
+Bhutan,2018,PF,electoral_process,10,political_rights,BTN
+Bhutan,2018,PF,pluralism_participation,10,political_rights,BTN
+Bhutan,2018,PF,functioning_government,9,political_rights,BTN
+Bhutan,2018,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2018,PF,right_to_assembly,4,civil_liberties,BTN
+Bhutan,2018,PF,rule_of_law,6,civil_liberties,BTN
+Bhutan,2018,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2018,PF,political_rights,28,aggregation,BTN
+Bhutan,2018,PF,civil_liberties,27,aggregation,BTN
+Bhutan,2018,PF,total,55,aggregation,BTN
+Cambodia,2018,NF,electoral_process,4,political_rights,KHM
+Cambodia,2018,NF,pluralism_participation,3,political_rights,KHM
+Cambodia,2018,NF,functioning_government,3,political_rights,KHM
+Cambodia,2018,NF,freedom_of_expression,8,civil_liberties,KHM
+Cambodia,2018,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2018,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2018,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2018,NF,political_rights,10,aggregation,KHM
+Cambodia,2018,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2018,NF,total,30,aggregation,KHM
+China,2018,NF,electoral_process,0,political_rights,CHN
+China,2018,NF,pluralism_participation,0,political_rights,CHN
+China,2018,NF,functioning_government,2,political_rights,CHN
+China,2018,NF,freedom_of_expression,3,civil_liberties,CHN
+China,2018,NF,right_to_assembly,3,civil_liberties,CHN
+China,2018,NF,rule_of_law,2,civil_liberties,CHN
+China,2018,NF,personal_autonomy,6,civil_liberties,CHN
+China,2018,NF,political_rights,0,aggregation,CHN
+China,2018,NF,civil_liberties,14,aggregation,CHN
+China,2018,NF,total,14,aggregation,CHN
+Fiji,2018,PF,electoral_process,8,political_rights,FJI
+Fiji,2018,PF,pluralism_participation,9,political_rights,FJI
+Fiji,2018,PF,functioning_government,7,political_rights,FJI
+Fiji,2018,PF,freedom_of_expression,12,civil_liberties,FJI
+Fiji,2018,PF,right_to_assembly,6,civil_liberties,FJI
+Fiji,2018,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2018,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2018,PF,political_rights,24,aggregation,FJI
+Fiji,2018,PF,civil_liberties,35,aggregation,FJI
+Fiji,2018,PF,total,59,aggregation,FJI
+Hong Kong,2018,PF,electoral_process,2,political_rights,HKG
+Hong Kong,2018,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2018,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2018,PF,freedom_of_expression,12,civil_liberties,HKG
+Hong Kong,2018,PF,right_to_assembly,8,civil_liberties,HKG
+Hong Kong,2018,PF,rule_of_law,11,civil_liberties,HKG
+Hong Kong,2018,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2018,PF,political_rights,15,aggregation,HKG
+Hong Kong,2018,PF,civil_liberties,44,aggregation,HKG
+Hong Kong,2018,PF,total,59,aggregation,HKG
+India,2018,F,electoral_process,12,political_rights,IND
+India,2018,F,pluralism_participation,14,political_rights,IND
+India,2018,F,functioning_government,9,political_rights,IND
+India,2018,F,freedom_of_expression,13,civil_liberties,IND
+India,2018,F,right_to_assembly,10,civil_liberties,IND
+India,2018,F,rule_of_law,9,civil_liberties,IND
+India,2018,F,personal_autonomy,10,civil_liberties,IND
+India,2018,F,political_rights,35,aggregation,IND
+India,2018,F,civil_liberties,42,aggregation,IND
+India,2018,F,total,77,aggregation,IND
+Indonesia,2018,PF,electoral_process,11,political_rights,IDN
+Indonesia,2018,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2018,PF,functioning_government,6,political_rights,IDN
+Indonesia,2018,PF,freedom_of_expression,12,civil_liberties,IDN
+Indonesia,2018,PF,right_to_assembly,8,civil_liberties,IDN
+Indonesia,2018,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2018,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2018,PF,political_rights,30,aggregation,IDN
+Indonesia,2018,PF,civil_liberties,34,aggregation,IDN
+Indonesia,2018,PF,total,64,aggregation,IDN
+Iran,2018,NF,electoral_process,3,political_rights,IRN
+Iran,2018,NF,pluralism_participation,2,political_rights,IRN
+Iran,2018,NF,functioning_government,2,political_rights,IRN
+Iran,2018,NF,freedom_of_expression,3,civil_liberties,IRN
+Iran,2018,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2018,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2018,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2018,NF,political_rights,7,aggregation,IRN
+Iran,2018,NF,civil_liberties,11,aggregation,IRN
+Iran,2018,NF,total,18,aggregation,IRN
+Laos,2018,NF,electoral_process,0,political_rights,LAO
+Laos,2018,NF,pluralism_participation,0,political_rights,LAO
+Laos,2018,NF,functioning_government,1,political_rights,LAO
+Laos,2018,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2018,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2018,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2018,NF,personal_autonomy,5,civil_liberties,LAO
+Laos,2018,NF,political_rights,1,aggregation,LAO
+Laos,2018,NF,civil_liberties,11,aggregation,LAO
+Laos,2018,NF,total,12,aggregation,LAO
+Malaysia,2018,PF,electoral_process,6,political_rights,MYS
+Malaysia,2018,PF,pluralism_participation,7,political_rights,MYS
+Malaysia,2018,PF,functioning_government,5,political_rights,MYS
+Malaysia,2018,PF,freedom_of_expression,7,civil_liberties,MYS
+Malaysia,2018,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2018,PF,rule_of_law,5,civil_liberties,MYS
+Malaysia,2018,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2018,PF,political_rights,18,aggregation,MYS
+Malaysia,2018,PF,civil_liberties,27,aggregation,MYS
+Malaysia,2018,PF,total,45,aggregation,MYS
+Maldives,2018,PF,electoral_process,5,political_rights,MDV
+Maldives,2018,PF,pluralism_participation,5,political_rights,MDV
+Maldives,2018,PF,functioning_government,4,political_rights,MDV
+Maldives,2018,PF,freedom_of_expression,3,civil_liberties,MDV
+Maldives,2018,PF,right_to_assembly,5,civil_liberties,MDV
+Maldives,2018,PF,rule_of_law,6,civil_liberties,MDV
+Maldives,2018,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2018,PF,political_rights,14,aggregation,MDV
+Maldives,2018,PF,civil_liberties,21,aggregation,MDV
+Maldives,2018,PF,total,35,aggregation,MDV
+Mongolia,2018,F,electoral_process,11,political_rights,MNG
+Mongolia,2018,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2018,F,functioning_government,9,political_rights,MNG
+Mongolia,2018,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2018,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2018,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2018,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2018,F,political_rights,36,aggregation,MNG
+Mongolia,2018,F,civil_liberties,49,aggregation,MNG
+Mongolia,2018,F,total,85,aggregation,MNG
+Myanmar,2018,PF,electoral_process,5,political_rights,MMR
+Myanmar,2018,PF,pluralism_participation,8,political_rights,MMR
+Myanmar,2018,PF,functioning_government,4,political_rights,MMR
+Myanmar,2018,PF,freedom_of_expression,6,civil_liberties,MMR
+Myanmar,2018,PF,right_to_assembly,6,civil_liberties,MMR
+Myanmar,2018,PF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2018,PF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2018,PF,political_rights,13,aggregation,MMR
+Myanmar,2018,PF,civil_liberties,18,aggregation,MMR
+Myanmar,2018,PF,total,31,aggregation,MMR
+Nepal,2018,PF,electoral_process,10,political_rights,NPL
+Nepal,2018,PF,pluralism_participation,10,political_rights,NPL
+Nepal,2018,PF,functioning_government,5,political_rights,NPL
+Nepal,2018,PF,freedom_of_expression,10,civil_liberties,NPL
+Nepal,2018,PF,right_to_assembly,6,civil_liberties,NPL
+Nepal,2018,PF,rule_of_law,6,civil_liberties,NPL
+Nepal,2018,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2018,PF,political_rights,25,aggregation,NPL
+Nepal,2018,PF,civil_liberties,30,aggregation,NPL
+Nepal,2018,PF,total,55,aggregation,NPL
+North Korea,2018,NF,electoral_process,0,political_rights,PRK
+North Korea,2018,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2018,NF,functioning_government,0,political_rights,PRK
+North Korea,2018,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2018,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2018,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2018,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2018,NF,political_rights,0,aggregation,PRK
+North Korea,2018,NF,civil_liberties,3,aggregation,PRK
+North Korea,2018,NF,total,3,aggregation,PRK
+Pakistan,2018,PF,electoral_process,6,political_rights,PAK
+Pakistan,2018,PF,pluralism_participation,8,political_rights,PAK
+Pakistan,2018,PF,functioning_government,5,political_rights,PAK
+Pakistan,2018,PF,freedom_of_expression,7,civil_liberties,PAK
+Pakistan,2018,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2018,PF,rule_of_law,5,civil_liberties,PAK
+Pakistan,2018,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2018,PF,political_rights,19,aggregation,PAK
+Pakistan,2018,PF,civil_liberties,24,aggregation,PAK
+Pakistan,2018,PF,total,43,aggregation,PAK
+Papua New Guinea,2018,PF,electoral_process,8,political_rights,PNG
+Papua New Guinea,2018,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2018,PF,functioning_government,4,political_rights,PNG
+Papua New Guinea,2018,PF,freedom_of_expression,13,civil_liberties,PNG
+Papua New Guinea,2018,PF,right_to_assembly,9,civil_liberties,PNG
+Papua New Guinea,2018,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2018,PF,personal_autonomy,9,civil_liberties,PNG
+Papua New Guinea,2018,PF,political_rights,25,aggregation,PNG
+Papua New Guinea,2018,PF,civil_liberties,38,aggregation,PNG
+Papua New Guinea,2018,PF,total,63,aggregation,PNG
+Philippines,2018,PF,electoral_process,9,political_rights,PHL
+Philippines,2018,PF,pluralism_participation,11,political_rights,PHL
+Philippines,2018,PF,functioning_government,7,political_rights,PHL
+Philippines,2018,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2018,PF,right_to_assembly,8,civil_liberties,PHL
+Philippines,2018,PF,rule_of_law,3,civil_liberties,PHL
+Philippines,2018,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2018,PF,political_rights,27,aggregation,PHL
+Philippines,2018,PF,civil_liberties,35,aggregation,PHL
+Philippines,2018,PF,total,62,aggregation,PHL
+Solomon Islands,2018,F,electoral_process,9,political_rights,SLB
+Solomon Islands,2018,F,pluralism_participation,13,political_rights,SLB
+Solomon Islands,2018,F,functioning_government,6,political_rights,SLB
+Solomon Islands,2018,F,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2018,F,right_to_assembly,9,civil_liberties,SLB
+Solomon Islands,2018,F,rule_of_law,9,civil_liberties,SLB
+Solomon Islands,2018,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2018,F,political_rights,28,aggregation,SLB
+Solomon Islands,2018,F,civil_liberties,44,aggregation,SLB
+Solomon Islands,2018,F,total,72,aggregation,SLB
+South Korea,2018,F,electoral_process,11,political_rights,KOR
+South Korea,2018,F,pluralism_participation,13,political_rights,KOR
+South Korea,2018,F,functioning_government,9,political_rights,KOR
+South Korea,2018,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2018,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2018,F,rule_of_law,13,civil_liberties,KOR
+South Korea,2018,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2018,F,political_rights,33,aggregation,KOR
+South Korea,2018,F,civil_liberties,51,aggregation,KOR
+South Korea,2018,F,total,84,aggregation,KOR
+Sri Lanka,2018,PF,electoral_process,8,political_rights,LKA
+Sri Lanka,2018,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2018,PF,functioning_government,7,political_rights,LKA
+Sri Lanka,2018,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2018,PF,right_to_assembly,8,civil_liberties,LKA
+Sri Lanka,2018,PF,rule_of_law,7,civil_liberties,LKA
+Sri Lanka,2018,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2018,PF,political_rights,24,aggregation,LKA
+Sri Lanka,2018,PF,civil_liberties,31,aggregation,LKA
+Sri Lanka,2018,PF,total,55,aggregation,LKA
+Thailand,2018,NF,electoral_process,0,political_rights,THA
+Thailand,2018,NF,pluralism_participation,3,political_rights,THA
+Thailand,2018,NF,functioning_government,3,political_rights,THA
+Thailand,2018,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2018,NF,right_to_assembly,4,civil_liberties,THA
+Thailand,2018,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2018,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2018,NF,political_rights,6,aggregation,THA
+Thailand,2018,NF,civil_liberties,25,aggregation,THA
+Thailand,2018,NF,total,31,aggregation,THA
+Timor-Leste,2018,F,electoral_process,11,political_rights,TLS
+Timor-Leste,2018,F,pluralism_participation,14,political_rights,TLS
+Timor-Leste,2018,F,functioning_government,7,political_rights,TLS
+Timor-Leste,2018,F,freedom_of_expression,13,civil_liberties,TLS
+Timor-Leste,2018,F,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2018,F,rule_of_law,7,civil_liberties,TLS
+Timor-Leste,2018,F,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2018,F,political_rights,32,aggregation,TLS
+Timor-Leste,2018,F,civil_liberties,37,aggregation,TLS
+Timor-Leste,2018,F,total,69,aggregation,TLS
+Vanuatu,2018,F,electoral_process,10,political_rights,VUT
+Vanuatu,2018,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2018,F,functioning_government,8,political_rights,VUT
+Vanuatu,2018,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2018,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2018,F,rule_of_law,11,civil_liberties,VUT
+Vanuatu,2018,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2018,F,political_rights,33,aggregation,VUT
+Vanuatu,2018,F,civil_liberties,48,aggregation,VUT
+Vanuatu,2018,F,total,81,aggregation,VUT
+Vietnam,2018,NF,electoral_process,0,political_rights,VNM
+Vietnam,2018,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2018,NF,functioning_government,2,political_rights,VNM
+Vietnam,2018,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2018,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2018,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2018,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2018,NF,political_rights,3,aggregation,VNM
+Vietnam,2018,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2018,NF,total,20,aggregation,VNM
+Afghanistan,2017,NF,electoral_process,2,political_rights,AFG
+Afghanistan,2017,NF,pluralism_participation,6,political_rights,AFG
+Afghanistan,2017,NF,functioning_government,2,political_rights,AFG
+Afghanistan,2017,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2017,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2017,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2017,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2017,NF,political_rights,10,aggregation,AFG
+Afghanistan,2017,NF,civil_liberties,14,aggregation,AFG
+Afghanistan,2017,NF,total,24,aggregation,AFG
+Bangladesh,2017,PF,electoral_process,7,political_rights,BGD
+Bangladesh,2017,PF,pluralism_participation,8,political_rights,BGD
+Bangladesh,2017,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2017,PF,freedom_of_expression,7,civil_liberties,BGD
+Bangladesh,2017,PF,right_to_assembly,6,civil_liberties,BGD
+Bangladesh,2017,PF,rule_of_law,5,civil_liberties,BGD
+Bangladesh,2017,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2017,PF,political_rights,20,aggregation,BGD
+Bangladesh,2017,PF,civil_liberties,27,aggregation,BGD
+Bangladesh,2017,PF,total,47,aggregation,BGD
+Bhutan,2017,PF,electoral_process,10,political_rights,BTN
+Bhutan,2017,PF,pluralism_participation,10,political_rights,BTN
+Bhutan,2017,PF,functioning_government,9,political_rights,BTN
+Bhutan,2017,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2017,PF,right_to_assembly,4,civil_liberties,BTN
+Bhutan,2017,PF,rule_of_law,6,civil_liberties,BTN
+Bhutan,2017,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2017,PF,political_rights,28,aggregation,BTN
+Bhutan,2017,PF,civil_liberties,27,aggregation,BTN
+Bhutan,2017,PF,total,55,aggregation,BTN
+Cambodia,2017,NF,electoral_process,4,political_rights,KHM
+Cambodia,2017,NF,pluralism_participation,4,political_rights,KHM
+Cambodia,2017,NF,functioning_government,3,political_rights,KHM
+Cambodia,2017,NF,freedom_of_expression,8,civil_liberties,KHM
+Cambodia,2017,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2017,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2017,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2017,NF,political_rights,11,aggregation,KHM
+Cambodia,2017,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2017,NF,total,31,aggregation,KHM
+China,2017,NF,electoral_process,0,political_rights,CHN
+China,2017,NF,pluralism_participation,1,political_rights,CHN
+China,2017,NF,functioning_government,2,political_rights,CHN
+China,2017,NF,freedom_of_expression,3,civil_liberties,CHN
+China,2017,NF,right_to_assembly,3,civil_liberties,CHN
+China,2017,NF,rule_of_law,2,civil_liberties,CHN
+China,2017,NF,personal_autonomy,6,civil_liberties,CHN
+China,2017,NF,political_rights,1,aggregation,CHN
+China,2017,NF,civil_liberties,14,aggregation,CHN
+China,2017,NF,total,15,aggregation,CHN
+Fiji,2017,PF,electoral_process,8,political_rights,FJI
+Fiji,2017,PF,pluralism_participation,10,political_rights,FJI
+Fiji,2017,PF,functioning_government,7,political_rights,FJI
+Fiji,2017,PF,freedom_of_expression,12,civil_liberties,FJI
+Fiji,2017,PF,right_to_assembly,5,civil_liberties,FJI
+Fiji,2017,PF,rule_of_law,7,civil_liberties,FJI
+Fiji,2017,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2017,PF,political_rights,25,aggregation,FJI
+Fiji,2017,PF,civil_liberties,34,aggregation,FJI
+Fiji,2017,PF,total,59,aggregation,FJI
+Hong Kong,2017,PF,electoral_process,3,political_rights,HKG
+Hong Kong,2017,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2017,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2017,PF,freedom_of_expression,12,civil_liberties,HKG
+Hong Kong,2017,PF,right_to_assembly,8,civil_liberties,HKG
+Hong Kong,2017,PF,rule_of_law,12,civil_liberties,HKG
+Hong Kong,2017,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2017,PF,political_rights,16,aggregation,HKG
+Hong Kong,2017,PF,civil_liberties,45,aggregation,HKG
+Hong Kong,2017,PF,total,61,aggregation,HKG
+India,2017,F,electoral_process,12,political_rights,IND
+India,2017,F,pluralism_participation,14,political_rights,IND
+India,2017,F,functioning_government,9,political_rights,IND
+India,2017,F,freedom_of_expression,13,civil_liberties,IND
+India,2017,F,right_to_assembly,10,civil_liberties,IND
+India,2017,F,rule_of_law,9,civil_liberties,IND
+India,2017,F,personal_autonomy,10,civil_liberties,IND
+India,2017,F,political_rights,35,aggregation,IND
+India,2017,F,civil_liberties,42,aggregation,IND
+India,2017,F,total,77,aggregation,IND
+Indonesia,2017,PF,electoral_process,11,political_rights,IDN
+Indonesia,2017,PF,pluralism_participation,14,political_rights,IDN
+Indonesia,2017,PF,functioning_government,6,political_rights,IDN
+Indonesia,2017,PF,freedom_of_expression,12,civil_liberties,IDN
+Indonesia,2017,PF,right_to_assembly,8,civil_liberties,IDN
+Indonesia,2017,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2017,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2017,PF,political_rights,31,aggregation,IDN
+Indonesia,2017,PF,civil_liberties,34,aggregation,IDN
+Indonesia,2017,PF,total,65,aggregation,IDN
+Iran,2017,NF,electoral_process,3,political_rights,IRN
+Iran,2017,NF,pluralism_participation,2,political_rights,IRN
+Iran,2017,NF,functioning_government,2,political_rights,IRN
+Iran,2017,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2017,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2017,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2017,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2017,NF,political_rights,7,aggregation,IRN
+Iran,2017,NF,civil_liberties,10,aggregation,IRN
+Iran,2017,NF,total,17,aggregation,IRN
+Laos,2017,NF,electoral_process,0,political_rights,LAO
+Laos,2017,NF,pluralism_participation,0,political_rights,LAO
+Laos,2017,NF,functioning_government,1,political_rights,LAO
+Laos,2017,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2017,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2017,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2017,NF,personal_autonomy,5,civil_liberties,LAO
+Laos,2017,NF,political_rights,1,aggregation,LAO
+Laos,2017,NF,civil_liberties,11,aggregation,LAO
+Laos,2017,NF,total,12,aggregation,LAO
+Malaysia,2017,PF,electoral_process,6,political_rights,MYS
+Malaysia,2017,PF,pluralism_participation,7,political_rights,MYS
+Malaysia,2017,PF,functioning_government,5,political_rights,MYS
+Malaysia,2017,PF,freedom_of_expression,7,civil_liberties,MYS
+Malaysia,2017,PF,right_to_assembly,5,civil_liberties,MYS
+Malaysia,2017,PF,rule_of_law,5,civil_liberties,MYS
+Malaysia,2017,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2017,PF,political_rights,18,aggregation,MYS
+Malaysia,2017,PF,civil_liberties,26,aggregation,MYS
+Malaysia,2017,PF,total,44,aggregation,MYS
+Maldives,2017,PF,electoral_process,7,political_rights,MDV
+Maldives,2017,PF,pluralism_participation,5,political_rights,MDV
+Maldives,2017,PF,functioning_government,5,political_rights,MDV
+Maldives,2017,PF,freedom_of_expression,5,civil_liberties,MDV
+Maldives,2017,PF,right_to_assembly,5,civil_liberties,MDV
+Maldives,2017,PF,rule_of_law,6,civil_liberties,MDV
+Maldives,2017,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2017,PF,political_rights,17,aggregation,MDV
+Maldives,2017,PF,civil_liberties,23,aggregation,MDV
+Maldives,2017,PF,total,40,aggregation,MDV
+Mongolia,2017,F,electoral_process,11,political_rights,MNG
+Mongolia,2017,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2017,F,functioning_government,9,political_rights,MNG
+Mongolia,2017,F,freedom_of_expression,14,civil_liberties,MNG
+Mongolia,2017,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2017,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2017,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2017,F,political_rights,36,aggregation,MNG
+Mongolia,2017,F,civil_liberties,49,aggregation,MNG
+Mongolia,2017,F,total,85,aggregation,MNG
+Myanmar,2017,PF,electoral_process,5,political_rights,MMR
+Myanmar,2017,PF,pluralism_participation,8,political_rights,MMR
+Myanmar,2017,PF,functioning_government,4,political_rights,MMR
+Myanmar,2017,PF,freedom_of_expression,7,civil_liberties,MMR
+Myanmar,2017,PF,right_to_assembly,5,civil_liberties,MMR
+Myanmar,2017,PF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2017,PF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2017,PF,political_rights,14,aggregation,MMR
+Myanmar,2017,PF,civil_liberties,18,aggregation,MMR
+Myanmar,2017,PF,total,32,aggregation,MMR
+Nepal,2017,PF,electoral_process,9,political_rights,NPL
+Nepal,2017,PF,pluralism_participation,10,political_rights,NPL
+Nepal,2017,PF,functioning_government,5,political_rights,NPL
+Nepal,2017,PF,freedom_of_expression,9,civil_liberties,NPL
+Nepal,2017,PF,right_to_assembly,5,civil_liberties,NPL
+Nepal,2017,PF,rule_of_law,6,civil_liberties,NPL
+Nepal,2017,PF,personal_autonomy,8,civil_liberties,NPL
+Nepal,2017,PF,political_rights,24,aggregation,NPL
+Nepal,2017,PF,civil_liberties,28,aggregation,NPL
+Nepal,2017,PF,total,52,aggregation,NPL
+North Korea,2017,NF,electoral_process,0,political_rights,PRK
+North Korea,2017,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2017,NF,functioning_government,0,political_rights,PRK
+North Korea,2017,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2017,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2017,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2017,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2017,NF,political_rights,0,aggregation,PRK
+North Korea,2017,NF,civil_liberties,3,aggregation,PRK
+North Korea,2017,NF,total,3,aggregation,PRK
+Pakistan,2017,PF,electoral_process,7,political_rights,PAK
+Pakistan,2017,PF,pluralism_participation,8,political_rights,PAK
+Pakistan,2017,PF,functioning_government,6,political_rights,PAK
+Pakistan,2017,PF,freedom_of_expression,6,civil_liberties,PAK
+Pakistan,2017,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2017,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2017,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2017,PF,political_rights,21,aggregation,PAK
+Pakistan,2017,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2017,PF,total,43,aggregation,PAK
+Papua New Guinea,2017,PF,electoral_process,9,political_rights,PNG
+Papua New Guinea,2017,PF,pluralism_participation,13,political_rights,PNG
+Papua New Guinea,2017,PF,functioning_government,4,political_rights,PNG
+Papua New Guinea,2017,PF,freedom_of_expression,13,civil_liberties,PNG
+Papua New Guinea,2017,PF,right_to_assembly,9,civil_liberties,PNG
+Papua New Guinea,2017,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2017,PF,personal_autonomy,9,civil_liberties,PNG
+Papua New Guinea,2017,PF,political_rights,26,aggregation,PNG
+Papua New Guinea,2017,PF,civil_liberties,38,aggregation,PNG
+Papua New Guinea,2017,PF,total,64,aggregation,PNG
+Philippines,2017,PF,electoral_process,9,political_rights,PHL
+Philippines,2017,PF,pluralism_participation,11,political_rights,PHL
+Philippines,2017,PF,functioning_government,7,political_rights,PHL
+Philippines,2017,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2017,PF,right_to_assembly,8,civil_liberties,PHL
+Philippines,2017,PF,rule_of_law,4,civil_liberties,PHL
+Philippines,2017,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2017,PF,political_rights,27,aggregation,PHL
+Philippines,2017,PF,civil_liberties,36,aggregation,PHL
+Philippines,2017,PF,total,63,aggregation,PHL
+Solomon Islands,2017,F,electoral_process,9,political_rights,SLB
+Solomon Islands,2017,F,pluralism_participation,13,political_rights,SLB
+Solomon Islands,2017,F,functioning_government,5,political_rights,SLB
+Solomon Islands,2017,F,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2017,F,right_to_assembly,9,civil_liberties,SLB
+Solomon Islands,2017,F,rule_of_law,9,civil_liberties,SLB
+Solomon Islands,2017,F,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2017,F,political_rights,27,aggregation,SLB
+Solomon Islands,2017,F,civil_liberties,44,aggregation,SLB
+Solomon Islands,2017,F,total,71,aggregation,SLB
+South Korea,2017,F,electoral_process,11,political_rights,KOR
+South Korea,2017,F,pluralism_participation,13,political_rights,KOR
+South Korea,2017,F,functioning_government,8,political_rights,KOR
+South Korea,2017,F,freedom_of_expression,13,civil_liberties,KOR
+South Korea,2017,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2017,F,rule_of_law,13,civil_liberties,KOR
+South Korea,2017,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2017,F,political_rights,32,aggregation,KOR
+South Korea,2017,F,civil_liberties,50,aggregation,KOR
+South Korea,2017,F,total,82,aggregation,KOR
+Sri Lanka,2017,PF,electoral_process,8,political_rights,LKA
+Sri Lanka,2017,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2017,PF,functioning_government,7,political_rights,LKA
+Sri Lanka,2017,PF,freedom_of_expression,9,civil_liberties,LKA
+Sri Lanka,2017,PF,right_to_assembly,8,civil_liberties,LKA
+Sri Lanka,2017,PF,rule_of_law,7,civil_liberties,LKA
+Sri Lanka,2017,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2017,PF,political_rights,24,aggregation,LKA
+Sri Lanka,2017,PF,civil_liberties,32,aggregation,LKA
+Sri Lanka,2017,PF,total,56,aggregation,LKA
+Thailand,2017,NF,electoral_process,1,political_rights,THA
+Thailand,2017,NF,pluralism_participation,3,political_rights,THA
+Thailand,2017,NF,functioning_government,3,political_rights,THA
+Thailand,2017,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2017,NF,right_to_assembly,4,civil_liberties,THA
+Thailand,2017,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2017,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2017,NF,political_rights,7,aggregation,THA
+Thailand,2017,NF,civil_liberties,25,aggregation,THA
+Thailand,2017,NF,total,32,aggregation,THA
+Timor-Leste,2017,PF,electoral_process,11,political_rights,TLS
+Timor-Leste,2017,PF,pluralism_participation,12,political_rights,TLS
+Timor-Leste,2017,PF,functioning_government,6,political_rights,TLS
+Timor-Leste,2017,PF,freedom_of_expression,12,civil_liberties,TLS
+Timor-Leste,2017,PF,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2017,PF,rule_of_law,7,civil_liberties,TLS
+Timor-Leste,2017,PF,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2017,PF,political_rights,29,aggregation,TLS
+Timor-Leste,2017,PF,civil_liberties,36,aggregation,TLS
+Timor-Leste,2017,PF,total,65,aggregation,TLS
+Vanuatu,2017,F,electoral_process,10,political_rights,VUT
+Vanuatu,2017,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2017,F,functioning_government,7,political_rights,VUT
+Vanuatu,2017,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2017,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2017,F,rule_of_law,11,civil_liberties,VUT
+Vanuatu,2017,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2017,F,political_rights,32,aggregation,VUT
+Vanuatu,2017,F,civil_liberties,48,aggregation,VUT
+Vanuatu,2017,F,total,80,aggregation,VUT
+Vietnam,2017,NF,electoral_process,0,political_rights,VNM
+Vietnam,2017,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2017,NF,functioning_government,2,political_rights,VNM
+Vietnam,2017,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2017,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2017,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2017,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2017,NF,political_rights,3,aggregation,VNM
+Vietnam,2017,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2017,NF,total,20,aggregation,VNM
+Afghanistan,2016,NF,electoral_process,2,political_rights,AFG
+Afghanistan,2016,NF,pluralism_participation,6,political_rights,AFG
+Afghanistan,2016,NF,functioning_government,2,political_rights,AFG
+Afghanistan,2016,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2016,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2016,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2016,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2016,NF,political_rights,10,aggregation,AFG
+Afghanistan,2016,NF,civil_liberties,14,aggregation,AFG
+Afghanistan,2016,NF,total,24,aggregation,AFG
+Bangladesh,2016,PF,electoral_process,7,political_rights,BGD
+Bangladesh,2016,PF,pluralism_participation,9,political_rights,BGD
+Bangladesh,2016,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2016,PF,freedom_of_expression,7,civil_liberties,BGD
+Bangladesh,2016,PF,right_to_assembly,6,civil_liberties,BGD
+Bangladesh,2016,PF,rule_of_law,6,civil_liberties,BGD
+Bangladesh,2016,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2016,PF,political_rights,21,aggregation,BGD
+Bangladesh,2016,PF,civil_liberties,28,aggregation,BGD
+Bangladesh,2016,PF,total,49,aggregation,BGD
+Bhutan,2016,PF,electoral_process,10,political_rights,BTN
+Bhutan,2016,PF,pluralism_participation,10,political_rights,BTN
+Bhutan,2016,PF,functioning_government,10,political_rights,BTN
+Bhutan,2016,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2016,PF,right_to_assembly,4,civil_liberties,BTN
+Bhutan,2016,PF,rule_of_law,6,civil_liberties,BTN
+Bhutan,2016,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2016,PF,political_rights,29,aggregation,BTN
+Bhutan,2016,PF,civil_liberties,27,aggregation,BTN
+Bhutan,2016,PF,total,56,aggregation,BTN
+Cambodia,2016,NF,electoral_process,4,political_rights,KHM
+Cambodia,2016,NF,pluralism_participation,4,political_rights,KHM
+Cambodia,2016,NF,functioning_government,3,political_rights,KHM
+Cambodia,2016,NF,freedom_of_expression,9,civil_liberties,KHM
+Cambodia,2016,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2016,NF,rule_of_law,3,civil_liberties,KHM
+Cambodia,2016,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2016,NF,political_rights,11,aggregation,KHM
+Cambodia,2016,NF,civil_liberties,21,aggregation,KHM
+Cambodia,2016,NF,total,32,aggregation,KHM
+China,2016,NF,electoral_process,0,political_rights,CHN
+China,2016,NF,pluralism_participation,1,political_rights,CHN
+China,2016,NF,functioning_government,2,political_rights,CHN
+China,2016,NF,freedom_of_expression,4,civil_liberties,CHN
+China,2016,NF,right_to_assembly,3,civil_liberties,CHN
+China,2016,NF,rule_of_law,2,civil_liberties,CHN
+China,2016,NF,personal_autonomy,6,civil_liberties,CHN
+China,2016,NF,political_rights,1,aggregation,CHN
+China,2016,NF,civil_liberties,15,aggregation,CHN
+China,2016,NF,total,16,aggregation,CHN
+Fiji,2016,PF,electoral_process,9,political_rights,FJI
+Fiji,2016,PF,pluralism_participation,11,political_rights,FJI
+Fiji,2016,PF,functioning_government,7,political_rights,FJI
+Fiji,2016,PF,freedom_of_expression,11,civil_liberties,FJI
+Fiji,2016,PF,right_to_assembly,5,civil_liberties,FJI
+Fiji,2016,PF,rule_of_law,9,civil_liberties,FJI
+Fiji,2016,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2016,PF,political_rights,27,aggregation,FJI
+Fiji,2016,PF,civil_liberties,35,aggregation,FJI
+Fiji,2016,PF,total,62,aggregation,FJI
+Hong Kong,2016,PF,electoral_process,3,political_rights,HKG
+Hong Kong,2016,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2016,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2016,PF,freedom_of_expression,12,civil_liberties,HKG
+Hong Kong,2016,PF,right_to_assembly,8,civil_liberties,HKG
+Hong Kong,2016,PF,rule_of_law,14,civil_liberties,HKG
+Hong Kong,2016,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2016,PF,political_rights,16,aggregation,HKG
+Hong Kong,2016,PF,civil_liberties,47,aggregation,HKG
+Hong Kong,2016,PF,total,63,aggregation,HKG
+India,2016,F,electoral_process,12,political_rights,IND
+India,2016,F,pluralism_participation,14,political_rights,IND
+India,2016,F,functioning_government,9,political_rights,IND
+India,2016,F,freedom_of_expression,13,civil_liberties,IND
+India,2016,F,right_to_assembly,10,civil_liberties,IND
+India,2016,F,rule_of_law,9,civil_liberties,IND
+India,2016,F,personal_autonomy,10,civil_liberties,IND
+India,2016,F,political_rights,35,aggregation,IND
+India,2016,F,civil_liberties,42,aggregation,IND
+India,2016,F,total,77,aggregation,IND
+Indonesia,2016,PF,electoral_process,11,political_rights,IDN
+Indonesia,2016,PF,pluralism_participation,14,political_rights,IDN
+Indonesia,2016,PF,functioning_government,6,political_rights,IDN
+Indonesia,2016,PF,freedom_of_expression,12,civil_liberties,IDN
+Indonesia,2016,PF,right_to_assembly,8,civil_liberties,IDN
+Indonesia,2016,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2016,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2016,PF,political_rights,31,aggregation,IDN
+Indonesia,2016,PF,civil_liberties,34,aggregation,IDN
+Indonesia,2016,PF,total,65,aggregation,IDN
+Iran,2016,NF,electoral_process,3,political_rights,IRN
+Iran,2016,NF,pluralism_participation,2,political_rights,IRN
+Iran,2016,NF,functioning_government,2,political_rights,IRN
+Iran,2016,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2016,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2016,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2016,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2016,NF,political_rights,7,aggregation,IRN
+Iran,2016,NF,civil_liberties,10,aggregation,IRN
+Iran,2016,NF,total,17,aggregation,IRN
+Laos,2016,NF,electoral_process,0,political_rights,LAO
+Laos,2016,NF,pluralism_participation,0,political_rights,LAO
+Laos,2016,NF,functioning_government,1,political_rights,LAO
+Laos,2016,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2016,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2016,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2016,NF,personal_autonomy,5,civil_liberties,LAO
+Laos,2016,NF,political_rights,1,aggregation,LAO
+Laos,2016,NF,civil_liberties,11,aggregation,LAO
+Laos,2016,NF,total,12,aggregation,LAO
+Malaysia,2016,PF,electoral_process,6,political_rights,MYS
+Malaysia,2016,PF,pluralism_participation,7,political_rights,MYS
+Malaysia,2016,PF,functioning_government,5,political_rights,MYS
+Malaysia,2016,PF,freedom_of_expression,7,civil_liberties,MYS
+Malaysia,2016,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2016,PF,rule_of_law,5,civil_liberties,MYS
+Malaysia,2016,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2016,PF,political_rights,18,aggregation,MYS
+Malaysia,2016,PF,civil_liberties,27,aggregation,MYS
+Malaysia,2016,PF,total,45,aggregation,MYS
+Maldives,2016,PF,electoral_process,7,political_rights,MDV
+Maldives,2016,PF,pluralism_participation,6,political_rights,MDV
+Maldives,2016,PF,functioning_government,6,political_rights,MDV
+Maldives,2016,PF,freedom_of_expression,6,civil_liberties,MDV
+Maldives,2016,PF,right_to_assembly,5,civil_liberties,MDV
+Maldives,2016,PF,rule_of_law,6,civil_liberties,MDV
+Maldives,2016,PF,personal_autonomy,7,civil_liberties,MDV
+Maldives,2016,PF,political_rights,19,aggregation,MDV
+Maldives,2016,PF,civil_liberties,24,aggregation,MDV
+Maldives,2016,PF,total,43,aggregation,MDV
+Mongolia,2016,F,electoral_process,11,political_rights,MNG
+Mongolia,2016,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2016,F,functioning_government,9,political_rights,MNG
+Mongolia,2016,F,freedom_of_expression,15,civil_liberties,MNG
+Mongolia,2016,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2016,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2016,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2016,F,political_rights,36,aggregation,MNG
+Mongolia,2016,F,civil_liberties,50,aggregation,MNG
+Mongolia,2016,F,total,86,aggregation,MNG
+Myanmar,2016,NF,electoral_process,3,political_rights,MMR
+Myanmar,2016,NF,pluralism_participation,8,political_rights,MMR
+Myanmar,2016,NF,functioning_government,3,political_rights,MMR
+Myanmar,2016,NF,freedom_of_expression,7,civil_liberties,MMR
+Myanmar,2016,NF,right_to_assembly,4,civil_liberties,MMR
+Myanmar,2016,NF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2016,NF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2016,NF,political_rights,11,aggregation,MMR
+Myanmar,2016,NF,civil_liberties,17,aggregation,MMR
+Myanmar,2016,NF,total,28,aggregation,MMR
+Nepal,2016,PF,electoral_process,9,political_rights,NPL
+Nepal,2016,PF,pluralism_participation,11,political_rights,NPL
+Nepal,2016,PF,functioning_government,5,political_rights,NPL
+Nepal,2016,PF,freedom_of_expression,9,civil_liberties,NPL
+Nepal,2016,PF,right_to_assembly,5,civil_liberties,NPL
+Nepal,2016,PF,rule_of_law,5,civil_liberties,NPL
+Nepal,2016,PF,personal_autonomy,7,civil_liberties,NPL
+Nepal,2016,PF,political_rights,25,aggregation,NPL
+Nepal,2016,PF,civil_liberties,26,aggregation,NPL
+Nepal,2016,PF,total,51,aggregation,NPL
+North Korea,2016,NF,electoral_process,0,political_rights,PRK
+North Korea,2016,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2016,NF,functioning_government,0,political_rights,PRK
+North Korea,2016,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2016,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2016,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2016,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2016,NF,political_rights,0,aggregation,PRK
+North Korea,2016,NF,civil_liberties,3,aggregation,PRK
+North Korea,2016,NF,total,3,aggregation,PRK
+Pakistan,2016,PF,electoral_process,7,political_rights,PAK
+Pakistan,2016,PF,pluralism_participation,8,political_rights,PAK
+Pakistan,2016,PF,functioning_government,5,political_rights,PAK
+Pakistan,2016,PF,freedom_of_expression,5,civil_liberties,PAK
+Pakistan,2016,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2016,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2016,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2016,PF,political_rights,20,aggregation,PAK
+Pakistan,2016,PF,civil_liberties,21,aggregation,PAK
+Pakistan,2016,PF,total,41,aggregation,PAK
+Papua New Guinea,2016,PF,electoral_process,9,political_rights,PNG
+Papua New Guinea,2016,PF,pluralism_participation,10,political_rights,PNG
+Papua New Guinea,2016,PF,functioning_government,4,political_rights,PNG
+Papua New Guinea,2016,PF,freedom_of_expression,12,civil_liberties,PNG
+Papua New Guinea,2016,PF,right_to_assembly,9,civil_liberties,PNG
+Papua New Guinea,2016,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2016,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2016,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2016,PF,civil_liberties,36,aggregation,PNG
+Papua New Guinea,2016,PF,total,59,aggregation,PNG
+Philippines,2016,PF,electoral_process,9,political_rights,PHL
+Philippines,2016,PF,pluralism_participation,11,political_rights,PHL
+Philippines,2016,PF,functioning_government,7,political_rights,PHL
+Philippines,2016,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2016,PF,right_to_assembly,9,civil_liberties,PHL
+Philippines,2016,PF,rule_of_law,5,civil_liberties,PHL
+Philippines,2016,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2016,PF,political_rights,27,aggregation,PHL
+Philippines,2016,PF,civil_liberties,38,aggregation,PHL
+Philippines,2016,PF,total,65,aggregation,PHL
+Solomon Islands,2016,PF,electoral_process,9,political_rights,SLB
+Solomon Islands,2016,PF,pluralism_participation,10,political_rights,SLB
+Solomon Islands,2016,PF,functioning_government,6,political_rights,SLB
+Solomon Islands,2016,PF,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2016,PF,right_to_assembly,9,civil_liberties,SLB
+Solomon Islands,2016,PF,rule_of_law,8,civil_liberties,SLB
+Solomon Islands,2016,PF,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2016,PF,political_rights,25,aggregation,SLB
+Solomon Islands,2016,PF,civil_liberties,43,aggregation,SLB
+Solomon Islands,2016,PF,total,68,aggregation,SLB
+South Korea,2016,F,electoral_process,11,political_rights,KOR
+South Korea,2016,F,pluralism_participation,13,political_rights,KOR
+South Korea,2016,F,functioning_government,10,political_rights,KOR
+South Korea,2016,F,freedom_of_expression,12,civil_liberties,KOR
+South Korea,2016,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2016,F,rule_of_law,13,civil_liberties,KOR
+South Korea,2016,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2016,F,political_rights,34,aggregation,KOR
+South Korea,2016,F,civil_liberties,49,aggregation,KOR
+South Korea,2016,F,total,83,aggregation,KOR
+Sri Lanka,2016,PF,electoral_process,8,political_rights,LKA
+Sri Lanka,2016,PF,pluralism_participation,10,political_rights,LKA
+Sri Lanka,2016,PF,functioning_government,6,political_rights,LKA
+Sri Lanka,2016,PF,freedom_of_expression,9,civil_liberties,LKA
+Sri Lanka,2016,PF,right_to_assembly,8,civil_liberties,LKA
+Sri Lanka,2016,PF,rule_of_law,7,civil_liberties,LKA
+Sri Lanka,2016,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2016,PF,political_rights,23,aggregation,LKA
+Sri Lanka,2016,PF,civil_liberties,32,aggregation,LKA
+Sri Lanka,2016,PF,total,55,aggregation,LKA
+Thailand,2016,NF,electoral_process,1,political_rights,THA
+Thailand,2016,NF,pluralism_participation,3,political_rights,THA
+Thailand,2016,NF,functioning_government,3,political_rights,THA
+Thailand,2016,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2016,NF,right_to_assembly,4,civil_liberties,THA
+Thailand,2016,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2016,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2016,NF,political_rights,7,aggregation,THA
+Thailand,2016,NF,civil_liberties,25,aggregation,THA
+Thailand,2016,NF,total,32,aggregation,THA
+Timor-Leste,2016,PF,electoral_process,11,political_rights,TLS
+Timor-Leste,2016,PF,pluralism_participation,12,political_rights,TLS
+Timor-Leste,2016,PF,functioning_government,6,political_rights,TLS
+Timor-Leste,2016,PF,freedom_of_expression,12,civil_liberties,TLS
+Timor-Leste,2016,PF,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2016,PF,rule_of_law,7,civil_liberties,TLS
+Timor-Leste,2016,PF,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2016,PF,political_rights,29,aggregation,TLS
+Timor-Leste,2016,PF,civil_liberties,36,aggregation,TLS
+Timor-Leste,2016,PF,total,65,aggregation,TLS
+Vanuatu,2016,F,electoral_process,9,political_rights,VUT
+Vanuatu,2016,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2016,F,functioning_government,7,political_rights,VUT
+Vanuatu,2016,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2016,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2016,F,rule_of_law,10,civil_liberties,VUT
+Vanuatu,2016,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2016,F,political_rights,31,aggregation,VUT
+Vanuatu,2016,F,civil_liberties,47,aggregation,VUT
+Vanuatu,2016,F,total,78,aggregation,VUT
+Vietnam,2016,NF,electoral_process,0,political_rights,VNM
+Vietnam,2016,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2016,NF,functioning_government,2,political_rights,VNM
+Vietnam,2016,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2016,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2016,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2016,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2016,NF,political_rights,3,aggregation,VNM
+Vietnam,2016,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2016,NF,total,20,aggregation,VNM
+Afghanistan,2015,NF,electoral_process,3,political_rights,AFG
+Afghanistan,2015,NF,pluralism_participation,6,political_rights,AFG
+Afghanistan,2015,NF,functioning_government,2,political_rights,AFG
+Afghanistan,2015,NF,freedom_of_expression,5,civil_liberties,AFG
+Afghanistan,2015,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2015,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2015,NF,personal_autonomy,2,civil_liberties,AFG
+Afghanistan,2015,NF,political_rights,11,aggregation,AFG
+Afghanistan,2015,NF,civil_liberties,13,aggregation,AFG
+Afghanistan,2015,NF,total,24,aggregation,AFG
+Bangladesh,2015,PF,electoral_process,7,political_rights,BGD
+Bangladesh,2015,PF,pluralism_participation,9,political_rights,BGD
+Bangladesh,2015,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2015,PF,freedom_of_expression,8,civil_liberties,BGD
+Bangladesh,2015,PF,right_to_assembly,6,civil_liberties,BGD
+Bangladesh,2015,PF,rule_of_law,6,civil_liberties,BGD
+Bangladesh,2015,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2015,PF,political_rights,21,aggregation,BGD
+Bangladesh,2015,PF,civil_liberties,29,aggregation,BGD
+Bangladesh,2015,PF,total,50,aggregation,BGD
+Bhutan,2015,PF,electoral_process,10,political_rights,BTN
+Bhutan,2015,PF,pluralism_participation,10,political_rights,BTN
+Bhutan,2015,PF,functioning_government,10,political_rights,BTN
+Bhutan,2015,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2015,PF,right_to_assembly,4,civil_liberties,BTN
+Bhutan,2015,PF,rule_of_law,6,civil_liberties,BTN
+Bhutan,2015,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2015,PF,political_rights,29,aggregation,BTN
+Bhutan,2015,PF,civil_liberties,27,aggregation,BTN
+Bhutan,2015,PF,total,56,aggregation,BTN
+Cambodia,2015,NF,electoral_process,4,political_rights,KHM
+Cambodia,2015,NF,pluralism_participation,4,political_rights,KHM
+Cambodia,2015,NF,functioning_government,3,political_rights,KHM
+Cambodia,2015,NF,freedom_of_expression,9,civil_liberties,KHM
+Cambodia,2015,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2015,NF,rule_of_law,2,civil_liberties,KHM
+Cambodia,2015,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2015,NF,political_rights,11,aggregation,KHM
+Cambodia,2015,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2015,NF,total,31,aggregation,KHM
+China,2015,NF,electoral_process,0,political_rights,CHN
+China,2015,NF,pluralism_participation,1,political_rights,CHN
+China,2015,NF,functioning_government,2,political_rights,CHN
+China,2015,NF,freedom_of_expression,4,civil_liberties,CHN
+China,2015,NF,right_to_assembly,3,civil_liberties,CHN
+China,2015,NF,rule_of_law,2,civil_liberties,CHN
+China,2015,NF,personal_autonomy,6,civil_liberties,CHN
+China,2015,NF,political_rights,2,aggregation,CHN
+China,2015,NF,civil_liberties,15,aggregation,CHN
+China,2015,NF,total,17,aggregation,CHN
+Fiji,2015,PF,electoral_process,9,political_rights,FJI
+Fiji,2015,PF,pluralism_participation,11,political_rights,FJI
+Fiji,2015,PF,functioning_government,6,political_rights,FJI
+Fiji,2015,PF,freedom_of_expression,11,civil_liberties,FJI
+Fiji,2015,PF,right_to_assembly,4,civil_liberties,FJI
+Fiji,2015,PF,rule_of_law,9,civil_liberties,FJI
+Fiji,2015,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2015,PF,political_rights,26,aggregation,FJI
+Fiji,2015,PF,civil_liberties,34,aggregation,FJI
+Fiji,2015,PF,total,60,aggregation,FJI
+Hong Kong,2015,PF,electoral_process,3,political_rights,HKG
+Hong Kong,2015,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2015,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2015,PF,freedom_of_expression,13,civil_liberties,HKG
+Hong Kong,2015,PF,right_to_assembly,8,civil_liberties,HKG
+Hong Kong,2015,PF,rule_of_law,15,civil_liberties,HKG
+Hong Kong,2015,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2015,PF,political_rights,16,aggregation,HKG
+Hong Kong,2015,PF,civil_liberties,49,aggregation,HKG
+Hong Kong,2015,PF,total,65,aggregation,HKG
+India,2015,F,electoral_process,12,political_rights,IND
+India,2015,F,pluralism_participation,14,political_rights,IND
+India,2015,F,functioning_government,9,political_rights,IND
+India,2015,F,freedom_of_expression,13,civil_liberties,IND
+India,2015,F,right_to_assembly,11,civil_liberties,IND
+India,2015,F,rule_of_law,9,civil_liberties,IND
+India,2015,F,personal_autonomy,10,civil_liberties,IND
+India,2015,F,political_rights,35,aggregation,IND
+India,2015,F,civil_liberties,43,aggregation,IND
+India,2015,F,total,78,aggregation,IND
+Indonesia,2015,PF,electoral_process,10,political_rights,IDN
+Indonesia,2015,PF,pluralism_participation,14,political_rights,IDN
+Indonesia,2015,PF,functioning_government,6,political_rights,IDN
+Indonesia,2015,PF,freedom_of_expression,12,civil_liberties,IDN
+Indonesia,2015,PF,right_to_assembly,8,civil_liberties,IDN
+Indonesia,2015,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2015,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2015,PF,political_rights,30,aggregation,IDN
+Indonesia,2015,PF,civil_liberties,34,aggregation,IDN
+Indonesia,2015,PF,total,64,aggregation,IDN
+Iran,2015,NF,electoral_process,3,political_rights,IRN
+Iran,2015,NF,pluralism_participation,2,political_rights,IRN
+Iran,2015,NF,functioning_government,2,political_rights,IRN
+Iran,2015,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2015,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2015,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2015,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2015,NF,political_rights,7,aggregation,IRN
+Iran,2015,NF,civil_liberties,10,aggregation,IRN
+Iran,2015,NF,total,17,aggregation,IRN
+Laos,2015,NF,electoral_process,0,political_rights,LAO
+Laos,2015,NF,pluralism_participation,0,political_rights,LAO
+Laos,2015,NF,functioning_government,1,political_rights,LAO
+Laos,2015,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2015,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2015,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2015,NF,personal_autonomy,5,civil_liberties,LAO
+Laos,2015,NF,political_rights,1,aggregation,LAO
+Laos,2015,NF,civil_liberties,11,aggregation,LAO
+Laos,2015,NF,total,12,aggregation,LAO
+Malaysia,2015,PF,electoral_process,6,political_rights,MYS
+Malaysia,2015,PF,pluralism_participation,7,political_rights,MYS
+Malaysia,2015,PF,functioning_government,6,political_rights,MYS
+Malaysia,2015,PF,freedom_of_expression,7,civil_liberties,MYS
+Malaysia,2015,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2015,PF,rule_of_law,5,civil_liberties,MYS
+Malaysia,2015,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2015,PF,political_rights,19,aggregation,MYS
+Malaysia,2015,PF,civil_liberties,27,aggregation,MYS
+Malaysia,2015,PF,total,46,aggregation,MYS
+Maldives,2015,PF,electoral_process,7,political_rights,MDV
+Maldives,2015,PF,pluralism_participation,7,political_rights,MDV
+Maldives,2015,PF,functioning_government,6,political_rights,MDV
+Maldives,2015,PF,freedom_of_expression,6,civil_liberties,MDV
+Maldives,2015,PF,right_to_assembly,7,civil_liberties,MDV
+Maldives,2015,PF,rule_of_law,7,civil_liberties,MDV
+Maldives,2015,PF,personal_autonomy,8,civil_liberties,MDV
+Maldives,2015,PF,political_rights,20,aggregation,MDV
+Maldives,2015,PF,civil_liberties,28,aggregation,MDV
+Maldives,2015,PF,total,48,aggregation,MDV
+Mongolia,2015,F,electoral_process,11,political_rights,MNG
+Mongolia,2015,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2015,F,functioning_government,9,political_rights,MNG
+Mongolia,2015,F,freedom_of_expression,15,civil_liberties,MNG
+Mongolia,2015,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2015,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2015,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2015,F,political_rights,36,aggregation,MNG
+Mongolia,2015,F,civil_liberties,50,aggregation,MNG
+Mongolia,2015,F,total,86,aggregation,MNG
+Myanmar,2015,NF,electoral_process,3,political_rights,MMR
+Myanmar,2015,NF,pluralism_participation,6,political_rights,MMR
+Myanmar,2015,NF,functioning_government,3,political_rights,MMR
+Myanmar,2015,NF,freedom_of_expression,6,civil_liberties,MMR
+Myanmar,2015,NF,right_to_assembly,4,civil_liberties,MMR
+Myanmar,2015,NF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2015,NF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2015,NF,political_rights,9,aggregation,MMR
+Myanmar,2015,NF,civil_liberties,16,aggregation,MMR
+Myanmar,2015,NF,total,25,aggregation,MMR
+Nepal,2015,PF,electoral_process,8,political_rights,NPL
+Nepal,2015,PF,pluralism_participation,11,political_rights,NPL
+Nepal,2015,PF,functioning_government,5,political_rights,NPL
+Nepal,2015,PF,freedom_of_expression,9,civil_liberties,NPL
+Nepal,2015,PF,right_to_assembly,6,civil_liberties,NPL
+Nepal,2015,PF,rule_of_law,5,civil_liberties,NPL
+Nepal,2015,PF,personal_autonomy,7,civil_liberties,NPL
+Nepal,2015,PF,political_rights,24,aggregation,NPL
+Nepal,2015,PF,civil_liberties,27,aggregation,NPL
+Nepal,2015,PF,total,51,aggregation,NPL
+North Korea,2015,NF,electoral_process,0,political_rights,PRK
+North Korea,2015,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2015,NF,functioning_government,0,political_rights,PRK
+North Korea,2015,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2015,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2015,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2015,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2015,NF,political_rights,0,aggregation,PRK
+North Korea,2015,NF,civil_liberties,3,aggregation,PRK
+North Korea,2015,NF,total,3,aggregation,PRK
+Pakistan,2015,PF,electoral_process,7,political_rights,PAK
+Pakistan,2015,PF,pluralism_participation,8,political_rights,PAK
+Pakistan,2015,PF,functioning_government,5,political_rights,PAK
+Pakistan,2015,PF,freedom_of_expression,5,civil_liberties,PAK
+Pakistan,2015,PF,right_to_assembly,7,civil_liberties,PAK
+Pakistan,2015,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2015,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2015,PF,political_rights,20,aggregation,PAK
+Pakistan,2015,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2015,PF,total,42,aggregation,PAK
+Papua New Guinea,2015,PF,electoral_process,9,political_rights,PNG
+Papua New Guinea,2015,PF,pluralism_participation,10,political_rights,PNG
+Papua New Guinea,2015,PF,functioning_government,4,political_rights,PNG
+Papua New Guinea,2015,PF,freedom_of_expression,12,civil_liberties,PNG
+Papua New Guinea,2015,PF,right_to_assembly,9,civil_liberties,PNG
+Papua New Guinea,2015,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2015,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2015,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2015,PF,civil_liberties,36,aggregation,PNG
+Papua New Guinea,2015,PF,total,59,aggregation,PNG
+Philippines,2015,PF,electoral_process,9,political_rights,PHL
+Philippines,2015,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2015,PF,functioning_government,7,political_rights,PHL
+Philippines,2015,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2015,PF,right_to_assembly,8,civil_liberties,PHL
+Philippines,2015,PF,rule_of_law,5,civil_liberties,PHL
+Philippines,2015,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2015,PF,political_rights,26,aggregation,PHL
+Philippines,2015,PF,civil_liberties,37,aggregation,PHL
+Philippines,2015,PF,total,63,aggregation,PHL
+Solomon Islands,2015,PF,electoral_process,9,political_rights,SLB
+Solomon Islands,2015,PF,pluralism_participation,10,political_rights,SLB
+Solomon Islands,2015,PF,functioning_government,6,political_rights,SLB
+Solomon Islands,2015,PF,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2015,PF,right_to_assembly,9,civil_liberties,SLB
+Solomon Islands,2015,PF,rule_of_law,8,civil_liberties,SLB
+Solomon Islands,2015,PF,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2015,PF,political_rights,25,aggregation,SLB
+Solomon Islands,2015,PF,civil_liberties,43,aggregation,SLB
+Solomon Islands,2015,PF,total,68,aggregation,SLB
+South Korea,2015,F,electoral_process,11,political_rights,KOR
+South Korea,2015,F,pluralism_participation,13,political_rights,KOR
+South Korea,2015,F,functioning_government,10,political_rights,KOR
+South Korea,2015,F,freedom_of_expression,13,civil_liberties,KOR
+South Korea,2015,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2015,F,rule_of_law,13,civil_liberties,KOR
+South Korea,2015,F,personal_autonomy,13,civil_liberties,KOR
+South Korea,2015,F,political_rights,34,aggregation,KOR
+South Korea,2015,F,civil_liberties,50,aggregation,KOR
+South Korea,2015,F,total,84,aggregation,KOR
+Sri Lanka,2015,PF,electoral_process,6,political_rights,LKA
+Sri Lanka,2015,PF,pluralism_participation,7,political_rights,LKA
+Sri Lanka,2015,PF,functioning_government,4,political_rights,LKA
+Sri Lanka,2015,PF,freedom_of_expression,6,civil_liberties,LKA
+Sri Lanka,2015,PF,right_to_assembly,6,civil_liberties,LKA
+Sri Lanka,2015,PF,rule_of_law,5,civil_liberties,LKA
+Sri Lanka,2015,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2015,PF,political_rights,16,aggregation,LKA
+Sri Lanka,2015,PF,civil_liberties,25,aggregation,LKA
+Sri Lanka,2015,PF,total,41,aggregation,LKA
+Thailand,2015,NF,electoral_process,1,political_rights,THA
+Thailand,2015,NF,pluralism_participation,4,political_rights,THA
+Thailand,2015,NF,functioning_government,3,political_rights,THA
+Thailand,2015,NF,freedom_of_expression,6,civil_liberties,THA
+Thailand,2015,NF,right_to_assembly,4,civil_liberties,THA
+Thailand,2015,NF,rule_of_law,5,civil_liberties,THA
+Thailand,2015,NF,personal_autonomy,10,civil_liberties,THA
+Thailand,2015,NF,political_rights,8,aggregation,THA
+Thailand,2015,NF,civil_liberties,25,aggregation,THA
+Thailand,2015,NF,total,33,aggregation,THA
+Timor-Leste,2015,PF,electoral_process,11,political_rights,TLS
+Timor-Leste,2015,PF,pluralism_participation,12,political_rights,TLS
+Timor-Leste,2015,PF,functioning_government,6,political_rights,TLS
+Timor-Leste,2015,PF,freedom_of_expression,12,civil_liberties,TLS
+Timor-Leste,2015,PF,right_to_assembly,8,civil_liberties,TLS
+Timor-Leste,2015,PF,rule_of_law,7,civil_liberties,TLS
+Timor-Leste,2015,PF,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2015,PF,political_rights,29,aggregation,TLS
+Timor-Leste,2015,PF,civil_liberties,36,aggregation,TLS
+Timor-Leste,2015,PF,total,65,aggregation,TLS
+Vanuatu,2015,F,electoral_process,9,political_rights,VUT
+Vanuatu,2015,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2015,F,functioning_government,8,political_rights,VUT
+Vanuatu,2015,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2015,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2015,F,rule_of_law,10,civil_liberties,VUT
+Vanuatu,2015,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2015,F,political_rights,32,aggregation,VUT
+Vanuatu,2015,F,civil_liberties,47,aggregation,VUT
+Vanuatu,2015,F,total,79,aggregation,VUT
+Vietnam,2015,NF,electoral_process,0,political_rights,VNM
+Vietnam,2015,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2015,NF,functioning_government,2,political_rights,VNM
+Vietnam,2015,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2015,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2015,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2015,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2015,NF,political_rights,3,aggregation,VNM
+Vietnam,2015,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2015,NF,total,20,aggregation,VNM
+Afghanistan,2014,NF,electoral_process,3,political_rights,AFG
+Afghanistan,2014,NF,pluralism_participation,6,political_rights,AFG
+Afghanistan,2014,NF,functioning_government,2,political_rights,AFG
+Afghanistan,2014,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2014,NF,right_to_assembly,4,civil_liberties,AFG
+Afghanistan,2014,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2014,NF,personal_autonomy,3,civil_liberties,AFG
+Afghanistan,2014,NF,political_rights,11,aggregation,AFG
+Afghanistan,2014,NF,civil_liberties,15,aggregation,AFG
+Afghanistan,2014,NF,total,26,aggregation,AFG
+Bangladesh,2014,PF,electoral_process,9,political_rights,BGD
+Bangladesh,2014,PF,pluralism_participation,10,political_rights,BGD
+Bangladesh,2014,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2014,PF,freedom_of_expression,8,civil_liberties,BGD
+Bangladesh,2014,PF,right_to_assembly,6,civil_liberties,BGD
+Bangladesh,2014,PF,rule_of_law,6,civil_liberties,BGD
+Bangladesh,2014,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2014,PF,political_rights,24,aggregation,BGD
+Bangladesh,2014,PF,civil_liberties,29,aggregation,BGD
+Bangladesh,2014,PF,total,53,aggregation,BGD
+Bhutan,2014,PF,electoral_process,10,political_rights,BTN
+Bhutan,2014,PF,pluralism_participation,10,political_rights,BTN
+Bhutan,2014,PF,functioning_government,9,political_rights,BTN
+Bhutan,2014,PF,freedom_of_expression,9,civil_liberties,BTN
+Bhutan,2014,PF,right_to_assembly,4,civil_liberties,BTN
+Bhutan,2014,PF,rule_of_law,6,civil_liberties,BTN
+Bhutan,2014,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2014,PF,political_rights,28,aggregation,BTN
+Bhutan,2014,PF,civil_liberties,27,aggregation,BTN
+Bhutan,2014,PF,total,55,aggregation,BTN
+Cambodia,2014,NF,electoral_process,3,political_rights,KHM
+Cambodia,2014,NF,pluralism_participation,4,political_rights,KHM
+Cambodia,2014,NF,functioning_government,3,political_rights,KHM
+Cambodia,2014,NF,freedom_of_expression,9,civil_liberties,KHM
+Cambodia,2014,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2014,NF,rule_of_law,2,civil_liberties,KHM
+Cambodia,2014,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2014,NF,political_rights,10,aggregation,KHM
+Cambodia,2014,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2014,NF,total,30,aggregation,KHM
+China,2014,NF,electoral_process,0,political_rights,CHN
+China,2014,NF,pluralism_participation,1,political_rights,CHN
+China,2014,NF,functioning_government,2,political_rights,CHN
+China,2014,NF,freedom_of_expression,4,civil_liberties,CHN
+China,2014,NF,right_to_assembly,3,civil_liberties,CHN
+China,2014,NF,rule_of_law,2,civil_liberties,CHN
+China,2014,NF,personal_autonomy,6,civil_liberties,CHN
+China,2014,NF,political_rights,2,aggregation,CHN
+China,2014,NF,civil_liberties,15,aggregation,CHN
+China,2014,NF,total,17,aggregation,CHN
+Fiji,2014,PF,electoral_process,0,political_rights,FJI
+Fiji,2014,PF,pluralism_participation,5,political_rights,FJI
+Fiji,2014,PF,functioning_government,2,political_rights,FJI
+Fiji,2014,PF,freedom_of_expression,11,civil_liberties,FJI
+Fiji,2014,PF,right_to_assembly,3,civil_liberties,FJI
+Fiji,2014,PF,rule_of_law,6,civil_liberties,FJI
+Fiji,2014,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2014,PF,political_rights,7,aggregation,FJI
+Fiji,2014,PF,civil_liberties,30,aggregation,FJI
+Fiji,2014,PF,total,37,aggregation,FJI
+Hong Kong,2014,PF,electoral_process,3,political_rights,HKG
+Hong Kong,2014,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2014,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2014,PF,freedom_of_expression,14,civil_liberties,HKG
+Hong Kong,2014,PF,right_to_assembly,9,civil_liberties,HKG
+Hong Kong,2014,PF,rule_of_law,15,civil_liberties,HKG
+Hong Kong,2014,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2014,PF,political_rights,16,aggregation,HKG
+Hong Kong,2014,PF,civil_liberties,51,aggregation,HKG
+Hong Kong,2014,PF,total,67,aggregation,HKG
+India,2014,F,electoral_process,11,political_rights,IND
+India,2014,F,pluralism_participation,14,political_rights,IND
+India,2014,F,functioning_government,9,political_rights,IND
+India,2014,F,freedom_of_expression,13,civil_liberties,IND
+India,2014,F,right_to_assembly,11,civil_liberties,IND
+India,2014,F,rule_of_law,9,civil_liberties,IND
+India,2014,F,personal_autonomy,10,civil_liberties,IND
+India,2014,F,political_rights,34,aggregation,IND
+India,2014,F,civil_liberties,43,aggregation,IND
+India,2014,F,total,77,aggregation,IND
+Indonesia,2014,PF,electoral_process,11,political_rights,IDN
+Indonesia,2014,PF,pluralism_participation,13,political_rights,IDN
+Indonesia,2014,PF,functioning_government,6,political_rights,IDN
+Indonesia,2014,PF,freedom_of_expression,12,civil_liberties,IDN
+Indonesia,2014,PF,right_to_assembly,8,civil_liberties,IDN
+Indonesia,2014,PF,rule_of_law,5,civil_liberties,IDN
+Indonesia,2014,PF,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2014,PF,political_rights,30,aggregation,IDN
+Indonesia,2014,PF,civil_liberties,34,aggregation,IDN
+Indonesia,2014,PF,total,64,aggregation,IDN
+Iran,2014,NF,electoral_process,3,political_rights,IRN
+Iran,2014,NF,pluralism_participation,2,political_rights,IRN
+Iran,2014,NF,functioning_government,2,political_rights,IRN
+Iran,2014,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2014,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2014,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2014,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2014,NF,political_rights,7,aggregation,IRN
+Iran,2014,NF,civil_liberties,10,aggregation,IRN
+Iran,2014,NF,total,17,aggregation,IRN
+Laos,2014,NF,electoral_process,0,political_rights,LAO
+Laos,2014,NF,pluralism_participation,0,political_rights,LAO
+Laos,2014,NF,functioning_government,1,political_rights,LAO
+Laos,2014,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2014,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2014,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2014,NF,personal_autonomy,5,civil_liberties,LAO
+Laos,2014,NF,political_rights,1,aggregation,LAO
+Laos,2014,NF,civil_liberties,11,aggregation,LAO
+Laos,2014,NF,total,12,aggregation,LAO
+Malaysia,2014,PF,electoral_process,6,political_rights,MYS
+Malaysia,2014,PF,pluralism_participation,7,political_rights,MYS
+Malaysia,2014,PF,functioning_government,6,political_rights,MYS
+Malaysia,2014,PF,freedom_of_expression,8,civil_liberties,MYS
+Malaysia,2014,PF,right_to_assembly,6,civil_liberties,MYS
+Malaysia,2014,PF,rule_of_law,5,civil_liberties,MYS
+Malaysia,2014,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2014,PF,political_rights,19,aggregation,MYS
+Malaysia,2014,PF,civil_liberties,28,aggregation,MYS
+Malaysia,2014,PF,total,47,aggregation,MYS
+Maldives,2014,PF,electoral_process,7,political_rights,MDV
+Maldives,2014,PF,pluralism_participation,7,political_rights,MDV
+Maldives,2014,PF,functioning_government,5,political_rights,MDV
+Maldives,2014,PF,freedom_of_expression,7,civil_liberties,MDV
+Maldives,2014,PF,right_to_assembly,7,civil_liberties,MDV
+Maldives,2014,PF,rule_of_law,7,civil_liberties,MDV
+Maldives,2014,PF,personal_autonomy,8,civil_liberties,MDV
+Maldives,2014,PF,political_rights,19,aggregation,MDV
+Maldives,2014,PF,civil_liberties,29,aggregation,MDV
+Maldives,2014,PF,total,48,aggregation,MDV
+Mongolia,2014,F,electoral_process,11,political_rights,MNG
+Mongolia,2014,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2014,F,functioning_government,9,political_rights,MNG
+Mongolia,2014,F,freedom_of_expression,15,civil_liberties,MNG
+Mongolia,2014,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2014,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2014,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2014,F,political_rights,36,aggregation,MNG
+Mongolia,2014,F,civil_liberties,50,aggregation,MNG
+Mongolia,2014,F,total,86,aggregation,MNG
+Myanmar,2014,NF,electoral_process,3,political_rights,MMR
+Myanmar,2014,NF,pluralism_participation,6,political_rights,MMR
+Myanmar,2014,NF,functioning_government,3,political_rights,MMR
+Myanmar,2014,NF,freedom_of_expression,7,civil_liberties,MMR
+Myanmar,2014,NF,right_to_assembly,4,civil_liberties,MMR
+Myanmar,2014,NF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2014,NF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2014,NF,political_rights,9,aggregation,MMR
+Myanmar,2014,NF,civil_liberties,17,aggregation,MMR
+Myanmar,2014,NF,total,26,aggregation,MMR
+Nepal,2014,PF,electoral_process,8,political_rights,NPL
+Nepal,2014,PF,pluralism_participation,11,political_rights,NPL
+Nepal,2014,PF,functioning_government,4,political_rights,NPL
+Nepal,2014,PF,freedom_of_expression,9,civil_liberties,NPL
+Nepal,2014,PF,right_to_assembly,6,civil_liberties,NPL
+Nepal,2014,PF,rule_of_law,5,civil_liberties,NPL
+Nepal,2014,PF,personal_autonomy,7,civil_liberties,NPL
+Nepal,2014,PF,political_rights,23,aggregation,NPL
+Nepal,2014,PF,civil_liberties,27,aggregation,NPL
+Nepal,2014,PF,total,50,aggregation,NPL
+North Korea,2014,NF,electoral_process,0,political_rights,PRK
+North Korea,2014,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2014,NF,functioning_government,0,political_rights,PRK
+North Korea,2014,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2014,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2014,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2014,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2014,NF,political_rights,0,aggregation,PRK
+North Korea,2014,NF,civil_liberties,3,aggregation,PRK
+North Korea,2014,NF,total,3,aggregation,PRK
+Pakistan,2014,PF,electoral_process,7,political_rights,PAK
+Pakistan,2014,PF,pluralism_participation,9,political_rights,PAK
+Pakistan,2014,PF,functioning_government,5,political_rights,PAK
+Pakistan,2014,PF,freedom_of_expression,5,civil_liberties,PAK
+Pakistan,2014,PF,right_to_assembly,6,civil_liberties,PAK
+Pakistan,2014,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2014,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2014,PF,political_rights,21,aggregation,PAK
+Pakistan,2014,PF,civil_liberties,21,aggregation,PAK
+Pakistan,2014,PF,total,42,aggregation,PAK
+Papua New Guinea,2014,PF,electoral_process,9,political_rights,PNG
+Papua New Guinea,2014,PF,pluralism_participation,10,political_rights,PNG
+Papua New Guinea,2014,PF,functioning_government,5,political_rights,PNG
+Papua New Guinea,2014,PF,freedom_of_expression,12,civil_liberties,PNG
+Papua New Guinea,2014,PF,right_to_assembly,9,civil_liberties,PNG
+Papua New Guinea,2014,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2014,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2014,PF,political_rights,24,aggregation,PNG
+Papua New Guinea,2014,PF,civil_liberties,36,aggregation,PNG
+Papua New Guinea,2014,PF,total,60,aggregation,PNG
+Philippines,2014,PF,electoral_process,9,political_rights,PHL
+Philippines,2014,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2014,PF,functioning_government,7,political_rights,PHL
+Philippines,2014,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2014,PF,right_to_assembly,8,civil_liberties,PHL
+Philippines,2014,PF,rule_of_law,5,civil_liberties,PHL
+Philippines,2014,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2014,PF,political_rights,26,aggregation,PHL
+Philippines,2014,PF,civil_liberties,37,aggregation,PHL
+Philippines,2014,PF,total,63,aggregation,PHL
+Solomon Islands,2014,PF,electoral_process,6,political_rights,SLB
+Solomon Islands,2014,PF,pluralism_participation,10,political_rights,SLB
+Solomon Islands,2014,PF,functioning_government,6,political_rights,SLB
+Solomon Islands,2014,PF,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2014,PF,right_to_assembly,9,civil_liberties,SLB
+Solomon Islands,2014,PF,rule_of_law,8,civil_liberties,SLB
+Solomon Islands,2014,PF,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2014,PF,political_rights,22,aggregation,SLB
+Solomon Islands,2014,PF,civil_liberties,43,aggregation,SLB
+Solomon Islands,2014,PF,total,65,aggregation,SLB
+South Korea,2014,F,electoral_process,11,political_rights,KOR
+South Korea,2014,F,pluralism_participation,14,political_rights,KOR
+South Korea,2014,F,functioning_government,10,political_rights,KOR
+South Korea,2014,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2014,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2014,F,rule_of_law,13,civil_liberties,KOR
+South Korea,2014,F,personal_autonomy,12,civil_liberties,KOR
+South Korea,2014,F,political_rights,35,aggregation,KOR
+South Korea,2014,F,civil_liberties,50,aggregation,KOR
+South Korea,2014,F,total,85,aggregation,KOR
+Sri Lanka,2014,PF,electoral_process,6,political_rights,LKA
+Sri Lanka,2014,PF,pluralism_participation,6,political_rights,LKA
+Sri Lanka,2014,PF,functioning_government,4,political_rights,LKA
+Sri Lanka,2014,PF,freedom_of_expression,7,civil_liberties,LKA
+Sri Lanka,2014,PF,right_to_assembly,6,civil_liberties,LKA
+Sri Lanka,2014,PF,rule_of_law,5,civil_liberties,LKA
+Sri Lanka,2014,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2014,PF,political_rights,16,aggregation,LKA
+Sri Lanka,2014,PF,civil_liberties,26,aggregation,LKA
+Sri Lanka,2014,PF,total,42,aggregation,LKA
+Thailand,2014,PF,electoral_process,8,political_rights,THA
+Thailand,2014,PF,pluralism_participation,9,political_rights,THA
+Thailand,2014,PF,functioning_government,5,political_rights,THA
+Thailand,2014,PF,freedom_of_expression,10,civil_liberties,THA
+Thailand,2014,PF,right_to_assembly,6,civil_liberties,THA
+Thailand,2014,PF,rule_of_law,6,civil_liberties,THA
+Thailand,2014,PF,personal_autonomy,10,civil_liberties,THA
+Thailand,2014,PF,political_rights,22,aggregation,THA
+Thailand,2014,PF,civil_liberties,32,aggregation,THA
+Thailand,2014,PF,total,54,aggregation,THA
+Timor-Leste,2014,PF,electoral_process,11,political_rights,TLS
+Timor-Leste,2014,PF,pluralism_participation,12,political_rights,TLS
+Timor-Leste,2014,PF,functioning_government,6,political_rights,TLS
+Timor-Leste,2014,PF,freedom_of_expression,12,civil_liberties,TLS
+Timor-Leste,2014,PF,right_to_assembly,7,civil_liberties,TLS
+Timor-Leste,2014,PF,rule_of_law,6,civil_liberties,TLS
+Timor-Leste,2014,PF,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2014,PF,political_rights,29,aggregation,TLS
+Timor-Leste,2014,PF,civil_liberties,34,aggregation,TLS
+Timor-Leste,2014,PF,total,63,aggregation,TLS
+Vanuatu,2014,F,electoral_process,9,political_rights,VUT
+Vanuatu,2014,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2014,F,functioning_government,8,political_rights,VUT
+Vanuatu,2014,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2014,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2014,F,rule_of_law,10,civil_liberties,VUT
+Vanuatu,2014,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2014,F,political_rights,32,aggregation,VUT
+Vanuatu,2014,F,civil_liberties,47,aggregation,VUT
+Vanuatu,2014,F,total,79,aggregation,VUT
+Vietnam,2014,NF,electoral_process,0,political_rights,VNM
+Vietnam,2014,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2014,NF,functioning_government,2,political_rights,VNM
+Vietnam,2014,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2014,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2014,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2014,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2014,NF,political_rights,3,aggregation,VNM
+Vietnam,2014,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2014,NF,total,20,aggregation,VNM
+Afghanistan,2013,NF,electoral_process,3,political_rights,AFG
+Afghanistan,2013,NF,pluralism_participation,6,political_rights,AFG
+Afghanistan,2013,NF,functioning_government,2,political_rights,AFG
+Afghanistan,2013,NF,freedom_of_expression,6,civil_liberties,AFG
+Afghanistan,2013,NF,right_to_assembly,5,civil_liberties,AFG
+Afghanistan,2013,NF,rule_of_law,2,civil_liberties,AFG
+Afghanistan,2013,NF,personal_autonomy,3,civil_liberties,AFG
+Afghanistan,2013,NF,political_rights,11,aggregation,AFG
+Afghanistan,2013,NF,civil_liberties,16,aggregation,AFG
+Afghanistan,2013,NF,total,27,aggregation,AFG
+Bangladesh,2013,PF,electoral_process,9,political_rights,BGD
+Bangladesh,2013,PF,pluralism_participation,11,political_rights,BGD
+Bangladesh,2013,PF,functioning_government,5,political_rights,BGD
+Bangladesh,2013,PF,freedom_of_expression,9,civil_liberties,BGD
+Bangladesh,2013,PF,right_to_assembly,7,civil_liberties,BGD
+Bangladesh,2013,PF,rule_of_law,6,civil_liberties,BGD
+Bangladesh,2013,PF,personal_autonomy,9,civil_liberties,BGD
+Bangladesh,2013,PF,political_rights,25,aggregation,BGD
+Bangladesh,2013,PF,civil_liberties,31,aggregation,BGD
+Bangladesh,2013,PF,total,56,aggregation,BGD
+Bhutan,2013,PF,electoral_process,8,political_rights,BTN
+Bhutan,2013,PF,pluralism_participation,8,political_rights,BTN
+Bhutan,2013,PF,functioning_government,7,political_rights,BTN
+Bhutan,2013,PF,freedom_of_expression,8,civil_liberties,BTN
+Bhutan,2013,PF,right_to_assembly,3,civil_liberties,BTN
+Bhutan,2013,PF,rule_of_law,5,civil_liberties,BTN
+Bhutan,2013,PF,personal_autonomy,8,civil_liberties,BTN
+Bhutan,2013,PF,political_rights,22,aggregation,BTN
+Bhutan,2013,PF,civil_liberties,24,aggregation,BTN
+Bhutan,2013,PF,total,46,aggregation,BTN
+Cambodia,2013,NF,electoral_process,3,political_rights,KHM
+Cambodia,2013,NF,pluralism_participation,3,political_rights,KHM
+Cambodia,2013,NF,functioning_government,3,political_rights,KHM
+Cambodia,2013,NF,freedom_of_expression,9,civil_liberties,KHM
+Cambodia,2013,NF,right_to_assembly,3,civil_liberties,KHM
+Cambodia,2013,NF,rule_of_law,2,civil_liberties,KHM
+Cambodia,2013,NF,personal_autonomy,6,civil_liberties,KHM
+Cambodia,2013,NF,political_rights,9,aggregation,KHM
+Cambodia,2013,NF,civil_liberties,20,aggregation,KHM
+Cambodia,2013,NF,total,29,aggregation,KHM
+China,2013,NF,electoral_process,0,political_rights,CHN
+China,2013,NF,pluralism_participation,1,political_rights,CHN
+China,2013,NF,functioning_government,2,political_rights,CHN
+China,2013,NF,freedom_of_expression,4,civil_liberties,CHN
+China,2013,NF,right_to_assembly,3,civil_liberties,CHN
+China,2013,NF,rule_of_law,2,civil_liberties,CHN
+China,2013,NF,personal_autonomy,6,civil_liberties,CHN
+China,2013,NF,political_rights,2,aggregation,CHN
+China,2013,NF,civil_liberties,15,aggregation,CHN
+China,2013,NF,total,17,aggregation,CHN
+Fiji,2013,PF,electoral_process,0,political_rights,FJI
+Fiji,2013,PF,pluralism_participation,5,political_rights,FJI
+Fiji,2013,PF,functioning_government,2,political_rights,FJI
+Fiji,2013,PF,freedom_of_expression,11,civil_liberties,FJI
+Fiji,2013,PF,right_to_assembly,3,civil_liberties,FJI
+Fiji,2013,PF,rule_of_law,6,civil_liberties,FJI
+Fiji,2013,PF,personal_autonomy,10,civil_liberties,FJI
+Fiji,2013,PF,political_rights,7,aggregation,FJI
+Fiji,2013,PF,civil_liberties,30,aggregation,FJI
+Fiji,2013,PF,total,37,aggregation,FJI
+Hong Kong,2013,PF,electoral_process,3,political_rights,HKG
+Hong Kong,2013,PF,pluralism_participation,7,political_rights,HKG
+Hong Kong,2013,PF,functioning_government,6,political_rights,HKG
+Hong Kong,2013,PF,freedom_of_expression,14,civil_liberties,HKG
+Hong Kong,2013,PF,right_to_assembly,9,civil_liberties,HKG
+Hong Kong,2013,PF,rule_of_law,15,civil_liberties,HKG
+Hong Kong,2013,PF,personal_autonomy,13,civil_liberties,HKG
+Hong Kong,2013,PF,political_rights,16,aggregation,HKG
+Hong Kong,2013,PF,civil_liberties,51,aggregation,HKG
+Hong Kong,2013,PF,total,67,aggregation,HKG
+India,2013,F,electoral_process,11,political_rights,IND
+India,2013,F,pluralism_participation,14,political_rights,IND
+India,2013,F,functioning_government,9,political_rights,IND
+India,2013,F,freedom_of_expression,13,civil_liberties,IND
+India,2013,F,right_to_assembly,11,civil_liberties,IND
+India,2013,F,rule_of_law,8,civil_liberties,IND
+India,2013,F,personal_autonomy,10,civil_liberties,IND
+India,2013,F,political_rights,34,aggregation,IND
+India,2013,F,civil_liberties,42,aggregation,IND
+India,2013,F,total,76,aggregation,IND
+Indonesia,2013,F,electoral_process,11,political_rights,IDN
+Indonesia,2013,F,pluralism_participation,13,political_rights,IDN
+Indonesia,2013,F,functioning_government,6,political_rights,IDN
+Indonesia,2013,F,freedom_of_expression,12,civil_liberties,IDN
+Indonesia,2013,F,right_to_assembly,9,civil_liberties,IDN
+Indonesia,2013,F,rule_of_law,5,civil_liberties,IDN
+Indonesia,2013,F,personal_autonomy,9,civil_liberties,IDN
+Indonesia,2013,F,political_rights,30,aggregation,IDN
+Indonesia,2013,F,civil_liberties,35,aggregation,IDN
+Indonesia,2013,F,total,65,aggregation,IDN
+Iran,2013,NF,electoral_process,2,political_rights,IRN
+Iran,2013,NF,pluralism_participation,2,political_rights,IRN
+Iran,2013,NF,functioning_government,2,political_rights,IRN
+Iran,2013,NF,freedom_of_expression,2,civil_liberties,IRN
+Iran,2013,NF,right_to_assembly,1,civil_liberties,IRN
+Iran,2013,NF,rule_of_law,3,civil_liberties,IRN
+Iran,2013,NF,personal_autonomy,4,civil_liberties,IRN
+Iran,2013,NF,political_rights,6,aggregation,IRN
+Iran,2013,NF,civil_liberties,10,aggregation,IRN
+Iran,2013,NF,total,16,aggregation,IRN
+Laos,2013,NF,electoral_process,0,political_rights,LAO
+Laos,2013,NF,pluralism_participation,0,political_rights,LAO
+Laos,2013,NF,functioning_government,0,political_rights,LAO
+Laos,2013,NF,freedom_of_expression,4,civil_liberties,LAO
+Laos,2013,NF,right_to_assembly,0,civil_liberties,LAO
+Laos,2013,NF,rule_of_law,2,civil_liberties,LAO
+Laos,2013,NF,personal_autonomy,5,civil_liberties,LAO
+Laos,2013,NF,political_rights,0,aggregation,LAO
+Laos,2013,NF,civil_liberties,11,aggregation,LAO
+Laos,2013,NF,total,11,aggregation,LAO
+Malaysia,2013,PF,electoral_process,6,political_rights,MYS
+Malaysia,2013,PF,pluralism_participation,8,political_rights,MYS
+Malaysia,2013,PF,functioning_government,6,political_rights,MYS
+Malaysia,2013,PF,freedom_of_expression,9,civil_liberties,MYS
+Malaysia,2013,PF,right_to_assembly,5,civil_liberties,MYS
+Malaysia,2013,PF,rule_of_law,5,civil_liberties,MYS
+Malaysia,2013,PF,personal_autonomy,9,civil_liberties,MYS
+Malaysia,2013,PF,political_rights,20,aggregation,MYS
+Malaysia,2013,PF,civil_liberties,28,aggregation,MYS
+Malaysia,2013,PF,total,48,aggregation,MYS
+Maldives,2013,PF,electoral_process,7,political_rights,MDV
+Maldives,2013,PF,pluralism_participation,6,political_rights,MDV
+Maldives,2013,PF,functioning_government,4,political_rights,MDV
+Maldives,2013,PF,freedom_of_expression,7,civil_liberties,MDV
+Maldives,2013,PF,right_to_assembly,7,civil_liberties,MDV
+Maldives,2013,PF,rule_of_law,7,civil_liberties,MDV
+Maldives,2013,PF,personal_autonomy,8,civil_liberties,MDV
+Maldives,2013,PF,political_rights,17,aggregation,MDV
+Maldives,2013,PF,civil_liberties,29,aggregation,MDV
+Maldives,2013,PF,total,46,aggregation,MDV
+Mongolia,2013,F,electoral_process,11,political_rights,MNG
+Mongolia,2013,F,pluralism_participation,16,political_rights,MNG
+Mongolia,2013,F,functioning_government,9,political_rights,MNG
+Mongolia,2013,F,freedom_of_expression,15,civil_liberties,MNG
+Mongolia,2013,F,right_to_assembly,11,civil_liberties,MNG
+Mongolia,2013,F,rule_of_law,12,civil_liberties,MNG
+Mongolia,2013,F,personal_autonomy,12,civil_liberties,MNG
+Mongolia,2013,F,political_rights,36,aggregation,MNG
+Mongolia,2013,F,civil_liberties,50,aggregation,MNG
+Mongolia,2013,F,total,86,aggregation,MNG
+Myanmar,2013,NF,electoral_process,3,political_rights,MMR
+Myanmar,2013,NF,pluralism_participation,6,political_rights,MMR
+Myanmar,2013,NF,functioning_government,3,political_rights,MMR
+Myanmar,2013,NF,freedom_of_expression,7,civil_liberties,MMR
+Myanmar,2013,NF,right_to_assembly,4,civil_liberties,MMR
+Myanmar,2013,NF,rule_of_law,1,civil_liberties,MMR
+Myanmar,2013,NF,personal_autonomy,5,civil_liberties,MMR
+Myanmar,2013,NF,political_rights,9,aggregation,MMR
+Myanmar,2013,NF,civil_liberties,17,aggregation,MMR
+Myanmar,2013,NF,total,26,aggregation,MMR
+Nepal,2013,PF,electoral_process,5,political_rights,NPL
+Nepal,2013,PF,pluralism_participation,11,political_rights,NPL
+Nepal,2013,PF,functioning_government,4,political_rights,NPL
+Nepal,2013,PF,freedom_of_expression,9,civil_liberties,NPL
+Nepal,2013,PF,right_to_assembly,6,civil_liberties,NPL
+Nepal,2013,PF,rule_of_law,5,civil_liberties,NPL
+Nepal,2013,PF,personal_autonomy,7,civil_liberties,NPL
+Nepal,2013,PF,political_rights,20,aggregation,NPL
+Nepal,2013,PF,civil_liberties,27,aggregation,NPL
+Nepal,2013,PF,total,47,aggregation,NPL
+North Korea,2013,NF,electoral_process,0,political_rights,PRK
+North Korea,2013,NF,pluralism_participation,0,political_rights,PRK
+North Korea,2013,NF,functioning_government,0,political_rights,PRK
+North Korea,2013,NF,freedom_of_expression,0,civil_liberties,PRK
+North Korea,2013,NF,right_to_assembly,0,civil_liberties,PRK
+North Korea,2013,NF,rule_of_law,0,civil_liberties,PRK
+North Korea,2013,NF,personal_autonomy,3,civil_liberties,PRK
+North Korea,2013,NF,political_rights,0,aggregation,PRK
+North Korea,2013,NF,civil_liberties,3,aggregation,PRK
+North Korea,2013,NF,total,3,aggregation,PRK
+Pakistan,2013,PF,electoral_process,6,political_rights,PAK
+Pakistan,2013,PF,pluralism_participation,9,political_rights,PAK
+Pakistan,2013,PF,functioning_government,5,political_rights,PAK
+Pakistan,2013,PF,freedom_of_expression,5,civil_liberties,PAK
+Pakistan,2013,PF,right_to_assembly,7,civil_liberties,PAK
+Pakistan,2013,PF,rule_of_law,4,civil_liberties,PAK
+Pakistan,2013,PF,personal_autonomy,6,civil_liberties,PAK
+Pakistan,2013,PF,political_rights,20,aggregation,PAK
+Pakistan,2013,PF,civil_liberties,22,aggregation,PAK
+Pakistan,2013,PF,total,42,aggregation,PAK
+Papua New Guinea,2013,PF,electoral_process,9,political_rights,PNG
+Papua New Guinea,2013,PF,pluralism_participation,10,political_rights,PNG
+Papua New Guinea,2013,PF,functioning_government,4,political_rights,PNG
+Papua New Guinea,2013,PF,freedom_of_expression,12,civil_liberties,PNG
+Papua New Guinea,2013,PF,right_to_assembly,9,civil_liberties,PNG
+Papua New Guinea,2013,PF,rule_of_law,7,civil_liberties,PNG
+Papua New Guinea,2013,PF,personal_autonomy,8,civil_liberties,PNG
+Papua New Guinea,2013,PF,political_rights,23,aggregation,PNG
+Papua New Guinea,2013,PF,civil_liberties,36,aggregation,PNG
+Papua New Guinea,2013,PF,total,59,aggregation,PNG
+Philippines,2013,PF,electoral_process,9,political_rights,PHL
+Philippines,2013,PF,pluralism_participation,10,political_rights,PHL
+Philippines,2013,PF,functioning_government,7,political_rights,PHL
+Philippines,2013,PF,freedom_of_expression,14,civil_liberties,PHL
+Philippines,2013,PF,right_to_assembly,8,civil_liberties,PHL
+Philippines,2013,PF,rule_of_law,5,civil_liberties,PHL
+Philippines,2013,PF,personal_autonomy,10,civil_liberties,PHL
+Philippines,2013,PF,political_rights,26,aggregation,PHL
+Philippines,2013,PF,civil_liberties,37,aggregation,PHL
+Philippines,2013,PF,total,63,aggregation,PHL
+Solomon Islands,2013,PF,electoral_process,6,political_rights,SLB
+Solomon Islands,2013,PF,pluralism_participation,10,political_rights,SLB
+Solomon Islands,2013,PF,functioning_government,6,political_rights,SLB
+Solomon Islands,2013,PF,freedom_of_expression,14,civil_liberties,SLB
+Solomon Islands,2013,PF,right_to_assembly,9,civil_liberties,SLB
+Solomon Islands,2013,PF,rule_of_law,8,civil_liberties,SLB
+Solomon Islands,2013,PF,personal_autonomy,12,civil_liberties,SLB
+Solomon Islands,2013,PF,political_rights,22,aggregation,SLB
+Solomon Islands,2013,PF,civil_liberties,43,aggregation,SLB
+Solomon Islands,2013,PF,total,65,aggregation,SLB
+South Korea,2013,F,electoral_process,11,political_rights,KOR
+South Korea,2013,F,pluralism_participation,15,political_rights,KOR
+South Korea,2013,F,functioning_government,10,political_rights,KOR
+South Korea,2013,F,freedom_of_expression,14,civil_liberties,KOR
+South Korea,2013,F,right_to_assembly,11,civil_liberties,KOR
+South Korea,2013,F,rule_of_law,13,civil_liberties,KOR
+South Korea,2013,F,personal_autonomy,12,civil_liberties,KOR
+South Korea,2013,F,political_rights,36,aggregation,KOR
+South Korea,2013,F,civil_liberties,50,aggregation,KOR
+South Korea,2013,F,total,86,aggregation,KOR
+Sri Lanka,2013,PF,electoral_process,6,political_rights,LKA
+Sri Lanka,2013,PF,pluralism_participation,6,political_rights,LKA
+Sri Lanka,2013,PF,functioning_government,4,political_rights,LKA
+Sri Lanka,2013,PF,freedom_of_expression,8,civil_liberties,LKA
+Sri Lanka,2013,PF,right_to_assembly,6,civil_liberties,LKA
+Sri Lanka,2013,PF,rule_of_law,5,civil_liberties,LKA
+Sri Lanka,2013,PF,personal_autonomy,8,civil_liberties,LKA
+Sri Lanka,2013,PF,political_rights,16,aggregation,LKA
+Sri Lanka,2013,PF,civil_liberties,27,aggregation,LKA
+Sri Lanka,2013,PF,total,43,aggregation,LKA
+Thailand,2013,PF,electoral_process,8,political_rights,THA
+Thailand,2013,PF,pluralism_participation,9,political_rights,THA
+Thailand,2013,PF,functioning_government,5,political_rights,THA
+Thailand,2013,PF,freedom_of_expression,9,civil_liberties,THA
+Thailand,2013,PF,right_to_assembly,6,civil_liberties,THA
+Thailand,2013,PF,rule_of_law,6,civil_liberties,THA
+Thailand,2013,PF,personal_autonomy,10,civil_liberties,THA
+Thailand,2013,PF,political_rights,22,aggregation,THA
+Thailand,2013,PF,civil_liberties,31,aggregation,THA
+Thailand,2013,PF,total,53,aggregation,THA
+Timor-Leste,2013,PF,electoral_process,11,political_rights,TLS
+Timor-Leste,2013,PF,pluralism_participation,12,political_rights,TLS
+Timor-Leste,2013,PF,functioning_government,6,political_rights,TLS
+Timor-Leste,2013,PF,freedom_of_expression,12,civil_liberties,TLS
+Timor-Leste,2013,PF,right_to_assembly,7,civil_liberties,TLS
+Timor-Leste,2013,PF,rule_of_law,6,civil_liberties,TLS
+Timor-Leste,2013,PF,personal_autonomy,9,civil_liberties,TLS
+Timor-Leste,2013,PF,political_rights,29,aggregation,TLS
+Timor-Leste,2013,PF,civil_liberties,34,aggregation,TLS
+Timor-Leste,2013,PF,total,63,aggregation,TLS
+Vanuatu,2013,F,electoral_process,9,political_rights,VUT
+Vanuatu,2013,F,pluralism_participation,15,political_rights,VUT
+Vanuatu,2013,F,functioning_government,8,political_rights,VUT
+Vanuatu,2013,F,freedom_of_expression,15,civil_liberties,VUT
+Vanuatu,2013,F,right_to_assembly,11,civil_liberties,VUT
+Vanuatu,2013,F,rule_of_law,10,civil_liberties,VUT
+Vanuatu,2013,F,personal_autonomy,11,civil_liberties,VUT
+Vanuatu,2013,F,political_rights,32,aggregation,VUT
+Vanuatu,2013,F,civil_liberties,47,aggregation,VUT
+Vanuatu,2013,F,total,79,aggregation,VUT
+Vietnam,2013,NF,electoral_process,0,political_rights,VNM
+Vietnam,2013,NF,pluralism_participation,1,political_rights,VNM
+Vietnam,2013,NF,functioning_government,1,political_rights,VNM
+Vietnam,2013,NF,freedom_of_expression,4,civil_liberties,VNM
+Vietnam,2013,NF,right_to_assembly,1,civil_liberties,VNM
+Vietnam,2013,NF,rule_of_law,4,civil_liberties,VNM
+Vietnam,2013,NF,personal_autonomy,8,civil_liberties,VNM
+Vietnam,2013,NF,political_rights,2,aggregation,VNM
+Vietnam,2013,NF,civil_liberties,17,aggregation,VNM
+Vietnam,2013,NF,total,19,aggregation,VNM

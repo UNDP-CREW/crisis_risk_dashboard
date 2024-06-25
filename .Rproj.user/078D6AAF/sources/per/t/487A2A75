@@ -1,0 +1,33 @@
+{
+    "id": "487A2A75",
+    "path": "~/R/crisis_risk_dashboard/data.qmd",
+    "project_path": "data.qmd",
+    "type": "quarto_markdown",
+    "hash": "530073330",
+    "contents": "",
+    "dirty": false,
+    "created": 1718936982542.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "153,0",
+        "scrollLine": "140",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:0",
+        "last_setup_crc32": "b7def240e9833d9a"
+    },
+    "folds": "312|3|320|0|\n",
+    "lastKnownWriteTime": 1719309053,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1719309053429,
+    "read_only": false,
+    "read_only_alternatives": []
+}

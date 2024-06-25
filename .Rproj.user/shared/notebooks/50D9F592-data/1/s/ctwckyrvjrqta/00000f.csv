@@ -1,0 +1,33 @@
+"0","special_procedures <- read_xlsx(here(""data"", ""Special Procedurces Communications Data.xlsx"")) |> 
+  janitor::clean_names() |> 
+  mutate(vulnerable_groups = 
+           ifelse(
+             str_detect(mandates, 
+                        ""minority|women|indigenous|migrants|myanmar|cambodia|slavery|persons|children|sexual orientation|girls|older|African|disability|Korea|racism|trafficking""), 
+             1, 0),
+         women_and_girls = 
+           ifelse(str_detect(mandates, ""Women|women|woman|Woman|Girl|girl""), 
+                  1, 0), 
+         human_rights_defenders = 
+           ifelse(str_detect(mandates, ""Lawyer|lawyer|Judge|judge|Defender|defender""), 
+                  1, 0)) |> 
+  separate(mandates, sep = ""\r\n"", remove = TRUE, into = paste0(""mandate"", 1:20)) |> 
+  pivot_longer(cols = mandate1:mandate20, 
+               names_to = ""ignore"", 
+               values_to = ""mandate"") |> 
+  filter(!is.na(mandate)) |> 
+  select(-ignore) |> 
+  rename(alleged_victims = nb_of_alleged_victims) |> 
+  mutate(country = case_when(
+    country == ""Democratic People's Republic of Korea"" ~ ""North Korea"",
+    country == ""Iran (Islamic Republic of)"" ~ ""Iran (Islamic Republic of)"", 
+    country == ""Lao People's Democratic Republic"" ~ ""Laos"", 
+    country == ""Viet Nam"" ~ ""Vietnam"", 
+    country == ""Republic of Korea"" ~ ""South Korea"", 
+    TRUE ~ country)) |> 
+  mutate(mandate = str_to_lower(mandate)) 
+"
+"2","Warning:"
+"2"," [38;5;238mExpected 20 pieces. Missing pieces filled with `NA` in 7744 rows [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...].[39m
+"

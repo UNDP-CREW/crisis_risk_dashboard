@@ -1,0 +1,177 @@
+country,year,total_country_score,country_iso,freedom_status
+Bangladesh,2023,41,BGD,Partly free
+Bangladesh,2022,43,BGD,Partly free
+Bangladesh,2021,40,BGD,Partly free
+Bangladesh,2020,42,BGD,Partly free
+Bangladesh,2019,44,BGD,Partly free
+Bangladesh,2018,49,BGD,Partly free
+Bangladesh,2017,46,BGD,Partly free
+Bangladesh,2016,44,BGD,Partly free
+Bangladesh,2015,49,BGD,Partly free
+Bangladesh,2014,51,BGD,Partly free
+Bangladesh,2013,51,BGD,Partly free
+Cambodia,2023,44,KHM,Partly free
+Cambodia,2022,43,KHM,Partly free
+Cambodia,2021,43,KHM,Partly free
+Cambodia,2020,43,KHM,Partly free
+Cambodia,2019,43,KHM,Partly free
+Cambodia,2018,45,KHM,Partly free
+Cambodia,2017,48,KHM,Partly free
+Cambodia,2016,48,KHM,Partly free
+Cambodia,2015,52,KHM,Partly free
+Cambodia,2014,53,KHM,Partly free
+Cambodia,2013,53,KHM,Partly free
+China,2023,9,CHN,Not free
+China,2022,10,CHN,Not free
+China,2021,10,CHN,Not free
+China,2020,10,CHN,Not free
+China,2019,10,CHN,Not free
+China,2018,12,CHN,Not free
+China,2017,13,CHN,Not free
+China,2016,12,CHN,Not free
+China,2015,12,CHN,Not free
+China,2014,13,CHN,Not free
+China,2013,14,CHN,Not free
+China,2012,15,CHN,Not free
+China,2011,17,CHN,Not free
+India,2023,50,IND,Partly free
+India,2022,51,IND,Partly free
+India,2021,49,IND,Partly free
+India,2020,51,IND,Partly free
+India,2019,55,IND,Partly free
+India,2018,57,IND,Partly free
+India,2017,59,IND,Partly free
+India,2016,59,IND,Partly free
+India,2015,60,IND,Partly free
+India,2014,58,IND,Partly free
+India,2013,53,IND,Partly free
+India,2012,61,IND,Partly free
+India,2011,64,IND,Partly free
+Indonesia,2023,47,IDN,Partly free
+Indonesia,2022,49,IDN,Partly free
+Indonesia,2021,48,IDN,Partly free
+Indonesia,2020,49,IDN,Partly free
+Indonesia,2019,51,IDN,Partly free
+Indonesia,2018,54,IDN,Partly free
+Indonesia,2017,53,IDN,Partly free
+Indonesia,2016,56,IDN,Partly free
+Indonesia,2015,58,IDN,Partly free
+Indonesia,2014,58,IDN,Partly free
+Indonesia,2013,59,IDN,Partly free
+Indonesia,2012,58,IDN,Partly free
+Indonesia,2011,54,IDN,Partly free
+Iran,2023,11,IRN,Not free
+Iran,2022,16,IRN,Not free
+Iran,2021,16,IRN,Not free
+Iran,2020,15,IRN,Not free
+Iran,2019,15,IRN,Not free
+Iran,2018,15,IRN,Not free
+Iran,2017,15,IRN,Not free
+Iran,2016,13,IRN,Not free
+Iran,2015,13,IRN,Not free
+Iran,2014,11,IRN,Not free
+Iran,2013,9,IRN,Not free
+Iran,2012,10,IRN,Not free
+Iran,2011,11,IRN,Not free
+Malaysia,2023,61,MYS,Partly free
+Malaysia,2022,59,MYS,Partly free
+Malaysia,2021,58,MYS,Partly free
+Malaysia,2020,58,MYS,Partly free
+Malaysia,2019,57,MYS,Partly free
+Malaysia,2018,55,MYS,Partly free
+Malaysia,2017,56,MYS,Partly free
+Malaysia,2016,55,MYS,Partly free
+Malaysia,2015,57,MYS,Partly free
+Malaysia,2014,58,MYS,Partly free
+Malaysia,2013,56,MYS,Partly free
+Malaysia,2012,57,MYS,Partly free
+Malaysia,2011,59,MYS,Partly free
+Myanmar,2023,10,MMR,Not free
+Myanmar,2022,12,MMR,Not free
+Myanmar,2021,17,MMR,Not free
+Myanmar,2020,31,MMR,Not free
+Myanmar,2019,36,MMR,Not free
+Myanmar,2018,36,MMR,Not free
+Myanmar,2017,37,MMR,Not free
+Myanmar,2016,39,MMR,Not free
+Myanmar,2015,37,MMR,Not free
+Myanmar,2014,40,MMR,Partly free
+Myanmar,2013,38,MMR,Not free
+Myanmar,2012,25,MMR,Not free
+Myanmar,2011,12,MMR,Not free
+Pakistan,2023,26,PAK,Not free
+Pakistan,2022,26,PAK,Not free
+Pakistan,2021,25,PAK,Not free
+Pakistan,2020,26,PAK,Not free
+Pakistan,2019,26,PAK,Not free
+Pakistan,2018,27,PAK,Not free
+Pakistan,2017,29,PAK,Not free
+Pakistan,2016,31,PAK,Not free
+Pakistan,2015,31,PAK,Not free
+Pakistan,2014,31,PAK,Not free
+Pakistan,2013,33,PAK,Not free
+Pakistan,2012,37,PAK,Not free
+Pakistan,2011,45,PAK,Partly free
+Philippines,2023,61,PHL,Partly free
+Philippines,2022,65,PHL,Partly free
+Philippines,2021,65,PHL,Partly free
+Philippines,2020,64,PHL,Partly free
+Philippines,2019,66,PHL,Partly free
+Philippines,2018,69,PHL,Partly free
+Philippines,2017,72,PHL,Free
+Philippines,2016,74,PHL,Free
+Philippines,2015,73,PHL,Free
+Philippines,2014,73,PHL,Free
+Philippines,2013,75,PHL,Free
+Philippines,2012,77,PHL,Free
+South Korea,2023,67,KOR,Partly free
+South Korea,2022,67,KOR,Partly free
+South Korea,2021,67,KOR,Partly free
+South Korea,2020,66,KOR,Partly free
+South Korea,2019,64,KOR,Partly free
+South Korea,2018,64,KOR,Partly free
+South Korea,2017,65,KOR,Partly free
+South Korea,2016,64,KOR,Partly free
+South Korea,2015,66,KOR,Partly free
+South Korea,2014,67,KOR,Partly free
+South Korea,2013,68,KOR,Partly free
+South Korea,2012,66,KOR,Partly free
+South Korea,2011,68,KOR,Partly free
+Sri Lanka,2023,52,LKA,Partly free
+Sri Lanka,2022,48,LKA,Partly free
+Sri Lanka,2021,51,LKA,Partly free
+Sri Lanka,2020,52,LKA,Partly free
+Sri Lanka,2019,49,LKA,Partly free
+Sri Lanka,2018,53,LKA,Partly free
+Sri Lanka,2017,57,LKA,Partly free
+Sri Lanka,2016,56,LKA,Partly free
+Sri Lanka,2015,53,LKA,Partly free
+Sri Lanka,2014,42,LKA,Partly free
+Sri Lanka,2013,42,LKA,Partly free
+Sri Lanka,2012,45,LKA,Partly free
+Thailand,2023,39,THA,Not free
+Thailand,2022,39,THA,Not free
+Thailand,2021,36,THA,Not free
+Thailand,2020,35,THA,Not free
+Thailand,2019,35,THA,Not free
+Thailand,2018,35,THA,Not free
+Thailand,2017,33,THA,Not free
+Thailand,2016,34,THA,Not free
+Thailand,2015,37,THA,Not free
+Thailand,2014,38,THA,Not free
+Thailand,2013,40,THA,Partly free
+Thailand,2012,39,THA,Not free
+Thailand,2011,39,THA,Not free
+Vietnam,2023,22,VNM,Not free
+Vietnam,2022,22,VNM,Not free
+Vietnam,2021,22,VNM,Not free
+Vietnam,2020,22,VNM,Not free
+Vietnam,2019,24,VNM,Not free
+Vietnam,2018,24,VNM,Not free
+Vietnam,2017,24,VNM,Not free
+Vietnam,2016,24,VNM,Not free
+Vietnam,2015,24,VNM,Not free
+Vietnam,2014,24,VNM,Not free
+Vietnam,2013,25,VNM,Not free
+Vietnam,2012,27,VNM,Not free
+Vietnam,2011,27,VNM,Not free
