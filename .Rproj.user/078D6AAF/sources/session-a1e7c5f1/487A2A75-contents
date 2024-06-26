@@ -67,6 +67,8 @@ world_shape <- st_read(here("data",
                             "world-administrative-boundaries", 
                             "world-administrative-boundaries.shp"), 
                        quiet = TRUE)
+
+population_estimates <- read_csv(here("data", "population_estimates.csv"))
   
 ```
 
@@ -151,7 +153,7 @@ special_procedures_filtered |>
     by = "country"
   ) 
 
-population_estimates <- read_csv(here("data", "population_estimates.csv"))
+
 
 population_estimates |> 
   filter(country %in% country_list) |> 
@@ -311,6 +313,100 @@ net_freedom_charts |> filter(!is.numeric(score))
 
 net_freedom_charts |> filter(is.na(score))
 ```
+
+
+
+
+
+
+
+
+
+
+
+## Displacement
+
+```{r}
+displacement <- read_csv(here("data", "displacement_data.csv")) |> 
+  janitor::clean_names() |> 
+  mutate(country_iso = countrycode(country, 
+                                   origin = "country.name", 
+                                   destination = "iso3c")) |> 
+  filter(year > 2007) |>
+  pivot_wider(names_from = indicator_sub_type, 
+              values_from = sum_of_value) |> 
+  janitor::clean_names() |>
+  replace_na(list(disaster_new_displacement = 0, 
+                  conflict_stock_displacement = 0, 
+                  conflict_new_displacement = 0)) |> 
+  mutate(total_displacement = 
+           disaster_new_displacement + 
+           conflict_stock_displacement +
+           conflict_new_displacement) |> 
+  left_join(population_estimates |> 
+              filter(year %in% c(2017, 2018, 2019)), 
+            by = c("country", "year")) |>
+  mutate(disaster_per_100k = disaster_new_displacement / population * 100000, 
+         conflict_per_100k = (conflict_stock_displacement +
+                                  conflict_new_displacement) / population * 100000, 
+         total_displacement_100k = total_displacement / population * 100000, 
+         conflict_subtotal_displacement = 
+           conflict_stock_displacement + conflict_new_displacement)  %>%
+  mutate_at(vars(disaster_per_100k,
+                 conflict_per_100k, 
+                 total_displacement_100k), 
+            ~ round(., digits = 6)) |> 
+  replace_na(list(disaster_new_displacement = 0, 
+                  conflict_stock_displacement = 0, 
+                  conflict_new_displacement = 0, 
+                  population = 0, 
+                  disaster_per_100k = 0, 
+                  conflict_per_100k = 0, 
+                  total_displacement = 0, 
+                  total_displacement_100k = 0, 
+                  conflict_subtotal_displacement = 0)) 
+
+displacement |> write_csv(here("data", "displacement_per_capita.csv"))
+
+```
+
+```{r}
+displacement |> filter(!is.na(conflict_per_100k))
+
+displacement |> filter(year == 2019)
+
+displacement |> filter()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
