@@ -1,0 +1,18 @@
+"0","hrd |> 
+  mutate(country_iso = countrycode(country,
+                                   origin = ""country.name"", 
+                                   destination = ""iso3c"")) |>
+  filter(str_detect(date_added, ""2023"")) |>
+  group_by(country, country_iso) |> 
+  summarise(count = n_distinct(serial_number), 
+            impact_sum = sum(impact_of_event), 
+            .groups = ""drrop"") |> 
+  write_csv(here(""data"", ""hrd_map.csv""))
+"
+"1","[1m[33mError[39m in `summarise()`:[22m
+[38;5;238m[33m![38;5;238m `.groups` can't be ""drrop""
+[36mℹ[38;5;238m Possible values are NULL (default), ""drop_last"", ""drop"", ""keep"", and ""rowwise""[39m
+Backtrace:
+[90m 1. [39m[1mreadr[22m::write_csv(...)
+[90m 6. [39m[1m[94mdplyr:::summarise.grouped_df([39m[22m...[1m[94m)[39m[22m
+"

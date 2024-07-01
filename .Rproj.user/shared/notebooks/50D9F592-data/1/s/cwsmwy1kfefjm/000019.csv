@@ -1,0 +1,21 @@
+"0","hrd |>
+  filter(str_detect(date_added, ""2023"")) |> 
+  separate(rights_concerned, sep = ""\\|"", remove = FALSE, 
+           into = paste0(""rights"", 1:7)) |>
+  pivot_longer(cols = rights1:rights7, 
+               names_to = ""ignore"", 
+               values_to = ""rights_long"") |> 
+  filter(!is.na(rights_long) & 
+           rights_long %out% c(""Offline"", ""Online"")) |> 
+  select(serial_number,
+         country,
+         title, 
+         date_added,
+         event_description, 
+         rights_long) |> 
+  write_csv(here(""data"", ""hrd_rights.csv""))
+"
+"2","Warning:"
+"2"," [38;5;238mExpected 7 pieces. Missing pieces filled with `NA` in 288 rows [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16,
+17, 18, 19, 20, 21, ...].[39m
+"

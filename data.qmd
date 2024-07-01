@@ -37,11 +37,6 @@ theme_set(theme_light())
 
 show_col(viridis_pal(option = "cividis")(8))
 
-```
-
-# Data 
-
-```{r data}
 country_list <- c("Afghanistan", "Bangladesh", "Bhutan", "Cambodia", 
                   "China", "Fiji", "Hong Kong", "India", "Indonesia", 
                   "Iran", "North Korea", "South Korea", "Laos", 
@@ -49,6 +44,20 @@ country_list <- c("Afghanistan", "Bangladesh", "Bhutan", "Cambodia",
                   "Nepal", "Pakistan", "Papua New Guinea", "Philippines", 
                   "Solomon Islands", "Sri Lanka", "Thailand", "Timor-Leste", 
                   "Vanuatu", "Vietnam")
+
+world_shape <- st_read(here("data", 
+                            "world-administrative-boundaries", 
+                            "world-administrative-boundaries.shp"), 
+                       quiet = TRUE)
+
+population_estimates <- read_csv(here("data", "population_estimates.csv"))
+
+```
+
+# Data 
+
+```{r data}
+
 
 net_freedom <- read_xlsx(here("data", "Freedom on the net 2023-11.xlsx")) |> 
   janitor::clean_names() |> 
@@ -63,12 +72,7 @@ world_freedom <- read_xlsx(here("data", "Freedom In the World 2024-13.xlsx"),
          year = edition) |> 
   filter(country %in% country_list)
 
-world_shape <- st_read(here("data", 
-                            "world-administrative-boundaries", 
-                            "world-administrative-boundaries.shp"), 
-                       quiet = TRUE)
 
-population_estimates <- read_csv(here("data", "population_estimates.csv"))
   
 ```
 
@@ -382,13 +386,109 @@ displacement |> filter()
 
 
 
+## Human rights defenders
+
+```{r}
+
+hrd <- read_csv(here("data", "Asia Forum HRD Data(Asia Forum HRD Data).csv")) |> 
+  janitor::clean_names()
+```
+
+
+```{r}
+
+
+
+hrd |> 
+  filter(str_detect(date_added, "2023")) |> 
+  separate(violation, sep = "\\|", remove = FALSE, 
+           into = paste0("violation", 1:7)) |> 
+  pivot_longer(cols = violation1:violation7,
+               names_to = "ignore",
+               values_to = "violation_long") |> 
+  filter(!is.na(violation_long)) |> 
+  group_by(violation_long) |> 
+  summarise(event_count = n_distinct(serial_number), 
+            average_impact = mean(impact_of_event, na.rm = TRUE), 
+            .groups = "drop") |> 
+  write_csv(here("data", "hrd_violation_chart.csv"))
+```
+```{r}
+hrd |> 
+  filter(str_detect(date_added, "2023")) |> 
+  filter(str_detect(rights_concerned, "Offline")) |> 
+  sample_n(5) |> 
+  pull(rights_concerned)
+```
+
+
+```{r}
+hrd |> 
+  filter(str_detect(date_added, "2023")) |> 
+  separate(hrd, sep = "\\|", remove = FALSE, 
+           into = paste0("hrd", 1:4)) |> 
+  pivot_longer(cols = hrd1:hrd4,
+               names_to = "ignore",
+               values_to = "hrd_long") |> 
+  filter(!is.na(hrd_long)) |> 
+  group_by(hrd_long) |> 
+  summarise(
+    event_count = n_distinct(serial_number), 
+    total_impact = sum(impact_of_event, na.rm = TRUE),
+    average_impact = mean(impact_of_event, na.rm = TRUE), 
+    .groups = "drop") |> 
+  write_csv(here("data", "hrd_victims_chart.csv"))
+```
+
+```{r}
+hrd |>
+  filter(str_detect(date_added, "2023")) |> 
+  separate(rights_concerned, sep = "\\|", remove = FALSE, 
+           into = paste0("rights", 1:7)) |>
+  pivot_longer(cols = rights1:rights7, 
+               names_to = "ignore", 
+               values_to = "rights_long") |> 
+  filter(!is.na(rights_long) & 
+           rights_long %out% c("Offline", "Online")) |> 
+  select(serial_number,
+         country,
+         title, 
+         date_added,
+         event_description, 
+         rights_long) |> 
+  write_csv(here("data", "hrd_rights.csv"))
+    
+```
+
+
+```{r}
+hrd |> 
+  mutate(country_iso = countrycode(country,
+                                   origin = "country.name", 
+                                   destination = "iso3c")) |>
+  filter(str_detect(date_added, "2023")) |>
+  group_by(country, country_iso) |> 
+  summarise(count = n_distinct(serial_number), 
+            impact_sum = sum(impact_of_event, na.rm = TRUE), 
+            .groups = "drop") |> 
+  filter(!is.na(impact_sum)) |> 
+  write_csv(here("data", "hrd_text_and_map.csv"))
+```
 
 
 
 
 
+```{r}
 
-
+hrd |> 
+  mutate(country_iso = countrycode(country,
+                                   origin = "country.name", 
+                                   destination = "iso3c")) |>
+  filter(str_detect(date_added, "2023")) |> 
+  summarise(n_distinct(serial_number))
+ 
+```
 
 
 
