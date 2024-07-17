@@ -1,0 +1,15 @@
+"0","hrd <- read_csv(here(""data"", ""Asia Forum HRD Data(Asia Forum HRD Data).csv"")) |> 
+  janitor::clean_names()
+"
+"1","[1mRows: [22m[34m4914[39m [1mColumns: [22m[34m23[39m
+"
+"1","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (20): Title, Date added, Template, Country, Initial Date, Final Date, Event Descr...
+[32mdbl[39m  (2): Serial number, Impact of Event
+[33mlgl[39m  (1): Documents
+"
+"1","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"

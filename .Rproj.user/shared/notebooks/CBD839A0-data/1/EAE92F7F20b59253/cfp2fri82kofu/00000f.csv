@@ -1,0 +1,62 @@
+"0","migrant <- read_excel(here(""data"", ""undesa_pd_2020_ims_stock_by_sex_destination_and_origin.xlsx""), 
+           sheet = 2, 
+           skip = 8) |> 
+  janitor::clean_names() |>
+  pivot_longer(cols = 8:28, 
+               names_to = ""name"", 
+               values_to = ""value"") |> 
+  mutate(name = str_replace(name, ""x"", """"))|> 
+  mutate(sex = case_when(
+    name %in% c(""1990_8"", ""1995_9"", ""2000_10"", ""2005_11"", 
+                ""2010_12"", ""2015_13"", ""2020_14"") ~ ""total"", 
+    name %in% c(""1990_15"", ""1995_16"", ""2000_17"", ""2005_18"", 
+                ""2010_19"", ""2015_20"", ""2020_21"") ~ ""male"", 
+    name %in% c(""1990_22"", ""1995_23"", ""2000_24"", ""2005_25"", 
+                ""2010_26"", ""2015_27"", ""2020_28"") ~ ""male"",
+    TRUE ~ ""wrong""
+  )) |> 
+  mutate(year = as.numeric(str_sub(name, start = 1L, end = 4L))) |>
+  rename(area_of_destination = region_development_group_country_or_area_of_destination, 
+         area_of_origin = region_development_group_country_or_area_of_origin) %>%
+  mutate_at(vars(area_of_destination, area_of_origin), 
+            .funs = ~str_replace_all(., ""\\*"", """")) |> 
+  mutate(aggregation = ifelse(
+    area_of_origin %in% aggregation_list | 
+      area_of_destination %in% aggregation_list, 
+    ""yes"", ""no""
+  )) %>% 
+  mutate_at(vars(area_of_destination, 
+                 area_of_origin), 
+            .funs = ~case_when(
+                . == ""China, Hong Kong SAR"" ~ ""Hong Kong"", 
+                . == ""Dem. People's Republic of Korea"" ~ ""North Korea"", 
+                . == ""Iran (Islamic Republic of)"" ~ ""Iran"", 
+                . == ""Lao People's Democratic Republic"" ~ ""Laos"", 
+                . == ""Republic of Korea"" ~ ""South Korea"",
+                . == ""Viet Nam"" ~ ""Vietnam"", 
+                TRUE ~ .
+              ))
+"
+"1","[38;5;238mNew names:
+[36m•[38;5;238m `1990` -> `1990...8`
+[36m•[38;5;238m `1995` -> `1995...9`
+[36m•[38;5;238m `2000` -> `2000...10`
+[36m•[38;5;238m `2005` -> `2005...11`
+[36m•[38;5;238m `2010` -> `2010...12`
+[36m•[38;5;238m `2015` -> `2015...13`
+[36m•[38;5;238m `2020` -> `2020...14`
+[36m•[38;5;238m `1990` -> `1990...15`
+[36m•[38;5;238m `1995` -> `1995...16`
+[36m•[38;5;238m `2000` -> `2000...17`
+[36m•[38;5;238m `2005` -> `2005...18`
+[36m•[38;5;238m `2010` -> `2010...19`
+[36m•[38;5;238m `2015` -> `2015...20`
+[36m•[38;5;238m `2020` -> `2020...21`
+[36m•[38;5;238m `1990` -> `1990...22`
+[36m•[38;5;238m `1995` -> `1995...23`
+[36m•[38;5;238m `2000` -> `2000...24`
+[36m•[38;5;238m `2005` -> `2005...25`
+[36m•[38;5;238m `2010` -> `2010...26`
+[36m•[38;5;238m `2015` -> `2015...27`
+[36m•[38;5;238m `2020` -> `2020...28`[39m
+"

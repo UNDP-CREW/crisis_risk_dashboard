@@ -1,0 +1,12 @@
+"0","migrant  |>
+  filter(aggregation == ""no"") |> 
+  filter(area_of_destination %in% country_list | 
+           area_of_origin %in% country_list) |> 
+  filter(value != 0 & sex == ""total"") |> 
+  group_by(area_of_origin, area_of_destination) |> 
+  summarise(migrants = sum(value, na.rm = TRUE)) |> 
+  arrange(desc(migrants))
+"
+"1","[38;5;238m`summarise()` has grouped output by 'area_of_origin'. You can override using the
+`.groups` argument.[39m
+"

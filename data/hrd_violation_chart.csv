@@ -1,25 +1,446 @@
-violation_long,event_count,average_impact
-(Arbitrary) Arrest and Detention,135,2.388059701492537
-Abduction/Kidnapping,12,1.3333333333333333
-Administrative Harassment,28,1.1785714285714286
-Censorship,8,1.25
-Death,1,2
-Death threat,7,1.1428571428571428
-Denial Fair Trial,14,1.2142857142857142
-Deportation,3,1
-Enactment of repressive legislation and policies,11,5.181818181818182
-Intimidation and Threats,52,1.5576923076923077
-Judicial Harassment,112,2.5267857142857144
-Killing,4,2
-Online Attack and Harassment,11,1.5454545454545454
-Raid,9,2.3333333333333335
-Restrictions on Movement,16,1.875
-Sexual Violence,1,2
-Surveillance,3,2
-Surveillance ,7,3.4285714285714284
-Torture,6,1.3333333333333333
-Transnational repression ,4,1
-Travel Restriction,3,1
-Vilification,7,2.5714285714285716
-Violence (physical),58,2.543859649122807
-Wounds and Injuries,13,2.1666666666666665
+violation_long,country,event_count,average_impact
+(Arbitrary) Arrest and Detention,Afghanistan,52,2.6923076923076925
+(Arbitrary) Arrest and Detention,Bangladesh,51,1.9411764705882353
+(Arbitrary) Arrest and Detention,Cambodia,122,3.3360655737704916
+(Arbitrary) Arrest and Detention,China,441,4.5600907029478455
+(Arbitrary) Arrest and Detention,India,226,5.147321428571429
+(Arbitrary) Arrest and Detention,Indonesia,112,7.526785714285714
+(Arbitrary) Arrest and Detention,Kazakhstan,77,3.168831168831169
+(Arbitrary) Arrest and Detention,"Korea, Republic of",9,3.3333333333333335
+(Arbitrary) Arrest and Detention,Kyrgyzstan,17,2.1176470588235294
+(Arbitrary) Arrest and Detention,Lao People's Democratic Republic,8,3
+(Arbitrary) Arrest and Detention,Malaysia,49,7.510204081632653
+(Arbitrary) Arrest and Detention,Maldives,9,5.333333333333333
+(Arbitrary) Arrest and Detention,Mongolia,7,2.142857142857143
+(Arbitrary) Arrest and Detention,Myanmar,242,4.095041322314049
+(Arbitrary) Arrest and Detention,Nepal,34,16.235294117647058
+(Arbitrary) Arrest and Detention,Pakistan,50,6.3
+(Arbitrary) Arrest and Detention,Philippines,87,5.735632183908046
+(Arbitrary) Arrest and Detention,Singapore,9,1.4444444444444444
+(Arbitrary) Arrest and Detention,Sri Lanka,42,4.142857142857143
+(Arbitrary) Arrest and Detention,Thailand,191,5.221052631578948
+(Arbitrary) Arrest and Detention,Viet Nam,262,3.846743295019157
+Abduction/Kidnapping,Afghanistan,15,2.8
+Abduction/Kidnapping,Bangladesh,14,1.5
+Abduction/Kidnapping,Cambodia,1,1
+Abduction/Kidnapping,China,27,5.296296296296297
+Abduction/Kidnapping,India,18,2.6666666666666665
+Abduction/Kidnapping,Indonesia,1,2
+Abduction/Kidnapping,Malaysia,2,1
+Abduction/Kidnapping,Maldives,1,10
+Abduction/Kidnapping,Myanmar,14,3.0714285714285716
+Abduction/Kidnapping,Nepal,2,1
+Abduction/Kidnapping,Pakistan,23,6.565217391304348
+Abduction/Kidnapping,Philippines,13,1.3076923076923077
+Abduction/Kidnapping,Sri Lanka,7,1.4285714285714286
+Abduction/Kidnapping,Thailand,2,1
+Abduction/Kidnapping,Viet Nam,15,1.6666666666666667
+Administrative Harassment,Afghanistan,4,1
+Administrative Harassment,Bangladesh,4,1
+Administrative Harassment,Cambodia,49,5.1020408163265305
+Administrative Harassment,China,81,23.7625
+Administrative Harassment,India,39,2.5384615384615383
+Administrative Harassment,Indonesia,28,19.714285714285715
+Administrative Harassment,Kazakhstan,6,2.5
+Administrative Harassment,"Korea, Republic of",3,1
+Administrative Harassment,Kyrgyzstan,4,1
+Administrative Harassment,Lao People's Democratic Republic,2,1
+Administrative Harassment,Malaysia,10,1.7
+Administrative Harassment,Maldives,6,2
+Administrative Harassment,Myanmar,10,25
+Administrative Harassment,Pakistan,12,3.3333333333333335
+Administrative Harassment,Philippines,11,28.363636363636363
+Administrative Harassment,Singapore,4,1
+Administrative Harassment,Sri Lanka,11,1.4545454545454546
+Administrative Harassment,Taiwan,1,1
+Administrative Harassment,Thailand,36,1.4444444444444444
+Administrative Harassment,Viet Nam,30,1.2
+Censorship,Afghanistan,1,1
+Censorship,Bangladesh,3,1
+Censorship,Cambodia,9,1.8888888888888888
+Censorship,China,41,14.463414634146341
+Censorship,India,9,1.4444444444444444
+Censorship,Indonesia,8,1.625
+Censorship,Kazakhstan,3,1
+Censorship,Kyrgyzstan,4,1
+Censorship,Malaysia,11,2
+Censorship,Maldives,2,3
+Censorship,Myanmar,12,6.75
+Censorship,Nepal,3,1
+Censorship,Pakistan,9,12.444444444444445
+Censorship,Philippines,7,5
+Censorship,Singapore,5,1.2
+Censorship,Sri Lanka,4,1
+Censorship,Thailand,22,2.0454545454545454
+Censorship,Viet Nam,14,4.214285714285714
+Death,Afghanistan,11,1
+Death,Bangladesh,8,1.625
+Death,Cambodia,5,1.8
+Death,China,18,1
+Death,India,39,2.2051282051282053
+Death,Indonesia,10,1.4
+Death,Kazakhstan,1,1
+Death,"Korea, Republic of",2,1
+Death,Kyrgyzstan,1,1
+Death,Lao People's Democratic Republic,1,3
+Death,Maldives,1,1
+Death,Myanmar,18,1.5
+Death,Nepal,4,3.75
+Death,Pakistan,21,1.4285714285714286
+Death,Philippines,75,3.12
+Death,Sri Lanka,3,1.3333333333333333
+Death,Thailand,9,1.3333333333333333
+Death,Viet Nam,5,1.6
+Death threat,Bangladesh,6,2
+Death threat,Cambodia,4,1
+Death threat,India,16,3.0625
+Death threat,Indonesia,6,1.3333333333333333
+Death threat,Kazakhstan,3,1.3333333333333333
+Death threat,Malaysia,1,1
+Death threat,Maldives,1,2
+Death threat,Mongolia,1,1
+Death threat,Nepal,15,1.2
+Death threat,Pakistan,8,1.5
+Death threat,Philippines,9,1.4444444444444444
+Death threat,Sri Lanka,4,1.5
+Death threat,Thailand,5,1.2
+Death threat,Viet Nam,2,1
+Denial Fair Trial,Bangladesh,4,1
+Denial Fair Trial,Cambodia,13,2.923076923076923
+Denial Fair Trial,China,63,1.819672131147541
+Denial Fair Trial,India,8,2.75
+Denial Fair Trial,Indonesia,3,2.6666666666666665
+Denial Fair Trial,Kazakhstan,6,1.1666666666666667
+Denial Fair Trial,Kyrgyzstan,4,1.25
+Denial Fair Trial,Malaysia,1,1
+Denial Fair Trial,Maldives,2,1
+Denial Fair Trial,Myanmar,12,1.25
+Denial Fair Trial,Nepal,1,1
+Denial Fair Trial,Pakistan,6,1
+Denial Fair Trial,Philippines,8,3.25
+Denial Fair Trial,Singapore,3,1
+Denial Fair Trial,Sri Lanka,2,2
+Denial Fair Trial,Thailand,15,4.266666666666667
+Denial Fair Trial,Viet Nam,53,2.1132075471698113
+Deportation,Cambodia,1,1
+Deportation,China,5,1.2
+Deportation,India,1,1
+Deportation,Indonesia,1,2
+Deportation,"Korea, Republic of",1,6
+Deportation,Kyrgyzstan,1,1
+Deportation,Malaysia,6,1
+Deportation,Mongolia,1,1
+Deportation,Myanmar,1,1
+Deportation,Singapore,1,1
+Deportation,Thailand,5,1.8
+Deportation,Viet Nam,6,1
+Enactment of repressive legislation and policies,Bangladesh,17,1.4705882352941178
+Enactment of repressive legislation and policies,Cambodia,15,2
+Enactment of repressive legislation and policies,China,75,2.973333333333333
+Enactment of repressive legislation and policies,India,25,1.44
+Enactment of repressive legislation and policies,Indonesia,14,37.42857142857143
+Enactment of repressive legislation and policies,Kazakhstan,5,6.4
+Enactment of repressive legislation and policies,"Korea, Republic of",1,1
+Enactment of repressive legislation and policies,Kyrgyzstan,2,1
+Enactment of repressive legislation and policies,Lao People's Democratic Republic,3,1
+Enactment of repressive legislation and policies,Malaysia,6,1.1666666666666667
+Enactment of repressive legislation and policies,Maldives,1,1
+Enactment of repressive legislation and policies,Myanmar,39,2.3076923076923075
+Enactment of repressive legislation and policies,Pakistan,13,1.4615384615384615
+Enactment of repressive legislation and policies,Philippines,7,1.5714285714285714
+Enactment of repressive legislation and policies,Singapore,9,1.1111111111111112
+Enactment of repressive legislation and policies,Sri Lanka,3,1
+Enactment of repressive legislation and policies,Thailand,39,9.35897435897436
+Enactment of repressive legislation and policies,Viet Nam,73,1.5342465753424657
+Enforced Disappearance,Bangladesh,4,1.25
+Enforced Disappearance,China,20,2.85
+Enforced Disappearance,Lao People's Democratic Republic,2,2
+Enforced Disappearance,Pakistan,9,14.333333333333334
+Enforced Disappearance,Philippines,1,1
+Enforced Disappearance,Sri Lanka,5,121.2
+Enforced Disappearance,Thailand,1,1
+Extrajudicial Killing,Afghanistan,1,1
+Extrajudicial Killing,Bangladesh,2,2.5
+Extrajudicial Killing,Cambodia,1,1
+Extrajudicial Killing,India,3,2
+Extrajudicial Killing,Myanmar,1,3
+Extrajudicial Killing,Pakistan,2,2
+Extrajudicial Killing,Philippines,9,2.111111111111111
+Extrajudicial Killing,Thailand,1,1
+Extrajudicial Killing,Viet Nam,2,1
+Gender Based Harassment,Afghanistan,1,1
+Gender Based Harassment,Bangladesh,2,2
+Gender Based Harassment,India,24,2.125
+Gender Based Harassment,Indonesia,1,1
+Gender Based Harassment,Kazakhstan,1,1
+Gender Based Harassment,Kyrgyzstan,2,2
+Gender Based Harassment,Malaysia,4,1
+Gender Based Harassment,Pakistan,4,3.75
+Gender Based Harassment,Philippines,1,1
+Gender Based Harassment,Thailand,2,2
+Gender Based Harassment,Viet Nam,2,1.5
+Intimidation and Threats,Afghanistan,22,2.909090909090909
+Intimidation and Threats,Bangladesh,34,2.7941176470588234
+Intimidation and Threats,Cambodia,99,3.0303030303030303
+Intimidation and Threats,China,128,6.5390625
+Intimidation and Threats,India,185,13.076086956521738
+Intimidation and Threats,Indonesia,65,2.1846153846153844
+Intimidation and Threats,Kazakhstan,19,1.8421052631578947
+Intimidation and Threats,"Korea, Republic of",6,1.3333333333333333
+Intimidation and Threats,Kyrgyzstan,13,1.6923076923076923
+Intimidation and Threats,Lao People's Democratic Republic,2,1
+Intimidation and Threats,Malaysia,42,3.4523809523809526
+Intimidation and Threats,Maldives,9,2.4444444444444446
+Intimidation and Threats,Mongolia,2,1
+Intimidation and Threats,Myanmar,37,5.783783783783784
+Intimidation and Threats,Nepal,64,1.625
+Intimidation and Threats,Pakistan,49,3.673469387755102
+Intimidation and Threats,Philippines,69,2.5652173913043477
+Intimidation and Threats,Singapore,2,1.5
+Intimidation and Threats,Sri Lanka,63,11.53968253968254
+Intimidation and Threats,Thailand,130,4.469230769230769
+Intimidation and Threats,Timor Leste,1,1
+Intimidation and Threats,Viet Nam,104,2.798076923076923
+Judicial Harassment,Afghanistan,2,2
+Judicial Harassment,Bangladesh,47,1.4680851063829787
+Judicial Harassment,Cambodia,153,3.084967320261438
+Judicial Harassment,China,328,5.08868501529052
+Judicial Harassment,India,269,3.541044776119403
+Judicial Harassment,Indonesia,78,6.782051282051282
+Judicial Harassment,Kazakhstan,86,2.2790697674418605
+Judicial Harassment,"Korea, Republic of",8,2.25
+Judicial Harassment,Kyrgyzstan,34,1.7352941176470589
+Judicial Harassment,Lao People's Democratic Republic,4,2.25
+Judicial Harassment,Malaysia,57,3.4210526315789473
+Judicial Harassment,Maldives,8,1.75
+Judicial Harassment,Mongolia,8,2
+Judicial Harassment,Myanmar,203,4.078817733990148
+Judicial Harassment,Nepal,19,9.263157894736842
+Judicial Harassment,Pakistan,54,5.351851851851852
+Judicial Harassment,Philippines,100,4.33
+Judicial Harassment,Singapore,30,1.7
+Judicial Harassment,Sri Lanka,42,2.357142857142857
+Judicial Harassment,Taiwan,2,61.5
+Judicial Harassment,Thailand,270,5.646840148698884
+Judicial Harassment,Timor Leste,3,1.3333333333333333
+Judicial Harassment,Viet Nam,272,3.3713235294117645
+Killing,Afghanistan,19,2.1052631578947367
+Killing,Bangladesh,11,2.090909090909091
+Killing,Cambodia,3,2.3333333333333335
+Killing,China,2,1
+Killing,India,44,1.9318181818181819
+Killing,Indonesia,8,1.75
+Killing,"Korea, Republic of",1,1
+Killing,Lao People's Democratic Republic,1,3
+Killing,Maldives,1,1
+Killing,Mongolia,1,1
+Killing,Myanmar,51,4.196078431372549
+Killing,Nepal,4,4
+Killing,Pakistan,28,1.2857142857142858
+Killing,Philippines,80,2.1375
+Killing,Sri Lanka,2,1
+Killing,Thailand,8,1.375
+Killing,Viet Nam,2,100.5
+Online Attack and Harassment,Afghanistan,1,1
+Online Attack and Harassment,Bangladesh,2,1
+Online Attack and Harassment,Cambodia,8,1.25
+Online Attack and Harassment,China,10,1.2
+Online Attack and Harassment,India,22,1.0909090909090908
+Online Attack and Harassment,Indonesia,17,2.2941176470588234
+Online Attack and Harassment,Kazakhstan,6,2.3333333333333335
+Online Attack and Harassment,Kyrgyzstan,6,1.5
+Online Attack and Harassment,Malaysia,6,1.1666666666666667
+Online Attack and Harassment,Maldives,1,1
+Online Attack and Harassment,Mongolia,1,1
+Online Attack and Harassment,Myanmar,1,1
+Online Attack and Harassment,Nepal,7,1
+Online Attack and Harassment,Pakistan,8,2.375
+Online Attack and Harassment,Philippines,19,2.8947368421052633
+Online Attack and Harassment,Sri Lanka,3,1.6666666666666667
+Online Attack and Harassment,Thailand,8,2
+Online Attack and Harassment,Viet Nam,1,1
+Raid,Afghanistan,7,2.7142857142857144
+Raid,Bangladesh,8,2.875
+Raid,Cambodia,1,1
+Raid,China,16,2.5
+Raid,India,35,2.6285714285714286
+Raid,Indonesia,2,9
+Raid,Kazakhstan,1,5
+Raid,Kyrgyzstan,3,2
+Raid,Malaysia,3,1.6666666666666667
+Raid,Maldives,1,2
+Raid,Myanmar,27,3.5555555555555554
+Raid,Pakistan,12,1.4166666666666667
+Raid,Philippines,16,4.6875
+Raid,Sri Lanka,5,1.8
+Raid,Thailand,18,2
+Raid,Viet Nam,34,1.911764705882353
+Reprisal as Result of Communication,Bangladesh,7,1.1428571428571428
+Reprisal as Result of Communication,Cambodia,6,2.6666666666666665
+Reprisal as Result of Communication,China,24,2.625
+Reprisal as Result of Communication,India,17,1.3529411764705883
+Reprisal as Result of Communication,Indonesia,3,2
+Reprisal as Result of Communication,Kazakhstan,2,1
+Reprisal as Result of Communication,Malaysia,3,1
+Reprisal as Result of Communication,Maldives,4,4.25
+Reprisal as Result of Communication,Myanmar,7,3.5714285714285716
+Reprisal as Result of Communication,Nepal,1,7
+Reprisal as Result of Communication,Pakistan,4,2.25
+Reprisal as Result of Communication,Philippines,9,3.5555555555555554
+Reprisal as Result of Communication,Singapore,1,1
+Reprisal as Result of Communication,Sri Lanka,18,3
+Reprisal as Result of Communication,Taiwan,1,1
+Reprisal as Result of Communication,Thailand,15,2.933333333333333
+Reprisal as Result of Communication,Viet Nam,18,3.1666666666666665
+Restrictions on Movement,Afghanistan,1,1
+Restrictions on Movement,Bangladesh,2,1.5
+Restrictions on Movement,Cambodia,31,6.161290322580645
+Restrictions on Movement,China,52,36.92307692307692
+Restrictions on Movement,India,25,1.88
+Restrictions on Movement,Indonesia,2,9.5
+Restrictions on Movement,Kazakhstan,29,2.0344827586206895
+Restrictions on Movement,"Korea, Republic of",1,1
+Restrictions on Movement,Kyrgyzstan,3,1
+Restrictions on Movement,Lao People's Democratic Republic,1,1
+Restrictions on Movement,Malaysia,4,2.25
+Restrictions on Movement,Maldives,1,1
+Restrictions on Movement,Nepal,2,2.5
+Restrictions on Movement,Pakistan,7,1
+Restrictions on Movement,Philippines,3,100.66666666666667
+Restrictions on Movement,Singapore,1,1
+Restrictions on Movement,Sri Lanka,2,3.5
+Restrictions on Movement,Taiwan,1,1
+Restrictions on Movement,Thailand,13,2
+Restrictions on Movement,Viet Nam,35,1.9428571428571428
+Sexual Violence,Bangladesh,4,2
+Sexual Violence,Cambodia,1,2
+Sexual Violence,China,5,8
+Sexual Violence,India,15,5.333333333333333
+Sexual Violence,Maldives,1,1
+Sexual Violence,Myanmar,3,3
+Sexual Violence,Nepal,2,6.5
+Sexual Violence,Pakistan,8,1.625
+Sexual Violence,Philippines,2,2.5
+Sexual Violence,Sri Lanka,1,1
+Sexual Violence,Thailand,2,2
+Sexual Violence,Viet Nam,8,1.625
+Surveillance,Bangladesh,4,2
+Surveillance,Cambodia,11,1.5454545454545454
+Surveillance,China,23,2.260869565217391
+Surveillance,India,6,1
+Surveillance,Indonesia,1,1
+Surveillance,Kazakhstan,3,5.333333333333333
+Surveillance,Myanmar,1,1
+Surveillance,Nepal,3,1
+Surveillance,Pakistan,1,1
+Surveillance,Philippines,7,1.2857142857142858
+Surveillance,Sri Lanka,2,1.5
+Surveillance,Thailand,17,5.411764705882353
+Surveillance,Viet Nam,14,2.5714285714285716
+Surveillance ,Bangladesh,2,1.5
+Surveillance ,Cambodia,3,5
+Surveillance ,China,28,3.25
+Surveillance ,India,1,1
+Surveillance ,Indonesia,3,6.333333333333333
+Surveillance ,Kazakhstan,1,2
+Surveillance ,Maldives,1,10
+Surveillance ,Philippines,1,1
+Surveillance ,Sri Lanka,3,1
+Surveillance ,Thailand,7,1.7142857142857142
+Surveillance ,Viet Nam,12,2.5833333333333335
+Torture,Afghanistan,3,1.3333333333333333
+Torture,Bangladesh,12,2.1666666666666665
+Torture,China,32,2.40625
+Torture,India,10,1.5
+Torture,Indonesia,5,9.2
+Torture,Lao People's Democratic Republic,1,1
+Torture,Malaysia,1,6
+Torture,Myanmar,7,1.1428571428571428
+Torture,Nepal,1,1
+Torture,Pakistan,13,1.9230769230769231
+Torture,Philippines,3,23.333333333333332
+Torture,Sri Lanka,2,1
+Torture,Thailand,6,1.8333333333333333
+Torture,Viet Nam,8,13.875
+Transnational repression,Thailand,3,1.3333333333333333
+Transnational repression ,Malaysia,1,1
+Transnational repression ,Mongolia,1,1
+Transnational repression ,Pakistan,1,1
+Transnational repression ,Viet Nam,1,1
+Travel Restriction,Cambodia,1,1
+Travel Restriction,China,19,2.8421052631578947
+Travel Restriction,India,7,1.5714285714285714
+Travel Restriction,Indonesia,1,1
+Travel Restriction,Kyrgyzstan,2,1
+Travel Restriction,Malaysia,2,1
+Travel Restriction,Pakistan,6,1.3333333333333333
+Travel Restriction,Sri Lanka,2,3.5
+Travel Restriction,Thailand,2,1
+Travel Restriction,Viet Nam,7,1.1428571428571428
+Use of Excessive Force,Cambodia,2,8.5
+Use of Excessive Force,China,5,45.4
+Use of Excessive Force,India,6,2
+Use of Excessive Force,Indonesia,6,3.1666666666666665
+Use of Excessive Force,Kazakhstan,1,1
+Use of Excessive Force,Myanmar,17,8.941176470588236
+Use of Excessive Force,Nepal,1,26
+Use of Excessive Force,Pakistan,1,3
+Use of Excessive Force,Philippines,1,1
+Use of Excessive Force,Sri Lanka,2,2.5
+Use of Excessive Force,Thailand,3,1.6666666666666667
+Use of Excessive Force,Viet Nam,2,3.5
+Vilification,Afghanistan,7,1.5714285714285714
+Vilification,Bangladesh,5,1.8
+Vilification,Cambodia,18,1.3333333333333333
+Vilification,China,14,1.2142857142857142
+Vilification,India,51,3.235294117647059
+Vilification,Indonesia,3,1.3333333333333333
+Vilification,Kazakhstan,7,1.1428571428571428
+Vilification,Kyrgyzstan,6,1.8333333333333333
+Vilification,Malaysia,4,1
+Vilification,Mongolia,1,1
+Vilification,Myanmar,3,1
+Vilification,Nepal,4,2.5
+Vilification,Pakistan,12,1.25
+Vilification,Philippines,52,3.3076923076923075
+Vilification,Singapore,3,1
+Vilification,Sri Lanka,13,3.6923076923076925
+Vilification,Thailand,9,1.7777777777777777
+Vilification,Viet Nam,3,1.6666666666666667
+Violence (physical),Afghanistan,63,1.9841269841269842
+Violence (physical),Bangladesh,56,4.464285714285714
+Violence (physical),Cambodia,47,3.0425531914893615
+Violence (physical),China,89,7.01123595505618
+Violence (physical),India,183,13.584699453551913
+Violence (physical),Indonesia,118,5.983050847457627
+Violence (physical),Kazakhstan,17,2.6470588235294117
+Violence (physical),"Korea, Republic of",3,1
+Violence (physical),Kyrgyzstan,10,1.8
+Violence (physical),Lao People's Democratic Republic,3,3
+Violence (physical),Malaysia,6,6
+Violence (physical),Maldives,7,5.428571428571429
+Violence (physical),Mongolia,1,5
+Violence (physical),Myanmar,105,6.019047619047619
+Violence (physical),Nepal,42,3.3333333333333335
+Violence (physical),Pakistan,58,2.8793103448275863
+Violence (physical),Philippines,90,2.2888888888888888
+Violence (physical),Sri Lanka,45,1.9777777777777779
+Violence (physical),Thailand,48,4.914893617021277
+Violence (physical),Viet Nam,82,8.679012345679013
+Wounds and Injuries,Afghanistan,10,1.3
+Wounds and Injuries,Bangladesh,18,3.388888888888889
+Wounds and Injuries,Cambodia,6,1.8333333333333333
+Wounds and Injuries,China,12,24.583333333333332
+Wounds and Injuries,India,36,2.0833333333333335
+Wounds and Injuries,Indonesia,18,3.2222222222222223
+Wounds and Injuries,Kazakhstan,2,1.5
+Wounds and Injuries,Kyrgyzstan,2,1
+Wounds and Injuries,Lao People's Democratic Republic,2,1.5
+Wounds and Injuries,Maldives,1,2
+Wounds and Injuries,Myanmar,28,6
+Wounds and Injuries,Nepal,5,1.6
+Wounds and Injuries,Pakistan,8,1.625
+Wounds and Injuries,Philippines,5,3.6
+Wounds and Injuries,Sri Lanka,9,2
+Wounds and Injuries,Thailand,7,9.428571428571429
+Wounds and Injuries,Viet Nam,10,4.444444444444445
