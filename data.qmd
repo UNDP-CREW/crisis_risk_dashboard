@@ -719,6 +719,11 @@ migrant <- read_excel(here("data", "undesa_pd_2020_ims_stock_by_sex_destination_
 ```
 
 ```{r}
+viridis_pal()(4) |> show_col()
+```
+
+
+```{r}
 glimpse(migrant)
 ```
 
