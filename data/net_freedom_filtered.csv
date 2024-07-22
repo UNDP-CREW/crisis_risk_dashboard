@@ -1,0 +1,2175 @@
+country,year,status,country_iso,freedom_status,sub_indicator,score,sub_indicator_text,sub_index_group
+Bangladesh,2023,PF,BGD,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Bangladesh,2023,PF,BGD,Partly free,a2,1,Internet accesibility,Obstructions to access
+Bangladesh,2023,PF,BGD,Partly free,a3,3,Government restrictions,Obstructions to access
+Bangladesh,2023,PF,BGD,Partly free,a4,4,Service provider diversity,Obstructions to access
+Bangladesh,2023,PF,BGD,Partly free,a5,1,Regulatory failure,Obstructions to access
+Bangladesh,2023,PF,BGD,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Bangladesh,2023,PF,BGD,Partly free,b1,3,Blocked content,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b2,2,Forced content deletion,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b4,1,Self-censorship,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b5,2,Information control and manipulation,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b6,2,Constraints on publishing,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b8,4,Constraints on communities,Limits on content
+Bangladesh,2023,PF,BGD,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Bangladesh,2023,PF,BGD,Partly free,c1,2,Legal protections,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c2,0,Criminalised online activities,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c3,2,Individuals penalised,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c5,1,State infringement of privacy,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c7,1,Extralegal intimidation,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c8,1,Cyberattacks,Violation of user rights
+Bangladesh,2023,PF,BGD,Partly free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Bangladesh,2023,PF,BGD,Partly free,total_country_score,41,Country Score,aggregation
+Bangladesh,2022,PF,BGD,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Bangladesh,2022,PF,BGD,Partly free,a2,1,Internet accesibility,Obstructions to access
+Bangladesh,2022,PF,BGD,Partly free,a3,3,Government restrictions,Obstructions to access
+Bangladesh,2022,PF,BGD,Partly free,a4,5,Service provider diversity,Obstructions to access
+Bangladesh,2022,PF,BGD,Partly free,a5,1,Regulatory failure,Obstructions to access
+Bangladesh,2022,PF,BGD,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Bangladesh,2022,PF,BGD,Partly free,b1,3,Blocked content,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b2,2,Forced content deletion,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b4,1,Self-censorship,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b5,2,Information control and manipulation,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b6,2,Constraints on publishing,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b8,4,Constraints on communities,Limits on content
+Bangladesh,2022,PF,BGD,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Bangladesh,2022,PF,BGD,Partly free,c1,2,Legal protections,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c2,0,Criminalised online activities,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c3,2,Individuals penalised,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c5,1,State infringement of privacy,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c8,1,Cyberattacks,Violation of user rights
+Bangladesh,2022,PF,BGD,Partly free,c_violations_of_user_rights,12,Violations of user rights,aggregation
+Bangladesh,2022,PF,BGD,Partly free,total_country_score,43,Country Score,aggregation
+Bangladesh,2021,PF,BGD,Partly free,a1,2,Infrastructural limitations,Obstructions to access
+Bangladesh,2021,PF,BGD,Partly free,a2,1,Internet accesibility,Obstructions to access
+Bangladesh,2021,PF,BGD,Partly free,a3,3,Government restrictions,Obstructions to access
+Bangladesh,2021,PF,BGD,Partly free,a4,5,Service provider diversity,Obstructions to access
+Bangladesh,2021,PF,BGD,Partly free,a5,1,Regulatory failure,Obstructions to access
+Bangladesh,2021,PF,BGD,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Bangladesh,2021,PF,BGD,Partly free,b1,3,Blocked content,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b2,2,Forced content deletion,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b4,1,Self-censorship,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b5,2,Information control and manipulation,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b6,2,Constraints on publishing,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b8,3,Constraints on communities,Limits on content
+Bangladesh,2021,PF,BGD,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Bangladesh,2021,PF,BGD,Partly free,c1,2,Legal protections,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c2,0,Criminalised online activities,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c3,2,Individuals penalised,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c5,1,State infringement of privacy,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c7,1,Extralegal intimidation,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c8,1,Cyberattacks,Violation of user rights
+Bangladesh,2021,PF,BGD,Partly free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Bangladesh,2021,PF,BGD,Partly free,total_country_score,40,Country Score,aggregation
+Bangladesh,2020,PF,BGD,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Bangladesh,2020,PF,BGD,Partly free,a2,1,Internet accesibility,Obstructions to access
+Bangladesh,2020,PF,BGD,Partly free,a3,3,Government restrictions,Obstructions to access
+Bangladesh,2020,PF,BGD,Partly free,a4,5,Service provider diversity,Obstructions to access
+Bangladesh,2020,PF,BGD,Partly free,a5,1,Regulatory failure,Obstructions to access
+Bangladesh,2020,PF,BGD,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Bangladesh,2020,PF,BGD,Partly free,b1,3,Blocked content,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b2,2,Forced content deletion,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b4,1,Self-censorship,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b5,2,Information control and manipulation,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b6,2,Constraints on publishing,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b8,3,Constraints on communities,Limits on content
+Bangladesh,2020,PF,BGD,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Bangladesh,2020,PF,BGD,Partly free,c1,2,Legal protections,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c2,0,Criminalised online activities,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c3,2,Individuals penalised,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c7,1,Extralegal intimidation,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c8,1,Cyberattacks,Violation of user rights
+Bangladesh,2020,PF,BGD,Partly free,c_violations_of_user_rights,12,Violations of user rights,aggregation
+Bangladesh,2020,PF,BGD,Partly free,total_country_score,42,Country Score,aggregation
+Bangladesh,2019,PF,BGD,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Bangladesh,2019,PF,BGD,Partly free,a2,1,Internet accesibility,Obstructions to access
+Bangladesh,2019,PF,BGD,Partly free,a3,3,Government restrictions,Obstructions to access
+Bangladesh,2019,PF,BGD,Partly free,a4,5,Service provider diversity,Obstructions to access
+Bangladesh,2019,PF,BGD,Partly free,a5,1,Regulatory failure,Obstructions to access
+Bangladesh,2019,PF,BGD,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Bangladesh,2019,PF,BGD,Partly free,b1,2,Blocked content,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b2,2,Forced content deletion,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b4,1,Self-censorship,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b5,3,Information control and manipulation,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b6,2,Constraints on publishing,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b8,3,Constraints on communities,Limits on content
+Bangladesh,2019,PF,BGD,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Bangladesh,2019,PF,BGD,Partly free,c1,2,Legal protections,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c2,0,Criminalised online activities,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c3,2,Individuals penalised,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c8,2,Cyberattacks,Violation of user rights
+Bangladesh,2019,PF,BGD,Partly free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Bangladesh,2019,PF,BGD,Partly free,total_country_score,44,Country Score,aggregation
+Bangladesh,2018,PF,BGD,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Bangladesh,2018,PF,BGD,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Bangladesh,2018,PF,BGD,Partly free,c_violations_of_user_rights,15,Violations of user rights,aggregation
+Bangladesh,2018,PF,BGD,Partly free,total_country_score,49,Country Score,aggregation
+Bangladesh,2017,PF,BGD,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Bangladesh,2017,PF,BGD,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Bangladesh,2017,PF,BGD,Partly free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Bangladesh,2017,PF,BGD,Partly free,total_country_score,46,Country Score,aggregation
+Bangladesh,2016,PF,BGD,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Bangladesh,2016,PF,BGD,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Bangladesh,2016,PF,BGD,Partly free,c_violations_of_user_rights,12,Violations of user rights,aggregation
+Bangladesh,2016,PF,BGD,Partly free,total_country_score,44,Country Score,aggregation
+Bangladesh,2015,PF,BGD,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Bangladesh,2015,PF,BGD,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Bangladesh,2015,PF,BGD,Partly free,c_violations_of_user_rights,13,Violations of user rights,aggregation
+Bangladesh,2015,PF,BGD,Partly free,total_country_score,49,Country Score,aggregation
+Bangladesh,2014,PF,BGD,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Bangladesh,2014,PF,BGD,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Bangladesh,2014,PF,BGD,Partly free,c_violations_of_user_rights,15,Violations of user rights,aggregation
+Bangladesh,2014,PF,BGD,Partly free,total_country_score,51,Country Score,aggregation
+Bangladesh,2013,PF,BGD,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Bangladesh,2013,PF,BGD,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Bangladesh,2013,PF,BGD,Partly free,c_violations_of_user_rights,16,Violations of user rights,aggregation
+Bangladesh,2013,PF,BGD,Partly free,total_country_score,51,Country Score,aggregation
+Cambodia,2023,PF,KHM,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Cambodia,2023,PF,KHM,Partly free,a2,1,Internet accesibility,Obstructions to access
+Cambodia,2023,PF,KHM,Partly free,a3,4,Government restrictions,Obstructions to access
+Cambodia,2023,PF,KHM,Partly free,a4,4,Service provider diversity,Obstructions to access
+Cambodia,2023,PF,KHM,Partly free,a5,0,Regulatory failure,Obstructions to access
+Cambodia,2023,PF,KHM,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Cambodia,2023,PF,KHM,Partly free,b1,4,Blocked content,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b2,1,Forced content deletion,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Cambodia,2023,PF,KHM,Partly free,b4,1,Self-censorship,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b5,2,Information control and manipulation,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b6,2,Constraints on publishing,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b7,2,Lack diversity and reliability,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b8,4,Constraints on communities,Limits on content
+Cambodia,2023,PF,KHM,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Cambodia,2023,PF,KHM,Partly free,c1,1,Legal protections,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c3,2,Individuals penalised,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c6,1,Data monitoring and retention,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c8,2,Cyberattacks,Violation of user rights
+Cambodia,2023,PF,KHM,Partly free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Cambodia,2023,PF,KHM,Partly free,total_country_score,44,Country Score,aggregation
+Cambodia,2022,PF,KHM,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Cambodia,2022,PF,KHM,Partly free,a2,1,Internet accesibility,Obstructions to access
+Cambodia,2022,PF,KHM,Partly free,a3,4,Government restrictions,Obstructions to access
+Cambodia,2022,PF,KHM,Partly free,a4,4,Service provider diversity,Obstructions to access
+Cambodia,2022,PF,KHM,Partly free,a5,0,Regulatory failure,Obstructions to access
+Cambodia,2022,PF,KHM,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Cambodia,2022,PF,KHM,Partly free,b1,4,Blocked content,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b2,1,Forced content deletion,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Cambodia,2022,PF,KHM,Partly free,b4,1,Self-censorship,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b5,2,Information control and manipulation,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b6,2,Constraints on publishing,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b8,4,Constraints on communities,Limits on content
+Cambodia,2022,PF,KHM,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Cambodia,2022,PF,KHM,Partly free,c1,1,Legal protections,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c3,1,Individuals penalised,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c6,1,Data monitoring and retention,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c8,1,Cyberattacks,Violation of user rights
+Cambodia,2022,PF,KHM,Partly free,c_violations_of_user_rights,12,Violations of user rights,aggregation
+Cambodia,2022,PF,KHM,Partly free,total_country_score,43,Country Score,aggregation
+Cambodia,2021,PF,KHM,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Cambodia,2021,PF,KHM,Partly free,a2,1,Internet accesibility,Obstructions to access
+Cambodia,2021,PF,KHM,Partly free,a3,4,Government restrictions,Obstructions to access
+Cambodia,2021,PF,KHM,Partly free,a4,4,Service provider diversity,Obstructions to access
+Cambodia,2021,PF,KHM,Partly free,a5,0,Regulatory failure,Obstructions to access
+Cambodia,2021,PF,KHM,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Cambodia,2021,PF,KHM,Partly free,b1,4,Blocked content,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b2,1,Forced content deletion,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Cambodia,2021,PF,KHM,Partly free,b4,1,Self-censorship,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b5,2,Information control and manipulation,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b6,2,Constraints on publishing,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b8,4,Constraints on communities,Limits on content
+Cambodia,2021,PF,KHM,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Cambodia,2021,PF,KHM,Partly free,c1,1,Legal protections,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c3,1,Individuals penalised,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c6,1,Data monitoring and retention,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c8,1,Cyberattacks,Violation of user rights
+Cambodia,2021,PF,KHM,Partly free,c_violations_of_user_rights,12,Violations of user rights,aggregation
+Cambodia,2021,PF,KHM,Partly free,total_country_score,43,Country Score,aggregation
+Cambodia,2020,PF,KHM,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Cambodia,2020,PF,KHM,Partly free,a2,1,Internet accesibility,Obstructions to access
+Cambodia,2020,PF,KHM,Partly free,a3,4,Government restrictions,Obstructions to access
+Cambodia,2020,PF,KHM,Partly free,a4,4,Service provider diversity,Obstructions to access
+Cambodia,2020,PF,KHM,Partly free,a5,0,Regulatory failure,Obstructions to access
+Cambodia,2020,PF,KHM,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Cambodia,2020,PF,KHM,Partly free,b1,4,Blocked content,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b2,1,Forced content deletion,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Cambodia,2020,PF,KHM,Partly free,b4,1,Self-censorship,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b5,2,Information control and manipulation,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b6,2,Constraints on publishing,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b8,4,Constraints on communities,Limits on content
+Cambodia,2020,PF,KHM,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Cambodia,2020,PF,KHM,Partly free,c1,1,Legal protections,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c3,1,Individuals penalised,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c6,1,Data monitoring and retention,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c8,1,Cyberattacks,Violation of user rights
+Cambodia,2020,PF,KHM,Partly free,c_violations_of_user_rights,13,Violations of user rights,aggregation
+Cambodia,2020,PF,KHM,Partly free,total_country_score,43,Country Score,aggregation
+Cambodia,2019,PF,KHM,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Cambodia,2019,PF,KHM,Partly free,a2,1,Internet accesibility,Obstructions to access
+Cambodia,2019,PF,KHM,Partly free,a3,4,Government restrictions,Obstructions to access
+Cambodia,2019,PF,KHM,Partly free,a4,4,Service provider diversity,Obstructions to access
+Cambodia,2019,PF,KHM,Partly free,a5,0,Regulatory failure,Obstructions to access
+Cambodia,2019,PF,KHM,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Cambodia,2019,PF,KHM,Partly free,b1,3,Blocked content,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b2,2,Forced content deletion,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Cambodia,2019,PF,KHM,Partly free,b4,1,Self-censorship,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b5,2,Information control and manipulation,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b6,2,Constraints on publishing,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b8,4,Constraints on communities,Limits on content
+Cambodia,2019,PF,KHM,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Cambodia,2019,PF,KHM,Partly free,c1,1,Legal protections,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c3,1,Individuals penalised,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c6,1,Data monitoring and retention,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c8,1,Cyberattacks,Violation of user rights
+Cambodia,2019,PF,KHM,Partly free,c_violations_of_user_rights,13,Violations of user rights,aggregation
+Cambodia,2019,PF,KHM,Partly free,total_country_score,43,Country Score,aggregation
+Cambodia,2018,PF,KHM,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Cambodia,2018,PF,KHM,Partly free,b_limits_on_content,19,Limits on content,aggregation
+Cambodia,2018,PF,KHM,Partly free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Cambodia,2018,PF,KHM,Partly free,total_country_score,45,Country Score,aggregation
+Cambodia,2017,PF,KHM,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Cambodia,2017,PF,KHM,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Cambodia,2017,PF,KHM,Partly free,c_violations_of_user_rights,16,Violations of user rights,aggregation
+Cambodia,2017,PF,KHM,Partly free,total_country_score,48,Country Score,aggregation
+Cambodia,2016,PF,KHM,Partly free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Cambodia,2016,PF,KHM,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Cambodia,2016,PF,KHM,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Cambodia,2016,PF,KHM,Partly free,total_country_score,48,Country Score,aggregation
+Cambodia,2015,PF,KHM,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Cambodia,2015,PF,KHM,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Cambodia,2015,PF,KHM,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Cambodia,2015,PF,KHM,Partly free,total_country_score,52,Country Score,aggregation
+Cambodia,2014,PF,KHM,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Cambodia,2014,PF,KHM,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Cambodia,2014,PF,KHM,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Cambodia,2014,PF,KHM,Partly free,total_country_score,53,Country Score,aggregation
+Cambodia,2013,PF,KHM,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Cambodia,2013,PF,KHM,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Cambodia,2013,PF,KHM,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Cambodia,2013,PF,KHM,Partly free,total_country_score,53,Country Score,aggregation
+China,2023,NF,CHN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+China,2023,NF,CHN,Not free,a2,1,Internet accesibility,Obstructions to access
+China,2023,NF,CHN,Not free,a3,1,Government restrictions,Obstructions to access
+China,2023,NF,CHN,Not free,a4,0,Service provider diversity,Obstructions to access
+China,2023,NF,CHN,Not free,a5,0,Regulatory failure,Obstructions to access
+China,2023,NF,CHN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+China,2023,NF,CHN,Not free,b1,0,Blocked content,Limits on content
+China,2023,NF,CHN,Not free,b2,0,Forced content deletion,Limits on content
+China,2023,NF,CHN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+China,2023,NF,CHN,Not free,b4,0,Self-censorship,Limits on content
+China,2023,NF,CHN,Not free,b5,0,Information control and manipulation,Limits on content
+China,2023,NF,CHN,Not free,b6,0,Constraints on publishing,Limits on content
+China,2023,NF,CHN,Not free,b7,1,Lack diversity and reliability,Limits on content
+China,2023,NF,CHN,Not free,b8,1,Constraints on communities,Limits on content
+China,2023,NF,CHN,Not free,b_limits_on_content,2,Limits on content,aggregation
+China,2023,NF,CHN,Not free,c1,0,Legal protections,Violation of user rights
+China,2023,NF,CHN,Not free,c2,0,Criminalised online activities,Violation of user rights
+China,2023,NF,CHN,Not free,c3,0,Individuals penalised,Violation of user rights
+China,2023,NF,CHN,Not free,c4,0,Restricted anonymous communication,Violation of user rights
+China,2023,NF,CHN,Not free,c5,0,State infringement of privacy,Violation of user rights
+China,2023,NF,CHN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+China,2023,NF,CHN,Not free,c7,0,Extralegal intimidation,Violation of user rights
+China,2023,NF,CHN,Not free,c8,0,Cyberattacks,Violation of user rights
+China,2023,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2023,NF,CHN,Not free,total_country_score,9,Country Score,aggregation
+China,2022,NF,CHN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+China,2022,NF,CHN,Not free,a2,1,Internet accesibility,Obstructions to access
+China,2022,NF,CHN,Not free,a3,1,Government restrictions,Obstructions to access
+China,2022,NF,CHN,Not free,a4,1,Service provider diversity,Obstructions to access
+China,2022,NF,CHN,Not free,a5,0,Regulatory failure,Obstructions to access
+China,2022,NF,CHN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+China,2022,NF,CHN,Not free,b1,0,Blocked content,Limits on content
+China,2022,NF,CHN,Not free,b2,0,Forced content deletion,Limits on content
+China,2022,NF,CHN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+China,2022,NF,CHN,Not free,b4,0,Self-censorship,Limits on content
+China,2022,NF,CHN,Not free,b5,0,Information control and manipulation,Limits on content
+China,2022,NF,CHN,Not free,b6,0,Constraints on publishing,Limits on content
+China,2022,NF,CHN,Not free,b7,1,Lack diversity and reliability,Limits on content
+China,2022,NF,CHN,Not free,b8,1,Constraints on communities,Limits on content
+China,2022,NF,CHN,Not free,b_limits_on_content,2,Limits on content,aggregation
+China,2022,NF,CHN,Not free,c1,0,Legal protections,Violation of user rights
+China,2022,NF,CHN,Not free,c2,0,Criminalised online activities,Violation of user rights
+China,2022,NF,CHN,Not free,c3,0,Individuals penalised,Violation of user rights
+China,2022,NF,CHN,Not free,c4,0,Restricted anonymous communication,Violation of user rights
+China,2022,NF,CHN,Not free,c5,0,State infringement of privacy,Violation of user rights
+China,2022,NF,CHN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+China,2022,NF,CHN,Not free,c7,0,Extralegal intimidation,Violation of user rights
+China,2022,NF,CHN,Not free,c8,0,Cyberattacks,Violation of user rights
+China,2022,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2022,NF,CHN,Not free,total_country_score,10,Country Score,aggregation
+China,2021,NF,CHN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+China,2021,NF,CHN,Not free,a2,1,Internet accesibility,Obstructions to access
+China,2021,NF,CHN,Not free,a3,1,Government restrictions,Obstructions to access
+China,2021,NF,CHN,Not free,a4,1,Service provider diversity,Obstructions to access
+China,2021,NF,CHN,Not free,a5,0,Regulatory failure,Obstructions to access
+China,2021,NF,CHN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+China,2021,NF,CHN,Not free,b1,0,Blocked content,Limits on content
+China,2021,NF,CHN,Not free,b2,0,Forced content deletion,Limits on content
+China,2021,NF,CHN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+China,2021,NF,CHN,Not free,b4,0,Self-censorship,Limits on content
+China,2021,NF,CHN,Not free,b5,0,Information control and manipulation,Limits on content
+China,2021,NF,CHN,Not free,b6,0,Constraints on publishing,Limits on content
+China,2021,NF,CHN,Not free,b7,1,Lack diversity and reliability,Limits on content
+China,2021,NF,CHN,Not free,b8,1,Constraints on communities,Limits on content
+China,2021,NF,CHN,Not free,b_limits_on_content,2,Limits on content,aggregation
+China,2021,NF,CHN,Not free,c1,0,Legal protections,Violation of user rights
+China,2021,NF,CHN,Not free,c2,0,Criminalised online activities,Violation of user rights
+China,2021,NF,CHN,Not free,c3,0,Individuals penalised,Violation of user rights
+China,2021,NF,CHN,Not free,c4,0,Restricted anonymous communication,Violation of user rights
+China,2021,NF,CHN,Not free,c5,0,State infringement of privacy,Violation of user rights
+China,2021,NF,CHN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+China,2021,NF,CHN,Not free,c7,0,Extralegal intimidation,Violation of user rights
+China,2021,NF,CHN,Not free,c8,0,Cyberattacks,Violation of user rights
+China,2021,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2021,NF,CHN,Not free,total_country_score,10,Country Score,aggregation
+China,2020,NF,CHN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+China,2020,NF,CHN,Not free,a2,1,Internet accesibility,Obstructions to access
+China,2020,NF,CHN,Not free,a3,1,Government restrictions,Obstructions to access
+China,2020,NF,CHN,Not free,a4,1,Service provider diversity,Obstructions to access
+China,2020,NF,CHN,Not free,a5,0,Regulatory failure,Obstructions to access
+China,2020,NF,CHN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+China,2020,NF,CHN,Not free,b1,0,Blocked content,Limits on content
+China,2020,NF,CHN,Not free,b2,0,Forced content deletion,Limits on content
+China,2020,NF,CHN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+China,2020,NF,CHN,Not free,b4,0,Self-censorship,Limits on content
+China,2020,NF,CHN,Not free,b5,0,Information control and manipulation,Limits on content
+China,2020,NF,CHN,Not free,b6,0,Constraints on publishing,Limits on content
+China,2020,NF,CHN,Not free,b7,1,Lack diversity and reliability,Limits on content
+China,2020,NF,CHN,Not free,b8,1,Constraints on communities,Limits on content
+China,2020,NF,CHN,Not free,b_limits_on_content,2,Limits on content,aggregation
+China,2020,NF,CHN,Not free,c1,0,Legal protections,Violation of user rights
+China,2020,NF,CHN,Not free,c2,0,Criminalised online activities,Violation of user rights
+China,2020,NF,CHN,Not free,c3,0,Individuals penalised,Violation of user rights
+China,2020,NF,CHN,Not free,c4,0,Restricted anonymous communication,Violation of user rights
+China,2020,NF,CHN,Not free,c5,0,State infringement of privacy,Violation of user rights
+China,2020,NF,CHN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+China,2020,NF,CHN,Not free,c7,0,Extralegal intimidation,Violation of user rights
+China,2020,NF,CHN,Not free,c8,0,Cyberattacks,Violation of user rights
+China,2020,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2020,NF,CHN,Not free,total_country_score,10,Country Score,aggregation
+China,2019,NF,CHN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+China,2019,NF,CHN,Not free,a2,1,Internet accesibility,Obstructions to access
+China,2019,NF,CHN,Not free,a3,1,Government restrictions,Obstructions to access
+China,2019,NF,CHN,Not free,a4,1,Service provider diversity,Obstructions to access
+China,2019,NF,CHN,Not free,a5,0,Regulatory failure,Obstructions to access
+China,2019,NF,CHN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+China,2019,NF,CHN,Not free,b1,0,Blocked content,Limits on content
+China,2019,NF,CHN,Not free,b2,0,Forced content deletion,Limits on content
+China,2019,NF,CHN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+China,2019,NF,CHN,Not free,b4,0,Self-censorship,Limits on content
+China,2019,NF,CHN,Not free,b5,0,Information control and manipulation,Limits on content
+China,2019,NF,CHN,Not free,b6,0,Constraints on publishing,Limits on content
+China,2019,NF,CHN,Not free,b7,1,Lack diversity and reliability,Limits on content
+China,2019,NF,CHN,Not free,b8,1,Constraints on communities,Limits on content
+China,2019,NF,CHN,Not free,b_limits_on_content,2,Limits on content,aggregation
+China,2019,NF,CHN,Not free,c1,0,Legal protections,Violation of user rights
+China,2019,NF,CHN,Not free,c2,0,Criminalised online activities,Violation of user rights
+China,2019,NF,CHN,Not free,c3,0,Individuals penalised,Violation of user rights
+China,2019,NF,CHN,Not free,c4,0,Restricted anonymous communication,Violation of user rights
+China,2019,NF,CHN,Not free,c5,0,State infringement of privacy,Violation of user rights
+China,2019,NF,CHN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+China,2019,NF,CHN,Not free,c7,0,Extralegal intimidation,Violation of user rights
+China,2019,NF,CHN,Not free,c8,0,Cyberattacks,Violation of user rights
+China,2019,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2019,NF,CHN,Not free,total_country_score,10,Country Score,aggregation
+China,2018,NF,CHN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+China,2018,NF,CHN,Not free,b_limits_on_content,4,Limits on content,aggregation
+China,2018,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2018,NF,CHN,Not free,total_country_score,12,Country Score,aggregation
+China,2017,NF,CHN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+China,2017,NF,CHN,Not free,b_limits_on_content,5,Limits on content,aggregation
+China,2017,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2017,NF,CHN,Not free,total_country_score,13,Country Score,aggregation
+China,2016,NF,CHN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+China,2016,NF,CHN,Not free,b_limits_on_content,5,Limits on content,aggregation
+China,2016,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2016,NF,CHN,Not free,total_country_score,12,Country Score,aggregation
+China,2015,NF,CHN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+China,2015,NF,CHN,Not free,b_limits_on_content,5,Limits on content,aggregation
+China,2015,NF,CHN,Not free,c_violations_of_user_rights,0,Violations of user rights,aggregation
+China,2015,NF,CHN,Not free,total_country_score,12,Country Score,aggregation
+China,2014,NF,CHN,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+China,2014,NF,CHN,Not free,b_limits_on_content,6,Limits on content,aggregation
+China,2014,NF,CHN,Not free,c_violations_of_user_rights,1,Violations of user rights,aggregation
+China,2014,NF,CHN,Not free,total_country_score,13,Country Score,aggregation
+China,2013,NF,CHN,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+China,2013,NF,CHN,Not free,b_limits_on_content,6,Limits on content,aggregation
+China,2013,NF,CHN,Not free,c_violations_of_user_rights,2,Violations of user rights,aggregation
+China,2013,NF,CHN,Not free,total_country_score,14,Country Score,aggregation
+China,2012,NF,CHN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+China,2012,NF,CHN,Not free,b_limits_on_content,6,Limits on content,aggregation
+China,2012,NF,CHN,Not free,c_violations_of_user_rights,2,Violations of user rights,aggregation
+China,2012,NF,CHN,Not free,total_country_score,15,Country Score,aggregation
+China,2011,NF,CHN,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+China,2011,NF,CHN,Not free,b_limits_on_content,7,Limits on content,aggregation
+China,2011,NF,CHN,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+China,2011,NF,CHN,Not free,total_country_score,17,Country Score,aggregation
+India,2023,PF,IND,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+India,2023,PF,IND,Partly free,a2,2,Internet accesibility,Obstructions to access
+India,2023,PF,IND,Partly free,a3,2,Government restrictions,Obstructions to access
+India,2023,PF,IND,Partly free,a4,4,Service provider diversity,Obstructions to access
+India,2023,PF,IND,Partly free,a5,2,Regulatory failure,Obstructions to access
+India,2023,PF,IND,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+India,2023,PF,IND,Partly free,b1,3,Blocked content,Limits on content
+India,2023,PF,IND,Partly free,b2,1,Forced content deletion,Limits on content
+India,2023,PF,IND,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+India,2023,PF,IND,Partly free,b4,3,Self-censorship,Limits on content
+India,2023,PF,IND,Partly free,b5,2,Information control and manipulation,Limits on content
+India,2023,PF,IND,Partly free,b6,2,Constraints on publishing,Limits on content
+India,2023,PF,IND,Partly free,b7,3,Lack diversity and reliability,Limits on content
+India,2023,PF,IND,Partly free,b8,4,Constraints on communities,Limits on content
+India,2023,PF,IND,Partly free,b_limits_on_content,20,Limits on content,aggregation
+India,2023,PF,IND,Partly free,c1,4,Legal protections,Violation of user rights
+India,2023,PF,IND,Partly free,c2,2,Criminalised online activities,Violation of user rights
+India,2023,PF,IND,Partly free,c3,2,Individuals penalised,Violation of user rights
+India,2023,PF,IND,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+India,2023,PF,IND,Partly free,c5,1,State infringement of privacy,Violation of user rights
+India,2023,PF,IND,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+India,2023,PF,IND,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+India,2023,PF,IND,Partly free,c8,2,Cyberattacks,Violation of user rights
+India,2023,PF,IND,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+India,2023,PF,IND,Partly free,total_country_score,50,Country Score,aggregation
+India,2022,PF,IND,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+India,2022,PF,IND,Partly free,a2,2,Internet accesibility,Obstructions to access
+India,2022,PF,IND,Partly free,a3,2,Government restrictions,Obstructions to access
+India,2022,PF,IND,Partly free,a4,4,Service provider diversity,Obstructions to access
+India,2022,PF,IND,Partly free,a5,2,Regulatory failure,Obstructions to access
+India,2022,PF,IND,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+India,2022,PF,IND,Partly free,b1,3,Blocked content,Limits on content
+India,2022,PF,IND,Partly free,b2,2,Forced content deletion,Limits on content
+India,2022,PF,IND,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+India,2022,PF,IND,Partly free,b4,3,Self-censorship,Limits on content
+India,2022,PF,IND,Partly free,b5,2,Information control and manipulation,Limits on content
+India,2022,PF,IND,Partly free,b6,2,Constraints on publishing,Limits on content
+India,2022,PF,IND,Partly free,b7,3,Lack diversity and reliability,Limits on content
+India,2022,PF,IND,Partly free,b8,4,Constraints on communities,Limits on content
+India,2022,PF,IND,Partly free,b_limits_on_content,21,Limits on content,aggregation
+India,2022,PF,IND,Partly free,c1,4,Legal protections,Violation of user rights
+India,2022,PF,IND,Partly free,c2,2,Criminalised online activities,Violation of user rights
+India,2022,PF,IND,Partly free,c3,2,Individuals penalised,Violation of user rights
+India,2022,PF,IND,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+India,2022,PF,IND,Partly free,c5,1,State infringement of privacy,Violation of user rights
+India,2022,PF,IND,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+India,2022,PF,IND,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+India,2022,PF,IND,Partly free,c8,2,Cyberattacks,Violation of user rights
+India,2022,PF,IND,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+India,2022,PF,IND,Partly free,total_country_score,51,Country Score,aggregation
+India,2021,PF,IND,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+India,2021,PF,IND,Partly free,a2,1,Internet accesibility,Obstructions to access
+India,2021,PF,IND,Partly free,a3,1,Government restrictions,Obstructions to access
+India,2021,PF,IND,Partly free,a4,4,Service provider diversity,Obstructions to access
+India,2021,PF,IND,Partly free,a5,2,Regulatory failure,Obstructions to access
+India,2021,PF,IND,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+India,2021,PF,IND,Partly free,b1,3,Blocked content,Limits on content
+India,2021,PF,IND,Partly free,b2,2,Forced content deletion,Limits on content
+India,2021,PF,IND,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+India,2021,PF,IND,Partly free,b4,3,Self-censorship,Limits on content
+India,2021,PF,IND,Partly free,b5,2,Information control and manipulation,Limits on content
+India,2021,PF,IND,Partly free,b6,2,Constraints on publishing,Limits on content
+India,2021,PF,IND,Partly free,b7,3,Lack diversity and reliability,Limits on content
+India,2021,PF,IND,Partly free,b8,4,Constraints on communities,Limits on content
+India,2021,PF,IND,Partly free,b_limits_on_content,21,Limits on content,aggregation
+India,2021,PF,IND,Partly free,c1,4,Legal protections,Violation of user rights
+India,2021,PF,IND,Partly free,c2,2,Criminalised online activities,Violation of user rights
+India,2021,PF,IND,Partly free,c3,2,Individuals penalised,Violation of user rights
+India,2021,PF,IND,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+India,2021,PF,IND,Partly free,c5,1,State infringement of privacy,Violation of user rights
+India,2021,PF,IND,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+India,2021,PF,IND,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+India,2021,PF,IND,Partly free,c8,2,Cyberattacks,Violation of user rights
+India,2021,PF,IND,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+India,2021,PF,IND,Partly free,total_country_score,49,Country Score,aggregation
+India,2020,PF,IND,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+India,2020,PF,IND,Partly free,a2,1,Internet accesibility,Obstructions to access
+India,2020,PF,IND,Partly free,a3,2,Government restrictions,Obstructions to access
+India,2020,PF,IND,Partly free,a4,4,Service provider diversity,Obstructions to access
+India,2020,PF,IND,Partly free,a5,2,Regulatory failure,Obstructions to access
+India,2020,PF,IND,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+India,2020,PF,IND,Partly free,b1,3,Blocked content,Limits on content
+India,2020,PF,IND,Partly free,b2,2,Forced content deletion,Limits on content
+India,2020,PF,IND,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+India,2020,PF,IND,Partly free,b4,3,Self-censorship,Limits on content
+India,2020,PF,IND,Partly free,b5,2,Information control and manipulation,Limits on content
+India,2020,PF,IND,Partly free,b6,2,Constraints on publishing,Limits on content
+India,2020,PF,IND,Partly free,b7,3,Lack diversity and reliability,Limits on content
+India,2020,PF,IND,Partly free,b8,4,Constraints on communities,Limits on content
+India,2020,PF,IND,Partly free,b_limits_on_content,21,Limits on content,aggregation
+India,2020,PF,IND,Partly free,c1,4,Legal protections,Violation of user rights
+India,2020,PF,IND,Partly free,c2,2,Criminalised online activities,Violation of user rights
+India,2020,PF,IND,Partly free,c3,2,Individuals penalised,Violation of user rights
+India,2020,PF,IND,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+India,2020,PF,IND,Partly free,c5,1,State infringement of privacy,Violation of user rights
+India,2020,PF,IND,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+India,2020,PF,IND,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+India,2020,PF,IND,Partly free,c8,2,Cyberattacks,Violation of user rights
+India,2020,PF,IND,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+India,2020,PF,IND,Partly free,total_country_score,51,Country Score,aggregation
+India,2019,PF,IND,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+India,2019,PF,IND,Partly free,a2,1,Internet accesibility,Obstructions to access
+India,2019,PF,IND,Partly free,a3,2,Government restrictions,Obstructions to access
+India,2019,PF,IND,Partly free,a4,4,Service provider diversity,Obstructions to access
+India,2019,PF,IND,Partly free,a5,2,Regulatory failure,Obstructions to access
+India,2019,PF,IND,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+India,2019,PF,IND,Partly free,b1,3,Blocked content,Limits on content
+India,2019,PF,IND,Partly free,b2,3,Forced content deletion,Limits on content
+India,2019,PF,IND,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+India,2019,PF,IND,Partly free,b4,3,Self-censorship,Limits on content
+India,2019,PF,IND,Partly free,b5,2,Information control and manipulation,Limits on content
+India,2019,PF,IND,Partly free,b6,3,Constraints on publishing,Limits on content
+India,2019,PF,IND,Partly free,b7,3,Lack diversity and reliability,Limits on content
+India,2019,PF,IND,Partly free,b8,5,Constraints on communities,Limits on content
+India,2019,PF,IND,Partly free,b_limits_on_content,24,Limits on content,aggregation
+India,2019,PF,IND,Partly free,c1,4,Legal protections,Violation of user rights
+India,2019,PF,IND,Partly free,c2,2,Criminalised online activities,Violation of user rights
+India,2019,PF,IND,Partly free,c3,2,Individuals penalised,Violation of user rights
+India,2019,PF,IND,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+India,2019,PF,IND,Partly free,c5,2,State infringement of privacy,Violation of user rights
+India,2019,PF,IND,Partly free,c6,2,Data monitoring and retention,Violation of user rights
+India,2019,PF,IND,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+India,2019,PF,IND,Partly free,c8,2,Cyberattacks,Violation of user rights
+India,2019,PF,IND,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+India,2019,PF,IND,Partly free,total_country_score,55,Country Score,aggregation
+India,2018,PF,IND,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+India,2018,PF,IND,Partly free,b_limits_on_content,25,Limits on content,aggregation
+India,2018,PF,IND,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+India,2018,PF,IND,Partly free,total_country_score,57,Country Score,aggregation
+India,2017,PF,IND,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+India,2017,PF,IND,Partly free,b_limits_on_content,26,Limits on content,aggregation
+India,2017,PF,IND,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+India,2017,PF,IND,Partly free,total_country_score,59,Country Score,aggregation
+India,2016,PF,IND,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+India,2016,PF,IND,Partly free,b_limits_on_content,26,Limits on content,aggregation
+India,2016,PF,IND,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+India,2016,PF,IND,Partly free,total_country_score,59,Country Score,aggregation
+India,2015,PF,IND,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+India,2015,PF,IND,Partly free,b_limits_on_content,25,Limits on content,aggregation
+India,2015,PF,IND,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+India,2015,PF,IND,Partly free,total_country_score,60,Country Score,aggregation
+India,2014,PF,IND,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+India,2014,PF,IND,Partly free,b_limits_on_content,25,Limits on content,aggregation
+India,2014,PF,IND,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+India,2014,PF,IND,Partly free,total_country_score,58,Country Score,aggregation
+India,2013,PF,IND,Partly free,a_obstacles_to_access,10,Obstacles to access,aggregation
+India,2013,PF,IND,Partly free,b_limits_on_content,23,Limits on content,aggregation
+India,2013,PF,IND,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+India,2013,PF,IND,Partly free,total_country_score,53,Country Score,aggregation
+India,2012,PF,IND,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+India,2012,PF,IND,Partly free,b_limits_on_content,26,Limits on content,aggregation
+India,2012,PF,IND,Partly free,c_violations_of_user_rights,23,Violations of user rights,aggregation
+India,2012,PF,IND,Partly free,total_country_score,61,Country Score,aggregation
+India,2011,PF,IND,Partly free,a_obstacles_to_access,13,Obstacles to access,aggregation
+India,2011,PF,IND,Partly free,b_limits_on_content,27,Limits on content,aggregation
+India,2011,PF,IND,Partly free,c_violations_of_user_rights,24,Violations of user rights,aggregation
+India,2011,PF,IND,Partly free,total_country_score,64,Country Score,aggregation
+Indonesia,2023,PF,IDN,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Indonesia,2023,PF,IDN,Partly free,a2,1,Internet accesibility,Obstructions to access
+Indonesia,2023,PF,IDN,Partly free,a3,4,Government restrictions,Obstructions to access
+Indonesia,2023,PF,IDN,Partly free,a4,4,Service provider diversity,Obstructions to access
+Indonesia,2023,PF,IDN,Partly free,a5,2,Regulatory failure,Obstructions to access
+Indonesia,2023,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2023,PF,IDN,Partly free,b1,2,Blocked content,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b2,2,Forced content deletion,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Indonesia,2023,PF,IDN,Partly free,b4,2,Self-censorship,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b5,2,Information control and manipulation,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b6,1,Constraints on publishing,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b8,4,Constraints on communities,Limits on content
+Indonesia,2023,PF,IDN,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Indonesia,2023,PF,IDN,Partly free,c1,2,Legal protections,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c3,2,Individuals penalised,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c8,1,Cyberattacks,Violation of user rights
+Indonesia,2023,PF,IDN,Partly free,c_violations_of_user_rights,16,Violations of user rights,aggregation
+Indonesia,2023,PF,IDN,Partly free,total_country_score,47,Country Score,aggregation
+Indonesia,2022,PF,IDN,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Indonesia,2022,PF,IDN,Partly free,a2,1,Internet accesibility,Obstructions to access
+Indonesia,2022,PF,IDN,Partly free,a3,4,Government restrictions,Obstructions to access
+Indonesia,2022,PF,IDN,Partly free,a4,4,Service provider diversity,Obstructions to access
+Indonesia,2022,PF,IDN,Partly free,a5,2,Regulatory failure,Obstructions to access
+Indonesia,2022,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2022,PF,IDN,Partly free,b1,3,Blocked content,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b2,2,Forced content deletion,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Indonesia,2022,PF,IDN,Partly free,b4,2,Self-censorship,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b5,1,Information control and manipulation,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b6,1,Constraints on publishing,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b8,4,Constraints on communities,Limits on content
+Indonesia,2022,PF,IDN,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Indonesia,2022,PF,IDN,Partly free,c1,2,Legal protections,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c3,2,Individuals penalised,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c8,1,Cyberattacks,Violation of user rights
+Indonesia,2022,PF,IDN,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Indonesia,2022,PF,IDN,Partly free,total_country_score,49,Country Score,aggregation
+Indonesia,2021,PF,IDN,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Indonesia,2021,PF,IDN,Partly free,a2,1,Internet accesibility,Obstructions to access
+Indonesia,2021,PF,IDN,Partly free,a3,4,Government restrictions,Obstructions to access
+Indonesia,2021,PF,IDN,Partly free,a4,4,Service provider diversity,Obstructions to access
+Indonesia,2021,PF,IDN,Partly free,a5,2,Regulatory failure,Obstructions to access
+Indonesia,2021,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2021,PF,IDN,Partly free,b1,3,Blocked content,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b2,2,Forced content deletion,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Indonesia,2021,PF,IDN,Partly free,b4,2,Self-censorship,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b5,1,Information control and manipulation,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b6,1,Constraints on publishing,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b8,4,Constraints on communities,Limits on content
+Indonesia,2021,PF,IDN,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Indonesia,2021,PF,IDN,Partly free,c1,2,Legal protections,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c3,2,Individuals penalised,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c8,1,Cyberattacks,Violation of user rights
+Indonesia,2021,PF,IDN,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Indonesia,2021,PF,IDN,Partly free,total_country_score,48,Country Score,aggregation
+Indonesia,2020,PF,IDN,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Indonesia,2020,PF,IDN,Partly free,a2,1,Internet accesibility,Obstructions to access
+Indonesia,2020,PF,IDN,Partly free,a3,3,Government restrictions,Obstructions to access
+Indonesia,2020,PF,IDN,Partly free,a4,4,Service provider diversity,Obstructions to access
+Indonesia,2020,PF,IDN,Partly free,a5,2,Regulatory failure,Obstructions to access
+Indonesia,2020,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2020,PF,IDN,Partly free,b1,3,Blocked content,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b2,2,Forced content deletion,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Indonesia,2020,PF,IDN,Partly free,b4,2,Self-censorship,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b5,1,Information control and manipulation,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b6,2,Constraints on publishing,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b8,4,Constraints on communities,Limits on content
+Indonesia,2020,PF,IDN,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Indonesia,2020,PF,IDN,Partly free,c1,2,Legal protections,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c3,2,Individuals penalised,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c8,1,Cyberattacks,Violation of user rights
+Indonesia,2020,PF,IDN,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Indonesia,2020,PF,IDN,Partly free,total_country_score,49,Country Score,aggregation
+Indonesia,2019,PF,IDN,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Indonesia,2019,PF,IDN,Partly free,a2,1,Internet accesibility,Obstructions to access
+Indonesia,2019,PF,IDN,Partly free,a3,3,Government restrictions,Obstructions to access
+Indonesia,2019,PF,IDN,Partly free,a4,4,Service provider diversity,Obstructions to access
+Indonesia,2019,PF,IDN,Partly free,a5,2,Regulatory failure,Obstructions to access
+Indonesia,2019,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2019,PF,IDN,Partly free,b1,3,Blocked content,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b2,2,Forced content deletion,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Indonesia,2019,PF,IDN,Partly free,b4,2,Self-censorship,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b5,2,Information control and manipulation,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b6,2,Constraints on publishing,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b8,4,Constraints on communities,Limits on content
+Indonesia,2019,PF,IDN,Partly free,b_limits_on_content,19,Limits on content,aggregation
+Indonesia,2019,PF,IDN,Partly free,c1,2,Legal protections,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c3,2,Individuals penalised,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c8,2,Cyberattacks,Violation of user rights
+Indonesia,2019,PF,IDN,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Indonesia,2019,PF,IDN,Partly free,total_country_score,51,Country Score,aggregation
+Indonesia,2018,PF,IDN,Partly free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Indonesia,2018,PF,IDN,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Indonesia,2018,PF,IDN,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Indonesia,2018,PF,IDN,Partly free,total_country_score,54,Country Score,aggregation
+Indonesia,2017,PF,IDN,Partly free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Indonesia,2017,PF,IDN,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Indonesia,2017,PF,IDN,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Indonesia,2017,PF,IDN,Partly free,total_country_score,53,Country Score,aggregation
+Indonesia,2016,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2016,PF,IDN,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Indonesia,2016,PF,IDN,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Indonesia,2016,PF,IDN,Partly free,total_country_score,56,Country Score,aggregation
+Indonesia,2015,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2015,PF,IDN,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Indonesia,2015,PF,IDN,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Indonesia,2015,PF,IDN,Partly free,total_country_score,58,Country Score,aggregation
+Indonesia,2014,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2014,PF,IDN,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Indonesia,2014,PF,IDN,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Indonesia,2014,PF,IDN,Partly free,total_country_score,58,Country Score,aggregation
+Indonesia,2013,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2013,PF,IDN,Partly free,b_limits_on_content,24,Limits on content,aggregation
+Indonesia,2013,PF,IDN,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Indonesia,2013,PF,IDN,Partly free,total_country_score,59,Country Score,aggregation
+Indonesia,2012,PF,IDN,Partly free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Indonesia,2012,PF,IDN,Partly free,b_limits_on_content,24,Limits on content,aggregation
+Indonesia,2012,PF,IDN,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Indonesia,2012,PF,IDN,Partly free,total_country_score,58,Country Score,aggregation
+Indonesia,2011,PF,IDN,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Indonesia,2011,PF,IDN,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Indonesia,2011,PF,IDN,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Indonesia,2011,PF,IDN,Partly free,total_country_score,54,Country Score,aggregation
+Iran,2023,NF,IRN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Iran,2023,NF,IRN,Not free,a2,1,Internet accesibility,Obstructions to access
+Iran,2023,NF,IRN,Not free,a3,0,Government restrictions,Obstructions to access
+Iran,2023,NF,IRN,Not free,a4,0,Service provider diversity,Obstructions to access
+Iran,2023,NF,IRN,Not free,a5,0,Regulatory failure,Obstructions to access
+Iran,2023,NF,IRN,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Iran,2023,NF,IRN,Not free,b1,0,Blocked content,Limits on content
+Iran,2023,NF,IRN,Not free,b2,0,Forced content deletion,Limits on content
+Iran,2023,NF,IRN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Iran,2023,NF,IRN,Not free,b4,1,Self-censorship,Limits on content
+Iran,2023,NF,IRN,Not free,b5,0,Information control and manipulation,Limits on content
+Iran,2023,NF,IRN,Not free,b6,0,Constraints on publishing,Limits on content
+Iran,2023,NF,IRN,Not free,b7,1,Lack diversity and reliability,Limits on content
+Iran,2023,NF,IRN,Not free,b8,2,Constraints on communities,Limits on content
+Iran,2023,NF,IRN,Not free,b_limits_on_content,4,Limits on content,aggregation
+Iran,2023,NF,IRN,Not free,c1,0,Legal protections,Violation of user rights
+Iran,2023,NF,IRN,Not free,c2,0,Criminalised online activities,Violation of user rights
+Iran,2023,NF,IRN,Not free,c3,0,Individuals penalised,Violation of user rights
+Iran,2023,NF,IRN,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Iran,2023,NF,IRN,Not free,c5,0,State infringement of privacy,Violation of user rights
+Iran,2023,NF,IRN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Iran,2023,NF,IRN,Not free,c7,0,Extralegal intimidation,Violation of user rights
+Iran,2023,NF,IRN,Not free,c8,0,Cyberattacks,Violation of user rights
+Iran,2023,NF,IRN,Not free,c_violations_of_user_rights,1,Violations of user rights,aggregation
+Iran,2023,NF,IRN,Not free,total_country_score,11,Country Score,aggregation
+Iran,2022,NF,IRN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Iran,2022,NF,IRN,Not free,a2,1,Internet accesibility,Obstructions to access
+Iran,2022,NF,IRN,Not free,a3,1,Government restrictions,Obstructions to access
+Iran,2022,NF,IRN,Not free,a4,0,Service provider diversity,Obstructions to access
+Iran,2022,NF,IRN,Not free,a5,0,Regulatory failure,Obstructions to access
+Iran,2022,NF,IRN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Iran,2022,NF,IRN,Not free,b1,0,Blocked content,Limits on content
+Iran,2022,NF,IRN,Not free,b2,0,Forced content deletion,Limits on content
+Iran,2022,NF,IRN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Iran,2022,NF,IRN,Not free,b4,1,Self-censorship,Limits on content
+Iran,2022,NF,IRN,Not free,b5,1,Information control and manipulation,Limits on content
+Iran,2022,NF,IRN,Not free,b6,0,Constraints on publishing,Limits on content
+Iran,2022,NF,IRN,Not free,b7,1,Lack diversity and reliability,Limits on content
+Iran,2022,NF,IRN,Not free,b8,2,Constraints on communities,Limits on content
+Iran,2022,NF,IRN,Not free,b_limits_on_content,5,Limits on content,aggregation
+Iran,2022,NF,IRN,Not free,c1,0,Legal protections,Violation of user rights
+Iran,2022,NF,IRN,Not free,c2,0,Criminalised online activities,Violation of user rights
+Iran,2022,NF,IRN,Not free,c3,1,Individuals penalised,Violation of user rights
+Iran,2022,NF,IRN,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Iran,2022,NF,IRN,Not free,c5,1,State infringement of privacy,Violation of user rights
+Iran,2022,NF,IRN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Iran,2022,NF,IRN,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Iran,2022,NF,IRN,Not free,c8,0,Cyberattacks,Violation of user rights
+Iran,2022,NF,IRN,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Iran,2022,NF,IRN,Not free,total_country_score,16,Country Score,aggregation
+Iran,2021,NF,IRN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Iran,2021,NF,IRN,Not free,a2,1,Internet accesibility,Obstructions to access
+Iran,2021,NF,IRN,Not free,a3,2,Government restrictions,Obstructions to access
+Iran,2021,NF,IRN,Not free,a4,0,Service provider diversity,Obstructions to access
+Iran,2021,NF,IRN,Not free,a5,0,Regulatory failure,Obstructions to access
+Iran,2021,NF,IRN,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+Iran,2021,NF,IRN,Not free,b1,0,Blocked content,Limits on content
+Iran,2021,NF,IRN,Not free,b2,0,Forced content deletion,Limits on content
+Iran,2021,NF,IRN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Iran,2021,NF,IRN,Not free,b4,1,Self-censorship,Limits on content
+Iran,2021,NF,IRN,Not free,b5,1,Information control and manipulation,Limits on content
+Iran,2021,NF,IRN,Not free,b6,0,Constraints on publishing,Limits on content
+Iran,2021,NF,IRN,Not free,b7,1,Lack diversity and reliability,Limits on content
+Iran,2021,NF,IRN,Not free,b8,2,Constraints on communities,Limits on content
+Iran,2021,NF,IRN,Not free,b_limits_on_content,5,Limits on content,aggregation
+Iran,2021,NF,IRN,Not free,c1,0,Legal protections,Violation of user rights
+Iran,2021,NF,IRN,Not free,c2,0,Criminalised online activities,Violation of user rights
+Iran,2021,NF,IRN,Not free,c3,0,Individuals penalised,Violation of user rights
+Iran,2021,NF,IRN,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Iran,2021,NF,IRN,Not free,c5,1,State infringement of privacy,Violation of user rights
+Iran,2021,NF,IRN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Iran,2021,NF,IRN,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Iran,2021,NF,IRN,Not free,c8,0,Cyberattacks,Violation of user rights
+Iran,2021,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2021,NF,IRN,Not free,total_country_score,16,Country Score,aggregation
+Iran,2020,NF,IRN,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Iran,2020,NF,IRN,Not free,a2,1,Internet accesibility,Obstructions to access
+Iran,2020,NF,IRN,Not free,a3,1,Government restrictions,Obstructions to access
+Iran,2020,NF,IRN,Not free,a4,0,Service provider diversity,Obstructions to access
+Iran,2020,NF,IRN,Not free,a5,0,Regulatory failure,Obstructions to access
+Iran,2020,NF,IRN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Iran,2020,NF,IRN,Not free,b1,0,Blocked content,Limits on content
+Iran,2020,NF,IRN,Not free,b2,0,Forced content deletion,Limits on content
+Iran,2020,NF,IRN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Iran,2020,NF,IRN,Not free,b4,1,Self-censorship,Limits on content
+Iran,2020,NF,IRN,Not free,b5,1,Information control and manipulation,Limits on content
+Iran,2020,NF,IRN,Not free,b6,0,Constraints on publishing,Limits on content
+Iran,2020,NF,IRN,Not free,b7,1,Lack diversity and reliability,Limits on content
+Iran,2020,NF,IRN,Not free,b8,2,Constraints on communities,Limits on content
+Iran,2020,NF,IRN,Not free,b_limits_on_content,5,Limits on content,aggregation
+Iran,2020,NF,IRN,Not free,c1,0,Legal protections,Violation of user rights
+Iran,2020,NF,IRN,Not free,c2,0,Criminalised online activities,Violation of user rights
+Iran,2020,NF,IRN,Not free,c3,0,Individuals penalised,Violation of user rights
+Iran,2020,NF,IRN,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Iran,2020,NF,IRN,Not free,c5,1,State infringement of privacy,Violation of user rights
+Iran,2020,NF,IRN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Iran,2020,NF,IRN,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Iran,2020,NF,IRN,Not free,c8,0,Cyberattacks,Violation of user rights
+Iran,2020,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2020,NF,IRN,Not free,total_country_score,15,Country Score,aggregation
+Iran,2019,NF,IRN,Not free,a1,4,Infrastructural limitations,Obstructions to access
+Iran,2019,NF,IRN,Not free,a2,1,Internet accesibility,Obstructions to access
+Iran,2019,NF,IRN,Not free,a3,2,Government restrictions,Obstructions to access
+Iran,2019,NF,IRN,Not free,a4,0,Service provider diversity,Obstructions to access
+Iran,2019,NF,IRN,Not free,a5,0,Regulatory failure,Obstructions to access
+Iran,2019,NF,IRN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Iran,2019,NF,IRN,Not free,b1,0,Blocked content,Limits on content
+Iran,2019,NF,IRN,Not free,b2,0,Forced content deletion,Limits on content
+Iran,2019,NF,IRN,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Iran,2019,NF,IRN,Not free,b4,1,Self-censorship,Limits on content
+Iran,2019,NF,IRN,Not free,b5,1,Information control and manipulation,Limits on content
+Iran,2019,NF,IRN,Not free,b6,0,Constraints on publishing,Limits on content
+Iran,2019,NF,IRN,Not free,b7,1,Lack diversity and reliability,Limits on content
+Iran,2019,NF,IRN,Not free,b8,2,Constraints on communities,Limits on content
+Iran,2019,NF,IRN,Not free,b_limits_on_content,5,Limits on content,aggregation
+Iran,2019,NF,IRN,Not free,c1,0,Legal protections,Violation of user rights
+Iran,2019,NF,IRN,Not free,c2,0,Criminalised online activities,Violation of user rights
+Iran,2019,NF,IRN,Not free,c3,0,Individuals penalised,Violation of user rights
+Iran,2019,NF,IRN,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Iran,2019,NF,IRN,Not free,c5,1,State infringement of privacy,Violation of user rights
+Iran,2019,NF,IRN,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Iran,2019,NF,IRN,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Iran,2019,NF,IRN,Not free,c8,0,Cyberattacks,Violation of user rights
+Iran,2019,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2019,NF,IRN,Not free,total_country_score,15,Country Score,aggregation
+Iran,2018,NF,IRN,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Iran,2018,NF,IRN,Not free,b_limits_on_content,5,Limits on content,aggregation
+Iran,2018,NF,IRN,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Iran,2018,NF,IRN,Not free,total_country_score,15,Country Score,aggregation
+Iran,2017,NF,IRN,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Iran,2017,NF,IRN,Not free,b_limits_on_content,5,Limits on content,aggregation
+Iran,2017,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2017,NF,IRN,Not free,total_country_score,15,Country Score,aggregation
+Iran,2016,NF,IRN,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Iran,2016,NF,IRN,Not free,b_limits_on_content,4,Limits on content,aggregation
+Iran,2016,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2016,NF,IRN,Not free,total_country_score,13,Country Score,aggregation
+Iran,2015,NF,IRN,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Iran,2015,NF,IRN,Not free,b_limits_on_content,4,Limits on content,aggregation
+Iran,2015,NF,IRN,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Iran,2015,NF,IRN,Not free,total_country_score,13,Country Score,aggregation
+Iran,2014,NF,IRN,Not free,a_obstacles_to_access,3,Obstacles to access,aggregation
+Iran,2014,NF,IRN,Not free,b_limits_on_content,4,Limits on content,aggregation
+Iran,2014,NF,IRN,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Iran,2014,NF,IRN,Not free,total_country_score,11,Country Score,aggregation
+Iran,2013,NF,IRN,Not free,a_obstacles_to_access,3,Obstacles to access,aggregation
+Iran,2013,NF,IRN,Not free,b_limits_on_content,3,Limits on content,aggregation
+Iran,2013,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2013,NF,IRN,Not free,total_country_score,9,Country Score,aggregation
+Iran,2012,NF,IRN,Not free,a_obstacles_to_access,4,Obstacles to access,aggregation
+Iran,2012,NF,IRN,Not free,b_limits_on_content,3,Limits on content,aggregation
+Iran,2012,NF,IRN,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Iran,2012,NF,IRN,Not free,total_country_score,10,Country Score,aggregation
+Iran,2011,NF,IRN,Not free,a_obstacles_to_access,4,Obstacles to access,aggregation
+Iran,2011,NF,IRN,Not free,b_limits_on_content,6,Limits on content,aggregation
+Iran,2011,NF,IRN,Not free,c_violations_of_user_rights,1,Violations of user rights,aggregation
+Iran,2011,NF,IRN,Not free,total_country_score,11,Country Score,aggregation
+Malaysia,2023,PF,MYS,Partly free,a1,6,Infrastructural limitations,Obstructions to access
+Malaysia,2023,PF,MYS,Partly free,a2,3,Internet accesibility,Obstructions to access
+Malaysia,2023,PF,MYS,Partly free,a3,5,Government restrictions,Obstructions to access
+Malaysia,2023,PF,MYS,Partly free,a4,4,Service provider diversity,Obstructions to access
+Malaysia,2023,PF,MYS,Partly free,a5,1,Regulatory failure,Obstructions to access
+Malaysia,2023,PF,MYS,Partly free,a_obstacles_to_access,19,Obstacles to access,aggregation
+Malaysia,2023,PF,MYS,Partly free,b1,4,Blocked content,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b2,2,Forced content deletion,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Malaysia,2023,PF,MYS,Partly free,b4,2,Self-censorship,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b5,2,Information control and manipulation,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b6,2,Constraints on publishing,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b8,5,Constraints on communities,Limits on content
+Malaysia,2023,PF,MYS,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Malaysia,2023,PF,MYS,Partly free,c1,2,Legal protections,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c3,3,Individuals penalised,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c8,2,Cyberattacks,Violation of user rights
+Malaysia,2023,PF,MYS,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Malaysia,2023,PF,MYS,Partly free,total_country_score,61,Country Score,aggregation
+Malaysia,2022,PF,MYS,Partly free,a1,5,Infrastructural limitations,Obstructions to access
+Malaysia,2022,PF,MYS,Partly free,a2,3,Internet accesibility,Obstructions to access
+Malaysia,2022,PF,MYS,Partly free,a3,5,Government restrictions,Obstructions to access
+Malaysia,2022,PF,MYS,Partly free,a4,4,Service provider diversity,Obstructions to access
+Malaysia,2022,PF,MYS,Partly free,a5,1,Regulatory failure,Obstructions to access
+Malaysia,2022,PF,MYS,Partly free,a_obstacles_to_access,18,Obstacles to access,aggregation
+Malaysia,2022,PF,MYS,Partly free,b1,4,Blocked content,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b2,2,Forced content deletion,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Malaysia,2022,PF,MYS,Partly free,b4,2,Self-censorship,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b5,2,Information control and manipulation,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b6,2,Constraints on publishing,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b8,5,Constraints on communities,Limits on content
+Malaysia,2022,PF,MYS,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Malaysia,2022,PF,MYS,Partly free,c1,2,Legal protections,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c3,2,Individuals penalised,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c8,2,Cyberattacks,Violation of user rights
+Malaysia,2022,PF,MYS,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Malaysia,2022,PF,MYS,Partly free,total_country_score,59,Country Score,aggregation
+Malaysia,2021,PF,MYS,Partly free,a1,5,Infrastructural limitations,Obstructions to access
+Malaysia,2021,PF,MYS,Partly free,a2,3,Internet accesibility,Obstructions to access
+Malaysia,2021,PF,MYS,Partly free,a3,5,Government restrictions,Obstructions to access
+Malaysia,2021,PF,MYS,Partly free,a4,4,Service provider diversity,Obstructions to access
+Malaysia,2021,PF,MYS,Partly free,a5,1,Regulatory failure,Obstructions to access
+Malaysia,2021,PF,MYS,Partly free,a_obstacles_to_access,18,Obstacles to access,aggregation
+Malaysia,2021,PF,MYS,Partly free,b1,4,Blocked content,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b2,2,Forced content deletion,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Malaysia,2021,PF,MYS,Partly free,b4,2,Self-censorship,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b5,2,Information control and manipulation,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b6,1,Constraints on publishing,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b8,5,Constraints on communities,Limits on content
+Malaysia,2021,PF,MYS,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Malaysia,2021,PF,MYS,Partly free,c1,2,Legal protections,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c3,2,Individuals penalised,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c8,2,Cyberattacks,Violation of user rights
+Malaysia,2021,PF,MYS,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Malaysia,2021,PF,MYS,Partly free,total_country_score,58,Country Score,aggregation
+Malaysia,2020,PF,MYS,Partly free,a1,5,Infrastructural limitations,Obstructions to access
+Malaysia,2020,PF,MYS,Partly free,a2,3,Internet accesibility,Obstructions to access
+Malaysia,2020,PF,MYS,Partly free,a3,4,Government restrictions,Obstructions to access
+Malaysia,2020,PF,MYS,Partly free,a4,4,Service provider diversity,Obstructions to access
+Malaysia,2020,PF,MYS,Partly free,a5,1,Regulatory failure,Obstructions to access
+Malaysia,2020,PF,MYS,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Malaysia,2020,PF,MYS,Partly free,b1,4,Blocked content,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b2,2,Forced content deletion,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Malaysia,2020,PF,MYS,Partly free,b4,2,Self-censorship,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b5,2,Information control and manipulation,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b6,1,Constraints on publishing,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b8,5,Constraints on communities,Limits on content
+Malaysia,2020,PF,MYS,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Malaysia,2020,PF,MYS,Partly free,c1,2,Legal protections,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c3,2,Individuals penalised,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c7,4,Extralegal intimidation,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c8,2,Cyberattacks,Violation of user rights
+Malaysia,2020,PF,MYS,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Malaysia,2020,PF,MYS,Partly free,total_country_score,58,Country Score,aggregation
+Malaysia,2019,PF,MYS,Partly free,a1,5,Infrastructural limitations,Obstructions to access
+Malaysia,2019,PF,MYS,Partly free,a2,3,Internet accesibility,Obstructions to access
+Malaysia,2019,PF,MYS,Partly free,a3,4,Government restrictions,Obstructions to access
+Malaysia,2019,PF,MYS,Partly free,a4,4,Service provider diversity,Obstructions to access
+Malaysia,2019,PF,MYS,Partly free,a5,1,Regulatory failure,Obstructions to access
+Malaysia,2019,PF,MYS,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Malaysia,2019,PF,MYS,Partly free,b1,4,Blocked content,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b2,2,Forced content deletion,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Malaysia,2019,PF,MYS,Partly free,b4,2,Self-censorship,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b5,2,Information control and manipulation,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b6,1,Constraints on publishing,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b8,5,Constraints on communities,Limits on content
+Malaysia,2019,PF,MYS,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Malaysia,2019,PF,MYS,Partly free,c1,2,Legal protections,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c3,2,Individuals penalised,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c8,2,Cyberattacks,Violation of user rights
+Malaysia,2019,PF,MYS,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Malaysia,2019,PF,MYS,Partly free,total_country_score,57,Country Score,aggregation
+Malaysia,2018,PF,MYS,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Malaysia,2018,PF,MYS,Partly free,b_limits_on_content,19,Limits on content,aggregation
+Malaysia,2018,PF,MYS,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Malaysia,2018,PF,MYS,Partly free,total_country_score,55,Country Score,aggregation
+Malaysia,2017,PF,MYS,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Malaysia,2017,PF,MYS,Partly free,b_limits_on_content,19,Limits on content,aggregation
+Malaysia,2017,PF,MYS,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Malaysia,2017,PF,MYS,Partly free,total_country_score,56,Country Score,aggregation
+Malaysia,2016,PF,MYS,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Malaysia,2016,PF,MYS,Partly free,b_limits_on_content,19,Limits on content,aggregation
+Malaysia,2016,PF,MYS,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Malaysia,2016,PF,MYS,Partly free,total_country_score,55,Country Score,aggregation
+Malaysia,2015,PF,MYS,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Malaysia,2015,PF,MYS,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Malaysia,2015,PF,MYS,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Malaysia,2015,PF,MYS,Partly free,total_country_score,57,Country Score,aggregation
+Malaysia,2014,PF,MYS,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Malaysia,2014,PF,MYS,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Malaysia,2014,PF,MYS,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Malaysia,2014,PF,MYS,Partly free,total_country_score,58,Country Score,aggregation
+Malaysia,2013,PF,MYS,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Malaysia,2013,PF,MYS,Partly free,b_limits_on_content,20,Limits on content,aggregation
+Malaysia,2013,PF,MYS,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Malaysia,2013,PF,MYS,Partly free,total_country_score,56,Country Score,aggregation
+Malaysia,2012,PF,MYS,Partly free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Malaysia,2012,PF,MYS,Partly free,b_limits_on_content,21,Limits on content,aggregation
+Malaysia,2012,PF,MYS,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Malaysia,2012,PF,MYS,Partly free,total_country_score,57,Country Score,aggregation
+Malaysia,2011,PF,MYS,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Malaysia,2011,PF,MYS,Partly free,b_limits_on_content,24,Limits on content,aggregation
+Malaysia,2011,PF,MYS,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Malaysia,2011,PF,MYS,Partly free,total_country_score,59,Country Score,aggregation
+Myanmar,2023,NF,MMR,Not free,a1,2,Infrastructural limitations,Obstructions to access
+Myanmar,2023,NF,MMR,Not free,a2,0,Internet accesibility,Obstructions to access
+Myanmar,2023,NF,MMR,Not free,a3,0,Government restrictions,Obstructions to access
+Myanmar,2023,NF,MMR,Not free,a4,0,Service provider diversity,Obstructions to access
+Myanmar,2023,NF,MMR,Not free,a5,0,Regulatory failure,Obstructions to access
+Myanmar,2023,NF,MMR,Not free,a_obstacles_to_access,2,Obstacles to access,aggregation
+Myanmar,2023,NF,MMR,Not free,b1,0,Blocked content,Limits on content
+Myanmar,2023,NF,MMR,Not free,b2,1,Forced content deletion,Limits on content
+Myanmar,2023,NF,MMR,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Myanmar,2023,NF,MMR,Not free,b4,1,Self-censorship,Limits on content
+Myanmar,2023,NF,MMR,Not free,b5,1,Information control and manipulation,Limits on content
+Myanmar,2023,NF,MMR,Not free,b6,0,Constraints on publishing,Limits on content
+Myanmar,2023,NF,MMR,Not free,b7,1,Lack diversity and reliability,Limits on content
+Myanmar,2023,NF,MMR,Not free,b8,1,Constraints on communities,Limits on content
+Myanmar,2023,NF,MMR,Not free,b_limits_on_content,5,Limits on content,aggregation
+Myanmar,2023,NF,MMR,Not free,c1,0,Legal protections,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c2,0,Criminalised online activities,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c3,0,Individuals penalised,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c5,1,State infringement of privacy,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c7,0,Extralegal intimidation,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c8,1,Cyberattacks,Violation of user rights
+Myanmar,2023,NF,MMR,Not free,c_violations_of_user_rights,3,Violations of user rights,aggregation
+Myanmar,2023,NF,MMR,Not free,total_country_score,10,Country Score,aggregation
+Myanmar,2022,NF,MMR,Not free,a1,2,Infrastructural limitations,Obstructions to access
+Myanmar,2022,NF,MMR,Not free,a2,0,Internet accesibility,Obstructions to access
+Myanmar,2022,NF,MMR,Not free,a3,0,Government restrictions,Obstructions to access
+Myanmar,2022,NF,MMR,Not free,a4,0,Service provider diversity,Obstructions to access
+Myanmar,2022,NF,MMR,Not free,a5,0,Regulatory failure,Obstructions to access
+Myanmar,2022,NF,MMR,Not free,a_obstacles_to_access,2,Obstacles to access,aggregation
+Myanmar,2022,NF,MMR,Not free,b1,1,Blocked content,Limits on content
+Myanmar,2022,NF,MMR,Not free,b2,1,Forced content deletion,Limits on content
+Myanmar,2022,NF,MMR,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Myanmar,2022,NF,MMR,Not free,b4,1,Self-censorship,Limits on content
+Myanmar,2022,NF,MMR,Not free,b5,1,Information control and manipulation,Limits on content
+Myanmar,2022,NF,MMR,Not free,b6,0,Constraints on publishing,Limits on content
+Myanmar,2022,NF,MMR,Not free,b7,1,Lack diversity and reliability,Limits on content
+Myanmar,2022,NF,MMR,Not free,b8,1,Constraints on communities,Limits on content
+Myanmar,2022,NF,MMR,Not free,b_limits_on_content,6,Limits on content,aggregation
+Myanmar,2022,NF,MMR,Not free,c1,0,Legal protections,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c2,0,Criminalised online activities,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c3,0,Individuals penalised,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c5,1,State infringement of privacy,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c7,0,Extralegal intimidation,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c8,1,Cyberattacks,Violation of user rights
+Myanmar,2022,NF,MMR,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Myanmar,2022,NF,MMR,Not free,total_country_score,12,Country Score,aggregation
+Myanmar,2021,NF,MMR,Not free,a1,2,Infrastructural limitations,Obstructions to access
+Myanmar,2021,NF,MMR,Not free,a2,1,Internet accesibility,Obstructions to access
+Myanmar,2021,NF,MMR,Not free,a3,0,Government restrictions,Obstructions to access
+Myanmar,2021,NF,MMR,Not free,a4,1,Service provider diversity,Obstructions to access
+Myanmar,2021,NF,MMR,Not free,a5,0,Regulatory failure,Obstructions to access
+Myanmar,2021,NF,MMR,Not free,a_obstacles_to_access,4,Obstacles to access,aggregation
+Myanmar,2021,NF,MMR,Not free,b1,1,Blocked content,Limits on content
+Myanmar,2021,NF,MMR,Not free,b2,1,Forced content deletion,Limits on content
+Myanmar,2021,NF,MMR,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Myanmar,2021,NF,MMR,Not free,b4,1,Self-censorship,Limits on content
+Myanmar,2021,NF,MMR,Not free,b5,1,Information control and manipulation,Limits on content
+Myanmar,2021,NF,MMR,Not free,b6,0,Constraints on publishing,Limits on content
+Myanmar,2021,NF,MMR,Not free,b7,1,Lack diversity and reliability,Limits on content
+Myanmar,2021,NF,MMR,Not free,b8,2,Constraints on communities,Limits on content
+Myanmar,2021,NF,MMR,Not free,b_limits_on_content,7,Limits on content,aggregation
+Myanmar,2021,NF,MMR,Not free,c1,0,Legal protections,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c2,0,Criminalised online activities,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c3,1,Individuals penalised,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c5,1,State infringement of privacy,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c7,0,Extralegal intimidation,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c8,1,Cyberattacks,Violation of user rights
+Myanmar,2021,NF,MMR,Not free,c_violations_of_user_rights,6,Violations of user rights,aggregation
+Myanmar,2021,NF,MMR,Not free,total_country_score,17,Country Score,aggregation
+Myanmar,2020,NF,MMR,Not free,a1,2,Infrastructural limitations,Obstructions to access
+Myanmar,2020,NF,MMR,Not free,a2,1,Internet accesibility,Obstructions to access
+Myanmar,2020,NF,MMR,Not free,a3,1,Government restrictions,Obstructions to access
+Myanmar,2020,NF,MMR,Not free,a4,2,Service provider diversity,Obstructions to access
+Myanmar,2020,NF,MMR,Not free,a5,1,Regulatory failure,Obstructions to access
+Myanmar,2020,NF,MMR,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Myanmar,2020,NF,MMR,Not free,b1,3,Blocked content,Limits on content
+Myanmar,2020,NF,MMR,Not free,b2,1,Forced content deletion,Limits on content
+Myanmar,2020,NF,MMR,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Myanmar,2020,NF,MMR,Not free,b4,1,Self-censorship,Limits on content
+Myanmar,2020,NF,MMR,Not free,b5,1,Information control and manipulation,Limits on content
+Myanmar,2020,NF,MMR,Not free,b6,1,Constraints on publishing,Limits on content
+Myanmar,2020,NF,MMR,Not free,b7,1,Lack diversity and reliability,Limits on content
+Myanmar,2020,NF,MMR,Not free,b8,4,Constraints on communities,Limits on content
+Myanmar,2020,NF,MMR,Not free,b_limits_on_content,13,Limits on content,aggregation
+Myanmar,2020,NF,MMR,Not free,c1,1,Legal protections,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c2,0,Criminalised online activities,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c3,1,Individuals penalised,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c4,3,Restricted anonymous communication,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c5,2,State infringement of privacy,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c7,2,Extralegal intimidation,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c8,1,Cyberattacks,Violation of user rights
+Myanmar,2020,NF,MMR,Not free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Myanmar,2020,NF,MMR,Not free,total_country_score,31,Country Score,aggregation
+Myanmar,2019,NF,MMR,Not free,a1,2,Infrastructural limitations,Obstructions to access
+Myanmar,2019,NF,MMR,Not free,a2,1,Internet accesibility,Obstructions to access
+Myanmar,2019,NF,MMR,Not free,a3,4,Government restrictions,Obstructions to access
+Myanmar,2019,NF,MMR,Not free,a4,2,Service provider diversity,Obstructions to access
+Myanmar,2019,NF,MMR,Not free,a5,1,Regulatory failure,Obstructions to access
+Myanmar,2019,NF,MMR,Not free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Myanmar,2019,NF,MMR,Not free,b1,6,Blocked content,Limits on content
+Myanmar,2019,NF,MMR,Not free,b2,1,Forced content deletion,Limits on content
+Myanmar,2019,NF,MMR,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Myanmar,2019,NF,MMR,Not free,b4,1,Self-censorship,Limits on content
+Myanmar,2019,NF,MMR,Not free,b5,1,Information control and manipulation,Limits on content
+Myanmar,2019,NF,MMR,Not free,b6,1,Constraints on publishing,Limits on content
+Myanmar,2019,NF,MMR,Not free,b7,1,Lack diversity and reliability,Limits on content
+Myanmar,2019,NF,MMR,Not free,b8,4,Constraints on communities,Limits on content
+Myanmar,2019,NF,MMR,Not free,b_limits_on_content,16,Limits on content,aggregation
+Myanmar,2019,NF,MMR,Not free,c1,1,Legal protections,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c2,0,Criminalised online activities,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c3,1,Individuals penalised,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c4,3,Restricted anonymous communication,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c5,2,State infringement of privacy,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c8,1,Cyberattacks,Violation of user rights
+Myanmar,2019,NF,MMR,Not free,c_violations_of_user_rights,10,Violations of user rights,aggregation
+Myanmar,2019,NF,MMR,Not free,total_country_score,36,Country Score,aggregation
+Myanmar,2018,NF,MMR,Not free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Myanmar,2018,NF,MMR,Not free,b_limits_on_content,16,Limits on content,aggregation
+Myanmar,2018,NF,MMR,Not free,c_violations_of_user_rights,10,Violations of user rights,aggregation
+Myanmar,2018,NF,MMR,Not free,total_country_score,36,Country Score,aggregation
+Myanmar,2017,NF,MMR,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+Myanmar,2017,NF,MMR,Not free,b_limits_on_content,18,Limits on content,aggregation
+Myanmar,2017,NF,MMR,Not free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Myanmar,2017,NF,MMR,Not free,total_country_score,37,Country Score,aggregation
+Myanmar,2016,NF,MMR,Not free,a_obstacles_to_access,8,Obstacles to access,aggregation
+Myanmar,2016,NF,MMR,Not free,b_limits_on_content,18,Limits on content,aggregation
+Myanmar,2016,NF,MMR,Not free,c_violations_of_user_rights,13,Violations of user rights,aggregation
+Myanmar,2016,NF,MMR,Not free,total_country_score,39,Country Score,aggregation
+Myanmar,2015,NF,MMR,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Myanmar,2015,NF,MMR,Not free,b_limits_on_content,18,Limits on content,aggregation
+Myanmar,2015,NF,MMR,Not free,c_violations_of_user_rights,12,Violations of user rights,aggregation
+Myanmar,2015,NF,MMR,Not free,total_country_score,37,Country Score,aggregation
+Myanmar,2014,PF,MMR,Partly free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Myanmar,2014,PF,MMR,Partly free,b_limits_on_content,19,Limits on content,aggregation
+Myanmar,2014,PF,MMR,Partly free,c_violations_of_user_rights,15,Violations of user rights,aggregation
+Myanmar,2014,PF,MMR,Partly free,total_country_score,40,Country Score,aggregation
+Myanmar,2013,NF,MMR,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Myanmar,2013,NF,MMR,Not free,b_limits_on_content,19,Limits on content,aggregation
+Myanmar,2013,NF,MMR,Not free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Myanmar,2013,NF,MMR,Not free,total_country_score,38,Country Score,aggregation
+Myanmar,2012,NF,MMR,Not free,a_obstacles_to_access,3,Obstacles to access,aggregation
+Myanmar,2012,NF,MMR,Not free,b_limits_on_content,12,Limits on content,aggregation
+Myanmar,2012,NF,MMR,Not free,c_violations_of_user_rights,10,Violations of user rights,aggregation
+Myanmar,2012,NF,MMR,Not free,total_country_score,25,Country Score,aggregation
+Myanmar,2011,NF,MMR,Not free,a_obstacles_to_access,2,Obstacles to access,aggregation
+Myanmar,2011,NF,MMR,Not free,b_limits_on_content,6,Limits on content,aggregation
+Myanmar,2011,NF,MMR,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Myanmar,2011,NF,MMR,Not free,total_country_score,12,Country Score,aggregation
+Pakistan,2023,NF,PAK,Not free,a1,1,Infrastructural limitations,Obstructions to access
+Pakistan,2023,NF,PAK,Not free,a2,0,Internet accesibility,Obstructions to access
+Pakistan,2023,NF,PAK,Not free,a3,1,Government restrictions,Obstructions to access
+Pakistan,2023,NF,PAK,Not free,a4,3,Service provider diversity,Obstructions to access
+Pakistan,2023,NF,PAK,Not free,a5,0,Regulatory failure,Obstructions to access
+Pakistan,2023,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2023,NF,PAK,Not free,b1,1,Blocked content,Limits on content
+Pakistan,2023,NF,PAK,Not free,b2,1,Forced content deletion,Limits on content
+Pakistan,2023,NF,PAK,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Pakistan,2023,NF,PAK,Not free,b4,1,Self-censorship,Limits on content
+Pakistan,2023,NF,PAK,Not free,b5,2,Information control and manipulation,Limits on content
+Pakistan,2023,NF,PAK,Not free,b6,2,Constraints on publishing,Limits on content
+Pakistan,2023,NF,PAK,Not free,b7,2,Lack diversity and reliability,Limits on content
+Pakistan,2023,NF,PAK,Not free,b8,3,Constraints on communities,Limits on content
+Pakistan,2023,NF,PAK,Not free,b_limits_on_content,13,Limits on content,aggregation
+Pakistan,2023,NF,PAK,Not free,c1,2,Legal protections,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c2,0,Criminalised online activities,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c3,1,Individuals penalised,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c5,1,State infringement of privacy,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c8,1,Cyberattacks,Violation of user rights
+Pakistan,2023,NF,PAK,Not free,c_violations_of_user_rights,8,Violations of user rights,aggregation
+Pakistan,2023,NF,PAK,Not free,total_country_score,26,Country Score,aggregation
+Pakistan,2022,NF,PAK,Not free,a1,1,Infrastructural limitations,Obstructions to access
+Pakistan,2022,NF,PAK,Not free,a2,0,Internet accesibility,Obstructions to access
+Pakistan,2022,NF,PAK,Not free,a3,2,Government restrictions,Obstructions to access
+Pakistan,2022,NF,PAK,Not free,a4,3,Service provider diversity,Obstructions to access
+Pakistan,2022,NF,PAK,Not free,a5,0,Regulatory failure,Obstructions to access
+Pakistan,2022,NF,PAK,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Pakistan,2022,NF,PAK,Not free,b1,1,Blocked content,Limits on content
+Pakistan,2022,NF,PAK,Not free,b2,1,Forced content deletion,Limits on content
+Pakistan,2022,NF,PAK,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Pakistan,2022,NF,PAK,Not free,b4,1,Self-censorship,Limits on content
+Pakistan,2022,NF,PAK,Not free,b5,2,Information control and manipulation,Limits on content
+Pakistan,2022,NF,PAK,Not free,b6,2,Constraints on publishing,Limits on content
+Pakistan,2022,NF,PAK,Not free,b7,2,Lack diversity and reliability,Limits on content
+Pakistan,2022,NF,PAK,Not free,b8,3,Constraints on communities,Limits on content
+Pakistan,2022,NF,PAK,Not free,b_limits_on_content,13,Limits on content,aggregation
+Pakistan,2022,NF,PAK,Not free,c1,2,Legal protections,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c2,0,Criminalised online activities,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c3,1,Individuals penalised,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c5,1,State infringement of privacy,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c8,0,Cyberattacks,Violation of user rights
+Pakistan,2022,NF,PAK,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Pakistan,2022,NF,PAK,Not free,total_country_score,26,Country Score,aggregation
+Pakistan,2021,NF,PAK,Not free,a1,1,Infrastructural limitations,Obstructions to access
+Pakistan,2021,NF,PAK,Not free,a2,0,Internet accesibility,Obstructions to access
+Pakistan,2021,NF,PAK,Not free,a3,1,Government restrictions,Obstructions to access
+Pakistan,2021,NF,PAK,Not free,a4,3,Service provider diversity,Obstructions to access
+Pakistan,2021,NF,PAK,Not free,a5,0,Regulatory failure,Obstructions to access
+Pakistan,2021,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2021,NF,PAK,Not free,b1,1,Blocked content,Limits on content
+Pakistan,2021,NF,PAK,Not free,b2,1,Forced content deletion,Limits on content
+Pakistan,2021,NF,PAK,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Pakistan,2021,NF,PAK,Not free,b4,1,Self-censorship,Limits on content
+Pakistan,2021,NF,PAK,Not free,b5,2,Information control and manipulation,Limits on content
+Pakistan,2021,NF,PAK,Not free,b6,2,Constraints on publishing,Limits on content
+Pakistan,2021,NF,PAK,Not free,b7,2,Lack diversity and reliability,Limits on content
+Pakistan,2021,NF,PAK,Not free,b8,3,Constraints on communities,Limits on content
+Pakistan,2021,NF,PAK,Not free,b_limits_on_content,13,Limits on content,aggregation
+Pakistan,2021,NF,PAK,Not free,c1,2,Legal protections,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c2,0,Criminalised online activities,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c3,1,Individuals penalised,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c5,1,State infringement of privacy,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c8,0,Cyberattacks,Violation of user rights
+Pakistan,2021,NF,PAK,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Pakistan,2021,NF,PAK,Not free,total_country_score,25,Country Score,aggregation
+Pakistan,2020,NF,PAK,Not free,a1,1,Infrastructural limitations,Obstructions to access
+Pakistan,2020,NF,PAK,Not free,a2,0,Internet accesibility,Obstructions to access
+Pakistan,2020,NF,PAK,Not free,a3,1,Government restrictions,Obstructions to access
+Pakistan,2020,NF,PAK,Not free,a4,3,Service provider diversity,Obstructions to access
+Pakistan,2020,NF,PAK,Not free,a5,0,Regulatory failure,Obstructions to access
+Pakistan,2020,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2020,NF,PAK,Not free,b1,1,Blocked content,Limits on content
+Pakistan,2020,NF,PAK,Not free,b2,2,Forced content deletion,Limits on content
+Pakistan,2020,NF,PAK,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Pakistan,2020,NF,PAK,Not free,b4,1,Self-censorship,Limits on content
+Pakistan,2020,NF,PAK,Not free,b5,2,Information control and manipulation,Limits on content
+Pakistan,2020,NF,PAK,Not free,b6,2,Constraints on publishing,Limits on content
+Pakistan,2020,NF,PAK,Not free,b7,2,Lack diversity and reliability,Limits on content
+Pakistan,2020,NF,PAK,Not free,b8,3,Constraints on communities,Limits on content
+Pakistan,2020,NF,PAK,Not free,b_limits_on_content,14,Limits on content,aggregation
+Pakistan,2020,NF,PAK,Not free,c1,2,Legal protections,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c2,0,Criminalised online activities,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c3,1,Individuals penalised,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c5,1,State infringement of privacy,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c8,0,Cyberattacks,Violation of user rights
+Pakistan,2020,NF,PAK,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Pakistan,2020,NF,PAK,Not free,total_country_score,26,Country Score,aggregation
+Pakistan,2019,NF,PAK,Not free,a1,1,Infrastructural limitations,Obstructions to access
+Pakistan,2019,NF,PAK,Not free,a2,0,Internet accesibility,Obstructions to access
+Pakistan,2019,NF,PAK,Not free,a3,1,Government restrictions,Obstructions to access
+Pakistan,2019,NF,PAK,Not free,a4,3,Service provider diversity,Obstructions to access
+Pakistan,2019,NF,PAK,Not free,a5,0,Regulatory failure,Obstructions to access
+Pakistan,2019,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2019,NF,PAK,Not free,b1,1,Blocked content,Limits on content
+Pakistan,2019,NF,PAK,Not free,b2,2,Forced content deletion,Limits on content
+Pakistan,2019,NF,PAK,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Pakistan,2019,NF,PAK,Not free,b4,1,Self-censorship,Limits on content
+Pakistan,2019,NF,PAK,Not free,b5,2,Information control and manipulation,Limits on content
+Pakistan,2019,NF,PAK,Not free,b6,2,Constraints on publishing,Limits on content
+Pakistan,2019,NF,PAK,Not free,b7,2,Lack diversity and reliability,Limits on content
+Pakistan,2019,NF,PAK,Not free,b8,3,Constraints on communities,Limits on content
+Pakistan,2019,NF,PAK,Not free,b_limits_on_content,14,Limits on content,aggregation
+Pakistan,2019,NF,PAK,Not free,c1,2,Legal protections,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c2,0,Criminalised online activities,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c3,1,Individuals penalised,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c5,1,State infringement of privacy,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c8,0,Cyberattacks,Violation of user rights
+Pakistan,2019,NF,PAK,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Pakistan,2019,NF,PAK,Not free,total_country_score,26,Country Score,aggregation
+Pakistan,2018,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2018,NF,PAK,Not free,b_limits_on_content,15,Limits on content,aggregation
+Pakistan,2018,NF,PAK,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Pakistan,2018,NF,PAK,Not free,total_country_score,27,Country Score,aggregation
+Pakistan,2017,NF,PAK,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Pakistan,2017,NF,PAK,Not free,b_limits_on_content,15,Limits on content,aggregation
+Pakistan,2017,NF,PAK,Not free,c_violations_of_user_rights,8,Violations of user rights,aggregation
+Pakistan,2017,NF,PAK,Not free,total_country_score,29,Country Score,aggregation
+Pakistan,2016,NF,PAK,Not free,a_obstacles_to_access,7,Obstacles to access,aggregation
+Pakistan,2016,NF,PAK,Not free,b_limits_on_content,15,Limits on content,aggregation
+Pakistan,2016,NF,PAK,Not free,c_violations_of_user_rights,9,Violations of user rights,aggregation
+Pakistan,2016,NF,PAK,Not free,total_country_score,31,Country Score,aggregation
+Pakistan,2015,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2015,NF,PAK,Not free,b_limits_on_content,15,Limits on content,aggregation
+Pakistan,2015,NF,PAK,Not free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Pakistan,2015,NF,PAK,Not free,total_country_score,31,Country Score,aggregation
+Pakistan,2014,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2014,NF,PAK,Not free,b_limits_on_content,15,Limits on content,aggregation
+Pakistan,2014,NF,PAK,Not free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Pakistan,2014,NF,PAK,Not free,total_country_score,31,Country Score,aggregation
+Pakistan,2013,NF,PAK,Not free,a_obstacles_to_access,5,Obstacles to access,aggregation
+Pakistan,2013,NF,PAK,Not free,b_limits_on_content,15,Limits on content,aggregation
+Pakistan,2013,NF,PAK,Not free,c_violations_of_user_rights,13,Violations of user rights,aggregation
+Pakistan,2013,NF,PAK,Not free,total_country_score,33,Country Score,aggregation
+Pakistan,2012,NF,PAK,Not free,a_obstacles_to_access,6,Obstacles to access,aggregation
+Pakistan,2012,NF,PAK,Not free,b_limits_on_content,17,Limits on content,aggregation
+Pakistan,2012,NF,PAK,Not free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Pakistan,2012,NF,PAK,Not free,total_country_score,37,Country Score,aggregation
+Pakistan,2011,PF,PAK,Partly free,a_obstacles_to_access,9,Obstacles to access,aggregation
+Pakistan,2011,PF,PAK,Partly free,b_limits_on_content,18,Limits on content,aggregation
+Pakistan,2011,PF,PAK,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Pakistan,2011,PF,PAK,Partly free,total_country_score,45,Country Score,aggregation
+Philippines,2023,PF,PHL,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Philippines,2023,PF,PHL,Partly free,a2,1,Internet accesibility,Obstructions to access
+Philippines,2023,PF,PHL,Partly free,a3,5,Government restrictions,Obstructions to access
+Philippines,2023,PF,PHL,Partly free,a4,4,Service provider diversity,Obstructions to access
+Philippines,2023,PF,PHL,Partly free,a5,2,Regulatory failure,Obstructions to access
+Philippines,2023,PF,PHL,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Philippines,2023,PF,PHL,Partly free,b1,4,Blocked content,Limits on content
+Philippines,2023,PF,PHL,Partly free,b2,3,Forced content deletion,Limits on content
+Philippines,2023,PF,PHL,Partly free,b3,3,"Opaque, unacccountable procedures",Limits on content
+Philippines,2023,PF,PHL,Partly free,b4,2,Self-censorship,Limits on content
+Philippines,2023,PF,PHL,Partly free,b5,1,Information control and manipulation,Limits on content
+Philippines,2023,PF,PHL,Partly free,b6,1,Constraints on publishing,Limits on content
+Philippines,2023,PF,PHL,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Philippines,2023,PF,PHL,Partly free,b8,6,Constraints on communities,Limits on content
+Philippines,2023,PF,PHL,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Philippines,2023,PF,PHL,Partly free,c1,3,Legal protections,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c2,2,Criminalised online activities,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c3,3,Individuals penalised,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c5,3,State infringement of privacy,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c8,2,Cyberattacks,Violation of user rights
+Philippines,2023,PF,PHL,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Philippines,2023,PF,PHL,Partly free,total_country_score,61,Country Score,aggregation
+Philippines,2022,PF,PHL,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Philippines,2022,PF,PHL,Partly free,a2,1,Internet accesibility,Obstructions to access
+Philippines,2022,PF,PHL,Partly free,a3,6,Government restrictions,Obstructions to access
+Philippines,2022,PF,PHL,Partly free,a4,4,Service provider diversity,Obstructions to access
+Philippines,2022,PF,PHL,Partly free,a5,2,Regulatory failure,Obstructions to access
+Philippines,2022,PF,PHL,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Philippines,2022,PF,PHL,Partly free,b1,6,Blocked content,Limits on content
+Philippines,2022,PF,PHL,Partly free,b2,3,Forced content deletion,Limits on content
+Philippines,2022,PF,PHL,Partly free,b3,4,"Opaque, unacccountable procedures",Limits on content
+Philippines,2022,PF,PHL,Partly free,b4,2,Self-censorship,Limits on content
+Philippines,2022,PF,PHL,Partly free,b5,1,Information control and manipulation,Limits on content
+Philippines,2022,PF,PHL,Partly free,b6,1,Constraints on publishing,Limits on content
+Philippines,2022,PF,PHL,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Philippines,2022,PF,PHL,Partly free,b8,6,Constraints on communities,Limits on content
+Philippines,2022,PF,PHL,Partly free,b_limits_on_content,26,Limits on content,aggregation
+Philippines,2022,PF,PHL,Partly free,c1,3,Legal protections,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c2,2,Criminalised online activities,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c3,3,Individuals penalised,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c4,4,Restricted anonymous communication,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c5,3,State infringement of privacy,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c8,1,Cyberattacks,Violation of user rights
+Philippines,2022,PF,PHL,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Philippines,2022,PF,PHL,Partly free,total_country_score,65,Country Score,aggregation
+Philippines,2021,PF,PHL,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Philippines,2021,PF,PHL,Partly free,a2,1,Internet accesibility,Obstructions to access
+Philippines,2021,PF,PHL,Partly free,a3,6,Government restrictions,Obstructions to access
+Philippines,2021,PF,PHL,Partly free,a4,4,Service provider diversity,Obstructions to access
+Philippines,2021,PF,PHL,Partly free,a5,2,Regulatory failure,Obstructions to access
+Philippines,2021,PF,PHL,Partly free,a_obstacles_to_access,17,Obstacles to access,aggregation
+Philippines,2021,PF,PHL,Partly free,b1,6,Blocked content,Limits on content
+Philippines,2021,PF,PHL,Partly free,b2,3,Forced content deletion,Limits on content
+Philippines,2021,PF,PHL,Partly free,b3,4,"Opaque, unacccountable procedures",Limits on content
+Philippines,2021,PF,PHL,Partly free,b4,2,Self-censorship,Limits on content
+Philippines,2021,PF,PHL,Partly free,b5,1,Information control and manipulation,Limits on content
+Philippines,2021,PF,PHL,Partly free,b6,1,Constraints on publishing,Limits on content
+Philippines,2021,PF,PHL,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Philippines,2021,PF,PHL,Partly free,b8,6,Constraints on communities,Limits on content
+Philippines,2021,PF,PHL,Partly free,b_limits_on_content,26,Limits on content,aggregation
+Philippines,2021,PF,PHL,Partly free,c1,3,Legal protections,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c2,2,Criminalised online activities,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c3,3,Individuals penalised,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c4,4,Restricted anonymous communication,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c5,3,State infringement of privacy,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c7,2,Extralegal intimidation,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c8,1,Cyberattacks,Violation of user rights
+Philippines,2021,PF,PHL,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Philippines,2021,PF,PHL,Partly free,total_country_score,65,Country Score,aggregation
+Philippines,2020,PF,PHL,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Philippines,2020,PF,PHL,Partly free,a2,1,Internet accesibility,Obstructions to access
+Philippines,2020,PF,PHL,Partly free,a3,5,Government restrictions,Obstructions to access
+Philippines,2020,PF,PHL,Partly free,a4,4,Service provider diversity,Obstructions to access
+Philippines,2020,PF,PHL,Partly free,a5,2,Regulatory failure,Obstructions to access
+Philippines,2020,PF,PHL,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Philippines,2020,PF,PHL,Partly free,b1,6,Blocked content,Limits on content
+Philippines,2020,PF,PHL,Partly free,b2,3,Forced content deletion,Limits on content
+Philippines,2020,PF,PHL,Partly free,b3,4,"Opaque, unacccountable procedures",Limits on content
+Philippines,2020,PF,PHL,Partly free,b4,2,Self-censorship,Limits on content
+Philippines,2020,PF,PHL,Partly free,b5,1,Information control and manipulation,Limits on content
+Philippines,2020,PF,PHL,Partly free,b6,1,Constraints on publishing,Limits on content
+Philippines,2020,PF,PHL,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Philippines,2020,PF,PHL,Partly free,b8,6,Constraints on communities,Limits on content
+Philippines,2020,PF,PHL,Partly free,b_limits_on_content,26,Limits on content,aggregation
+Philippines,2020,PF,PHL,Partly free,c1,2,Legal protections,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c2,2,Criminalised online activities,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c3,3,Individuals penalised,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c4,4,Restricted anonymous communication,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c5,3,State infringement of privacy,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c8,1,Cyberattacks,Violation of user rights
+Philippines,2020,PF,PHL,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Philippines,2020,PF,PHL,Partly free,total_country_score,64,Country Score,aggregation
+Philippines,2019,PF,PHL,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Philippines,2019,PF,PHL,Partly free,a2,1,Internet accesibility,Obstructions to access
+Philippines,2019,PF,PHL,Partly free,a3,5,Government restrictions,Obstructions to access
+Philippines,2019,PF,PHL,Partly free,a4,4,Service provider diversity,Obstructions to access
+Philippines,2019,PF,PHL,Partly free,a5,2,Regulatory failure,Obstructions to access
+Philippines,2019,PF,PHL,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Philippines,2019,PF,PHL,Partly free,b1,6,Blocked content,Limits on content
+Philippines,2019,PF,PHL,Partly free,b2,3,Forced content deletion,Limits on content
+Philippines,2019,PF,PHL,Partly free,b3,4,"Opaque, unacccountable procedures",Limits on content
+Philippines,2019,PF,PHL,Partly free,b4,2,Self-censorship,Limits on content
+Philippines,2019,PF,PHL,Partly free,b5,1,Information control and manipulation,Limits on content
+Philippines,2019,PF,PHL,Partly free,b6,2,Constraints on publishing,Limits on content
+Philippines,2019,PF,PHL,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Philippines,2019,PF,PHL,Partly free,b8,6,Constraints on communities,Limits on content
+Philippines,2019,PF,PHL,Partly free,b_limits_on_content,27,Limits on content,aggregation
+Philippines,2019,PF,PHL,Partly free,c1,3,Legal protections,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c2,2,Criminalised online activities,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c3,3,Individuals penalised,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c4,4,Restricted anonymous communication,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c5,3,State infringement of privacy,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c6,4,Data monitoring and retention,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c8,1,Cyberattacks,Violation of user rights
+Philippines,2019,PF,PHL,Partly free,c_violations_of_user_rights,23,Violations of user rights,aggregation
+Philippines,2019,PF,PHL,Partly free,total_country_score,66,Country Score,aggregation
+Philippines,2018,PF,PHL,Partly free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Philippines,2018,PF,PHL,Partly free,b_limits_on_content,29,Limits on content,aggregation
+Philippines,2018,PF,PHL,Partly free,c_violations_of_user_rights,24,Violations of user rights,aggregation
+Philippines,2018,PF,PHL,Partly free,total_country_score,69,Country Score,aggregation
+Philippines,2017,F,PHL,Free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Philippines,2017,F,PHL,Free,b_limits_on_content,29,Limits on content,aggregation
+Philippines,2017,F,PHL,Free,c_violations_of_user_rights,27,Violations of user rights,aggregation
+Philippines,2017,F,PHL,Free,total_country_score,72,Country Score,aggregation
+Philippines,2016,F,PHL,Free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Philippines,2016,F,PHL,Free,b_limits_on_content,30,Limits on content,aggregation
+Philippines,2016,F,PHL,Free,c_violations_of_user_rights,28,Violations of user rights,aggregation
+Philippines,2016,F,PHL,Free,total_country_score,74,Country Score,aggregation
+Philippines,2015,F,PHL,Free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Philippines,2015,F,PHL,Free,b_limits_on_content,30,Limits on content,aggregation
+Philippines,2015,F,PHL,Free,c_violations_of_user_rights,28,Violations of user rights,aggregation
+Philippines,2015,F,PHL,Free,total_country_score,73,Country Score,aggregation
+Philippines,2014,F,PHL,Free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Philippines,2014,F,PHL,Free,b_limits_on_content,30,Limits on content,aggregation
+Philippines,2014,F,PHL,Free,c_violations_of_user_rights,28,Violations of user rights,aggregation
+Philippines,2014,F,PHL,Free,total_country_score,73,Country Score,aggregation
+Philippines,2013,F,PHL,Free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Philippines,2013,F,PHL,Free,b_limits_on_content,30,Limits on content,aggregation
+Philippines,2013,F,PHL,Free,c_violations_of_user_rights,30,Violations of user rights,aggregation
+Philippines,2013,F,PHL,Free,total_country_score,75,Country Score,aggregation
+Philippines,2012,F,PHL,Free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Philippines,2012,F,PHL,Free,b_limits_on_content,30,Limits on content,aggregation
+Philippines,2012,F,PHL,Free,c_violations_of_user_rights,32,Violations of user rights,aggregation
+Philippines,2012,F,PHL,Free,total_country_score,77,Country Score,aggregation
+South Korea,2023,PF,KOR,Partly free,a1,6,Infrastructural limitations,Obstructions to access
+South Korea,2023,PF,KOR,Partly free,a2,3,Internet accesibility,Obstructions to access
+South Korea,2023,PF,KOR,Partly free,a3,6,Government restrictions,Obstructions to access
+South Korea,2023,PF,KOR,Partly free,a4,5,Service provider diversity,Obstructions to access
+South Korea,2023,PF,KOR,Partly free,a5,2,Regulatory failure,Obstructions to access
+South Korea,2023,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2023,PF,KOR,Partly free,b1,3,Blocked content,Limits on content
+South Korea,2023,PF,KOR,Partly free,b2,2,Forced content deletion,Limits on content
+South Korea,2023,PF,KOR,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+South Korea,2023,PF,KOR,Partly free,b4,3,Self-censorship,Limits on content
+South Korea,2023,PF,KOR,Partly free,b5,2,Information control and manipulation,Limits on content
+South Korea,2023,PF,KOR,Partly free,b6,3,Constraints on publishing,Limits on content
+South Korea,2023,PF,KOR,Partly free,b7,3,Lack diversity and reliability,Limits on content
+South Korea,2023,PF,KOR,Partly free,b8,6,Constraints on communities,Limits on content
+South Korea,2023,PF,KOR,Partly free,b_limits_on_content,24,Limits on content,aggregation
+South Korea,2023,PF,KOR,Partly free,c1,3,Legal protections,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c2,2,Criminalised online activities,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c3,3,Individuals penalised,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c5,2,State infringement of privacy,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c8,2,Cyberattacks,Violation of user rights
+South Korea,2023,PF,KOR,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+South Korea,2023,PF,KOR,Partly free,total_country_score,67,Country Score,aggregation
+South Korea,2022,PF,KOR,Partly free,a1,6,Infrastructural limitations,Obstructions to access
+South Korea,2022,PF,KOR,Partly free,a2,3,Internet accesibility,Obstructions to access
+South Korea,2022,PF,KOR,Partly free,a3,6,Government restrictions,Obstructions to access
+South Korea,2022,PF,KOR,Partly free,a4,5,Service provider diversity,Obstructions to access
+South Korea,2022,PF,KOR,Partly free,a5,2,Regulatory failure,Obstructions to access
+South Korea,2022,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2022,PF,KOR,Partly free,b1,3,Blocked content,Limits on content
+South Korea,2022,PF,KOR,Partly free,b2,2,Forced content deletion,Limits on content
+South Korea,2022,PF,KOR,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+South Korea,2022,PF,KOR,Partly free,b4,3,Self-censorship,Limits on content
+South Korea,2022,PF,KOR,Partly free,b5,2,Information control and manipulation,Limits on content
+South Korea,2022,PF,KOR,Partly free,b6,3,Constraints on publishing,Limits on content
+South Korea,2022,PF,KOR,Partly free,b7,3,Lack diversity and reliability,Limits on content
+South Korea,2022,PF,KOR,Partly free,b8,6,Constraints on communities,Limits on content
+South Korea,2022,PF,KOR,Partly free,b_limits_on_content,24,Limits on content,aggregation
+South Korea,2022,PF,KOR,Partly free,c1,3,Legal protections,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c2,2,Criminalised online activities,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c3,3,Individuals penalised,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c5,2,State infringement of privacy,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c8,2,Cyberattacks,Violation of user rights
+South Korea,2022,PF,KOR,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+South Korea,2022,PF,KOR,Partly free,total_country_score,67,Country Score,aggregation
+South Korea,2021,PF,KOR,Partly free,a1,6,Infrastructural limitations,Obstructions to access
+South Korea,2021,PF,KOR,Partly free,a2,3,Internet accesibility,Obstructions to access
+South Korea,2021,PF,KOR,Partly free,a3,6,Government restrictions,Obstructions to access
+South Korea,2021,PF,KOR,Partly free,a4,5,Service provider diversity,Obstructions to access
+South Korea,2021,PF,KOR,Partly free,a5,2,Regulatory failure,Obstructions to access
+South Korea,2021,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2021,PF,KOR,Partly free,b1,3,Blocked content,Limits on content
+South Korea,2021,PF,KOR,Partly free,b2,2,Forced content deletion,Limits on content
+South Korea,2021,PF,KOR,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+South Korea,2021,PF,KOR,Partly free,b4,3,Self-censorship,Limits on content
+South Korea,2021,PF,KOR,Partly free,b5,2,Information control and manipulation,Limits on content
+South Korea,2021,PF,KOR,Partly free,b6,3,Constraints on publishing,Limits on content
+South Korea,2021,PF,KOR,Partly free,b7,3,Lack diversity and reliability,Limits on content
+South Korea,2021,PF,KOR,Partly free,b8,6,Constraints on communities,Limits on content
+South Korea,2021,PF,KOR,Partly free,b_limits_on_content,24,Limits on content,aggregation
+South Korea,2021,PF,KOR,Partly free,c1,3,Legal protections,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c2,2,Criminalised online activities,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c3,3,Individuals penalised,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c4,3,Restricted anonymous communication,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c5,2,State infringement of privacy,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c8,2,Cyberattacks,Violation of user rights
+South Korea,2021,PF,KOR,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+South Korea,2021,PF,KOR,Partly free,total_country_score,67,Country Score,aggregation
+South Korea,2020,PF,KOR,Partly free,a1,6,Infrastructural limitations,Obstructions to access
+South Korea,2020,PF,KOR,Partly free,a2,3,Internet accesibility,Obstructions to access
+South Korea,2020,PF,KOR,Partly free,a3,6,Government restrictions,Obstructions to access
+South Korea,2020,PF,KOR,Partly free,a4,5,Service provider diversity,Obstructions to access
+South Korea,2020,PF,KOR,Partly free,a5,2,Regulatory failure,Obstructions to access
+South Korea,2020,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2020,PF,KOR,Partly free,b1,3,Blocked content,Limits on content
+South Korea,2020,PF,KOR,Partly free,b2,2,Forced content deletion,Limits on content
+South Korea,2020,PF,KOR,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+South Korea,2020,PF,KOR,Partly free,b4,3,Self-censorship,Limits on content
+South Korea,2020,PF,KOR,Partly free,b5,2,Information control and manipulation,Limits on content
+South Korea,2020,PF,KOR,Partly free,b6,3,Constraints on publishing,Limits on content
+South Korea,2020,PF,KOR,Partly free,b7,3,Lack diversity and reliability,Limits on content
+South Korea,2020,PF,KOR,Partly free,b8,6,Constraints on communities,Limits on content
+South Korea,2020,PF,KOR,Partly free,b_limits_on_content,24,Limits on content,aggregation
+South Korea,2020,PF,KOR,Partly free,c1,3,Legal protections,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c2,2,Criminalised online activities,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c3,3,Individuals penalised,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c5,2,State infringement of privacy,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c8,2,Cyberattacks,Violation of user rights
+South Korea,2020,PF,KOR,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+South Korea,2020,PF,KOR,Partly free,total_country_score,66,Country Score,aggregation
+South Korea,2019,PF,KOR,Partly free,a1,6,Infrastructural limitations,Obstructions to access
+South Korea,2019,PF,KOR,Partly free,a2,3,Internet accesibility,Obstructions to access
+South Korea,2019,PF,KOR,Partly free,a3,6,Government restrictions,Obstructions to access
+South Korea,2019,PF,KOR,Partly free,a4,5,Service provider diversity,Obstructions to access
+South Korea,2019,PF,KOR,Partly free,a5,2,Regulatory failure,Obstructions to access
+South Korea,2019,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2019,PF,KOR,Partly free,b1,3,Blocked content,Limits on content
+South Korea,2019,PF,KOR,Partly free,b2,2,Forced content deletion,Limits on content
+South Korea,2019,PF,KOR,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+South Korea,2019,PF,KOR,Partly free,b4,3,Self-censorship,Limits on content
+South Korea,2019,PF,KOR,Partly free,b5,1,Information control and manipulation,Limits on content
+South Korea,2019,PF,KOR,Partly free,b6,3,Constraints on publishing,Limits on content
+South Korea,2019,PF,KOR,Partly free,b7,3,Lack diversity and reliability,Limits on content
+South Korea,2019,PF,KOR,Partly free,b8,6,Constraints on communities,Limits on content
+South Korea,2019,PF,KOR,Partly free,b_limits_on_content,23,Limits on content,aggregation
+South Korea,2019,PF,KOR,Partly free,c1,3,Legal protections,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c2,2,Criminalised online activities,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c3,2,Individuals penalised,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c5,2,State infringement of privacy,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c8,2,Cyberattacks,Violation of user rights
+South Korea,2019,PF,KOR,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+South Korea,2019,PF,KOR,Partly free,total_country_score,64,Country Score,aggregation
+South Korea,2018,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2018,PF,KOR,Partly free,b_limits_on_content,22,Limits on content,aggregation
+South Korea,2018,PF,KOR,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+South Korea,2018,PF,KOR,Partly free,total_country_score,64,Country Score,aggregation
+South Korea,2017,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2017,PF,KOR,Partly free,b_limits_on_content,22,Limits on content,aggregation
+South Korea,2017,PF,KOR,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+South Korea,2017,PF,KOR,Partly free,total_country_score,65,Country Score,aggregation
+South Korea,2016,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2016,PF,KOR,Partly free,b_limits_on_content,20,Limits on content,aggregation
+South Korea,2016,PF,KOR,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+South Korea,2016,PF,KOR,Partly free,total_country_score,64,Country Score,aggregation
+South Korea,2015,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2015,PF,KOR,Partly free,b_limits_on_content,21,Limits on content,aggregation
+South Korea,2015,PF,KOR,Partly free,c_violations_of_user_rights,23,Violations of user rights,aggregation
+South Korea,2015,PF,KOR,Partly free,total_country_score,66,Country Score,aggregation
+South Korea,2014,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2014,PF,KOR,Partly free,b_limits_on_content,21,Limits on content,aggregation
+South Korea,2014,PF,KOR,Partly free,c_violations_of_user_rights,24,Violations of user rights,aggregation
+South Korea,2014,PF,KOR,Partly free,total_country_score,67,Country Score,aggregation
+South Korea,2013,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2013,PF,KOR,Partly free,b_limits_on_content,22,Limits on content,aggregation
+South Korea,2013,PF,KOR,Partly free,c_violations_of_user_rights,24,Violations of user rights,aggregation
+South Korea,2013,PF,KOR,Partly free,total_country_score,68,Country Score,aggregation
+South Korea,2012,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2012,PF,KOR,Partly free,b_limits_on_content,23,Limits on content,aggregation
+South Korea,2012,PF,KOR,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+South Korea,2012,PF,KOR,Partly free,total_country_score,66,Country Score,aggregation
+South Korea,2011,PF,KOR,Partly free,a_obstacles_to_access,22,Obstacles to access,aggregation
+South Korea,2011,PF,KOR,Partly free,b_limits_on_content,23,Limits on content,aggregation
+South Korea,2011,PF,KOR,Partly free,c_violations_of_user_rights,23,Violations of user rights,aggregation
+South Korea,2011,PF,KOR,Partly free,total_country_score,68,Country Score,aggregation
+Sri Lanka,2023,PF,LKA,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Sri Lanka,2023,PF,LKA,Partly free,a2,1,Internet accesibility,Obstructions to access
+Sri Lanka,2023,PF,LKA,Partly free,a3,5,Government restrictions,Obstructions to access
+Sri Lanka,2023,PF,LKA,Partly free,a4,3,Service provider diversity,Obstructions to access
+Sri Lanka,2023,PF,LKA,Partly free,a5,0,Regulatory failure,Obstructions to access
+Sri Lanka,2023,PF,LKA,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Sri Lanka,2023,PF,LKA,Partly free,b1,4,Blocked content,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b2,3,Forced content deletion,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b4,2,Self-censorship,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b5,2,Information control and manipulation,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b6,2,Constraints on publishing,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b8,4,Constraints on communities,Limits on content
+Sri Lanka,2023,PF,LKA,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Sri Lanka,2023,PF,LKA,Partly free,c1,2,Legal protections,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c3,3,Individuals penalised,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c8,2,Cyberattacks,Violation of user rights
+Sri Lanka,2023,PF,LKA,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Sri Lanka,2023,PF,LKA,Partly free,total_country_score,52,Country Score,aggregation
+Sri Lanka,2022,PF,LKA,Partly free,a1,2,Infrastructural limitations,Obstructions to access
+Sri Lanka,2022,PF,LKA,Partly free,a2,1,Internet accesibility,Obstructions to access
+Sri Lanka,2022,PF,LKA,Partly free,a3,3,Government restrictions,Obstructions to access
+Sri Lanka,2022,PF,LKA,Partly free,a4,3,Service provider diversity,Obstructions to access
+Sri Lanka,2022,PF,LKA,Partly free,a5,0,Regulatory failure,Obstructions to access
+Sri Lanka,2022,PF,LKA,Partly free,a_obstacles_to_access,9,Obstacles to access,aggregation
+Sri Lanka,2022,PF,LKA,Partly free,b1,4,Blocked content,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b2,3,Forced content deletion,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b4,2,Self-censorship,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b5,2,Information control and manipulation,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b6,2,Constraints on publishing,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b8,4,Constraints on communities,Limits on content
+Sri Lanka,2022,PF,LKA,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Sri Lanka,2022,PF,LKA,Partly free,c1,2,Legal protections,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c3,3,Individuals penalised,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c8,1,Cyberattacks,Violation of user rights
+Sri Lanka,2022,PF,LKA,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Sri Lanka,2022,PF,LKA,Partly free,total_country_score,48,Country Score,aggregation
+Sri Lanka,2021,PF,LKA,Partly free,a1,3,Infrastructural limitations,Obstructions to access
+Sri Lanka,2021,PF,LKA,Partly free,a2,1,Internet accesibility,Obstructions to access
+Sri Lanka,2021,PF,LKA,Partly free,a3,4,Government restrictions,Obstructions to access
+Sri Lanka,2021,PF,LKA,Partly free,a4,3,Service provider diversity,Obstructions to access
+Sri Lanka,2021,PF,LKA,Partly free,a5,0,Regulatory failure,Obstructions to access
+Sri Lanka,2021,PF,LKA,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Sri Lanka,2021,PF,LKA,Partly free,b1,4,Blocked content,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b2,3,Forced content deletion,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b4,2,Self-censorship,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b5,2,Information control and manipulation,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b6,2,Constraints on publishing,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b8,5,Constraints on communities,Limits on content
+Sri Lanka,2021,PF,LKA,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Sri Lanka,2021,PF,LKA,Partly free,c1,2,Legal protections,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c3,3,Individuals penalised,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c8,1,Cyberattacks,Violation of user rights
+Sri Lanka,2021,PF,LKA,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Sri Lanka,2021,PF,LKA,Partly free,total_country_score,51,Country Score,aggregation
+Sri Lanka,2020,PF,LKA,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Sri Lanka,2020,PF,LKA,Partly free,a2,1,Internet accesibility,Obstructions to access
+Sri Lanka,2020,PF,LKA,Partly free,a3,4,Government restrictions,Obstructions to access
+Sri Lanka,2020,PF,LKA,Partly free,a4,3,Service provider diversity,Obstructions to access
+Sri Lanka,2020,PF,LKA,Partly free,a5,0,Regulatory failure,Obstructions to access
+Sri Lanka,2020,PF,LKA,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Sri Lanka,2020,PF,LKA,Partly free,b1,4,Blocked content,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b2,3,Forced content deletion,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b4,2,Self-censorship,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b5,2,Information control and manipulation,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b6,2,Constraints on publishing,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b8,4,Constraints on communities,Limits on content
+Sri Lanka,2020,PF,LKA,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Sri Lanka,2020,PF,LKA,Partly free,c1,2,Legal protections,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c3,3,Individuals penalised,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c8,2,Cyberattacks,Violation of user rights
+Sri Lanka,2020,PF,LKA,Partly free,c_violations_of_user_rights,18,Violations of user rights,aggregation
+Sri Lanka,2020,PF,LKA,Partly free,total_country_score,52,Country Score,aggregation
+Sri Lanka,2019,PF,LKA,Partly free,a1,4,Infrastructural limitations,Obstructions to access
+Sri Lanka,2019,PF,LKA,Partly free,a2,1,Internet accesibility,Obstructions to access
+Sri Lanka,2019,PF,LKA,Partly free,a3,2,Government restrictions,Obstructions to access
+Sri Lanka,2019,PF,LKA,Partly free,a4,3,Service provider diversity,Obstructions to access
+Sri Lanka,2019,PF,LKA,Partly free,a5,0,Regulatory failure,Obstructions to access
+Sri Lanka,2019,PF,LKA,Partly free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Sri Lanka,2019,PF,LKA,Partly free,b1,3,Blocked content,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b2,3,Forced content deletion,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b3,2,"Opaque, unacccountable procedures",Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b4,2,Self-censorship,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b5,3,Information control and manipulation,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b6,2,Constraints on publishing,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b7,3,Lack diversity and reliability,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b8,4,Constraints on communities,Limits on content
+Sri Lanka,2019,PF,LKA,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Sri Lanka,2019,PF,LKA,Partly free,c1,1,Legal protections,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c2,1,Criminalised online activities,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c3,3,Individuals penalised,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c4,2,Restricted anonymous communication,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c5,2,State infringement of privacy,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c6,3,Data monitoring and retention,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c7,3,Extralegal intimidation,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c8,2,Cyberattacks,Violation of user rights
+Sri Lanka,2019,PF,LKA,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Sri Lanka,2019,PF,LKA,Partly free,total_country_score,49,Country Score,aggregation
+Sri Lanka,2018,PF,LKA,Partly free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Sri Lanka,2018,PF,LKA,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Sri Lanka,2018,PF,LKA,Partly free,c_violations_of_user_rights,21,Violations of user rights,aggregation
+Sri Lanka,2018,PF,LKA,Partly free,total_country_score,53,Country Score,aggregation
+Sri Lanka,2017,PF,LKA,Partly free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Sri Lanka,2017,PF,LKA,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Sri Lanka,2017,PF,LKA,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Sri Lanka,2017,PF,LKA,Partly free,total_country_score,57,Country Score,aggregation
+Sri Lanka,2016,PF,LKA,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Sri Lanka,2016,PF,LKA,Partly free,b_limits_on_content,23,Limits on content,aggregation
+Sri Lanka,2016,PF,LKA,Partly free,c_violations_of_user_rights,22,Violations of user rights,aggregation
+Sri Lanka,2016,PF,LKA,Partly free,total_country_score,56,Country Score,aggregation
+Sri Lanka,2015,PF,LKA,Partly free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Sri Lanka,2015,PF,LKA,Partly free,b_limits_on_content,22,Limits on content,aggregation
+Sri Lanka,2015,PF,LKA,Partly free,c_violations_of_user_rights,20,Violations of user rights,aggregation
+Sri Lanka,2015,PF,LKA,Partly free,total_country_score,53,Country Score,aggregation
+Sri Lanka,2014,PF,LKA,Partly free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Sri Lanka,2014,PF,LKA,Partly free,b_limits_on_content,15,Limits on content,aggregation
+Sri Lanka,2014,PF,LKA,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Sri Lanka,2014,PF,LKA,Partly free,total_country_score,42,Country Score,aggregation
+Sri Lanka,2013,PF,LKA,Partly free,a_obstacles_to_access,10,Obstacles to access,aggregation
+Sri Lanka,2013,PF,LKA,Partly free,b_limits_on_content,15,Limits on content,aggregation
+Sri Lanka,2013,PF,LKA,Partly free,c_violations_of_user_rights,17,Violations of user rights,aggregation
+Sri Lanka,2013,PF,LKA,Partly free,total_country_score,42,Country Score,aggregation
+Sri Lanka,2012,PF,LKA,Partly free,a_obstacles_to_access,9,Obstacles to access,aggregation
+Sri Lanka,2012,PF,LKA,Partly free,b_limits_on_content,17,Limits on content,aggregation
+Sri Lanka,2012,PF,LKA,Partly free,c_violations_of_user_rights,19,Violations of user rights,aggregation
+Sri Lanka,2012,PF,LKA,Partly free,total_country_score,45,Country Score,aggregation
+Thailand,2023,NF,THA,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Thailand,2023,NF,THA,Not free,a2,2,Internet accesibility,Obstructions to access
+Thailand,2023,NF,THA,Not free,a3,5,Government restrictions,Obstructions to access
+Thailand,2023,NF,THA,Not free,a4,4,Service provider diversity,Obstructions to access
+Thailand,2023,NF,THA,Not free,a5,0,Regulatory failure,Obstructions to access
+Thailand,2023,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2023,NF,THA,Not free,b1,3,Blocked content,Limits on content
+Thailand,2023,NF,THA,Not free,b2,1,Forced content deletion,Limits on content
+Thailand,2023,NF,THA,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Thailand,2023,NF,THA,Not free,b4,1,Self-censorship,Limits on content
+Thailand,2023,NF,THA,Not free,b5,1,Information control and manipulation,Limits on content
+Thailand,2023,NF,THA,Not free,b6,2,Constraints on publishing,Limits on content
+Thailand,2023,NF,THA,Not free,b7,2,Lack diversity and reliability,Limits on content
+Thailand,2023,NF,THA,Not free,b8,3,Constraints on communities,Limits on content
+Thailand,2023,NF,THA,Not free,b_limits_on_content,14,Limits on content,aggregation
+Thailand,2023,NF,THA,Not free,c1,1,Legal protections,Violation of user rights
+Thailand,2023,NF,THA,Not free,c2,0,Criminalised online activities,Violation of user rights
+Thailand,2023,NF,THA,Not free,c3,0,Individuals penalised,Violation of user rights
+Thailand,2023,NF,THA,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Thailand,2023,NF,THA,Not free,c5,1,State infringement of privacy,Violation of user rights
+Thailand,2023,NF,THA,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Thailand,2023,NF,THA,Not free,c7,2,Extralegal intimidation,Violation of user rights
+Thailand,2023,NF,THA,Not free,c8,2,Cyberattacks,Violation of user rights
+Thailand,2023,NF,THA,Not free,c_violations_of_user_rights,9,Violations of user rights,aggregation
+Thailand,2023,NF,THA,Not free,total_country_score,39,Country Score,aggregation
+Thailand,2022,NF,THA,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Thailand,2022,NF,THA,Not free,a2,2,Internet accesibility,Obstructions to access
+Thailand,2022,NF,THA,Not free,a3,5,Government restrictions,Obstructions to access
+Thailand,2022,NF,THA,Not free,a4,4,Service provider diversity,Obstructions to access
+Thailand,2022,NF,THA,Not free,a5,0,Regulatory failure,Obstructions to access
+Thailand,2022,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2022,NF,THA,Not free,b1,3,Blocked content,Limits on content
+Thailand,2022,NF,THA,Not free,b2,1,Forced content deletion,Limits on content
+Thailand,2022,NF,THA,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Thailand,2022,NF,THA,Not free,b4,1,Self-censorship,Limits on content
+Thailand,2022,NF,THA,Not free,b5,1,Information control and manipulation,Limits on content
+Thailand,2022,NF,THA,Not free,b6,2,Constraints on publishing,Limits on content
+Thailand,2022,NF,THA,Not free,b7,2,Lack diversity and reliability,Limits on content
+Thailand,2022,NF,THA,Not free,b8,3,Constraints on communities,Limits on content
+Thailand,2022,NF,THA,Not free,b_limits_on_content,14,Limits on content,aggregation
+Thailand,2022,NF,THA,Not free,c1,0,Legal protections,Violation of user rights
+Thailand,2022,NF,THA,Not free,c2,0,Criminalised online activities,Violation of user rights
+Thailand,2022,NF,THA,Not free,c3,1,Individuals penalised,Violation of user rights
+Thailand,2022,NF,THA,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Thailand,2022,NF,THA,Not free,c5,1,State infringement of privacy,Violation of user rights
+Thailand,2022,NF,THA,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Thailand,2022,NF,THA,Not free,c7,2,Extralegal intimidation,Violation of user rights
+Thailand,2022,NF,THA,Not free,c8,2,Cyberattacks,Violation of user rights
+Thailand,2022,NF,THA,Not free,c_violations_of_user_rights,9,Violations of user rights,aggregation
+Thailand,2022,NF,THA,Not free,total_country_score,39,Country Score,aggregation
+Thailand,2021,NF,THA,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Thailand,2021,NF,THA,Not free,a2,2,Internet accesibility,Obstructions to access
+Thailand,2021,NF,THA,Not free,a3,5,Government restrictions,Obstructions to access
+Thailand,2021,NF,THA,Not free,a4,4,Service provider diversity,Obstructions to access
+Thailand,2021,NF,THA,Not free,a5,0,Regulatory failure,Obstructions to access
+Thailand,2021,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2021,NF,THA,Not free,b1,3,Blocked content,Limits on content
+Thailand,2021,NF,THA,Not free,b2,0,Forced content deletion,Limits on content
+Thailand,2021,NF,THA,Not free,b3,1,"Opaque, unacccountable procedures",Limits on content
+Thailand,2021,NF,THA,Not free,b4,1,Self-censorship,Limits on content
+Thailand,2021,NF,THA,Not free,b5,1,Information control and manipulation,Limits on content
+Thailand,2021,NF,THA,Not free,b6,2,Constraints on publishing,Limits on content
+Thailand,2021,NF,THA,Not free,b7,2,Lack diversity and reliability,Limits on content
+Thailand,2021,NF,THA,Not free,b8,3,Constraints on communities,Limits on content
+Thailand,2021,NF,THA,Not free,b_limits_on_content,13,Limits on content,aggregation
+Thailand,2021,NF,THA,Not free,c1,0,Legal protections,Violation of user rights
+Thailand,2021,NF,THA,Not free,c2,0,Criminalised online activities,Violation of user rights
+Thailand,2021,NF,THA,Not free,c3,0,Individuals penalised,Violation of user rights
+Thailand,2021,NF,THA,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Thailand,2021,NF,THA,Not free,c5,1,State infringement of privacy,Violation of user rights
+Thailand,2021,NF,THA,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Thailand,2021,NF,THA,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Thailand,2021,NF,THA,Not free,c8,2,Cyberattacks,Violation of user rights
+Thailand,2021,NF,THA,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Thailand,2021,NF,THA,Not free,total_country_score,36,Country Score,aggregation
+Thailand,2020,NF,THA,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Thailand,2020,NF,THA,Not free,a2,2,Internet accesibility,Obstructions to access
+Thailand,2020,NF,THA,Not free,a3,5,Government restrictions,Obstructions to access
+Thailand,2020,NF,THA,Not free,a4,4,Service provider diversity,Obstructions to access
+Thailand,2020,NF,THA,Not free,a5,0,Regulatory failure,Obstructions to access
+Thailand,2020,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2020,NF,THA,Not free,b1,3,Blocked content,Limits on content
+Thailand,2020,NF,THA,Not free,b2,0,Forced content deletion,Limits on content
+Thailand,2020,NF,THA,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Thailand,2020,NF,THA,Not free,b4,1,Self-censorship,Limits on content
+Thailand,2020,NF,THA,Not free,b5,1,Information control and manipulation,Limits on content
+Thailand,2020,NF,THA,Not free,b6,2,Constraints on publishing,Limits on content
+Thailand,2020,NF,THA,Not free,b7,2,Lack diversity and reliability,Limits on content
+Thailand,2020,NF,THA,Not free,b8,3,Constraints on communities,Limits on content
+Thailand,2020,NF,THA,Not free,b_limits_on_content,12,Limits on content,aggregation
+Thailand,2020,NF,THA,Not free,c1,0,Legal protections,Violation of user rights
+Thailand,2020,NF,THA,Not free,c2,0,Criminalised online activities,Violation of user rights
+Thailand,2020,NF,THA,Not free,c3,1,Individuals penalised,Violation of user rights
+Thailand,2020,NF,THA,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Thailand,2020,NF,THA,Not free,c5,1,State infringement of privacy,Violation of user rights
+Thailand,2020,NF,THA,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Thailand,2020,NF,THA,Not free,c7,0,Extralegal intimidation,Violation of user rights
+Thailand,2020,NF,THA,Not free,c8,2,Cyberattacks,Violation of user rights
+Thailand,2020,NF,THA,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Thailand,2020,NF,THA,Not free,total_country_score,35,Country Score,aggregation
+Thailand,2019,NF,THA,Not free,a1,5,Infrastructural limitations,Obstructions to access
+Thailand,2019,NF,THA,Not free,a2,2,Internet accesibility,Obstructions to access
+Thailand,2019,NF,THA,Not free,a3,5,Government restrictions,Obstructions to access
+Thailand,2019,NF,THA,Not free,a4,4,Service provider diversity,Obstructions to access
+Thailand,2019,NF,THA,Not free,a5,0,Regulatory failure,Obstructions to access
+Thailand,2019,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2019,NF,THA,Not free,b1,3,Blocked content,Limits on content
+Thailand,2019,NF,THA,Not free,b2,0,Forced content deletion,Limits on content
+Thailand,2019,NF,THA,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Thailand,2019,NF,THA,Not free,b4,1,Self-censorship,Limits on content
+Thailand,2019,NF,THA,Not free,b5,1,Information control and manipulation,Limits on content
+Thailand,2019,NF,THA,Not free,b6,2,Constraints on publishing,Limits on content
+Thailand,2019,NF,THA,Not free,b7,1,Lack diversity and reliability,Limits on content
+Thailand,2019,NF,THA,Not free,b8,3,Constraints on communities,Limits on content
+Thailand,2019,NF,THA,Not free,b_limits_on_content,11,Limits on content,aggregation
+Thailand,2019,NF,THA,Not free,c1,1,Legal protections,Violation of user rights
+Thailand,2019,NF,THA,Not free,c2,0,Criminalised online activities,Violation of user rights
+Thailand,2019,NF,THA,Not free,c3,1,Individuals penalised,Violation of user rights
+Thailand,2019,NF,THA,Not free,c4,2,Restricted anonymous communication,Violation of user rights
+Thailand,2019,NF,THA,Not free,c5,1,State infringement of privacy,Violation of user rights
+Thailand,2019,NF,THA,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Thailand,2019,NF,THA,Not free,c7,0,Extralegal intimidation,Violation of user rights
+Thailand,2019,NF,THA,Not free,c8,2,Cyberattacks,Violation of user rights
+Thailand,2019,NF,THA,Not free,c_violations_of_user_rights,8,Violations of user rights,aggregation
+Thailand,2019,NF,THA,Not free,total_country_score,35,Country Score,aggregation
+Thailand,2018,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2018,NF,THA,Not free,b_limits_on_content,11,Limits on content,aggregation
+Thailand,2018,NF,THA,Not free,c_violations_of_user_rights,8,Violations of user rights,aggregation
+Thailand,2018,NF,THA,Not free,total_country_score,35,Country Score,aggregation
+Thailand,2017,NF,THA,Not free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Thailand,2017,NF,THA,Not free,b_limits_on_content,11,Limits on content,aggregation
+Thailand,2017,NF,THA,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Thailand,2017,NF,THA,Not free,total_country_score,33,Country Score,aggregation
+Thailand,2016,NF,THA,Not free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Thailand,2016,NF,THA,Not free,b_limits_on_content,12,Limits on content,aggregation
+Thailand,2016,NF,THA,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Thailand,2016,NF,THA,Not free,total_country_score,34,Country Score,aggregation
+Thailand,2015,NF,THA,Not free,a_obstacles_to_access,16,Obstacles to access,aggregation
+Thailand,2015,NF,THA,Not free,b_limits_on_content,13,Limits on content,aggregation
+Thailand,2015,NF,THA,Not free,c_violations_of_user_rights,8,Violations of user rights,aggregation
+Thailand,2015,NF,THA,Not free,total_country_score,37,Country Score,aggregation
+Thailand,2014,NF,THA,Not free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Thailand,2014,NF,THA,Not free,b_limits_on_content,14,Limits on content,aggregation
+Thailand,2014,NF,THA,Not free,c_violations_of_user_rights,10,Violations of user rights,aggregation
+Thailand,2014,NF,THA,Not free,total_country_score,38,Country Score,aggregation
+Thailand,2013,PF,THA,Partly free,a_obstacles_to_access,15,Obstacles to access,aggregation
+Thailand,2013,PF,THA,Partly free,b_limits_on_content,14,Limits on content,aggregation
+Thailand,2013,PF,THA,Partly free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Thailand,2013,PF,THA,Partly free,total_country_score,40,Country Score,aggregation
+Thailand,2012,NF,THA,Not free,a_obstacles_to_access,14,Obstacles to access,aggregation
+Thailand,2012,NF,THA,Not free,b_limits_on_content,14,Limits on content,aggregation
+Thailand,2012,NF,THA,Not free,c_violations_of_user_rights,11,Violations of user rights,aggregation
+Thailand,2012,NF,THA,Not free,total_country_score,39,Country Score,aggregation
+Thailand,2011,NF,THA,Not free,a_obstacles_to_access,13,Obstacles to access,aggregation
+Thailand,2011,NF,THA,Not free,b_limits_on_content,12,Limits on content,aggregation
+Thailand,2011,NF,THA,Not free,c_violations_of_user_rights,14,Violations of user rights,aggregation
+Thailand,2011,NF,THA,Not free,total_country_score,39,Country Score,aggregation
+Vietnam,2023,NF,VNM,Not free,a1,4,Infrastructural limitations,Obstructions to access
+Vietnam,2023,NF,VNM,Not free,a2,2,Internet accesibility,Obstructions to access
+Vietnam,2023,NF,VNM,Not free,a3,4,Government restrictions,Obstructions to access
+Vietnam,2023,NF,VNM,Not free,a4,2,Service provider diversity,Obstructions to access
+Vietnam,2023,NF,VNM,Not free,a5,0,Regulatory failure,Obstructions to access
+Vietnam,2023,NF,VNM,Not free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Vietnam,2023,NF,VNM,Not free,b1,2,Blocked content,Limits on content
+Vietnam,2023,NF,VNM,Not free,b2,0,Forced content deletion,Limits on content
+Vietnam,2023,NF,VNM,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Vietnam,2023,NF,VNM,Not free,b4,1,Self-censorship,Limits on content
+Vietnam,2023,NF,VNM,Not free,b5,0,Information control and manipulation,Limits on content
+Vietnam,2023,NF,VNM,Not free,b6,0,Constraints on publishing,Limits on content
+Vietnam,2023,NF,VNM,Not free,b7,1,Lack diversity and reliability,Limits on content
+Vietnam,2023,NF,VNM,Not free,b8,2,Constraints on communities,Limits on content
+Vietnam,2023,NF,VNM,Not free,b_limits_on_content,6,Limits on content,aggregation
+Vietnam,2023,NF,VNM,Not free,c1,0,Legal protections,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c2,0,Criminalised online activities,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c3,0,Individuals penalised,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c5,1,State infringement of privacy,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c8,1,Cyberattacks,Violation of user rights
+Vietnam,2023,NF,VNM,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Vietnam,2023,NF,VNM,Not free,total_country_score,22,Country Score,aggregation
+Vietnam,2022,NF,VNM,Not free,a1,4,Infrastructural limitations,Obstructions to access
+Vietnam,2022,NF,VNM,Not free,a2,2,Internet accesibility,Obstructions to access
+Vietnam,2022,NF,VNM,Not free,a3,4,Government restrictions,Obstructions to access
+Vietnam,2022,NF,VNM,Not free,a4,2,Service provider diversity,Obstructions to access
+Vietnam,2022,NF,VNM,Not free,a5,0,Regulatory failure,Obstructions to access
+Vietnam,2022,NF,VNM,Not free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Vietnam,2022,NF,VNM,Not free,b1,2,Blocked content,Limits on content
+Vietnam,2022,NF,VNM,Not free,b2,0,Forced content deletion,Limits on content
+Vietnam,2022,NF,VNM,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Vietnam,2022,NF,VNM,Not free,b4,1,Self-censorship,Limits on content
+Vietnam,2022,NF,VNM,Not free,b5,0,Information control and manipulation,Limits on content
+Vietnam,2022,NF,VNM,Not free,b6,0,Constraints on publishing,Limits on content
+Vietnam,2022,NF,VNM,Not free,b7,1,Lack diversity and reliability,Limits on content
+Vietnam,2022,NF,VNM,Not free,b8,2,Constraints on communities,Limits on content
+Vietnam,2022,NF,VNM,Not free,b_limits_on_content,6,Limits on content,aggregation
+Vietnam,2022,NF,VNM,Not free,c1,0,Legal protections,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c2,0,Criminalised online activities,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c3,0,Individuals penalised,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c5,1,State infringement of privacy,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c8,1,Cyberattacks,Violation of user rights
+Vietnam,2022,NF,VNM,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Vietnam,2022,NF,VNM,Not free,total_country_score,22,Country Score,aggregation
+Vietnam,2021,NF,VNM,Not free,a1,4,Infrastructural limitations,Obstructions to access
+Vietnam,2021,NF,VNM,Not free,a2,2,Internet accesibility,Obstructions to access
+Vietnam,2021,NF,VNM,Not free,a3,4,Government restrictions,Obstructions to access
+Vietnam,2021,NF,VNM,Not free,a4,2,Service provider diversity,Obstructions to access
+Vietnam,2021,NF,VNM,Not free,a5,0,Regulatory failure,Obstructions to access
+Vietnam,2021,NF,VNM,Not free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Vietnam,2021,NF,VNM,Not free,b1,2,Blocked content,Limits on content
+Vietnam,2021,NF,VNM,Not free,b2,0,Forced content deletion,Limits on content
+Vietnam,2021,NF,VNM,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Vietnam,2021,NF,VNM,Not free,b4,1,Self-censorship,Limits on content
+Vietnam,2021,NF,VNM,Not free,b5,0,Information control and manipulation,Limits on content
+Vietnam,2021,NF,VNM,Not free,b6,0,Constraints on publishing,Limits on content
+Vietnam,2021,NF,VNM,Not free,b7,1,Lack diversity and reliability,Limits on content
+Vietnam,2021,NF,VNM,Not free,b8,2,Constraints on communities,Limits on content
+Vietnam,2021,NF,VNM,Not free,b_limits_on_content,6,Limits on content,aggregation
+Vietnam,2021,NF,VNM,Not free,c1,0,Legal protections,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c2,0,Criminalised online activities,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c3,0,Individuals penalised,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c5,1,State infringement of privacy,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c8,1,Cyberattacks,Violation of user rights
+Vietnam,2021,NF,VNM,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Vietnam,2021,NF,VNM,Not free,total_country_score,22,Country Score,aggregation
+Vietnam,2020,NF,VNM,Not free,a1,4,Infrastructural limitations,Obstructions to access
+Vietnam,2020,NF,VNM,Not free,a2,2,Internet accesibility,Obstructions to access
+Vietnam,2020,NF,VNM,Not free,a3,3,Government restrictions,Obstructions to access
+Vietnam,2020,NF,VNM,Not free,a4,2,Service provider diversity,Obstructions to access
+Vietnam,2020,NF,VNM,Not free,a5,0,Regulatory failure,Obstructions to access
+Vietnam,2020,NF,VNM,Not free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Vietnam,2020,NF,VNM,Not free,b1,2,Blocked content,Limits on content
+Vietnam,2020,NF,VNM,Not free,b2,0,Forced content deletion,Limits on content
+Vietnam,2020,NF,VNM,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Vietnam,2020,NF,VNM,Not free,b4,1,Self-censorship,Limits on content
+Vietnam,2020,NF,VNM,Not free,b5,0,Information control and manipulation,Limits on content
+Vietnam,2020,NF,VNM,Not free,b6,0,Constraints on publishing,Limits on content
+Vietnam,2020,NF,VNM,Not free,b7,1,Lack diversity and reliability,Limits on content
+Vietnam,2020,NF,VNM,Not free,b8,3,Constraints on communities,Limits on content
+Vietnam,2020,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2020,NF,VNM,Not free,c1,0,Legal protections,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c2,0,Criminalised online activities,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c3,0,Individuals penalised,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c5,1,State infringement of privacy,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c6,0,Data monitoring and retention,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c8,1,Cyberattacks,Violation of user rights
+Vietnam,2020,NF,VNM,Not free,c_violations_of_user_rights,4,Violations of user rights,aggregation
+Vietnam,2020,NF,VNM,Not free,total_country_score,22,Country Score,aggregation
+Vietnam,2019,NF,VNM,Not free,a1,4,Infrastructural limitations,Obstructions to access
+Vietnam,2019,NF,VNM,Not free,a2,2,Internet accesibility,Obstructions to access
+Vietnam,2019,NF,VNM,Not free,a3,4,Government restrictions,Obstructions to access
+Vietnam,2019,NF,VNM,Not free,a4,2,Service provider diversity,Obstructions to access
+Vietnam,2019,NF,VNM,Not free,a5,0,Regulatory failure,Obstructions to access
+Vietnam,2019,NF,VNM,Not free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Vietnam,2019,NF,VNM,Not free,b1,2,Blocked content,Limits on content
+Vietnam,2019,NF,VNM,Not free,b2,0,Forced content deletion,Limits on content
+Vietnam,2019,NF,VNM,Not free,b3,0,"Opaque, unacccountable procedures",Limits on content
+Vietnam,2019,NF,VNM,Not free,b4,1,Self-censorship,Limits on content
+Vietnam,2019,NF,VNM,Not free,b5,0,Information control and manipulation,Limits on content
+Vietnam,2019,NF,VNM,Not free,b6,0,Constraints on publishing,Limits on content
+Vietnam,2019,NF,VNM,Not free,b7,1,Lack diversity and reliability,Limits on content
+Vietnam,2019,NF,VNM,Not free,b8,3,Constraints on communities,Limits on content
+Vietnam,2019,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2019,NF,VNM,Not free,c1,0,Legal protections,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c2,0,Criminalised online activities,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c3,0,Individuals penalised,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c4,1,Restricted anonymous communication,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c5,1,State infringement of privacy,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c6,1,Data monitoring and retention,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c7,1,Extralegal intimidation,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c8,1,Cyberattacks,Violation of user rights
+Vietnam,2019,NF,VNM,Not free,c_violations_of_user_rights,5,Violations of user rights,aggregation
+Vietnam,2019,NF,VNM,Not free,total_country_score,24,Country Score,aggregation
+Vietnam,2018,NF,VNM,Not free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Vietnam,2018,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2018,NF,VNM,Not free,c_violations_of_user_rights,5,Violations of user rights,aggregation
+Vietnam,2018,NF,VNM,Not free,total_country_score,24,Country Score,aggregation
+Vietnam,2017,NF,VNM,Not free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Vietnam,2017,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2017,NF,VNM,Not free,c_violations_of_user_rights,6,Violations of user rights,aggregation
+Vietnam,2017,NF,VNM,Not free,total_country_score,24,Country Score,aggregation
+Vietnam,2016,NF,VNM,Not free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Vietnam,2016,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2016,NF,VNM,Not free,c_violations_of_user_rights,6,Violations of user rights,aggregation
+Vietnam,2016,NF,VNM,Not free,total_country_score,24,Country Score,aggregation
+Vietnam,2015,NF,VNM,Not free,a_obstacles_to_access,12,Obstacles to access,aggregation
+Vietnam,2015,NF,VNM,Not free,b_limits_on_content,6,Limits on content,aggregation
+Vietnam,2015,NF,VNM,Not free,c_violations_of_user_rights,6,Violations of user rights,aggregation
+Vietnam,2015,NF,VNM,Not free,total_country_score,24,Country Score,aggregation
+Vietnam,2014,NF,VNM,Not free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Vietnam,2014,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2014,NF,VNM,Not free,c_violations_of_user_rights,6,Violations of user rights,aggregation
+Vietnam,2014,NF,VNM,Not free,total_country_score,24,Country Score,aggregation
+Vietnam,2013,NF,VNM,Not free,a_obstacles_to_access,11,Obstacles to access,aggregation
+Vietnam,2013,NF,VNM,Not free,b_limits_on_content,7,Limits on content,aggregation
+Vietnam,2013,NF,VNM,Not free,c_violations_of_user_rights,7,Violations of user rights,aggregation
+Vietnam,2013,NF,VNM,Not free,total_country_score,25,Country Score,aggregation
+Vietnam,2012,NF,VNM,Not free,a_obstacles_to_access,9,Obstacles to access,aggregation
+Vietnam,2012,NF,VNM,Not free,b_limits_on_content,9,Limits on content,aggregation
+Vietnam,2012,NF,VNM,Not free,c_violations_of_user_rights,9,Violations of user rights,aggregation
+Vietnam,2012,NF,VNM,Not free,total_country_score,27,Country Score,aggregation
+Vietnam,2011,NF,VNM,Not free,a_obstacles_to_access,9,Obstacles to access,aggregation
+Vietnam,2011,NF,VNM,Not free,b_limits_on_content,10,Limits on content,aggregation
+Vietnam,2011,NF,VNM,Not free,c_violations_of_user_rights,8,Violations of user rights,aggregation
+Vietnam,2011,NF,VNM,Not free,total_country_score,27,Country Score,aggregation

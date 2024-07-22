@@ -1,0 +1,47 @@
+"0","world_freedom_filtered <- world_freedom |>
+  select(country, 
+         year, status, 
+         electoral_process = a, 
+         pluralism_participation = b, 
+         functioning_government = c, 
+         freedom_of_expression = d, 
+         right_to_assembly = e, 
+         rule_of_law = f, 
+         personal_autonomy = g, 
+         political_rights = pr, 
+         civil_liberties = cl, 
+         total) |> 
+  pivot_longer(cols = c(electoral_process:total),
+               names_to = ""sub_indicator"", 
+               values_to = ""score"") |> 
+  filter(!is.na(score)) |> 
+  mutate(sub_indicator_category = 
+           case_when(
+             sub_indicator %in% c(""electoral_process"",
+                                  ""pluralism_participation"",
+                                  ""functioning_government"") ~ ""political_rights"", 
+            sub_indicator %in% c(""freedom_of_expression"",
+                                 ""right_to_assembly"", 
+                                 ""rule_of_law"", 
+                                 ""personal_autonomy"") ~ ""civil_liberties"", 
+            TRUE ~ ""aggregation""
+           )) |> 
+  mutate(country_iso = countrycode(country,
+                                   origin = ""country.name"", 
+                                   destination = ""iso3c"")) %>%
+  mutate_at(vars(sub_indicator, 
+                 sub_indicator_category), 
+            .funs = ~ str_replace_all(str_to_title(.), ""\\_"", "" "")) %>% 
+  mutate(status = recode(., 
+                         ""F"" = ""Free"", 
+                         ""NF"" = ""Not Free"", 
+                         ""PF"" = ""Partially Free""))
+"
+"1","[1m[33mError[39m in `mutate()`:[22m
+[38;5;238m[36mℹ[38;5;238m In argument: `status = recode(., F = ""Free"", NF = ""Not Free"", PF = ""Partially Free"")`.[39m
+[1mCaused by error in `UseMethod()`:[22m
+[33m![39m no applicable method for 'recode' applied to an object of class ""c('tbl_df', 'tbl', 'data.frame')""
+Backtrace:
+[90m 1. [39m... %>% ...
+[90m 9. [39m[1mdplyr[22m::recode(., F = ""Free"", NF = ""Not Free"", PF = ""Partially Free"")
+"
