@@ -1,0 +1,57 @@
+"0","migrant_filtered <- migrant |> 
+  filter(aggregation == ""no"") |> 
+  filter(area_of_destination %in% country_list | 
+           area_of_origin %in% country_list) |> 
+  filter(value != 0 & sex != ""total"") |> 
+  group_by(area_of_origin, area_of_destination, year, sex) |> 
+  summarise(migrants = sum(value, na.rm = TRUE), .groups = ""drop"") |>
+  mutate(origin_iso = countrycode(area_of_origin,
+                                  origin = ""country.name"", 
+                                   destination = ""iso3c""), 
+         destination_iso = countrycode(area_of_destination, 
+                                       origin = ""country.name"", 
+                                       destination = ""iso3c"")) |> 
+   left_join(
+    population_estimates |> 
+      filter(year %in% c(2000, 2010, 2015, 2020)) |>
+      pivot_wider(names_from = year, 
+              values_from = population, 
+              names_prefix = ""origin_population_"") |> 
+      select(-country), 
+    by = c(""origin_iso"" = ""country_iso"")) |> 
+  left_join(
+    population_estimates |> 
+      filter(year %in% c(2000, 2010, 2015, 2020)) |>
+      pivot_wider(names_from = year, 
+              values_from = population, 
+              names_prefix = ""destination_population_"") |> 
+      select(-country), 
+    by = c(""destination_iso"" = ""country_iso""))  |> 
+  glimpse()
+"
+"1","Rows: 26,113"
+"1",""
+"1","
+"
+"1","Columns: 15"
+"1",""
+"1","
+"
+"1","$ area_of_origin              [3m[38;5;246m<chr>[39m[23m ""Afghanistan"", ""Afghanistan"", ""Afghanista…
+$ area_of_destination         [3m[38;5;246m<chr>[39m[23m ""Argentina"", ""Argentina"", ""Argentina"", ""A…
+$ year                        [3m[38;5;246m<dbl>[39m[23m 1990, 1990, 1995, 1995, 2000, 2000, 2005,…
+$ sex                         [3m[38;5;246m<chr>[39m[23m ""female"", ""male"", ""female"", ""male"", ""fema…
+$ migrants                    [3m[38;5;246m<dbl>[39m[23m 19, 1, 18, 2, 17, 3, 13, 3, 7, 2, 7, 2, 7…
+$ origin_iso                  [3m[38;5;246m<chr>[39m[23m ""AFG"", ""AFG"", ""AFG"", ""AFG"", ""AFG"", ""AFG"",…
+$ destination_iso             [3m[38;5;246m<chr>[39m[23m ""ARG"", ""ARG"", ""ARG"", ""ARG"", ""ARG"", ""ARG"",…
+$ origin_population_2000      [3m[38;5;246m<dbl>[39m[23m 19542982, 19542982, 19542982, 19542982, 1…
+$ origin_population_2010      [3m[38;5;246m<dbl>[39m[23m 28189672, 28189672, 28189672, 28189672, 2…
+$ origin_population_2015      [3m[38;5;246m<dbl>[39m[23m 33753499, 33753499, 33753499, 33753499, 3…
+$ origin_population_2020      [3m[38;5;246m<dbl>[39m[23m 38972230, 38972230, 38972230, 38972230, 3…
+$ destination_population_2000 [3m[38;5;246m<dbl>[39m[23m 37070774, 37070774, 37070774, 37070774, 3…
+$ destination_population_2010 [3m[38;5;246m<dbl>[39m[23m 40788453, 40788453, 40788453, 40788453, 4…
+$ destination_population_2015 [3m[38;5;246m<dbl>[39m[23m 43131966, 43131966, 43131966, 43131966, 4…
+$ destination_population_2020 [3m[38;5;246m<dbl>[39m[23m 45376763, 45376763, 45376763, 45376763, 4…"
+"1",""
+"1","
+"

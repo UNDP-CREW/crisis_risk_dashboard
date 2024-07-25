@@ -1,0 +1,28 @@
+"0","migrant_filtered |> glimpse()
+"
+"1","Rows: 26,113"
+"1",""
+"1","
+"
+"1","Columns: 15"
+"1",""
+"1","
+"
+"1","$ area_of_origin              [3m[38;5;246m<chr>[39m[23m ""Afghanistan"", ""Afghanistan"", ""Afghanista…
+$ area_of_destination         [3m[38;5;246m<chr>[39m[23m ""Argentina"", ""Argentina"", ""Argentina"", ""A…
+$ year                        [3m[38;5;246m<dbl>[39m[23m 1990, 1990, 1995, 1995, 2000, 2000, 2005,…
+$ sex                         [3m[38;5;246m<chr>[39m[23m ""female"", ""male"", ""female"", ""male"", ""fema…
+$ migrants                    [3m[38;5;246m<dbl>[39m[23m 19, 1, 18, 2, 17, 3, 13, 3, 7, 2, 7, 2, 7…
+$ origin_iso                  [3m[38;5;246m<chr>[39m[23m ""AFG"", ""AFG"", ""AFG"", ""AFG"", ""AFG"", ""AFG"",…
+$ destination_iso             [3m[38;5;246m<chr>[39m[23m ""ARG"", ""ARG"", ""ARG"", ""ARG"", ""ARG"", ""ARG"",…
+$ origin_population_2000      [3m[38;5;246m<dbl>[39m[23m 19542982, 19542982, 19542982, 19542982, 1…
+$ origin_population_2010      [3m[38;5;246m<dbl>[39m[23m 28189672, 28189672, 28189672, 28189672, 2…
+$ origin_population_2015      [3m[38;5;246m<dbl>[39m[23m 33753499, 33753499, 33753499, 33753499, 3…
+$ origin_population_2020      [3m[38;5;246m<dbl>[39m[23m 38972230, 38972230, 38972230, 38972230, 3…
+$ destination_population_2000 [3m[38;5;246m<dbl>[39m[23m 37070774, 37070774, 37070774, 37070774, 3…
+$ destination_population_2010 [3m[38;5;246m<dbl>[39m[23m 40788453, 40788453, 40788453, 40788453, 4…
+$ destination_population_2015 [3m[38;5;246m<dbl>[39m[23m 43131966, 43131966, 43131966, 43131966, 4…
+$ destination_population_2020 [3m[38;5;246m<dbl>[39m[23m 45376763, 45376763, 45376763, 45376763, 4…"
+"1",""
+"1","
+"

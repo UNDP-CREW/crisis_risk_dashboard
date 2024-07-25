@@ -66,13 +66,7 @@ population_estimates <- read_csv(here("data", "population_estimates.csv")) |>
 
 ## Net freedom and world freedom
 
-```{r data}
 
-
-
-
-  
-```
 
 
 ## Special procedures 
@@ -502,7 +496,22 @@ hrd <- read_csv(here("data", "Asia Forum HRD Data(Asia Forum HRD Data).csv")) |>
   janitor::clean_names()
 ```
 
+```{r}
+hrd |> glimpse()
+```
 
+```{r}
+hrd_long <- hrd |> 
+  mutate(country_iso = countrycode(country,
+                                   origin = "country.name", 
+                                   destination = "iso3c")) |> 
+  separate(violation, sep = "\\|", remove = FALSE, 
+           into = paste0("violation", 1:7)) |> 
+  pivot_longer(cols = violation1:violation7,
+               names_to = "ignore",
+               values_to = "violation_long") |> 
+  filter(!is.na(violation_long)) 
+```
 
 
 ```{r}
@@ -513,12 +522,7 @@ hrd_violation_chart <- hrd |>
   mutate(country_iso = countrycode(country,
                                    origin = "country.name", 
                                    destination = "iso3c")) |> 
-  separate(violation, sep = "\\|", remove = FALSE, 
-           into = paste0("violation", 1:7)) |> 
-  pivot_longer(cols = violation1:violation7,
-               names_to = "ignore",
-               values_to = "violation_long") |> 
-  filter(!is.na(violation_long)) |>
+   |>
   group_by(violation_long, country) |> 
   summarise(event_count = n_distinct(serial_number), 
             average_impact = mean(impact_of_event, na.rm = TRUE), 
@@ -535,8 +539,8 @@ hrd |>
   pivot_longer(cols = violation1:violation7,
                names_to = "ignore",
                values_to = "violation_long") |> 
-  filter(!is.na(violation_long)) |>
-  group_by(violation_long, country) |>
+  filter(!is.na(violation_long)) 
+  group_by(violation_long, country) 
 ```
 
 
@@ -551,7 +555,6 @@ hrd |>
 
 ```{r}
 hrd |> 
-  filter(str_detect(date_added, "2023")) |> 
   separate(hrd, sep = "\\|", remove = FALSE, 
            into = paste0("hrd", 1:4)) |> 
   pivot_longer(cols = hrd1:hrd4,
@@ -568,23 +571,33 @@ hrd |>
 ```
 
 ```{r}
-hrd |>
-  filter(str_detect(date_added, "2023")) |> 
-  separate(rights_concerned, sep = "\\|", remove = FALSE, 
+hrd_long <- hrd |>
+  select(-source, -related_events) |> 
+  separate(rights_concerned, sep = "\\|", remove = TRUE, 
            into = paste0("rights", 1:7)) |>
   pivot_longer(cols = rights1:rights7, 
-               names_to = "ignore", 
+               names_to = "ignore1", 
                values_to = "rights_long") |> 
-  filter(!is.na(rights_long) & 
+    filter(!is.na(rights_long) & 
            rights_long %out% c("Offline", "Online")) |> 
-  select(serial_number,
-         country,
-         title, 
-         date_added,
-         event_description, 
-         rights_long) |> 
-  write_csv(here("data", "hrd_rights.csv"))
-    
+  separate(violation, sep = "\\|", remove = TRUE, 
+           into = paste0("violation", 1:7)) |> 
+  pivot_longer(cols = violation1:violation7,
+               names_to = "ignore2",
+               values_to = "violation_long") |> 
+  filter(!is.na(violation_long)) |> 
+  separate(hrd, sep = "\\|", remove = TRUE, 
+           into = paste0("hrd", 1:4)) |> 
+  pivot_longer(cols = hrd1:hrd4,
+               names_to = "ignore3",
+               values_to = "hrd_long") |> 
+  filter(!is.na(hrd_long)) |> 
+  select(-c(ignore1, ignore2, ignore3)) |> 
+  replace_na(list(imapct_of_event_ = 0))
+
+hrd_long |> write_csv(here("data", "hrd_long.csv"))
+
+hrd_long |> count(impact_of_event)
 ```
 
 
@@ -719,6 +732,11 @@ migrant <- read_excel(here("data", "undesa_pd_2020_ims_stock_by_sex_destination_
 ```
 
 ```{r}
+viridis_pal()(4) |> show_col()
+```
+
+
+```{r}
 glimpse(migrant)
 ```
 
@@ -737,8 +755,10 @@ migrant |> glimpse()
 migrant |> count(sex)
 ```
 
+
+#### Keep working on this
 ```{r}
-migrant |> 
+migrant_filtered <- migrant |> 
   filter(aggregation == "no") |> 
   filter(area_of_destination %in% country_list | 
            area_of_origin %in% country_list) |> 
@@ -766,14 +786,15 @@ migrant |>
               values_from = population, 
               names_prefix = "destination_population_") |> 
       select(-country), 
-    by = c("destination_iso" = "country_iso")) |>  
+    by = c("destination_iso" = "country_iso"))  
+  glimpse()
 ```
 
 ```{r}
 viridis_pal(option = "turbo")(8) |> show_col()
 ```
 
-
+### migrant stock changes
 
 ```{r}
 migrant_stock_changes <- migrant  |>
@@ -816,10 +837,31 @@ migrant_stock_changes <- migrant  |>
 ```
 
 
+```{r}
+migrant_stock_changes |> write_csv(here("data", "migrant_stock_changes.csv"))
+```
+
+
+```{r}
+migrant_filtered |> glimpse()
+```
+
+
 
 
 
 ### Migrants by origin 
+
+```{r}
+migrant_filtered |> 
+  group_by(area_of_origin, sex) |> 
+  summarise(origin_population_2020 = mean(origin_population_2020), 
+            migrants = sum(migrants)[year == 2020]) |> 
+  mutate(migrants_pc = migrants_2020 / origin_population_2020 * 100) |>
+  arrange(desc(migrants_pc)) |> 
+  filter(area_of_origin %in% country_list) 
+```
+
 
 ```{r}
 migrant_stock_changes |> 
@@ -854,18 +896,25 @@ migrant_stock_changes |>
         strip.background = element_rect(fill = "black"))
 ```
 
+```{r}
+ggsave(here("plots", "migration_barchart_origin.png"), 
+       height = 250, 
+       width = 210, 
+       units = "mm")
+```
+
 
 ### Migrant network graph 
 
 ```{r}
-viridis_pal(option = "plasma")(7)
+viridis_pal()(5)
 ```
 
 
 ```{r}
-viridis_pal(option = "plasma")(7) |> show_col()
+viridis_pal(option = "plasma")(3) |> show_col()
 
-viridis_pal(option = "turbo")(7) |> show_col()
+viridis_pal()(5) |> show_col()
 ```
 
 
@@ -879,12 +928,15 @@ migrant_stock_changes |>
               values_from = "migrants_2020", 
               values_fill = 0) |> 
   mutate(total_migrants_2020 = male + female, 
-         sex_ratio = (round(male / female * 100)),
-         sex_ratio = ifelse(is.infinite(sex_ratio), 0, sex_ratio)) |> 
+         sex_ratio = round(male * 100 / female), 
+         sex_ratio = ifelse(is.infinite(sex_ratio), 0, sex_ratio), 
+         sex_ratio = ifelse(is.nan(sex_ratio), 0, sex_ratio)) |> 
+  arrange(desc(sex_ratio)) |> 
+  filter(sex_ratio != 0) |> 
   mutate(n = 1,
          origin_population_pc = round(total_migrants_2020 / origin_population_2020 * 100, 
                                       digits = 2)) |> 
-  filter(total_migrants_2020 > 100000 | origin_population_pc > 5) |> 
+  filter(total_migrants_2020 > 100000 | origin_population_pc > 3) |> 
   igraph::graph_from_data_frame() |> 
   ggraph(layout = "circle") + 
   geom_edge_link(aes(edge_width = total_migrants_2020, 
@@ -893,7 +945,7 @@ migrant_stock_changes |>
                      colour = sex_ratio),
                  lineend = "round",
                  check_overlap = TRUE) + 
-  scale_edge_colour_gradient2(low = "#F0F921FF", mid = "#FDB32FFF", high = "#5D01A6FF", 
+  scale_edge_colour_gradient2(low = "#5DC863FF", mid = "#F58C46FF", high = "#0D0887FF", midpoint = 1,
                               trans = "log10") +
   scale_edge_width_continuous(range = c(.1, 7), 
                               labels = number_format(scale = 1 / 1000000, 
@@ -914,6 +966,14 @@ migrant_stock_changes |>
         plot.subtitle = element_text(size = 10), 
         plot.title = element_text(size = 11)) 
 ```
+
+```{r}
+ggsave(here("plots", "migration_network_graph.png"), 
+       units = "mm", 
+       height = 210, 
+       width = 297)
+```
+
 
 
 ```{r}

@@ -1,0 +1,99 @@
+"0",""
+"0","knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,"
+"0","                      fig.width = 9.5)"
+"0",""
+"0","library(tidyverse)"
+"0","library(here)"
+"2","here() starts at C:/Users/seany/Downloads/R/crisis_risk_dashboard
+"
+"0","library(lubridate)"
+"0","library(patchwork)"
+"0","library(scales)"
+"2","
+Attaching package: ‘scales’
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    discard
+
+"
+"2","The following object is masked from ‘package:readr’:
+
+    col_factor
+
+"
+"0","library(sf)"
+"2","Linking to GEOS 3.12.1, GDAL 3.8.4, PROJ 9.3.1; sf_use_s2() is TRUE
+"
+"0","library(broom)"
+"0","library(treemapify)"
+"0","library(kableExtra)"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'rmarkdown':
+  method         from
+  print.paged_df     
+"
+"2","
+Attaching package: ‘kableExtra’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    group_rows
+
+"
+"0","library(readxl)"
+"0","library(countrycode)"
+"0","library(viridis)"
+"2","Loading required package: viridisLite
+"
+"2","
+Attaching package: ‘viridis’
+
+"
+"2","The following object is masked from ‘package:scales’:
+
+    viridis_pal
+
+"
+"0","library(ggraph)"
+"0","library(ggforce)"
+"0","library(plotly)"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","`%out%` <- Negate(`%in%`)"
+"0","options(scipen = 100)"
+"0","theme_set(theme_light())"
+"0",""
+"0","show_col(viridis_pal(option = ""cividis"")(8))"
