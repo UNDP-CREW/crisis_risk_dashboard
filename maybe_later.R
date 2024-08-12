@@ -246,3 +246,64 @@ ggsave(here::here("plots", "macreconomic_indicator_trends.png"),
        height = 320,
        width = 420, 
        units = "mm")
+
+maldives_normalised <- maldives |>
+  # Crime data
+  filter(indicator %out% exclude_indicators & 
+           # Filter rows with no island
+           !is.na(island) & 
+           # Only administrative islands
+           administration == "Administrative Islands" & 
+           # Remove resident Maldivians 2014
+           population != "Resident Maldivians 2014") |> 
+  # filter empty rows with no indicator
+  filter(!is.na(indicator)) |> 
+  group_by(indicator, population) %>% 
+  mutate(range01 = range_wna(value)) |> 
+  ungroup() 
+
+hrd |> 
+  mutate(country_iso = countrycode(country,
+                                   origin = "country.name", 
+                                   destination = "iso3c")) |>
+  filter(str_detect(date_added, "2023")) |>
+  group_by(country, country_iso) |> 
+  summarise(count = n_distinct(serial_number), 
+            impact_sum = sum(impact_of_event, na.rm = TRUE), 
+            .groups = "drop") |> 
+  filter(!is.na(impact_sum)) |> 
+  write_csv(here("data", "hrd_text_and_map.csv"))
+
+set.seed(4777)
+
+
+mutate(rights_count = 
+         ifelse(!is.na(rights_long), 1, 0), 
+       violation_count = 
+         ifelse(!is.na(violation_long), 1, 0), 
+       hrd_count = 
+         ifelse(!is.na(hrd_long), 1, 0)) |> 
+  group_by(serial_number) |> 
+  summarise(
+    rights_count = sum(rights_count), 
+    violation_count = sum(violation_count), 
+    hrd_count = sum(hrd_count)
+  ) |> 
+  mutate(total_tags = rights_count + violation_count + hrd_count, 
+         types_of_tags = case_when(
+           rights_count > 0 & violation_count == 0 & hrd_count == 0 ~ "only_rights", 
+           rights_count  == 0 & violation_count > 0 & hrd_count == 0 ~ "only_violations",
+           rights_count == 0 & violation_count == 0 & hrd_count > 0 ~ "only_hrd",
+           rights_count > 0 & violation_count > 0 & hrd_count == 0 ~ "rights_and_violations",
+           rights_count > 0 & violation_count == 0 & hrd_count > 0 ~ "rights_and_hrd",
+           rights_count == 0 & violation_count > 0 & hrd_count > 0 ~ "violations_and_hrd",
+           rights_count > 0 & violation_count > 0 & hrd_count > 0 ~ "rights_violations_hrd",
+           TRUE ~ NA_character_
+         )) |> 
+  arrange(total_tags) |> 
+  filter(str_detect(types_of_tags, "only"))
+
+hrd_long |> 
+  filter(violation_long == "(Arbitrary) Arrest and Detention") |> 
+  sample_n(5) |> 
+  pull(summary_for_publications)

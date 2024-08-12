@@ -33,6 +33,10 @@ library(viridis)
 library(ggraph)
 library(ggforce)
 library(plotly)
+library(widyr)
+library(tidytext)
+library(janitor)
+library(vdemdata)
 
 `%out%` <- Negate(`%in%`)
 options(scipen = 100)
@@ -57,6 +61,9 @@ population_estimates <- read_csv(here("data", "population_estimates.csv")) |>
   mutate(country_iso = countrycode(country,
                                    origin = "country.name",
                                    destination = "iso3c"))
+
+range01 <- function(x){(x-min(x))/(max(x)-min(x))}
+range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, na.rm = TRUE))}
 
 ```
 
@@ -327,6 +334,11 @@ net_freedom_filtered |> write_csv(here("data", "net_freedom_filtered.csv"))
 ```
 
 ```{r}
+net_freedom_filtered |> filter(is.na(sub_index_group))
+```
+
+
+```{r}
 viridis_pal(option = "turbo")(9) |> show_col()
 ```
 
@@ -496,23 +508,6 @@ hrd <- read_csv(here("data", "Asia Forum HRD Data(Asia Forum HRD Data).csv")) |>
   janitor::clean_names()
 ```
 
-```{r}
-hrd |> glimpse()
-```
-
-```{r}
-hrd_long <- hrd |> 
-  mutate(country_iso = countrycode(country,
-                                   origin = "country.name", 
-                                   destination = "iso3c")) |> 
-  separate(violation, sep = "\\|", remove = FALSE, 
-           into = paste0("violation", 1:7)) |> 
-  pivot_longer(cols = violation1:violation7,
-               names_to = "ignore",
-               values_to = "violation_long") |> 
-  filter(!is.na(violation_long)) 
-```
-
 
 ```{r}
 
@@ -570,8 +565,177 @@ hrd |>
   write_csv(here("data", "hrd_victims_chart.csv"))
 ```
 
+### HRD long
+
+
+
 ```{r}
 hrd_long <- hrd |>
+  # Revert to Asia forum, these 18 rows are missing key data
+  # that needs to be encoded
+  filter(!is.na(violation) | !is.na(rights_concerned) | !is.na(hrd)) |> 
+  select(-source, -related_events) |> 
+  mutate(initial_date = ifelse(is.na(initial_date), date_added, initial_date)) |> 
+  separate(rights_concerned, sep = "\\|", remove = TRUE, 
+           into = paste0("rights", 1:7)) |>
+  pivot_longer(cols = rights1:rights7, 
+               names_to = "ignore1", 
+               values_to = "rights_long") |> 
+  filter(rights_long %out% c("Offline", "Online")) |> 
+  separate(violation, sep = "\\|", remove = TRUE, 
+           into = paste0("violation", 1:7)) |> 
+  pivot_longer(cols = violation1:violation7,
+               names_to = "ignore2",
+               values_to = "violation_long") |> 
+  separate(hrd, sep = "\\|", remove = TRUE, 
+           into = paste0("hrd", 1:4)) |> 
+  pivot_longer(cols = hrd1:hrd4,
+               names_to = "ignore3",
+               values_to = "hrd_long") |> 
+  filter(!is.na(hrd_long) | !is.na(rights_long) | !is.na(violation_long)) |> 
+  select(-c(ignore1, ignore2, ignore3)) |> 
+  distinct(serial_number, country, initial_date, summary_for_publications, 
+           rights_long, violation_long, hrd_long) |> 
+  # mutate(perpetrator_type = 
+  #          case_when(
+  #            !is.na(perpetrator_state) & is.na(perpetrator_non_state) ~ 
+  #              "State", 
+  #            !is.na(perpetrator_non_state) & is.na(perpetrator_state) ~ 
+  #              "non-State", 
+  #            !is.na(perpetrator_non_state) & !is.na(perpetrator_state) ~ 
+  #              "State and non-State", 
+  #            TRUE ~ "Unknown")) |> 
+  replace_na(list(final_date = ""))
+
+# writexl::write_xlsx(hrd_long, here("data", "hrd_long.xlsx"))
+
+
+
+```
+
+```{r}
+hrd_long |> 
+  group_by(rights_long, violation_long, hrd_long) |> 
+  summarise(count = n_distinct(serial_number), 
+            .groups = "drop") |> 
+  mutate(concat = paste0(rights_long, ", ", violation_long, ", ", hrd_long), 
+         concat = str_trim(str_replace_all(concat, "NA", ""))) |> 
+  arrange(desc(count)) |> 
+  view()
+```
+
+
+```{r}
+
+set.seed(47)
+
+hrd_long |> 
+  filter(violation_long == "(Arbitrary) Arrest and Detention" & 
+           is.na(rights_long) & is.na(hrd_long)) |> 
+  sample_n(5) |> 
+  pull(summary_for_publications)
+```
+
+### HRD network graph
+
+```{r}
+hrd_long |> 
+  filter(hrd_long == "Media Worker") |> 
+  sample_n(5) |> 
+  pull(summary_for_publications)
+
+set.seed(33444)
+
+hrd_long |> 
+  pivot_longer(cols = c(rights_long, violation_long, hrd_long), 
+               names_to = "type", 
+               values_to = "event_tag") |> 
+  filter(!is.na(event_tag)) |> 
+  distinct(serial_number, event_tag) |>
+  add_count(event_tag) |> 
+  pairwise_cor(event_tag, serial_number, sort = TRUE) |> 
+  left_join(
+    hrd_long |>
+      pivot_longer(
+        cols = c(rights_long, violation_long, hrd_long),
+        names_to = "type",
+        values_to = "event_tag"
+      ) |>
+      filter(!is.na(event_tag)) |>
+      distinct(serial_number, event_tag) |>
+      add_count(event_tag) |>
+      pairwise_count(event_tag, serial_number, sort = TRUE), 
+    by = c("item1", "item2")
+  ) |> 
+  filter(correlation >= .1 & n > 10) |> 
+  filter(item1 != "Academic" & item2 != "Academic") |> 
+  igraph::graph_from_data_frame() %>% 
+  ggraph(layout = "kk") + 
+  geom_edge_link(aes(alpha = correlation,
+                     edge_width = n), 
+                 colour = "blue", 
+                 lineend = "round",
+                 check_overlap = TRUE) + 
+  scale_alpha_continuous(range = c(0.1, 0.4)) +
+  geom_node_point(colour = "blue", alpha = 0.3) +
+  geom_node_text(aes(label = name), size = 3.5)
+
+ggsave(here("plots", "hrd_network_graph.png"), 
+       width = 42.0, height = 29.7, units = "cm", dpi = 300)
+
+
+```
+
+
+
+
+
+
+
+
+#### Perpetrators
+
+```{r}
+hrd |>
+ select(-source, -related_events) |> 
+ separate(perpetrator_non_state, sep = "\\|", remove = TRUE, 
+           into = paste0("perp_non_state", 1:2)) |> 
+  filter(!is.na(perp_non_state2)) |> 
+  pivot_longer(cols = hrd1:hrd4,
+               names_to = "ignore5",
+               values_to = "perp_non_state_long") |> 
+  filter(!is.na(perp_state_non_long)) |> 
+  mutate(perpetrator = str_trim(paste0(perpetrator_state, 
+                                       "and ", 
+                                       perpetrator_non_state)),
+         perpetrator_type = 
+           case_when(
+             perpetrator_non_state == "" & perpetrator_state != "" ~ 
+               "State",
+             perpetrator_non_state != "" & perpetrator_state == "" ~
+               "non-State",
+             perpetrator_non_state != "" & perpetrator_state != "" ~
+               "State and non-State", 
+             TRUE ~ "Unknown"
+         ))
+  
+```
+
+
+
+```{r}
+hrd |> 
+  filter(is.na(perpetrator_state) & is.na(perpetrator_non_state)) 
+```
+
+```{r eval = FALSE}
+
+# Deprecated -- return once you know what to do with the perpetrator data 
+
+hrd |>
+  # Revert to Asia forum, these 18 rows are missing key data
+  # that needs to be encoded
+  filter(!is.na(violation) | !is.na(rights_concerned) | !is.na(hrd))
   select(-source, -related_events) |> 
   separate(rights_concerned, sep = "\\|", remove = TRUE, 
            into = paste0("rights", 1:7)) |>
@@ -591,44 +755,59 @@ hrd_long <- hrd |>
   pivot_longer(cols = hrd1:hrd4,
                names_to = "ignore3",
                values_to = "hrd_long") |> 
-  filter(!is.na(hrd_long)) |> 
-  select(-c(ignore1, ignore2, ignore3)) |> 
-  replace_na(list(imapct_of_event_ = 0))
+  separate(perpetrator_state, sep = "\\|", remove = TRUE, 
+           into = paste0("perp_state", 1:4)) |> 
+  pivot_longer(cols = perp_state1:perp_state4,
+               names_to = "ignore4",
+               values_to = "perp_state_long") |> 
+  separate(perpetrator_non_state, sep = "\\|", remove = TRUE, 
+           into = paste0("perp_non_state", 1:2)) |> 
+  pivot_longer(cols = perp_non_state1:perp_non_state2,
+               names_to = "ignore5",
+               values_to = "perp_non_state_long") |> 
+  select(-c(ignore1, ignore2, ignore3, ignore4, ignore5)) 
+  replace_na(list(imapct_of_event = 0, 
+                  initial_date = "", 
+                  final_date = "", 
+                  perpetrator_state = "", 
+                  perpetrator_non_state = "")) |> 
+  mutate(perpetrator = str_trim(paste0(perpetrator_state, 
+                                       "and ", 
+                                       perpetrator_non_state)),
+         perpetrator_type = 
+           case_when(
+             perpetrator_non_state == "" & perpetrator_state != "" ~ 
+               "State",
+             perpetrator_non_state != "" & perpetrator_state == "" ~
+               "non-State",
+             perpetrator_non_state != "" & perpetrator_state != "" ~
+               "State and non-State", 
+             TRUE ~ "Unknown"
+         ), 
+         perpetrator = ifelse(perpetrator_type %in% 
+                                c("State", "no-State", "Unknown"), 
+                              str_replace_all(perpetrator, "and", ""), 
+                              perpetrator
+                              ), 
+         perpetrator = str_trim(perpetrator))
 
 hrd_long |> write_csv(here("data", "hrd_long.csv"))
 
-hrd_long |> count(impact_of_event)
-```
+hrd_long |> count(perpetrator)
 
 
-```{r}
-hrd |> 
-  mutate(country_iso = countrycode(country,
-                                   origin = "country.name", 
-                                   destination = "iso3c")) |>
-  filter(str_detect(date_added, "2023")) |>
-  group_by(country, country_iso) |> 
-  summarise(count = n_distinct(serial_number), 
-            impact_sum = sum(impact_of_event, na.rm = TRUE), 
-            .groups = "drop") |> 
-  filter(!is.na(impact_sum)) |> 
-  write_csv(here("data", "hrd_text_and_map.csv"))
+hrd_long |> glimpse()
+
+hrd_long |> filter(is.na(perp_state_long) & is.na(perp_non_state_long)) 
 ```
 
 
 
 
 
-```{r}
 
-hrd |> 
-  mutate(country_iso = countrycode(country,
-                                   origin = "country.name", 
-                                   destination = "iso3c")) |>
-  filter(str_detect(date_added, "2023")) |> 
-  summarise(n_distinct(serial_number))
- 
-```
+
+
 
 
 
@@ -735,10 +914,6 @@ migrant <- read_excel(here("data", "undesa_pd_2020_ims_stock_by_sex_destination_
 viridis_pal()(4) |> show_col()
 ```
 
-
-```{r}
-glimpse(migrant)
-```
 
 ```{r}
 migrant |> 
@@ -1082,18 +1257,263 @@ migrant |>
 ## VDEM
 
 ```{r}
+country_list 
+
 library(vdemdata)
 
-vdem |> glimpse()
+vdem_export <- vdem |> 
+  filter(country_name %in% country_list) |> 
+  select(country_name, year, matches("v2x"), 
+         -matches("sd|codehigh|codelow")) |> 
+  select(country_name, year, v2x_polyarchy:v2x_egaldem) |> 
+  pivot_longer(cols = c(v2x_polyarchy:v2x_egaldem), 
+               names_to = "index", 
+               values_to = "value") |> 
+  mutate(index_text = 
+           case_when(
+             index == "v2x_polyarchy" ~ "Electoral democracy index", 
+             index == "v2x_libdem" ~ "Liberal democracy index",
+             index == "v2x_partipdem" ~ "Participatory democracy index",
+             index == "v2x_delibdem" ~ "Deliberative democracy index",
+             index == "v2x_egaldem" ~ "Egalitarian democracy index", 
+             TRUE ~ index
+           ))
+
+vdem |> write_csv(here("data", "vdem_export.csv"))
+```
+
+
+```{r}
+
+vdem |> 
+  mutate(country_name = ifelse(country_name == "Burma/Myanmar", 
+                               "Myanmar", 
+                               country_name)) |>
+  filter(country_name %in% country_list) |> 
+  select(country_name, 
+         year, 
+         v2x_polyarchy,
+         v2x_libdem, 
+         v2x_partipdem, 
+         v2x_delibdem, 
+         v2x_egaldem 
+         )
 ```
 
 
 
+## Corruption Perceptions Index
+
+```{r}
+country_list
+```
+
+
+```{r}
+cpi <- read_excel(here("data", "CPI2023_Global_Results__Trends.xlsx"), 
+           sheet = "CPI Historical (internal)", 
+           skip = 3) |> 
+  # Not enough rows
+  select(-`Transparency International Bribe Payers Survey`) |> 
+  pivot_longer(
+    cols = c(`African Development Bank CPIA`:`World Justice Project Rule of Law Index`,
+             `CPI score`), 
+    names_to = "index", 
+    values_to = "value"
+  ) |> 
+  filter(!is.na(value)) |> 
+  clean_names() |> 
+  rename(country = country_territory) |> 
+  filter(country %in% country_list)
+
+
+cpi |> write_csv(here("data", "cpi_long.csv"))
+
+cpi |> skimr::skim()
+```
+
+
+```{r}
+cpi |> 
+  filter(country %in% country_list) |> 
+  filter(country == "Bangladesh") |> 
+  ggplot(aes(x = year, y = value, group = index)) + 
+  geom_line() + 
+  facet_wrap(~index)
+  glimpse()
+```
+
+
+## Maldives 
 
 
 
 
 
+```{r}
+maldives <- read_excel(here("data", "maldives_duplicates_Cleaned 1.xlsx")) |> 
+  janitor::clean_names()
 
 
+gbv_indicators <- maldives |> 
+  count(indicator, sort = TRUE) |>
+  # This is where we filtered out the crime data
+  filter(n < 43) |> 
+  filter(indicator %out% c("Cases Sent for Prosecution", 
+                           "Growth Rate ( 2014 to 2022)")) |> 
+  pull(indicator)
+
+maldives_normalised <- maldives |> 
+  # Remove resident Maldivians 2014
+  filter(population %out% c("Resident Maldivians 2014")) |> 
+  # cleaning up spelling and recoding NAs
+  mutate(population = 
+           case_when(
+             population == "Resident population" ~ "Resident Population",
+             is.na(population) ~ "Provisionally Resident Population", 
+             TRUE ~ population
+                     )) |> 
+  # Replacing NAs in administration with "provisionally administrative islands"
+  mutate(administration = 
+           ifelse(is.na(administration), 
+                  "provisionally Administrative Islands", 
+                  administration)) |>
+  # Mutating admin level, either admin2 or admin3
+  mutate(administration_level = 
+           case_when(
+             indicator %in% gbv_indicators ~ "admin2",
+             TRUE ~ "admin3")) |> 
+  group_by(indicator, population) %>% 
+  # Mutating a new range column within each population and indicators
+  mutate(range01 = range_wna(value)) |> 
+  ungroup() 
+
+
+maldives_normalised |> write_csv(here("data", "maldives_normalised.csv"))
+
+
+```
+
+Error in the dataset provided 
+
+```{r}
+maldives_normalised |> count(administration)
+
+maldives |> filter(indicator %in% gbv_indicators) |> 
+  count(population)
+
+maldives_normalised |> count(population)
+
+maldives_normalised |> 
+  filter(administration == "Administrative Islands" & 
+           administration_level == "admin3") |> 
+   count(indicator, population, administration, atoll_official, island, sort = TRUE) 
+
+  duplicates <- maldives |> 
+    filter(population %out% c("Resident Maldivians 2014")) |> 
+    count(indicator, population, administration, atoll_official, island, sort = TRUE) |> 
+    filter(n > 1) |> 
+    mutate(duplicate = TRUE)
+
+maldives_duplicates <- maldives |> 
+  filter(population %out% c("Resident Maldivians 2014")) |> 
+  left_join(
+    duplicates |> 
+      select(-n), 
+    by = c("indicator", "population", "administration", "atoll_official", "island")
+  ) |> 
+  mutate(duplicate = ifelse(is.na(duplicate), FALSE, duplicate))
+
+maldives_duplicates |> write_csv(here("data", "maldives_duplicates.csv"))
+```
+
+```{r}
+maldives |> filter(duplicate == TRUE)
+```
+
+
+
+```{r}
+maldives |> 
+  
+  filter(atoll_official == "Seenu Atoll" & island == "Hithadhoo"& 
+           indicator == "Child Dependency Ratio" & 
+           population == "Maldivians")
+  
+  
+
+```
+
+
+```{r}
+maldives |> 
+  filter(population != "Resident Maldivians 2014" & 
+           !is.na(indicator)) |> 
+  mutate(administration = 
+           ifelse(is.na(administration), 
+                  "provisionally Administrative Islands", 
+                  administration)) |>
+  mutate(administration_level = 
+           case_when(
+             indicator %in% exclude_indicators ~ "admin3",
+             TRUE ~ "admin2")) |> 
+  group_by(indicator, population) %>% 
+  mutate(range01 = range_wna(value)) |> 
+  ungroup() 
+```
+
+
+```{r}
+maldives |> 
+  filter(indicator %out% exclude_indicators) |> 
+  count(administration)
+  glimpse()
+```
+
+
+```{r}
+maldives_normalised |> 
+  filter(population == "Maldivians") |> 
+  filter(indicator %in% c("Population", "Aged-Dependency Ratio")) |>
+   pivot_wider(names_from = indicator, 
+              values_from = range01)
+
+
+  filter(!is.na(`Total Population`) & !is.na(`Unemployment rate (%)`))
+  select(indicator, island, atoll_official, population, range01) |> 
+  
+  ggplot(aes(x = `Population`, y = `Unemployment rate (%)`)) + 
+  geom_point()
+  
+maldives_normalised |> 
+  filter(indicator %in% c("Unemployment rate (%)", "Population")) |> 
+  count(indicator)
+
+
+maldives |> count(indicator)
+  filter(indicator == "Population") |> 
+  group_by(island, atoll_official, population) |> 
+  summarise(rows = n())
+  # filter(indicator %in% c("Unemployment rate (%)", "Population")) |>
+  count(indicator)
+  
+maldives |> count(indicator, population)
+```
+
+
+
+```{r}
+maldives |> 
+  filter(indicator == "NEET rate (18-35 years) (%)")
+```
+
+## HRI
+
+```{r}
+hri <- read_excel(here("data", "human_rights_index.xlsx"))
+
+hri |>glimpse()
+  clean_names() |> 
+  count(countries_concerned)
+```
 

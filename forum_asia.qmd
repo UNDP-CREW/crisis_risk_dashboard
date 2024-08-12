@@ -1,0 +1,353 @@
+---
+title: "Notes on the FORUM-ASIA Human Rights Defenders dataset"
+author: "Sean Ng"
+date: "09 August 2024"
+toc: true
+toc-location: left
+toc-depth: 4
+format: 
+  html:
+    page-layout: full
+    code-tools: true
+    self-contained: true
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.width = 9.5)
+
+library(tidyverse)
+library(here)
+library(lubridate)
+library(patchwork)
+library(scales)
+library(sf)
+library(kableExtra)
+library(readxl)
+library(countrycode)
+library(viridis)
+library(ggraph)
+library(janitor)
+library(DT)
+
+`%out%` <- Negate(`%in%`)
+options(scipen = 100)
+theme_set(theme_light())
+
+show_col(viridis_pal(option = "cividis")(8))
+
+country_list <- c("Afghanistan", "Bangladesh", "Bhutan", "Cambodia", 
+                  "China", "Fiji", "Hong Kong", "India", "Indonesia", 
+                  "Iran", "North Korea", "South Korea", "Laos", 
+                  "Malaysia", "Maldives", "Mongolia", "Myanmar", 
+                  "Nepal", "Pakistan", "Papua New Guinea", "Philippines", 
+                  "Solomon Islands", "Sri Lanka", "Thailand", "Timor-Leste", 
+                  "Vanuatu", "Vietnam")
+
+world_shape <- st_read(here("data", 
+                            "world-administrative-boundaries", 
+                            "world-administrative-boundaries.shp"), 
+                       quiet = TRUE)
+
+population_estimates <- read_csv(here("data", "population_estimates.csv")) |>
+  mutate(country_iso = countrycode(country,
+                                   origin = "country.name",
+                                   destination = "iso3c"))
+
+range01 <- function(x){(x-min(x))/(max(x)-min(x))}
+range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, na.rm = TRUE))}
+
+```
+
+## Dataset
+
+
+```{r warning=FALSE,message=FALSE}
+
+hrd <- read_csv(here("data", "Asia Forum HRD Data(Asia Forum HRD Data).csv")) |> 
+  janitor::clean_names()
+
+hrd_long <- hrd |>
+  # Revert to Asia forum, these 18 rows are missing key data
+  # that needs to be encoded
+  filter(!is.na(violation) | !is.na(rights_concerned) | !is.na(hrd)) |> 
+  mutate(initial_date = ifelse(is.na(initial_date), date_added, initial_date)) |> 
+  separate(rights_concerned, sep = "\\|", remove = TRUE, 
+           into = paste0("rights", 1:7)) |>
+  pivot_longer(cols = rights1:rights7, 
+               names_to = "ignore1", 
+               values_to = "rights_long") |> 
+  filter(rights_long %out% c("Offline", "Online")) |> 
+  separate(violation, sep = "\\|", remove = TRUE, 
+           into = paste0("violation", 1:7)) |> 
+  pivot_longer(cols = violation1:violation7,
+               names_to = "ignore2",
+               values_to = "violation_long") |> 
+  separate(hrd, sep = "\\|", remove = TRUE, 
+           into = paste0("hrd", 1:4)) |> 
+  pivot_longer(cols = hrd1:hrd4,
+               names_to = "ignore3",
+               values_to = "hrd_long") |> 
+  filter(!is.na(hrd_long) | !is.na(rights_long) | !is.na(violation_long)) |> 
+  select(-c(ignore1, ignore2, ignore3)) |> 
+  distinct(serial_number, country, initial_date, summary_for_publications, 
+           rights_long, violation_long, hrd_long) |> 
+  replace_na(list(final_date = "")) |> 
+  pivot_longer(cols = c(rights_long, violation_long, hrd_long), 
+               names_to = "category", 
+               values_to = "event_tag") |> 
+  filter(!is.na(event_tag)) |> 
+  mutate(category = str_replace(category, "\\_long", "")) |> 
+  distinct(serial_number,country, event_tag, category, initial_date, summary_for_publications)
+
+# writexl::write_xlsx(hrd_long, here("data", "hrd_long.xlsx"))
+
+one_type_of_tag <- hrd_long |> 
+  group_by(serial_number) |> 
+  summarise(report_cats = n_distinct(category)) |> 
+  arrange(report_cats) |> 
+  filter(report_cats == 1) |> 
+  pull(serial_number)
+
+```
+
+
+The extract of this data from FORUM-ASIA contains reports between the dates of `r min(hrd_long$initial_date)` and `r max(hrd_long$initial_date)`. This is the data currently in UNDP's data warehouse, though it will be updated shortly. This is a snapshot of the data: 
+
+<br>
+
+```{r}
+hrd |> glimpse()
+```
+<br> 
+
+We concern ourselves first with the columns `violation`, `rights_concerned` and `hrd`, the most commonly used of the columns. However, we first need to pivot the data into a longer format and have combined these three columns into a new one called `event_tags`, with the category (violation, rights, hrd) being pushed to the new column `category`. 
+
+Below is a table of the top 15 event tags, by number of reports: 
+
+<br>
+
+```{r}
+hrd_long |> 
+  group_by(event_tag, category) |> 
+  summarise(reports = n_distinct(serial_number)) |> 
+  arrange(desc(reports)) |>
+  head(15) |> 
+  kable(caption = "FORUM-ASIA reports by report tag, top 15 results") |> 
+  kable_styling(bootstrap_options = c("condensed"))
+
+```
+
+<br> 
+
+`(Arbitrary) Arrest and Detention` and `Judicial Harassment` seem to be the preferred repression strategies in Asia.  
+
+<br><br><br>
+
+### Questions about how the data was encoded
+
+Whilst most reports have several types of tags, i.e. `Freedom of Movement` would likely co-occur with `Travel Restrictions` when reported. Or that a report about `Censorship` would also involve at least one `Media Worker`. 
+
+With that in mind, let us take a look at a sample of report summaries, that only have one tag category -- either only rights, or violations or only HRDs were coded in for each of the following reports: 
+
+
+<br>
+
+
+```{r}
+set.seed(45777)
+
+
+hrd_long |> 
+  filter(serial_number %in% one_type_of_tag) |> 
+  sample_n(5) |> 
+  group_by(serial_number) |> 
+  summarise(summary_for_publications = summary_for_publications, 
+            category = category,
+            tags = paste0(event_tag)) |> 
+  kable(caption = "Sample of reports with only one type of tag") |> 
+  kable_styling(bootstrap_options = c("condensed"))
+```
+
+<br>
+
+It should definitely be argued that these `r hrd |> filter(serial_number %in% one_type_of_tag) |> nrow()` reports should be recoded so that detail is not lost when using the `rights_concerned`, `violations` or `hrd` columns. 
+
+Let us expand our search to look at some samples of events with a low number of tags, outside of the ones mentioned above: 
+
+<br>
+
+```{r}
+set.seed(223)
+
+hrd_long |> 
+  filter(!is.na(summary_for_publications)) |> 
+  filter(serial_number %out% one_type_of_tag) |> 
+  group_by(serial_number) |> 
+  mutate(tag_count = n_distinct(event_tag)) |> 
+  ungroup() |> 
+  filter(tag_count < 3) |> 
+  group_by(summary_for_publications) |> 
+  mutate(event_tags = paste0(event_tag, collapse = ", "), 
+         categories = paste0(category, collapse = ", ")) |> 
+  ungroup() |> 
+  distinct(serial_number, summary_for_publications, event_tags, categories) |> 
+  sample_n(5) |> 
+  kable(caption = "Sample of reports with low numbers of tags") |> 
+  kable_styling(bootstrap_options = c("condensed"))
+
+```
+
+<br>
+
+I am not familiar with FORUM-ASIA's methodology; however, I do think that some reports would benefit from additional review, at least so that the type of human rights defender involved as well as the underlying causes are more thoroughly tagged. 
+
+As the other entries above show, this is more widespread in the dataset than initially thought and reports with low numbers of tags should be revisited. 
+
+<br><br><br>
+
+### Network graph of event tags
+
+Below is a network graph of event tags. These span the columns `rights_concerned`, `violations` and `hrd` in the original dataset. 
+
+The thickness of each line represents how many events were reported with both tags; the transparency indicates the strength of the correlation between each tag. 
+
+The dimensions of human rights, human rights violations and human rights defenders are not separate in the slightest. There is an argument to having these three columns in the original collapsed into an `event_tag` column. 
+
+From the graph below, we identify several "axes of repression" commonly applied by state and non-state actors. The first of which is the coincidence between **(Arbitrary) Arrests and Detention**, **Judicial Harassment** and the **Right to liberty and security**. This is commonsensical. 
+
+As are the relationships between **Restrictions on movement**, **Travel restrictions** and **Surveillance**, and between **Land rights**, **Minority rights** and **Indigenous people's rights**. 
+
+<br>
+
+![](./plots/hrd_network_graph.png)
+
+<br>
+
+From the graph above, we also note that the **Right to healthy and safe environment** is probably too broad of a tag and needs to be broken up, containing many disparate themes and topics, perhaps separating out denial of basic services and other sub-categories. Below is a sample of summaries for publication of reports tagged with **Right to healthy and safe environment**:  
+
+<br>
+
+```{r}
+set.seed(435)
+hrd_long |> 
+  filter(event_tag == "Right to healthy and safe environment") |> 
+  sample_n(5) |> 
+  select(`Summary for publications` = summary_for_publications) |> 
+  kable(caption = "Summaries of reports tagged with 'Right to safe and healthy environment'") |>
+  kable_styling(bootstrap_options = c("condensed"))
+```
+
+
+```{r eval=FALSE}
+
+# Just going to load in a png so I can better control font size
+set.seed(33444)
+
+hrd_long |> 
+  distinct(serial_number, event_tag) |>
+  add_count(event_tag) |> 
+  pairwise_cor(event_tag, serial_number, sort = TRUE) |> 
+  left_join(
+    hrd_long |>
+      distinct(serial_number, event_tag) |>
+      add_count(event_tag) |>
+      pairwise_count(event_tag, serial_number, sort = TRUE), 
+    by = c("item1", "item2")
+  ) |> 
+  filter(correlation >= .1 & n > 10) |> 
+  filter(item1 != "Academic" & item2 != "Academic") |>
+  igraph::graph_from_data_frame() %>% 
+  ggraph(layout = "kk") + 
+  geom_edge_link(aes(edge_alpha = correlation,
+                     edge_width = n), 
+                 colour = "blue", 
+                 lineend = "round",
+                 check_overlap = TRUE) + 
+  scale_alpha_continuous(range = c(0.1, 0.4)) +
+  geom_node_point(colour = "blue", alpha = 0.3) +
+  geom_node_text(aes(label = name), size = 3.5) + 
+  labs(title = "Network graph of FORUM-ASIA report tags", 
+       edge_alpha = "Correlation", 
+       edge_width = "# Reports")
+
+
+ggsave(here("plots", "hrd_network_graph.png"), 
+       width = 42.0, height = 29.7, units = "cm", dpi = 300)
+
+
+
+```
+
+<br><br><br>
+
+### Perpetrators
+
+From the table of perpetrators identified in the FORUM-ASIA, the majority of perpetrators have not been coded: this is distinct from them being unknown, since `Unknown` has already been included as an option. 
+
+<br>
+
+```{r}
+
+perp <- hrd |>
+  select(-source, -related_events) |> 
+  separate(perpetrator_state, sep = "\\|", remove = TRUE, 
+           into = paste0("perp_state", 1:4)) |> 
+  pivot_longer(cols = perp_state1:perp_state4,
+               names_to = "ignore4",
+               values_to = "perp_state_long") |> 
+  separate(perpetrator_non_state, sep = "\\|", remove = TRUE, 
+           into = paste0("perp_non_state", 1:2)) |> 
+  pivot_longer(cols = perp_non_state1:perp_non_state2,
+               names_to = "ignore5",
+               values_to = "perp_non_state_long") |> 
+  filter(!is.na(perp_non_state_long) | !is.na(perp_state_long)) |> 
+  pivot_longer(cols = c(perp_state_long,perp_non_state_long), 
+               names_to = "perp_type", 
+               values_to = "perpetrator") |> 
+  select(-ignore4, -ignore5) |> 
+  distinct(initial_date, country, summary_for_publications, perp_type, perpetrator, serial_number)
+
+perp |> 
+  count(perpetrator, sort = TRUE) |> 
+  kable(caption = "Perpetrators in the FORUM-ASIA dataset and reports associated with them", 
+        table.attr = "style='width:60%;'") |> 
+  kable_styling(bootstrap_options = c("condensed"), 
+                full_width = FALSE) 
+```
+
+<br>
+
+As with the other variables, let us take a sample of the data, this time from where where there is no perpetrator specified: 
+
+<br>
+
+```{r}
+set.seed(4)
+
+hrd |> 
+  filter(is.na(perpetrator_state) & is.na(perpetrator_non_state)) |> 
+  sample_n(5) |> 
+  select(summary_for_publications) |> 
+  kable(caption = "Summaries of events where the `perpetrator` column is blank") |> 
+  kable_styling(bootstrap_options = c("condensed"))
+```
+
+<br>
+
+Given the inclusion of the options `Unknown`, `Suspected state` and `Suspected non-state`, there should be no NAs in the perpetrator column. Additionally, in many of the samples checked, the perpetrator was clearly identifiable. 
+
+<br><br><br>
+
+## Next steps 
+
+Not that I am proposing that I do these or be involved in these. These are just the next steps I would take:
+
+*Review FORUM-ASIA's methodology, codebook and other documentation. Mainly for all the points mentioned above, but also to see `Impact of event` has been calculated. As we consider this dataset for inclusion in the Crisis Risk Dashboard, collecting all available documentation will aid in that determination.  
+
+*Re-code the data to ensure that events are properly tagged and perpetrators correctly identified. More accurate coding allows for much more analysis, allowing for greater advocacy and the development of mitigative measures. One such analysis would be looking at which types of repressive measures are favoured by which type of actor, as well as to explore events where the perpetrator is truly unknown. 
+
+*Conduct analysis by country and perpetrator. 
+
+*Conduct text mining of the full text of reports. A network graph of words may help set a new base for refining how each report has been tagged. 

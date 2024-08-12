@@ -1,0 +1,81 @@
+---
+title: "Maldives"
+author: "Sean Ng"
+date: "30 July 2024"
+toc: true
+toc-location: left
+toc-depth: 4
+format: 
+  html:
+    page-layout: full
+    code-tools: true
+    self-contained: true
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.width = 9.5)
+
+library(tidyverse)
+library(here)
+library(lubridate)
+library(patchwork)
+library(scales)
+library(sf)
+library(broom)
+library(treemapify)
+library(kableExtra) 
+library(ggstream)
+
+`%out%` <- Negate(`%in%`)
+options(scipen = 100)
+theme_set(theme_light())
+
+show_col(viridis_pal(option = "cividis")(8))
+
+```
+
+```{r}
+maldives_admin2 <- st_read(here("data", 
+                         "mdv_admbnd_gov_20210329_shp", 
+                         "mdv_admbnda_adm2_gov_20210329.shp"))
+```
+
+
+
+
+```{r}
+maldives_admin2 |> 
+  mutate(ADM2ALT2EN = case_when(
+    ADM2_EN == "Haa Alif Atoll" ~ "Haa Alif (HA)", 
+    ADM2_EN == "Haa Dhaal Atoll" ~ "Haa Dhaalu (HDh) ",
+    ADM2_EN == "Shaviyani Atoll" ~ "Shaviyani (Sh)",
+    ADM2_EN == "Baa Atoll" ~ "Baa (B)",
+    ADM2_EN == "Lhaviyani Atoll" ~ "Lhaviyani (Lh)",
+    ADM2_EN == "Noonu Atoll" ~ "Noonu (N)",
+    ADM2_EN == "Raa Atoll" ~ "Raa (R)",
+    ADM2_EN == "Gaaf Alif Atoll" ~ "Gaafu Alif (GA)",
+    ADM2_EN == "Gaaf Dhaal Atoll" ~ "Gaafu Dhaalu (GDh)",
+    ADM2_EN == "Gnaviyani Atoll" ~ "Gnaviyani (Gn)",
+    ADM2_EN == "Seenu Atoll" ~ "Addu (S)",
+    ADM2_EN == "Alif Dhekunu Buri" ~ "Alif Dhaal (ADh)",
+    ADM2_EN == "Alif Uthuru Buri" ~ "Alif Alif (AA)",
+    ADM2_EN == "Dhaal Atoll" ~ "Dhaalu (Dh)",
+    ADM2_EN == "Faafu Atoll" ~ "Faafu (F)",
+    ADM2_EN == "Laamu Atoll" ~ "Laamu (L)",
+    ADM2_EN == "Meemu Atoll" ~ "Meemu (M)",
+    ADM2_EN == "Thaa Atoll" ~ "Thaa (Th)",
+    ADM2_EN == "Vaavu Atoll" ~ "Vaavu (V)", 
+    TRUE ~ ADM2_EN
+    
+  )) |> 
+  st_write(here("data", "maldives_adm2_altered.shp"))
+  
+  count(ADM1_EN, ADM2_EN, ADM2ALT2EN)|> 
+  select(-n) |> 
+  write_csv(here("data", "maldives_admin2_check.csv"))
+
+
+```
+

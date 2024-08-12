@@ -1,0 +1,2288 @@
+country,iso3,year,region,rank,standard_error,number_of_sources,lower_ci,upper_ci,index,value
+Afghanistan,AFG,2023,AP,162,6.244771,5,9.758576,30.24142,Bertelsmann Foundation Transformation Index,24.86647
+Afghanistan,AFG,2023,AP,162,6.244771,5,9.758576,30.24142,Global Insights Country Risk Ratings,10.21805
+Afghanistan,AFG,2023,AP,162,6.244771,5,9.758576,30.24142,Varieties of Democracy Project,46.33829
+Afghanistan,AFG,2023,AP,162,6.244771,5,9.758576,30.24142,World Bank CPIA,1.786336
+Afghanistan,AFG,2023,AP,162,6.244771,5,9.758576,30.24142,World Justice Project Rule of Law Index,14.92038
+Afghanistan,AFG,2023,AP,162,6.244771,5,9.758576,30.24142,CPI score,20
+Afghanistan,AFG,2022,AP,150,6.299999,4,13.668,34.332,Bertelsmann Foundation Transformation Index,25
+Afghanistan,AFG,2022,AP,150,6.299999,4,13.668,34.332,Global Insights Country Risk Ratings,10
+Afghanistan,AFG,2022,AP,150,6.299999,4,13.668,34.332,Varieties of Democracy Project,43
+Afghanistan,AFG,2022,AP,150,6.299999,4,13.668,34.332,World Justice Project Rule of Law Index,16
+Afghanistan,AFG,2022,AP,150,6.299999,4,13.668,34.332,CPI score,24
+Afghanistan,AFG,2021,AP,174,2.12416,5,12.50576,19.49424,Bertelsmann Foundation Transformation Index,24.86647
+Afghanistan,AFG,2021,AP,174,2.12416,5,12.50576,19.49424,Global Insights Country Risk Ratings,10.21805
+Afghanistan,AFG,2021,AP,174,2.12416,5,12.50576,19.49424,Varieties of Democracy Project,12.33825
+Afghanistan,AFG,2021,AP,174,2.12416,5,12.50576,19.49424,World Bank CPIA,18.44911
+Afghanistan,AFG,2021,AP,174,2.12416,5,12.50576,19.49424,World Justice Project Rule of Law Index,14.0221
+Afghanistan,AFG,2021,AP,174,2.12416,5,12.50576,19.49424,CPI score,16
+Afghanistan,AFG,2020,AP,165,2.440014,5,14.99838,23.00162,Bertelsmann Foundation Transformation Index,25
+Afghanistan,AFG,2020,AP,165,2.440014,5,14.99838,23.00162,Global Insights Country Risk Ratings,10
+Afghanistan,AFG,2020,AP,165,2.440014,5,14.99838,23.00162,Varieties of Democracy Project,26
+Afghanistan,AFG,2020,AP,165,2.440014,5,14.99838,23.00162,World Bank CPIA,18
+Afghanistan,AFG,2020,AP,165,2.440014,5,14.99838,23.00162,World Justice Project Rule of Law Index,15
+Afghanistan,AFG,2020,AP,165,2.440014,5,14.99838,23.00162,CPI score,19
+Afghanistan,AFG,2019,AP,173,2.554536,5,11.81056,20.18944,Bertelsmann Foundation Transformation Index,25
+Afghanistan,AFG,2019,AP,173,2.554536,5,11.81056,20.18944,Global Insights Country Risk Ratings,10
+Afghanistan,AFG,2019,AP,173,2.554536,5,11.81056,20.18944,Varieties of Democracy Project,13
+Afghanistan,AFG,2019,AP,173,2.554536,5,11.81056,20.18944,World Bank CPIA,18
+Afghanistan,AFG,2019,AP,173,2.554536,5,11.81056,20.18944,World Justice Project Rule of Law Index,14
+Afghanistan,AFG,2019,AP,173,2.554536,5,11.81056,20.18944,CPI score,16
+Afghanistan,AFG,2018,AP,172,1.41,5,14,18,Bertelsmann Foundation Transformation Index,17
+Afghanistan,AFG,2018,AP,172,1.41,5,14,18,Global Insights Country Risk Ratings,10
+Afghanistan,AFG,2018,AP,172,1.41,5,14,18,Varieties of Democracy Project,17
+Afghanistan,AFG,2018,AP,172,1.41,5,14,18,World Bank CPIA,18
+Afghanistan,AFG,2018,AP,172,1.41,5,14,18,World Justice Project Rule of Law Index,16
+Afghanistan,AFG,2018,AP,172,1.41,5,14,18,CPI score,16
+Afghanistan,AFG,2017,AP,177,1.39,5,13,17,Bertelsmann Foundation Transformation Index,17
+Afghanistan,AFG,2017,AP,177,1.39,5,13,17,Global Insights Country Risk Ratings,10
+Afghanistan,AFG,2017,AP,177,1.39,5,13,17,Varieties of Democracy Project,15
+Afghanistan,AFG,2017,AP,177,1.39,5,13,17,World Bank CPIA,18
+Afghanistan,AFG,2017,AP,177,1.39,5,13,17,World Justice Project Rule of Law Index,16
+Afghanistan,AFG,2017,AP,177,1.39,5,13,17,CPI score,15
+Afghanistan,AFG,2016,AP,169,1.74,5,12,17,Bertelsmann Foundation Transformation Index,20
+Afghanistan,AFG,2016,AP,169,1.74,5,12,17,Global Insights Country Risk Ratings,10
+Afghanistan,AFG,2016,AP,169,1.74,5,12,17,Varieties of Democracy Project,16
+Afghanistan,AFG,2016,AP,169,1.74,5,12,17,World Bank CPIA,13
+Afghanistan,AFG,2016,AP,169,1.74,5,12,17,World Justice Project Rule of Law Index,13
+Afghanistan,AFG,2016,AP,169,1.74,5,12,17,CPI score,15
+Afghanistan,AFG,2015,AP,166,3.490000009536743,4,5,17,Bertelsmann Foundation Transformation Index,19
+Afghanistan,AFG,2015,AP,166,3.490000009536743,4,5,17,Global Insights Country Risk Ratings,11
+Afghanistan,AFG,2015,AP,166,3.490000009536743,4,5,17,World Bank CPIA,12
+Afghanistan,AFG,2015,AP,166,3.490000009536743,4,5,17,World Justice Project Rule of Law Index,2
+Afghanistan,AFG,2015,AP,166,3.490000009536743,4,5,17,CPI score,11
+Afghanistan,AFG,2014,AP,172,1.2899999618530273,4,10,14,Bertelsmann Foundation Transformation Index,10
+Afghanistan,AFG,2014,AP,172,1.2899999618530273,4,10,14,Global Insights Country Risk Ratings,11
+Afghanistan,AFG,2014,AP,172,1.2899999618530273,4,10,14,World Bank CPIA,12
+Afghanistan,AFG,2014,AP,172,1.2899999618530273,4,10,14,World Justice Project Rule of Law Index,16
+Afghanistan,AFG,2014,AP,172,1.2899999618530273,4,10,14,CPI score,12
+Afghanistan,AFG,2013,AP,175,3.3,3,3,13,Bertelsmann Foundation Transformation Index,10
+Afghanistan,AFG,2013,AP,175,3.3,3,3,13,Global Insights Country Risk Ratings,1
+Afghanistan,AFG,2013,AP,175,3.3,3,3,13,World Bank CPIA,12
+Afghanistan,AFG,2013,AP,175,3.3,3,3,13,CPI score,8
+Afghanistan,AFG,2012,AP,174,3.3,3,2,13,Bertelsmann Foundation Transformation Index,10
+Afghanistan,AFG,2012,AP,174,3.3,3,2,13,Global Insights Country Risk Ratings,1
+Afghanistan,AFG,2012,AP,174,3.3,3,2,13,World Bank CPIA,12
+Afghanistan,AFG,2012,AP,174,3.3,3,2,13,CPI score,8
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,Bertelsmann Foundation Transformation Index,20.87696
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,Economist Intelligence Unit Country Ratings,19.79276
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,Global Insights Country Risk Ratings,22.45197
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,PRS International Country Risk Guide,33.81205
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,Varieties of Democracy Project,12.33825
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,World Bank CPIA,26.78049
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,World Economic Forum EOS,29.94845
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,World Justice Project Rule of Law Index,22.10661
+Bangladesh,BGD,2023,AP,149,1.511192,8,21.52164,26.47836,CPI score,24
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,Bertelsmann Foundation Transformation Index,25
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,Economist Intelligence Unit Country Ratings,20
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,PRS International Country Risk Guide,41
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,Varieties of Democracy Project,13
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,World Bank CPIA,27
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,World Economic Forum EOS,33
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,World Justice Project Rule of Law Index,23
+Bangladesh,BGD,2022,AP,147,1.927162,8,21.83945,28.16055,CPI score,25
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,Bertelsmann Foundation Transformation Index,24.86647
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,Economist Intelligence Unit Country Ratings,19.79276
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,Global Insights Country Risk Ratings,22.45197
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,PRS International Country Risk Guide,41.12743
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,Varieties of Democracy Project,15.23187
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,World Bank CPIA,26.78049
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,World Economic Forum EOS,29.247
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,World Justice Project Rule of Law Index,24.80145
+Bangladesh,BGD,2021,AP,147,1.742484,8,23.13361,28.86639,CPI score,26
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,Bertelsmann Foundation Transformation Index,25
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,Economist Intelligence Unit Country Ratings,20
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,PRS International Country Risk Guide,41
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,Varieties of Democracy Project,17
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,World Bank CPIA,27
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,World Economic Forum EOS,31
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,World Justice Project Rule of Law Index,27
+Bangladesh,BGD,2020,AP,146,1.715685,8,23.18628,28.81372,CPI score,26
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,Bertelsmann Foundation Transformation Index,25
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,Economist Intelligence Unit Country Ratings,20
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,PRS International Country Risk Guide,41
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,Varieties of Democracy Project,17
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,World Bank CPIA,27
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,World Economic Forum EOS,31
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,World Justice Project Rule of Law Index,27
+Bangladesh,BGD,2019,AP,146,2.617282,8,21.70766,30.29234,CPI score,26
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,Bertelsmann Foundation Transformation Index,25
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,Economist Intelligence Unit Country Ratings,20
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,PRS International Country Risk Guide,41
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,Varieties of Democracy Project,17
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,World Bank CPIA,27
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,World Economic Forum EOS,30
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,World Justice Project Rule of Law Index,26
+Bangladesh,BGD,2018,AP,149,2.63,8,22,30,CPI score,26
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,Bertelsmann Foundation Transformation Index,25
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,Economist Intelligence Unit Country Ratings,20
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,PRS International Country Risk Guide,47
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,Varieties of Democracy Project,21
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,World Bank CPIA,27
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,World Economic Forum EOS,35
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,World Justice Project Rule of Law Index,26
+Bangladesh,BGD,2017,AP,143,3.19,8,23,33,CPI score,28
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,Bertelsmann Foundation Transformation Index,24
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,Economist Intelligence Unit Country Ratings,19
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,PRS International Country Risk Guide,50
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,World Bank CPIA,24
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,World Economic Forum EOS,17
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,World Justice Project Rule of Law Index,25
+Bangladesh,BGD,2016,AP,145,4.13,7,19,33,CPI score,26
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,Bertelsmann Foundation Transformation Index,23
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,Economist Intelligence Unit Country Ratings,21
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,PRS International Country Risk Guide,50
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,World Bank CPIA,23
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,World Economic Forum EOS,19
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,World Justice Project Rule of Law Index,16
+Bangladesh,BGD,2015,AP,139,4.300000190734863,7,18,32,CPI score,25
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,Bertelsmann Foundation Transformation Index,23
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,Economist Intelligence Unit Country Ratings,21
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,PRS International Country Risk Guide,50
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,World Bank CPIA,23
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,World Economic Forum EOS,18
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,World Justice Project Rule of Law Index,19
+Bangladesh,BGD,2014,AP,145,4.230000019073486,7,18,32,CPI score,25
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,Bertelsmann Foundation Transformation Index,23
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,Economist Intelligence Unit Country Ratings,21
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,Global Insights Country Risk Ratings,32
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,PRS International Country Risk Guide,50
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,World Bank CPIA,23
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,World Economic Forum EOS,21
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,World Justice Project Rule of Law Index,21
+Bangladesh,BGD,2013,AP,136,4.1,7,20,34,CPI score,27
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,Bertelsmann Foundation Transformation Index,28
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,Economist Intelligence Unit Country Ratings,21
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,Global Insights Country Risk Ratings,22
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,PRS International Country Risk Guide,50
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,World Bank CPIA,23
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,World Economic Forum EOS,21
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,World Justice Project Rule of Law Index,21
+Bangladesh,BGD,2012,AP,144,4.1,7,20,33,CPI score,26
+Bhutan,BTN,2023,AP,26,2.179297,4,64.42595,71.57405,Bertelsmann Foundation Transformation Index,68.75114
+Bhutan,BTN,2023,AP,26,2.179297,4,64.42595,71.57405,Global Insights Country Risk Ratings,71.02245
+Bhutan,BTN,2023,AP,26,2.179297,4,64.42595,71.57405,Varieties of Democracy Project,70.21066
+Bhutan,BTN,2023,AP,26,2.179297,4,64.42595,71.57405,World Bank CPIA,60.10603
+Bhutan,BTN,2023,AP,26,2.179297,4,64.42595,71.57405,CPI score,68
+Bhutan,BTN,2022,AP,25,2.179297,4,64.42595,71.57405,Bertelsmann Foundation Transformation Index,69
+Bhutan,BTN,2022,AP,25,2.179297,4,64.42595,71.57405,Global Insights Country Risk Ratings,71
+Bhutan,BTN,2022,AP,25,2.179297,4,64.42595,71.57405,Varieties of Democracy Project,70
+Bhutan,BTN,2022,AP,25,2.179297,4,64.42595,71.57405,World Bank CPIA,60
+Bhutan,BTN,2022,AP,25,2.179297,4,64.42595,71.57405,CPI score,68
+Bhutan,BTN,2021,AP,25,2.239852,4,64.31544,71.68456,Bertelsmann Foundation Transformation Index,68.75114
+Bhutan,BTN,2021,AP,25,2.239852,4,64.31544,71.68456,Global Insights Country Risk Ratings,71.02245
+Bhutan,BTN,2021,AP,25,2.239852,4,64.31544,71.68456,Varieties of Democracy Project,70.93406
+Bhutan,BTN,2021,AP,25,2.239852,4,64.31544,71.68456,World Bank CPIA,60.10603
+Bhutan,BTN,2021,AP,25,2.239852,4,64.31544,71.68456,CPI score,68
+Bhutan,BTN,2020,AP,24,2.387326,4,64.08479,71.91521,Bertelsmann Foundation Transformation Index,69
+Bhutan,BTN,2020,AP,24,2.387326,4,64.08479,71.91521,Global Insights Country Risk Ratings,71
+Bhutan,BTN,2020,AP,24,2.387326,4,64.08479,71.91521,Varieties of Democracy Project,72
+Bhutan,BTN,2020,AP,24,2.387326,4,64.08479,71.91521,World Bank CPIA,60
+Bhutan,BTN,2020,AP,24,2.387326,4,64.08479,71.91521,CPI score,68
+Bhutan,BTN,2019,AP,25,2.756646,4,63.4791,72.5209,Bertelsmann Foundation Transformation Index,69
+Bhutan,BTN,2019,AP,25,2.756646,4,63.4791,72.5209,Global Insights Country Risk Ratings,71
+Bhutan,BTN,2019,AP,25,2.756646,4,63.4791,72.5209,Varieties of Democracy Project,72
+Bhutan,BTN,2019,AP,25,2.756646,4,63.4791,72.5209,World Bank CPIA,60
+Bhutan,BTN,2019,AP,25,2.756646,4,63.4791,72.5209,CPI score,68
+Bhutan,BTN,2018,AP,25,2.86,4,63,73,Bertelsmann Foundation Transformation Index,69
+Bhutan,BTN,2018,AP,25,2.86,4,63,73,Global Insights Country Risk Ratings,71
+Bhutan,BTN,2018,AP,25,2.86,4,63,73,Varieties of Democracy Project,73
+Bhutan,BTN,2018,AP,25,2.86,4,63,73,World Bank CPIA,60
+Bhutan,BTN,2018,AP,25,2.86,4,63,73,CPI score,68
+Bhutan,BTN,2017,AP,26,1.83,5,64,70,Bertelsmann Foundation Transformation Index,69
+Bhutan,BTN,2017,AP,26,1.83,5,64,70,Global Insights Country Risk Ratings,71
+Bhutan,BTN,2017,AP,26,1.83,5,64,70,Varieties of Democracy Project,67
+Bhutan,BTN,2017,AP,26,1.83,5,64,70,World Bank CPIA,60
+Bhutan,BTN,2017,AP,26,1.83,5,64,70,World Economic Forum EOS,67
+Bhutan,BTN,2017,AP,26,1.83,5,64,70,CPI score,67
+Bhutan,BTN,2016,AP,27,2.12,5,62,69,Bertelsmann Foundation Transformation Index,65
+Bhutan,BTN,2016,AP,27,2.12,5,62,69,Global Insights Country Risk Ratings,71
+Bhutan,BTN,2016,AP,27,2.12,5,62,69,Varieties of Democracy Project,64
+Bhutan,BTN,2016,AP,27,2.12,5,62,69,World Bank CPIA,69
+Bhutan,BTN,2016,AP,27,2.12,5,62,69,World Economic Forum EOS,59
+Bhutan,BTN,2016,AP,27,2.12,5,62,69,CPI score,65
+Bhutan,BTN,2015,AP,27,2.140000104904175,4,61,69,Bertelsmann Foundation Transformation Index,66
+Bhutan,BTN,2015,AP,27,2.140000104904175,4,61,69,Global Insights Country Risk Ratings,63
+Bhutan,BTN,2015,AP,27,2.140000104904175,4,61,69,World Bank CPIA,70
+Bhutan,BTN,2015,AP,27,2.140000104904175,4,61,69,World Economic Forum EOS,60
+Bhutan,BTN,2015,AP,27,2.140000104904175,4,61,69,CPI score,65
+Bhutan,BTN,2014,AP,30,1.809999942779541,4,62,68,Bertelsmann Foundation Transformation Index,62
+Bhutan,BTN,2014,AP,30,1.809999942779541,4,62,68,Global Insights Country Risk Ratings,63
+Bhutan,BTN,2014,AP,30,1.809999942779541,4,62,68,World Bank CPIA,70
+Bhutan,BTN,2014,AP,30,1.809999942779541,4,62,68,World Economic Forum EOS,65
+Bhutan,BTN,2014,AP,30,1.809999942779541,4,62,68,CPI score,65
+Bhutan,BTN,2013,AP,31,2.6,4,59,67,Bertelsmann Foundation Transformation Index,62
+Bhutan,BTN,2013,AP,31,2.6,4,59,67,Global Insights Country Risk Ratings,63
+Bhutan,BTN,2013,AP,31,2.6,4,59,67,World Bank CPIA,70
+Bhutan,BTN,2013,AP,31,2.6,4,59,67,World Economic Forum EOS,57
+Bhutan,BTN,2013,AP,31,2.6,4,59,67,CPI score,63
+Bhutan,BTN,2012,AP,33,3.6,3,57,69,Bertelsmann Foundation Transformation Index,58
+Bhutan,BTN,2012,AP,33,3.6,3,57,69,Global Insights Country Risk Ratings,63
+Bhutan,BTN,2012,AP,33,3.6,3,57,69,World Bank CPIA,70
+Bhutan,BTN,2012,AP,33,3.6,3,57,69,CPI score,63
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,Bertelsmann Foundation Transformation Index,12.89792
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,Economist Intelligence Unit Country Ratings,19.79276
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,Global Insights Country Risk Ratings,34.50329
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,PERC Asia Risk Guide,39.04852
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,Varieties of Democracy Project,13.78506
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,World Bank CPIA,18.44911
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,World Justice Project Rule of Law Index,12.22554
+Cambodia,KHM,2023,AP,158,2.904808,7,17.23611,26.76389,CPI score,22
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,Bertelsmann Foundation Transformation Index,13
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,Economist Intelligence Unit Country Ratings,20
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,Global Insights Country Risk Ratings,35
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,PERC Asia Risk Guide,39
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,Varieties of Democracy Project,14
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,World Bank CPIA,18
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,World Economic Forum EOS,41
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,World Justice Project Rule of Law Index,12
+Cambodia,KHM,2022,AP,150,2.782431,8,19.43681,28.56319,CPI score,24
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,Bertelsmann Foundation Transformation Index,12.89792
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,Economist Intelligence Unit Country Ratings,19.79276
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,Global Insights Country Risk Ratings,34.50329
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,PERC Asia Risk Guide,35.51528
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,Varieties of Democracy Project,14.50846
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,World Bank CPIA,10.11772
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,World Economic Forum EOS,41.69778
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,World Justice Project Rule of Law Index,13.12382
+Cambodia,KHM,2021,AP,157,2.842698,8,18.32376,27.67624,CPI score,23
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,Bertelsmann Foundation Transformation Index,13
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,Economist Intelligence Unit Country Ratings,20
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,Global Insights Country Risk Ratings,35
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,PERC Asia Risk Guide,29
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,Varieties of Democracy Project,15
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,World Bank CPIA,10
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,World Economic Forum EOS,35
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,World Justice Project Rule of Law Index,14
+Cambodia,KHM,2020,AP,160,2.322713,8,17.19075,24.80925,CPI score,21
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,Bertelsmann Foundation Transformation Index,13
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,Economist Intelligence Unit Country Ratings,20
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,PERC Asia Risk Guide,34
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,Varieties of Democracy Project,14
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,World Bank CPIA,10
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,World Economic Forum EOS,35
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,World Justice Project Rule of Law Index,14
+Cambodia,KHM,2019,AP,162,3.409514,8,14.4084,25.5916,CPI score,20
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,Bertelsmann Foundation Transformation Index,13
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,Economist Intelligence Unit Country Ratings,20
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,PERC Asia Risk Guide,27
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,Varieties of Democracy Project,12
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,World Bank CPIA,18
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,World Economic Forum EOS,33
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,World Justice Project Rule of Law Index,14
+Cambodia,KHM,2018,AP,161,2.58,8,16,24,CPI score,20
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,Bertelsmann Foundation Transformation Index,13
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,Economist Intelligence Unit Country Ratings,20
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,PERC Asia Risk Guide,31
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,Varieties of Democracy Project,19
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,World Bank CPIA,18
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,World Economic Forum EOS,31
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,World Justice Project Rule of Law Index,14
+Cambodia,KHM,2017,AP,161,2.43,8,17,25,CPI score,21
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,Bertelsmann Foundation Transformation Index,16
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,Economist Intelligence Unit Country Ratings,19
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,PERC Asia Risk Guide,37
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,Varieties of Democracy Project,17
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,World Bank CPIA,13
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,World Economic Forum EOS,28
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,World Justice Project Rule of Law Index,15
+Cambodia,KHM,2016,AP,156,2.82,8,16,26,CPI score,21
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,Bertelsmann Foundation Transformation Index,15
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,Economist Intelligence Unit Country Ratings,21
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,PERC Asia Risk Guide,35
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,World Bank CPIA,12
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,World Economic Forum EOS,35
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,World Justice Project Rule of Law Index,10
+Cambodia,KHM,2015,AP,150,3.869999885559082,7,15,27,CPI score,21
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,Bertelsmann Foundation Transformation Index,15
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,Economist Intelligence Unit Country Ratings,21
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,PERC Asia Risk Guide,26
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,World Bank CPIA,12
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,World Economic Forum EOS,27
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,World Justice Project Rule of Law Index,25
+Cambodia,KHM,2014,AP,156,2.25,7,17,25,CPI score,21
+Cambodia,KHM,2013,AP,160,3,7,15,25,Bertelsmann Foundation Transformation Index,15
+Cambodia,KHM,2013,AP,160,3,7,15,25,Economist Intelligence Unit Country Ratings,21
+Cambodia,KHM,2013,AP,160,3,7,15,25,Global Insights Country Risk Ratings,11
+Cambodia,KHM,2013,AP,160,3,7,15,25,PERC Asia Risk Guide,30
+Cambodia,KHM,2013,AP,160,3,7,15,25,World Bank CPIA,12
+Cambodia,KHM,2013,AP,160,3,7,15,25,World Economic Forum EOS,29
+Cambodia,KHM,2013,AP,160,3,7,15,25,World Justice Project Rule of Law Index,23
+Cambodia,KHM,2013,AP,160,3,7,15,25,CPI score,20
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,Bertelsmann Foundation Transformation Index,15
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,Economist Intelligence Unit Country Ratings,21
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,Global Insights Country Risk Ratings,22
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,PERC Asia Risk Guide,25
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,World Bank CPIA,12
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,World Economic Forum EOS,37
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,World Justice Project Rule of Law Index,23
+Cambodia,KHM,2012,AP,157,3.1,7,17,27,CPI score,22
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,Bertelsmann Foundation Transformation Index,40.82453
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,Economist Intelligence Unit Country Ratings,37.26319
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,Global Insights Country Risk Ratings,46.73721
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,IMD World Competitiveness Yearbook,53.46412
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,PERC Asia Risk Guide,37.87077
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,PRS International Country Risk Guide,32.41864
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,Varieties of Democracy Project,49.95531
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,World Justice Project Rule of Law Index,38.27563
+China,CHN,2023,AP,76,1.644832,8,39.30247,44.69753,CPI score,42
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,Bertelsmann Foundation Transformation Index,41
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,Economist Intelligence Unit Country Ratings,37
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,Global Insights Country Risk Ratings,47
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,IMD World Competitiveness Yearbook,58
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,PERC Asia Risk Guide,38
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,PRS International Country Risk Guide,32
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,Varieties of Democracy Project,49
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,World Economic Forum EOS,59
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,World Justice Project Rule of Law Index,39
+China,CHN,2022,AP,65,1.811471,9,42.02919,47.97081,CPI score,45
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,Bertelsmann Foundation Transformation Index,40.82453
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,Economist Intelligence Unit Country Ratings,37.26319
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,Global Insights Country Risk Ratings,46.73721
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,IMD World Competitiveness Yearbook,57.31618
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,PERC Asia Risk Guide,40.22626
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,PRS International Country Risk Guide,32.41864
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,Varieties of Democracy Project,51.40212
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,World Economic Forum EOS,58.70802
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,World Justice Project Rule of Law Index,39.17391
+China,CHN,2021,AP,66,1.768843,9,42.09025,47.90975,CPI score,45
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,Bertelsmann Foundation Transformation Index,41
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,Economist Intelligence Unit Country Ratings,37
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,Global Insights Country Risk Ratings,47
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,IMD World Competitiveness Yearbook,55
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,PERC Asia Risk Guide,38
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,PRS International Country Risk Guide,32
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,Varieties of Democracy Project,46
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,World Justice Project Rule of Law Index,39
+China,CHN,2020,AP,78,1.630193,8,39.32648,44.67352,CPI score,42
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,Bertelsmann Foundation Transformation Index,41
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,Economist Intelligence Unit Country Ratings,37
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,Global Insights Country Risk Ratings,47
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,IMD World Competitiveness Yearbook,51
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,PERC Asia Risk Guide,36
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,PRS International Country Risk Guide,32
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,Varieties of Democracy Project,40
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,World Justice Project Rule of Law Index,41
+China,CHN,2019,AP,80,2.100923,8,37.55449,44.44551,CPI score,41
+China,CHN,2018,AP,87,2.02,8,36,42,Bertelsmann Foundation Transformation Index,37
+China,CHN,2018,AP,87,2.02,8,36,42,Economist Intelligence Unit Country Ratings,37
+China,CHN,2018,AP,87,2.02,8,36,42,Global Insights Country Risk Ratings,47
+China,CHN,2018,AP,87,2.02,8,36,42,IMD World Competitiveness Yearbook,49
+China,CHN,2018,AP,87,2.02,8,36,42,PERC Asia Risk Guide,38
+China,CHN,2018,AP,87,2.02,8,36,42,PRS International Country Risk Guide,32
+China,CHN,2018,AP,87,2.02,8,36,42,Varieties of Democracy Project,35
+China,CHN,2018,AP,87,2.02,8,36,42,World Justice Project Rule of Law Index,39
+China,CHN,2018,AP,87,2.02,8,36,42,CPI score,39
+China,CHN,2017,AP,77,1.96,9,38,44,Bertelsmann Foundation Transformation Index,37
+China,CHN,2017,AP,77,1.96,9,38,44,Economist Intelligence Unit Country Ratings,37
+China,CHN,2017,AP,77,1.96,9,38,44,Global Insights Country Risk Ratings,47
+China,CHN,2017,AP,77,1.96,9,38,44,IMD World Competitiveness Yearbook,44
+China,CHN,2017,AP,77,1.96,9,38,44,PERC Asia Risk Guide,43
+China,CHN,2017,AP,77,1.96,9,38,44,PRS International Country Risk Guide,32
+China,CHN,2017,AP,77,1.96,9,38,44,Varieties of Democracy Project,40
+China,CHN,2017,AP,77,1.96,9,38,44,World Economic Forum EOS,52
+China,CHN,2017,AP,77,1.96,9,38,44,World Justice Project Rule of Law Index,39
+China,CHN,2017,AP,77,1.96,9,38,44,CPI score,41
+China,CHN,2016,AP,79,2.39,8,37,44,Bertelsmann Foundation Transformation Index,36
+China,CHN,2016,AP,79,2.39,8,37,44,Economist Intelligence Unit Country Ratings,37
+China,CHN,2016,AP,79,2.39,8,37,44,Global Insights Country Risk Ratings,47
+China,CHN,2016,AP,79,2.39,8,37,44,IMD World Competitiveness Yearbook,42
+China,CHN,2016,AP,79,2.39,8,37,44,PERC Asia Risk Guide,39
+China,CHN,2016,AP,79,2.39,8,37,44,PRS International Country Risk Guide,32
+China,CHN,2016,AP,79,2.39,8,37,44,World Economic Forum EOS,53
+China,CHN,2016,AP,79,2.39,8,37,44,World Justice Project Rule of Law Index,37
+China,CHN,2016,AP,79,2.39,8,37,44,CPI score,40
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,Bertelsmann Foundation Transformation Index,36
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,Economist Intelligence Unit Country Ratings,38
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,Global Insights Country Risk Ratings,32
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,IMD World Competitiveness Yearbook,39
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,PERC Asia Risk Guide,41
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,PRS International Country Risk Guide,31
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,World Economic Forum EOS,49
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,World Justice Project Rule of Law Index,28
+China,CHN,2015,AP,83,2.3399999141693115,8,33,41,CPI score,37
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,Bertelsmann Foundation Transformation Index,28
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,Economist Intelligence Unit Country Ratings,38
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,Global Insights Country Risk Ratings,32
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,IMD World Competitiveness Yearbook,36
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,PERC Asia Risk Guide,37
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,PRS International Country Risk Guide,31
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,World Economic Forum EOS,47
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,World Justice Project Rule of Law Index,41
+China,CHN,2014,AP,100,2.1700000762939453,8,32,40,CPI score,36
+China,CHN,2013,AP,80,2.9,9,35,45,Bertelsmann Foundation Transformation Index,28
+China,CHN,2013,AP,80,2.9,9,35,45,Economist Intelligence Unit Country Ratings,38
+China,CHN,2013,AP,80,2.9,9,35,45,Global Insights Country Risk Ratings,42
+China,CHN,2013,AP,80,2.9,9,35,45,IMD World Competitiveness Yearbook,34
+China,CHN,2013,AP,80,2.9,9,35,45,PERC Asia Risk Guide,35
+China,CHN,2013,AP,80,2.9,9,35,45,PRS International Country Risk Guide,31
+China,CHN,2013,AP,80,2.9,9,35,45,World Economic Forum EOS,49
+China,CHN,2013,AP,80,2.9,9,35,45,World Justice Project Rule of Law Index,45
+China,CHN,2013,AP,80,2.9,9,35,45,CPI score,40
+China,CHN,2012,AP,80,2.9,9,34,43,Bertelsmann Foundation Transformation Index,28
+China,CHN,2012,AP,80,2.9,9,34,43,Economist Intelligence Unit Country Ratings,38
+China,CHN,2012,AP,80,2.9,9,34,43,Global Insights Country Risk Ratings,32
+China,CHN,2012,AP,80,2.9,9,34,43,IMD World Competitiveness Yearbook,34
+China,CHN,2012,AP,80,2.9,9,34,43,PERC Asia Risk Guide,39
+China,CHN,2012,AP,80,2.9,9,34,43,PRS International Country Risk Guide,31
+China,CHN,2012,AP,80,2.9,9,34,43,World Economic Forum EOS,47
+China,CHN,2012,AP,80,2.9,9,34,43,World Justice Project Rule of Law Index,45
+China,CHN,2012,AP,80,2.9,9,34,43,CPI score,39
+Fiji,FJI,2023,AP,53,4.154759,3,45.1862,58.8138,Global Insights Country Risk Ratings,58.97113
+Fiji,FJI,2023,AP,53,4.154759,3,45.1862,58.8138,Varieties of Democracy Project,53.57234
+Fiji,FJI,2023,AP,53,4.154759,3,45.1862,58.8138,World Bank CPIA,43.44326
+Fiji,FJI,2023,AP,53,4.154759,3,45.1862,58.8138,CPI score,52
+Fiji,FJI,2022,AP,49,4.318408,3,45.91781,60.08219,Global Insights Country Risk Ratings,59
+Fiji,FJI,2022,AP,49,4.318408,3,45.91781,60.08219,Varieties of Democracy Project,56
+Fiji,FJI,2022,AP,49,4.318408,3,45.91781,60.08219,World Bank CPIA,43
+Fiji,FJI,2022,AP,49,4.318408,3,45.91781,60.08219,CPI score,53
+Fiji,FJI,2021,AP,45,5.158524,3,46.51423,63.48577,Global Insights Country Risk Ratings,58.97113
+Fiji,FJI,2021,AP,45,5.158524,3,46.51423,63.48577,Varieties of Democracy Project,61.52979
+Fiji,FJI,2021,AP,45,5.158524,3,46.51423,63.48577,World Bank CPIA,43.44326
+Fiji,FJI,2021,AP,45,5.158524,3,46.51423,63.48577,CPI score,55
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,Economist Intelligence Unit Country Ratings,90
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,Global Insights Country Risk Ratings,71
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,IMD World Competitiveness Yearbook,80
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,PERC Asia Risk Guide,76
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,PRS International Country Risk Guide,67
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,Varieties of Democracy Project,72
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,World Economic Forum EOS,80
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,World Justice Project Rule of Law Index,73
+Hong Kong,HKG,2022,AP,12,1.613287,8,73.35421,78.64579,CPI score,76
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,Economist Intelligence Unit Country Ratings,89.67447
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,Global Insights Country Risk Ratings,71.02245
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,IMD World Competitiveness Yearbook,83.93818
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,PERC Asia Risk Guide,68.49213
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,PRS International Country Risk Guide,68.64721
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,Varieties of Democracy Project,71.65746
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,World Economic Forum EOS,83.43422
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,World Justice Project Rule of Law Index,75.10506
+Hong Kong,HKG,2021,AP,12,1.846345,8,72.96276,79.03724,CPI score,76
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,Economist Intelligence Unit Country Ratings,90
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,Global Insights Country Risk Ratings,71
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,IMD World Competitiveness Yearbook,83
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,PERC Asia Risk Guide,67
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,PRS International Country Risk Guide,76
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,Varieties of Democracy Project,72
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,World Economic Forum EOS,84
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,World Justice Project Rule of Law Index,73
+Hong Kong,HKG,2020,AP,11,1.794969,8,74.05625,79.94375,CPI score,77
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,Economist Intelligence Unit Country Ratings,90
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,Global Insights Country Risk Ratings,71
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,IMD World Competitiveness Yearbook,82
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,PERC Asia Risk Guide,61
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,PRS International Country Risk Guide,76
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,Varieties of Democracy Project,72
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,World Economic Forum EOS,84
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,World Justice Project Rule of Law Index,73
+Hong Kong,HKG,2019,AP,16,3.152059,8,70.83063,81.16937,CPI score,76
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,Economist Intelligence Unit Country Ratings,72
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,Global Insights Country Risk Ratings,83
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,IMD World Competitiveness Yearbook,82
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,PERC Asia Risk Guide,64
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,PRS International Country Risk Guide,76
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,Varieties of Democracy Project,71
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,World Economic Forum EOS,84
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,World Justice Project Rule of Law Index,72
+Hong Kong,HKG,2018,AP,14,2.47,8,72,80,CPI score,76
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,Economist Intelligence Unit Country Ratings,72
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,Global Insights Country Risk Ratings,83
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,IMD World Competitiveness Yearbook,83
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,PERC Asia Risk Guide,71
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,PRS International Country Risk Guide,70
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,World Economic Forum EOS,83
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,World Justice Project Rule of Law Index,72
+Hong Kong,HKG,2017,AP,13,2.37,7,73,81,CPI score,77
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,Economist Intelligence Unit Country Ratings,72
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,Global Insights Country Risk Ratings,83
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,IMD World Competitiveness Yearbook,87
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,PERC Asia Risk Guide,74
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,PRS International Country Risk Guide,67
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,World Economic Forum EOS,82
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,World Justice Project Rule of Law Index,77
+Hong Kong,HKG,2016,AP,15,2.62,7,73,82,CPI score,77
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,Economist Intelligence Unit Country Ratings,71
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,Global Insights Country Risk Ratings,73
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,IMD World Competitiveness Yearbook,80
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,PERC Asia Risk Guide,70
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,PRS International Country Risk Guide,69
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,World Economic Forum EOS,87
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,World Justice Project Rule of Law Index,78
+Hong Kong,HKG,2015,AP,18,2.4800000190734863,7,71,79,CPI score,75
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,Economist Intelligence Unit Country Ratings,71
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,Global Insights Country Risk Ratings,73
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,IMD World Competitiveness Yearbook,73
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,PERC Asia Risk Guide,64
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,PRS International Country Risk Guide,69
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,World Economic Forum EOS,87
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,World Justice Project Rule of Law Index,78
+Hong Kong,HKG,2014,AP,17,2.75,7,69,79,CPI score,74
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,Economist Intelligence Unit Country Ratings,71
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,Global Insights Country Risk Ratings,73
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,IMD World Competitiveness Yearbook,76
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,PERC Asia Risk Guide,65
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,PRS International Country Risk Guide,69
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,World Economic Forum EOS,83
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,World Justice Project Rule of Law Index,83
+Hong Kong,HKG,2013,AP,15,2.4,8,71,79,CPI score,75
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,Economist Intelligence Unit Country Ratings,71
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,Global Insights Country Risk Ratings,73
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,IMD World Competitiveness Yearbook,80
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,PERC Asia Risk Guide,69
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,PRS International Country Risk Guide,79
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,World Economic Forum EOS,82
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,World Justice Project Rule of Law Index,83
+Hong Kong,HKG,2012,AP,14,1.9,8,74,80,CPI score,77
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,Economist Intelligence Unit Country Ratings,89.67447
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,Global Insights Country Risk Ratings,58.97113
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,IMD World Competitiveness Yearbook,82.56856
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,PERC Asia Risk Guide,76.34377
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,PRS International Country Risk Guide,67.25381
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,Varieties of Democracy Project,71.65746
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,World Economic Forum EOS,80.80377
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,World Justice Project Rule of Law Index,73.3085
+Hong Kong,HKG,2023,AP,14,2.180528,8,71.42393,78.57607,CPI score,75
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,Bertelsmann Foundation Transformation Index,44.81405
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,Economist Intelligence Unit Country Ratings,37.26319
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,Global Insights Country Risk Ratings,46.73721
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,IMD World Competitiveness Yearbook,48.49924
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,PERC Asia Risk Guide,32.17834
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,PRS International Country Risk Guide,41.12743
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,Varieties of Democracy Project,32.59359
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,World Economic Forum EOS,39.24269
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,World Justice Project Rule of Law Index,31.0894
+India,IND,2023,AP,93,1.256354,9,36.93958,41.06042,CPI score,39
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,Bertelsmann Foundation Transformation Index,45
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,Economist Intelligence Unit Country Ratings,37
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,Global Insights Country Risk Ratings,47
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,IMD World Competitiveness Yearbook,47
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,PERC Asia Risk Guide,30
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,PRS International Country Risk Guide,41
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,Varieties of Democracy Project,40
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,World Economic Forum EOS,39
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,World Justice Project Rule of Law Index,31
+India,IND,2022,AP,85,1.182201,9,38.06119,41.93881,CPI score,40
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,Bertelsmann Foundation Transformation Index,44.81405
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,Economist Intelligence Unit Country Ratings,37.26319
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,Global Insights Country Risk Ratings,46.73721
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,IMD World Competitiveness Yearbook,45.5888
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,PERC Asia Risk Guide,31.09874
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,PRS International Country Risk Guide,41.12743
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,Varieties of Democracy Project,45.61488
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,World Economic Forum EOS,39.94415
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,World Justice Project Rule of Law Index,31.0894
+India,IND,2021,AP,85,1.173647,9,38.06935,41.93065,CPI score,40
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,Bertelsmann Foundation Transformation Index,45
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,Economist Intelligence Unit Country Ratings,37
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,Global Insights Country Risk Ratings,47
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,IMD World Competitiveness Yearbook,44
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,PERC Asia Risk Guide,28
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,PRS International Country Risk Guide,41
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,Varieties of Democracy Project,41
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,World Economic Forum EOS,43
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,World Justice Project Rule of Law Index,34
+India,IND,2020,AP,86,1.141572,9,38.12782,41.87218,CPI score,40
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,Bertelsmann Foundation Transformation Index,45
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,Economist Intelligence Unit Country Ratings,37
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,Global Insights Country Risk Ratings,47
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,IMD World Competitiveness Yearbook,44
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,PERC Asia Risk Guide,34
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,PRS International Country Risk Guide,41
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,Varieties of Democracy Project,46
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,World Economic Forum EOS,43
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,World Justice Project Rule of Law Index,35
+India,IND,2019,AP,80,1.604926,9,38.36792,43.63208,CPI score,41
+India,IND,2018,AP,78,2.42,9,37,45,Bertelsmann Foundation Transformation Index,45
+India,IND,2018,AP,78,2.42,9,37,45,Economist Intelligence Unit Country Ratings,37
+India,IND,2018,AP,78,2.42,9,37,45,Global Insights Country Risk Ratings,47
+India,IND,2018,AP,78,2.42,9,37,45,IMD World Competitiveness Yearbook,37
+India,IND,2018,AP,78,2.42,9,37,45,PERC Asia Risk Guide,36
+India,IND,2018,AP,78,2.42,9,37,45,PRS International Country Risk Guide,41
+India,IND,2018,AP,78,2.42,9,37,45,Varieties of Democracy Project,33
+India,IND,2018,AP,78,2.42,9,37,45,World Economic Forum EOS,56
+India,IND,2018,AP,78,2.42,9,37,45,World Justice Project Rule of Law Index,36
+India,IND,2018,AP,78,2.42,9,37,45,CPI score,41
+India,IND,2017,AP,81,2.16,9,36,44,Bertelsmann Foundation Transformation Index,45
+India,IND,2017,AP,81,2.16,9,36,44,Economist Intelligence Unit Country Ratings,37
+India,IND,2017,AP,81,2.16,9,36,44,Global Insights Country Risk Ratings,35
+India,IND,2017,AP,81,2.16,9,36,44,IMD World Competitiveness Yearbook,35
+India,IND,2017,AP,81,2.16,9,36,44,PERC Asia Risk Guide,40
+India,IND,2017,AP,81,2.16,9,36,44,PRS International Country Risk Guide,41
+India,IND,2017,AP,81,2.16,9,36,44,Varieties of Democracy Project,35
+India,IND,2017,AP,81,2.16,9,36,44,World Economic Forum EOS,54
+India,IND,2017,AP,81,2.16,9,36,44,World Justice Project Rule of Law Index,36
+India,IND,2017,AP,81,2.16,9,36,44,CPI score,40
+India,IND,2016,AP,79,2.47,8,36,44,Bertelsmann Foundation Transformation Index,45
+India,IND,2016,AP,79,2.47,8,36,44,Economist Intelligence Unit Country Ratings,37
+India,IND,2016,AP,79,2.47,8,36,44,Global Insights Country Risk Ratings,34
+India,IND,2016,AP,79,2.47,8,36,44,IMD World Competitiveness Yearbook,39
+India,IND,2016,AP,79,2.47,8,36,44,PERC Asia Risk Guide,34
+India,IND,2016,AP,79,2.47,8,36,44,PRS International Country Risk Guide,41
+India,IND,2016,AP,79,2.47,8,36,44,World Economic Forum EOS,54
+India,IND,2016,AP,79,2.47,8,36,44,World Justice Project Rule of Law Index,34
+India,IND,2016,AP,79,2.47,8,36,44,CPI score,40
+India,IND,2015,AP,76,3.140000104904175,8,33,43,Bertelsmann Foundation Transformation Index,45
+India,IND,2015,AP,76,3.140000104904175,8,33,43,Economist Intelligence Unit Country Ratings,38
+India,IND,2015,AP,76,3.140000104904175,8,33,43,Global Insights Country Risk Ratings,32
+India,IND,2015,AP,76,3.140000104904175,8,33,43,IMD World Competitiveness Yearbook,35
+India,IND,2015,AP,76,3.140000104904175,8,33,43,PERC Asia Risk Guide,33
+India,IND,2015,AP,76,3.140000104904175,8,33,43,PRS International Country Risk Guide,41
+India,IND,2015,AP,76,3.140000104904175,8,33,43,World Economic Forum EOS,54
+India,IND,2015,AP,76,3.140000104904175,8,33,43,World Justice Project Rule of Law Index,25
+India,IND,2015,AP,76,3.140000104904175,8,33,43,CPI score,38
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,Bertelsmann Foundation Transformation Index,45
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,Economist Intelligence Unit Country Ratings,38
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,Global Insights Country Risk Ratings,32
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,IMD World Competitiveness Yearbook,33
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,PERC Asia Risk Guide,29
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,PRS International Country Risk Guide,41
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,World Bank CPIA,47
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,World Economic Forum EOS,45
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,World Justice Project Rule of Law Index,31
+India,IND,2014,AP,85,2.2699999809265137,9,34,42,CPI score,38
+India,IND,2013,AP,94,2.2,10,32,40,Bertelsmann Foundation Transformation Index,45
+India,IND,2013,AP,94,2.2,10,32,40,Economist Intelligence Unit Country Ratings,38
+India,IND,2013,AP,94,2.2,10,32,40,Global Insights Country Risk Ratings,32
+India,IND,2013,AP,94,2.2,10,32,40,IMD World Competitiveness Yearbook,33
+India,IND,2013,AP,94,2.2,10,32,40,PERC Asia Risk Guide,30
+India,IND,2013,AP,94,2.2,10,32,40,PRS International Country Risk Guide,41
+India,IND,2013,AP,94,2.2,10,32,40,World Bank CPIA,47
+India,IND,2013,AP,94,2.2,10,32,40,World Economic Forum EOS,31
+India,IND,2013,AP,94,2.2,10,32,40,World Justice Project Rule of Law Index,24
+India,IND,2013,AP,94,2.2,10,32,40,CPI score,36
+India,IND,2012,AP,94,2.1,10,33,40,Bertelsmann Foundation Transformation Index,45
+India,IND,2012,AP,94,2.1,10,33,40,Economist Intelligence Unit Country Ratings,38
+India,IND,2012,AP,94,2.1,10,33,40,Global Insights Country Risk Ratings,32
+India,IND,2012,AP,94,2.1,10,33,40,IMD World Competitiveness Yearbook,34
+India,IND,2012,AP,94,2.1,10,33,40,PERC Asia Risk Guide,31
+India,IND,2012,AP,94,2.1,10,33,40,PRS International Country Risk Guide,41
+India,IND,2012,AP,94,2.1,10,33,40,World Bank CPIA,47
+India,IND,2012,AP,94,2.1,10,33,40,World Economic Forum EOS,37
+India,IND,2012,AP,94,2.1,10,33,40,World Justice Project Rule of Law Index,24
+India,IND,2012,AP,94,2.1,10,33,40,CPI score,36
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,Bertelsmann Foundation Transformation Index,36.83502
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,Economist Intelligence Unit Country Ratings,37.26319
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,Global Insights Country Risk Ratings,46.73721
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,IMD World Competitiveness Yearbook,39.93912
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,PERC Asia Risk Guide,28.54696
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,PRS International Country Risk Guide,32.41864
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,Varieties of Democracy Project,24.63613
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,World Justice Project Rule of Law Index,23.90317
+Indonesia,IDN,2023,AP,115,1.804611,8,31.04044,36.95956,CPI score,34
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,Bertelsmann Foundation Transformation Index,33
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,Economist Intelligence Unit Country Ratings,37
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,Global Insights Country Risk Ratings,47
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,IMD World Competitiveness Yearbook,39
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,PERC Asia Risk Guide,29
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,PRS International Country Risk Guide,35
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,Varieties of Democracy Project,24
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,World Justice Project Rule of Law Index,24
+Indonesia,IDN,2022,AP,110,1.783472,8,31.07511,36.92489,CPI score,34
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,Bertelsmann Foundation Transformation Index,32.8455
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,Economist Intelligence Unit Country Ratings,37.26319
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,Global Insights Country Risk Ratings,46.73721
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,IMD World Competitiveness Yearbook,43.61997
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,PERC Asia Risk Guide,31.68761
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,PRS International Country Risk Guide,48.44282
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,Varieties of Democracy Project,22.46592
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,World Economic Forum EOS,53.44711
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,World Justice Project Rule of Law Index,23.00489
+Indonesia,IDN,2021,AP,96,2.138731,9,34.48178,41.51822,CPI score,38
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,Bertelsmann Foundation Transformation Index,37
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,Economist Intelligence Unit Country Ratings,37
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,Global Insights Country Risk Ratings,35
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,IMD World Competitiveness Yearbook,43
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,PERC Asia Risk Guide,32
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,PRS International Country Risk Guide,50
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,Varieties of Democracy Project,26
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,World Economic Forum EOS,46
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,World Justice Project Rule of Law Index,23
+Indonesia,IDN,2020,AP,102,1.708278,9,34.19843,39.80157,CPI score,37
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,Bertelsmann Foundation Transformation Index,37
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,Economist Intelligence Unit Country Ratings,37
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,Global Insights Country Risk Ratings,47
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,IMD World Competitiveness Yearbook,48
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,PERC Asia Risk Guide,36
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,PRS International Country Risk Guide,59
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,Varieties of Democracy Project,28
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,World Economic Forum EOS,46
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,World Justice Project Rule of Law Index,21
+Indonesia,IDN,2019,AP,85,3.756684,9,33.83904,46.16096,CPI score,40
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,Bertelsmann Foundation Transformation Index,37
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,Economist Intelligence Unit Country Ratings,37
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,Global Insights Country Risk Ratings,47
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,IMD World Competitiveness Yearbook,38
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,PERC Asia Risk Guide,33
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,PRS International Country Risk Guide,50
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,Varieties of Democracy Project,28
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,World Economic Forum EOS,50
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,World Justice Project Rule of Law Index,20
+Indonesia,IDN,2018,AP,89,3.35,9,33,43,CPI score,38
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,Bertelsmann Foundation Transformation Index,37
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,Economist Intelligence Unit Country Ratings,37
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,Global Insights Country Risk Ratings,35
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,IMD World Competitiveness Yearbook,41
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,PERC Asia Risk Guide,32
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,PRS International Country Risk Guide,50
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,Varieties of Democracy Project,30
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,World Economic Forum EOS,50
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,World Justice Project Rule of Law Index,20
+Indonesia,IDN,2017,AP,96,3.12,9,32,42,CPI score,37
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,Bertelsmann Foundation Transformation Index,36
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,Economist Intelligence Unit Country Ratings,37
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,Global Insights Country Risk Ratings,34
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,IMD World Competitiveness Yearbook,39
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,PERC Asia Risk Guide,35
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,PRS International Country Risk Guide,50
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,World Economic Forum EOS,40
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,World Justice Project Rule of Law Index,26
+Indonesia,IDN,2016,AP,90,2.39,8,33,41,CPI score,37
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,Bertelsmann Foundation Transformation Index,36
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,Economist Intelligence Unit Country Ratings,38
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,Global Insights Country Risk Ratings,32
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,IMD World Competitiveness Yearbook,37
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,PERC Asia Risk Guide,32
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,PRS International Country Risk Guide,50
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,World Economic Forum EOS,43
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,World Justice Project Rule of Law Index,17
+Indonesia,IDN,2015,AP,88,3.390000104904175,8,30,42,CPI score,36
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,Bertelsmann Foundation Transformation Index,36
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,Economist Intelligence Unit Country Ratings,21
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,Global Insights Country Risk Ratings,32
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,IMD World Competitiveness Yearbook,41
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,PERC Asia Risk Guide,24
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,PRS International Country Risk Guide,50
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,World Economic Forum EOS,43
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,World Justice Project Rule of Law Index,28
+Indonesia,IDN,2014,AP,107,3.569999933242798,8,28,40,CPI score,34
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,Bertelsmann Foundation Transformation Index,36
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,Economist Intelligence Unit Country Ratings,21
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,Global Insights Country Risk Ratings,22
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,IMD World Competitiveness Yearbook,42
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,PERC Asia Risk Guide,24
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,PRS International Country Risk Guide,50
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,World Economic Forum EOS,39
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,World Justice Project Rule of Law Index,23
+Indonesia,IDN,2013,AP,114,3.5,9,26,38,CPI score,32
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,Bertelsmann Foundation Transformation Index,32
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,Economist Intelligence Unit Country Ratings,21
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,Global Insights Country Risk Ratings,32
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,IMD World Competitiveness Yearbook,36
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,PERC Asia Risk Guide,25
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,PRS International Country Risk Guide,50
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,World Economic Forum EOS,36
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,World Justice Project Rule of Law Index,23
+Indonesia,IDN,2012,AP,118,2.9,9,27,37,CPI score,32
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,Bertelsmann Foundation Transformation Index,13
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,Economist Intelligence Unit Country Ratings,20
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,Global Insights Country Risk Ratings,35
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,PRS International Country Risk Guide,24
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,Varieties of Democracy Project,19
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,World Economic Forum EOS,31
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,World Justice Project Rule of Law Index,36
+Iran,IRN,2022,MENA,147,2.322661,7,21.19084,28.80916,CPI score,25
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,Bertelsmann Foundation Transformation Index,12.89792
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,Economist Intelligence Unit Country Ratings,19.79276
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,Global Insights Country Risk Ratings,34.50329
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,PRS International Country Risk Guide,23.70985
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,Varieties of Democracy Project,19.5723
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,World Economic Forum EOS,28.89627
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,World Justice Project Rule of Law Index,36.47907
+Iran,IRN,2021,MENA,150,2.293519,7,21.22716,28.77284,CPI score,25
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,Bertelsmann Foundation Transformation Index,13
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,Economist Intelligence Unit Country Ratings,20
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,Global Insights Country Risk Ratings,35
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,PRS International Country Risk Guide,24
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,Varieties of Democracy Project,18
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,World Economic Forum EOS,28
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,World Justice Project Rule of Law Index,40
+Iran,IRN,2020,MENA,149,2.55992,7,20.80173,29.19827,CPI score,25
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,Bertelsmann Foundation Transformation Index,13
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,Economist Intelligence Unit Country Ratings,20
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,Global Insights Country Risk Ratings,35
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,PRS International Country Risk Guide,24
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,Varieties of Democracy Project,23
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,World Economic Forum EOS,28
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,World Justice Project Rule of Law Index,42
+Iran,IRN,2019,MENA,146,3.626302,7,20.05286,31.94714,CPI score,26
+Iran,IRN,2018,MENA,138,2.89,7,23,33,Bertelsmann Foundation Transformation Index,21
+Iran,IRN,2018,MENA,138,2.89,7,23,33,Economist Intelligence Unit Country Ratings,20
+Iran,IRN,2018,MENA,138,2.89,7,23,33,Global Insights Country Risk Ratings,35
+Iran,IRN,2018,MENA,138,2.89,7,23,33,PRS International Country Risk Guide,24
+Iran,IRN,2018,MENA,138,2.89,7,23,33,Varieties of Democracy Project,26
+Iran,IRN,2018,MENA,138,2.89,7,23,33,World Economic Forum EOS,33
+Iran,IRN,2018,MENA,138,2.89,7,23,33,World Justice Project Rule of Law Index,40
+Iran,IRN,2018,MENA,138,2.89,7,23,33,CPI score,28
+Iran,IRN,2017,MENA,130,3.51,7,24,36,Bertelsmann Foundation Transformation Index,21
+Iran,IRN,2017,MENA,130,3.51,7,24,36,Economist Intelligence Unit Country Ratings,20
+Iran,IRN,2017,MENA,130,3.51,7,24,36,Global Insights Country Risk Ratings,35
+Iran,IRN,2017,MENA,130,3.51,7,24,36,PRS International Country Risk Guide,24
+Iran,IRN,2017,MENA,130,3.51,7,24,36,Varieties of Democracy Project,29
+Iran,IRN,2017,MENA,130,3.51,7,24,36,World Economic Forum EOS,43
+Iran,IRN,2017,MENA,130,3.51,7,24,36,World Justice Project Rule of Law Index,40
+Iran,IRN,2017,MENA,130,3.51,7,24,36,CPI score,30
+Iran,IRN,2016,MENA,131,2.47,7,25,33,Bertelsmann Foundation Transformation Index,24
+Iran,IRN,2016,MENA,131,2.47,7,25,33,Economist Intelligence Unit Country Ratings,19
+Iran,IRN,2016,MENA,131,2.47,7,25,33,Global Insights Country Risk Ratings,34
+Iran,IRN,2016,MENA,131,2.47,7,25,33,PRS International Country Risk Guide,24
+Iran,IRN,2016,MENA,131,2.47,7,25,33,Varieties of Democracy Project,33
+Iran,IRN,2016,MENA,131,2.47,7,25,33,World Economic Forum EOS,34
+Iran,IRN,2016,MENA,131,2.47,7,25,33,World Justice Project Rule of Law Index,35
+Iran,IRN,2016,MENA,131,2.47,7,25,33,CPI score,29
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,Bertelsmann Foundation Transformation Index,23
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,Economist Intelligence Unit Country Ratings,21
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,Global Insights Country Risk Ratings,22
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,PRS International Country Risk Guide,21
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,World Economic Forum EOS,41
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,World Justice Project Rule of Law Index,31
+Iran,IRN,2015,MENA,130,3.2799999713897705,6,22,32,CPI score,27
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,Bertelsmann Foundation Transformation Index,15
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,Economist Intelligence Unit Country Ratings,21
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,Global Insights Country Risk Ratings,22
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,PRS International Country Risk Guide,21
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,World Economic Forum EOS,40
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,World Justice Project Rule of Law Index,43
+Iran,IRN,2014,MENA,136,4.71999979019165,6,19,35,CPI score,27
+Iran,IRN,2013,MENA,144,3.9,6,19,31,Bertelsmann Foundation Transformation Index,15
+Iran,IRN,2013,MENA,144,3.9,6,19,31,Economist Intelligence Unit Country Ratings,21
+Iran,IRN,2013,MENA,144,3.9,6,19,31,Global Insights Country Risk Ratings,22
+Iran,IRN,2013,MENA,144,3.9,6,19,31,PRS International Country Risk Guide,21
+Iran,IRN,2013,MENA,144,3.9,6,19,31,World Economic Forum EOS,32
+Iran,IRN,2013,MENA,144,3.9,6,19,31,World Justice Project Rule of Law Index,41
+Iran,IRN,2013,MENA,144,3.9,6,19,31,CPI score,25
+Iran,IRN,2012,MENA,133,4.6,6,20,35,Bertelsmann Foundation Transformation Index,19
+Iran,IRN,2012,MENA,133,4.6,6,20,35,Economist Intelligence Unit Country Ratings,21
+Iran,IRN,2012,MENA,133,4.6,6,20,35,Global Insights Country Risk Ratings,22
+Iran,IRN,2012,MENA,133,4.6,6,20,35,PRS International Country Risk Guide,21
+Iran,IRN,2012,MENA,133,4.6,6,20,35,World Economic Forum EOS,43
+Iran,IRN,2012,MENA,133,4.6,6,20,35,World Justice Project Rule of Law Index,41
+Iran,IRN,2012,MENA,133,4.6,6,20,35,CPI score,28
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,Bertelsmann Foundation Transformation Index,12.89792
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,Economist Intelligence Unit Country Ratings,19.79276
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,Global Insights Country Risk Ratings,34.50329
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,PRS International Country Risk Guide,21.61974
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,Varieties of Democracy Project,22.46592
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,World Justice Project Rule of Law Index,33.78424
+Iran,IRN,2023,MENA,149,2.626714,6,19.69219,28.30781,CPI score,24
+Laos,LAO,2023,AP,136,2.440356,4,23.99782,32.00218,Bertelsmann Foundation Transformation Index,20.87696
+Laos,LAO,2023,AP,136,2.440356,4,23.99782,32.00218,Global Insights Country Risk Ratings,34.50329
+Laos,LAO,2023,AP,136,2.440356,4,23.99782,32.00218,Varieties of Democracy Project,28.97656
+Laos,LAO,2023,AP,136,2.440356,4,23.99782,32.00218,World Bank CPIA,26.78049
+Laos,LAO,2023,AP,136,2.440356,4,23.99782,32.00218,CPI score,28
+Laos,LAO,2022,AP,126,3.703161,5,24.92682,37.07318,Bertelsmann Foundation Transformation Index,21
+Laos,LAO,2022,AP,126,3.703161,5,24.92682,37.07318,Global Insights Country Risk Ratings,35
+Laos,LAO,2022,AP,126,3.703161,5,24.92682,37.07318,Varieties of Democracy Project,26
+Laos,LAO,2022,AP,126,3.703161,5,24.92682,37.07318,World Bank CPIA,27
+Laos,LAO,2022,AP,126,3.703161,5,24.92682,37.07318,World Economic Forum EOS,47
+Laos,LAO,2022,AP,126,3.703161,5,24.92682,37.07318,CPI score,31
+Laos,LAO,2021,AP,128,3.212965,5,24.71467,35.28533,Bertelsmann Foundation Transformation Index,20.87696
+Laos,LAO,2021,AP,128,3.212965,5,24.71467,35.28533,Global Insights Country Risk Ratings,34.50329
+Laos,LAO,2021,AP,128,3.212965,5,24.71467,35.28533,Varieties of Democracy Project,24.63613
+Laos,LAO,2021,AP,128,3.212965,5,24.71467,35.28533,World Bank CPIA,26.78049
+Laos,LAO,2021,AP,128,3.212965,5,24.71467,35.28533,World Economic Forum EOS,42.92532
+Laos,LAO,2021,AP,128,3.212965,5,24.71467,35.28533,CPI score,30
+Laos,LAO,2020,AP,134,3.953034,5,22.51702,35.48298,Bertelsmann Foundation Transformation Index,21
+Laos,LAO,2020,AP,134,3.953034,5,22.51702,35.48298,Global Insights Country Risk Ratings,35
+Laos,LAO,2020,AP,134,3.953034,5,22.51702,35.48298,Varieties of Democracy Project,20
+Laos,LAO,2020,AP,134,3.953034,5,22.51702,35.48298,World Bank CPIA,27
+Laos,LAO,2020,AP,134,3.953034,5,22.51702,35.48298,World Economic Forum EOS,46
+Laos,LAO,2020,AP,134,3.953034,5,22.51702,35.48298,CPI score,29
+Laos,LAO,2019,AP,130,4.995874,5,20.80677,37.19323,Bertelsmann Foundation Transformation Index,21
+Laos,LAO,2019,AP,130,4.995874,5,20.80677,37.19323,Global Insights Country Risk Ratings,35
+Laos,LAO,2019,AP,130,4.995874,5,20.80677,37.19323,Varieties of Democracy Project,18
+Laos,LAO,2019,AP,130,4.995874,5,20.80677,37.19323,World Bank CPIA,27
+Laos,LAO,2019,AP,130,4.995874,5,20.80677,37.19323,World Economic Forum EOS,46
+Laos,LAO,2019,AP,130,4.995874,5,20.80677,37.19323,CPI score,29
+Laos,LAO,2018,AP,132,5.7,5,20,38,Bertelsmann Foundation Transformation Index,17
+Laos,LAO,2018,AP,132,5.7,5,20,38,Global Insights Country Risk Ratings,35
+Laos,LAO,2018,AP,132,5.7,5,20,38,Varieties of Democracy Project,17
+Laos,LAO,2018,AP,132,5.7,5,20,38,World Bank CPIA,27
+Laos,LAO,2018,AP,132,5.7,5,20,38,World Economic Forum EOS,47
+Laos,LAO,2018,AP,132,5.7,5,20,38,CPI score,29
+Laos,LAO,2017,AP,135,5.89,5,19,39,Bertelsmann Foundation Transformation Index,17
+Laos,LAO,2017,AP,135,5.89,5,19,39,Global Insights Country Risk Ratings,35
+Laos,LAO,2017,AP,135,5.89,5,19,39,Varieties of Democracy Project,20
+Laos,LAO,2017,AP,135,5.89,5,19,39,World Bank CPIA,27
+Laos,LAO,2017,AP,135,5.89,5,19,39,World Economic Forum EOS,50
+Laos,LAO,2017,AP,135,5.89,5,19,39,CPI score,29
+Laos,LAO,2016,AP,123,6.19,4,20,40,Bertelsmann Foundation Transformation Index,16
+Laos,LAO,2016,AP,123,6.19,4,20,40,Global Insights Country Risk Ratings,34
+Laos,LAO,2016,AP,123,6.19,4,20,40,World Bank CPIA,24
+Laos,LAO,2016,AP,123,6.19,4,20,40,World Economic Forum EOS,45
+Laos,LAO,2016,AP,123,6.19,4,20,40,CPI score,30
+Laos,LAO,2015,AP,139,5.309999942779541,4,16,34,Bertelsmann Foundation Transformation Index,15
+Laos,LAO,2015,AP,139,5.309999942779541,4,16,34,Global Insights Country Risk Ratings,22
+Laos,LAO,2015,AP,139,5.309999942779541,4,16,34,World Bank CPIA,23
+Laos,LAO,2015,AP,139,5.309999942779541,4,16,34,World Economic Forum EOS,40
+Laos,LAO,2015,AP,139,5.309999942779541,4,16,34,CPI score,25
+Laos,LAO,2014,AP,145,3.799999952316284,4,19,31,Bertelsmann Foundation Transformation Index,19
+Laos,LAO,2014,AP,145,3.799999952316284,4,19,31,Global Insights Country Risk Ratings,22
+Laos,LAO,2014,AP,145,3.799999952316284,4,19,31,World Bank CPIA,23
+Laos,LAO,2014,AP,145,3.799999952316284,4,19,31,World Economic Forum EOS,36
+Laos,LAO,2014,AP,145,3.799999952316284,4,19,31,CPI score,25
+Laos,LAO,2013,AP,140,5,4,18,34,Bertelsmann Foundation Transformation Index,19
+Laos,LAO,2013,AP,140,5,4,18,34,Global Insights Country Risk Ratings,22
+Laos,LAO,2013,AP,140,5,4,18,34,World Bank CPIA,23
+Laos,LAO,2013,AP,140,5,4,18,34,World Economic Forum EOS,41
+Laos,LAO,2013,AP,140,5,4,18,34,CPI score,26
+Laos,LAO,2012,AP,160,1.3,3,19,23,Bertelsmann Foundation Transformation Index,19
+Laos,LAO,2012,AP,160,1.3,3,19,23,Global Insights Country Risk Ratings,22
+Laos,LAO,2012,AP,160,1.3,3,19,23,World Bank CPIA,23
+Laos,LAO,2012,AP,160,1.3,3,19,23,CPI score,21
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,Bertelsmann Foundation Transformation Index,48.80357
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,Economist Intelligence Unit Country Ratings,54.73361
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,Global Insights Country Risk Ratings,58.97113
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,IMD World Competitiveness Yearbook,47.21523
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,PERC Asia Risk Guide,41.20771
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,PRS International Country Risk Guide,49.83622
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,Varieties of Democracy Project,50.67872
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,World Economic Forum EOS,46.95868
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,World Justice Project Rule of Law Index,47.25842
+Malaysia,MYS,2023,AP,57,0.9731172,9,48.40409,51.59591,CPI score,50
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,Bertelsmann Foundation Transformation Index,49
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,Economist Intelligence Unit Country Ratings,55
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,Global Insights Country Risk Ratings,59
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,IMD World Competitiveness Yearbook,40
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,PERC Asia Risk Guide,37
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,PRS International Country Risk Guide,41
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,Varieties of Democracy Project,49
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,World Economic Forum EOS,47
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,World Justice Project Rule of Law Index,45
+Malaysia,MYS,2022,AP,61,1.366884,9,44.75831,49.24169,CPI score,47
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,Bertelsmann Foundation Transformation Index,48.80357
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,Economist Intelligence Unit Country Ratings,54.73361
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,Global Insights Country Risk Ratings,58.97113
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,IMD World Competitiveness Yearbook,42.84956
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,PERC Asia Risk Guide,38.06706
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,PRS International Country Risk Guide,41.12743
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,Varieties of Democracy Project,49.23191
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,World Economic Forum EOS,54.14857
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,World Justice Project Rule of Law Index,48.1567
+Malaysia,MYS,2021,AP,62,1.319835,9,45.82887,50.17113,CPI score,48
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,Bertelsmann Foundation Transformation Index,53
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,Economist Intelligence Unit Country Ratings,55
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,Global Insights Country Risk Ratings,59
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,IMD World Competitiveness Yearbook,51
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,PERC Asia Risk Guide,35
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,PRS International Country Risk Guide,41
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,Varieties of Democracy Project,54
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,World Economic Forum EOS,62
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,World Justice Project Rule of Law Index,52
+Malaysia,MYS,2020,AP,57,1.617509,9,48.34729,53.65271,CPI score,51
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,Bertelsmann Foundation Transformation Index,53
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,Economist Intelligence Unit Country Ratings,55
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,Global Insights Country Risk Ratings,59
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,IMD World Competitiveness Yearbook,56
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,PERC Asia Risk Guide,46
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,PRS International Country Risk Guide,41
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,Varieties of Democracy Project,60
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,World Economic Forum EOS,62
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,World Justice Project Rule of Law Index,49
+Malaysia,MYS,2019,AP,51,2.292706,9,49.23996,56.76004,CPI score,53
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,Bertelsmann Foundation Transformation Index,37
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,Economist Intelligence Unit Country Ratings,55
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,Global Insights Country Risk Ratings,47
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,IMD World Competitiveness Yearbook,47
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,PERC Asia Risk Guide,41
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,PRS International Country Risk Guide,41
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,Varieties of Democracy Project,47
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,World Economic Forum EOS,66
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,World Justice Project Rule of Law Index,45
+Malaysia,MYS,2018,AP,61,2.86,9,42,52,CPI score,47
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,Bertelsmann Foundation Transformation Index,37
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,Economist Intelligence Unit Country Ratings,55
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,Global Insights Country Risk Ratings,47
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,IMD World Competitiveness Yearbook,48
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,PERC Asia Risk Guide,42
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,PRS International Country Risk Guide,41
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,Varieties of Democracy Project,43
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,World Economic Forum EOS,63
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,World Justice Project Rule of Law Index,45
+Malaysia,MYS,2017,AP,62,2.67,9,43,51,CPI score,47
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,Bertelsmann Foundation Transformation Index,49
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,Economist Intelligence Unit Country Ratings,54
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,Global Insights Country Risk Ratings,59
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,IMD World Competitiveness Yearbook,52
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,PERC Asia Risk Guide,44
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,PRS International Country Risk Guide,41
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,World Economic Forum EOS,56
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,World Justice Project Rule of Law Index,41
+Malaysia,MYS,2016,AP,55,2.46,8,45,53,CPI score,49
+Malaysia,MYS,2015,AP,54,3,8,45,55,Bertelsmann Foundation Transformation Index,49
+Malaysia,MYS,2015,AP,54,3,8,45,55,Economist Intelligence Unit Country Ratings,54
+Malaysia,MYS,2015,AP,54,3,8,45,55,Global Insights Country Risk Ratings,42
+Malaysia,MYS,2015,AP,54,3,8,45,55,IMD World Competitiveness Yearbook,53
+Malaysia,MYS,2015,AP,54,3,8,45,55,PERC Asia Risk Guide,56
+Malaysia,MYS,2015,AP,54,3,8,45,55,PRS International Country Risk Guide,41
+Malaysia,MYS,2015,AP,54,3,8,45,55,World Economic Forum EOS,64
+Malaysia,MYS,2015,AP,54,3,8,45,55,World Justice Project Rule of Law Index,40
+Malaysia,MYS,2015,AP,54,3,8,45,55,CPI score,50
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,Bertelsmann Foundation Transformation Index,49
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,Economist Intelligence Unit Country Ratings,54
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,Global Insights Country Risk Ratings,42
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,IMD World Competitiveness Yearbook,58
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,PERC Asia Risk Guide,50
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,PRS International Country Risk Guide,41
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,World Economic Forum EOS,64
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,World Justice Project Rule of Law Index,57
+Malaysia,MYS,2014,AP,51,2.880000114440918,8,47,57,CPI score,52
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,Bertelsmann Foundation Transformation Index,49
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,Economist Intelligence Unit Country Ratings,54
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,Global Insights Country Risk Ratings,42
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,IMD World Competitiveness Yearbook,57
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,PERC Asia Risk Guide,53
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,PRS International Country Risk Guide,41
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,World Economic Forum EOS,61
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,World Justice Project Rule of Law Index,62
+Malaysia,MYS,2013,AP,53,3.4,9,44,56,CPI score,50
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,Bertelsmann Foundation Transformation Index,53
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,Economist Intelligence Unit Country Ratings,54
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,Global Insights Country Risk Ratings,42
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,IMD World Competitiveness Yearbook,62
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,PERC Asia Risk Guide,46
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,PRS International Country Risk Guide,41
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,World Economic Forum EOS,53
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,World Justice Project Rule of Law Index,62
+Malaysia,MYS,2012,AP,54,3.4,9,44,55,CPI score,49
+Maldives,MDV,2023,AP,93,4.17214,3,32.15769,45.84231,Global Insights Country Risk Ratings,34.50329
+Maldives,MDV,2023,AP,93,4.17214,3,32.15769,45.84231,Varieties of Democracy Project,48.5085
+Maldives,MDV,2023,AP,93,4.17214,3,32.15769,45.84231,World Bank CPIA,35.11188
+Maldives,MDV,2023,AP,93,4.17214,3,32.15769,45.84231,CPI score,39
+Maldives,MDV,2022,AP,85,4.832095,3,32.07536,47.92464,Global Insights Country Risk Ratings,35
+Maldives,MDV,2022,AP,85,4.832095,3,32.07536,47.92464,Varieties of Democracy Project,51
+Maldives,MDV,2022,AP,85,4.832095,3,32.07536,47.92464,World Bank CPIA,35
+Maldives,MDV,2022,AP,85,4.832095,3,32.07536,47.92464,CPI score,40
+Maldives,MDV,2021,AP,85,4.39211,3,32.77498,47.22502,Global Insights Country Risk Ratings,34.50329
+Maldives,MDV,2021,AP,85,4.39211,3,32.77498,47.22502,Varieties of Democracy Project,49.23191
+Maldives,MDV,2021,AP,85,4.39211,3,32.77498,47.22502,World Bank CPIA,35.11188
+Maldives,MDV,2021,AP,85,4.39211,3,32.77498,47.22502,CPI score,40
+Maldives,MDV,2020,AP,75,7.69273,3,30.38392,55.61608,Global Insights Country Risk Ratings,35
+Maldives,MDV,2020,AP,75,7.69273,3,30.38392,55.61608,Varieties of Democracy Project,60
+Maldives,MDV,2020,AP,75,7.69273,3,30.38392,55.61608,World Bank CPIA,35
+Maldives,MDV,2020,AP,75,7.69273,3,30.38392,55.61608,CPI score,43
+Maldives,MDV,2019,AP,130,2.569968,3,24.78525,33.21475,Global Insights Country Risk Ratings,35
+Maldives,MDV,2019,AP,130,2.569968,3,24.78525,33.21475,Varieties of Democracy Project,27
+Maldives,MDV,2019,AP,130,2.569968,3,24.78525,33.21475,World Bank CPIA,27
+Maldives,MDV,2019,AP,130,2.569968,3,24.78525,33.21475,CPI score,29
+Maldives,MDV,2018,AP,124,2.24,3,27,35,Global Insights Country Risk Ratings,35
+Maldives,MDV,2018,AP,124,2.24,3,27,35,Varieties of Democracy Project,31
+Maldives,MDV,2018,AP,124,2.24,3,27,35,World Bank CPIA,27
+Maldives,MDV,2018,AP,124,2.24,3,27,35,CPI score,31
+Maldives,MDV,2017,AP,112,1.71,3,30,36,Global Insights Country Risk Ratings,35
+Maldives,MDV,2017,AP,112,1.71,3,30,36,Varieties of Democracy Project,30
+Maldives,MDV,2017,AP,112,1.71,3,30,36,World Bank CPIA,35
+Maldives,MDV,2017,AP,112,1.71,3,30,36,CPI score,33
+Maldives,MDV,2016,AP,95,5.66,3,27,46,Global Insights Country Risk Ratings,47
+Maldives,MDV,2016,AP,95,5.66,3,27,46,Varieties of Democracy Project,27
+Maldives,MDV,2016,AP,95,5.66,3,27,46,World Bank CPIA,35
+Maldives,MDV,2016,AP,95,5.66,3,27,46,CPI score,36
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,Bertelsmann Foundation Transformation Index,36.83502
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,Economist Intelligence Unit Country Ratings,37.26319
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,Global Insights Country Risk Ratings,34.50329
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,IMD World Competitiveness Yearbook,33.00541
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,PRS International Country Risk Guide,33.11534
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,Varieties of Democracy Project,25.35954
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,World Justice Project Rule of Law Index,32.88596
+Mongolia,MNG,2023,AP,121,1.052163,7,31.27445,34.72555,CPI score,33
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,Bertelsmann Foundation Transformation Index,37
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,Economist Intelligence Unit Country Ratings,37
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,Global Insights Country Risk Ratings,35
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,IMD World Competitiveness Yearbook,30
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,PRS International Country Risk Guide,32
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,Varieties of Democracy Project,28
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,World Economic Forum EOS,30
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,World Justice Project Rule of Law Index,35
+Mongolia,MNG,2022,AP,116,0.8162061,8,31.66142,34.33858,CPI score,33
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,Bertelsmann Foundation Transformation Index,36.83502
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,Economist Intelligence Unit Country Ratings,37.26319
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,Global Insights Country Risk Ratings,34.50329
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,IMD World Competitiveness Yearbook,29.49576
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,PRS International Country Risk Guide,36.77304
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,Varieties of Democracy Project,34.0404
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,World Economic Forum EOS,33.80644
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,World Justice Project Rule of Law Index,34.68251
+Mongolia,MNG,2021,AP,110,0.5707226,8,34.06116,35.93884,CPI score,35
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,Bertelsmann Foundation Transformation Index,37
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,Economist Intelligence Unit Country Ratings,37
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,Global Insights Country Risk Ratings,35
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,IMD World Competitiveness Yearbook,32
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,PRS International Country Risk Guide,41
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,Varieties of Democracy Project,34
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,World Bank CPIA,35
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,World Economic Forum EOS,28
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,World Justice Project Rule of Law Index,33
+Mongolia,MNG,2020,AP,111,0.7091675,9,33.83696,36.16304,CPI score,35
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,Bertelsmann Foundation Transformation Index,37
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,Economist Intelligence Unit Country Ratings,37
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,Global Insights Country Risk Ratings,47
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,IMD World Competitiveness Yearbook,28
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,PRS International Country Risk Guide,35
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,Varieties of Democracy Project,31
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,World Bank CPIA,35
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,World Economic Forum EOS,28
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,World Justice Project Rule of Law Index,36
+Mongolia,MNG,2019,AP,106,1.887561,9,31.9044,38.0956,CPI score,35
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,Bertelsmann Foundation Transformation Index,41
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,Economist Intelligence Unit Country Ratings,37
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,Global Insights Country Risk Ratings,47
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,IMD World Competitiveness Yearbook,30
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,PRS International Country Risk Guide,32
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,Varieties of Democracy Project,33
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,World Bank CPIA,43
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,World Economic Forum EOS,31
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,World Justice Project Rule of Law Index,36
+Mongolia,MNG,2018,AP,93,1.94,9,34,40,CPI score,37
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,Bertelsmann Foundation Transformation Index,41
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,Economist Intelligence Unit Country Ratings,37
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,Global Insights Country Risk Ratings,35
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,IMD World Competitiveness Yearbook,33
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,PRS International Country Risk Guide,32
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,Varieties of Democracy Project,35
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,World Bank CPIA,43
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,World Economic Forum EOS,30
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,World Justice Project Rule of Law Index,36
+Mongolia,MNG,2017,AP,103,1.4,9,34,38,CPI score,36
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,Bertelsmann Foundation Transformation Index,36
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,Economist Intelligence Unit Country Ratings,37
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,Global Insights Country Risk Ratings,47
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,IMD World Competitiveness Yearbook,35
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,PRS International Country Risk Guide,32
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,Varieties of Democracy Project,34
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,World Bank CPIA,47
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,World Economic Forum EOS,38
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,World Justice Project Rule of Law Index,38
+Mongolia,MNG,2016,AP,87,1.7,9,35,41,CPI score,38
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,Bertelsmann Foundation Transformation Index,36
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,Economist Intelligence Unit Country Ratings,38
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,Global Insights Country Risk Ratings,42
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,IMD World Competitiveness Yearbook,37
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,PRS International Country Risk Guide,31
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,World Bank CPIA,47
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,World Economic Forum EOS,42
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,World Justice Project Rule of Law Index,35
+Mongolia,MNG,2015,AP,72,1.7599999904632568,8,36,42,CPI score,39
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,Bertelsmann Foundation Transformation Index,40
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,Economist Intelligence Unit Country Ratings,38
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,Global Insights Country Risk Ratings,42
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,PRS International Country Risk Guide,31
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,World Bank CPIA,47
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,World Economic Forum EOS,41
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,World Justice Project Rule of Law Index,32
+Mongolia,MNG,2014,AP,80,2.130000114440918,7,36,42,CPI score,39
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,Bertelsmann Foundation Transformation Index,40
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,Economist Intelligence Unit Country Ratings,38
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,Global Insights Country Risk Ratings,42
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,PRS International Country Risk Guide,31
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,World Bank CPIA,47
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,World Economic Forum EOS,32
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,World Justice Project Rule of Law Index,33
+Mongolia,MNG,2013,AP,83,2.2,7,34,42,CPI score,38
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,Bertelsmann Foundation Transformation Index,32
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,Economist Intelligence Unit Country Ratings,38
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,Global Insights Country Risk Ratings,42
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,PRS International Country Risk Guide,31
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,World Bank CPIA,47
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,World Economic Forum EOS,26
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,World Justice Project Rule of Law Index,37
+Mongolia,MNG,2012,AP,94,2.6,7,32,40,CPI score,36
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,Bertelsmann Foundation Transformation Index,8.908407
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,Economist Intelligence Unit Country Ratings,19.79276
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,Global Insights Country Risk Ratings,22.45197
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,PRS International Country Risk Guide,23.70985
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,Varieties of Democracy Project,34.0404
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,World Bank CPIA,10.11772
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,World Justice Project Rule of Law Index,22.10661
+Myanmar,MMR,2023,AP,162,2.293598,7,16.2385,23.7615,CPI score,20
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,Bertelsmann Foundation Transformation Index,25
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,Economist Intelligence Unit Country Ratings,20
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,Global Insights Country Risk Ratings,22
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,PRS International Country Risk Guide,24
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,Varieties of Democracy Project,34
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,World Bank CPIA,10
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,World Justice Project Rule of Law Index,24
+Myanmar,MMR,2022,AP,157,1.897972,7,19.88733,26.11267,CPI score,23
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,Bertelsmann Foundation Transformation Index,24.86647
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,Economist Intelligence Unit Country Ratings,19.79276
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,Global Insights Country Risk Ratings,22.45197
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,PRS International Country Risk Guide,31.02523
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,Varieties of Democracy Project,50.67872
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,World Bank CPIA,26.78049
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,World Justice Project Rule of Law Index,23.90317
+Myanmar,MMR,2021,AP,140,2.777369,7,23.43123,32.56877,CPI score,28
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,Bertelsmann Foundation Transformation Index,21
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,Economist Intelligence Unit Country Ratings,20
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,Global Insights Country Risk Ratings,22
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,PRS International Country Risk Guide,32
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,Varieties of Democracy Project,49
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,World Bank CPIA,27
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,World Justice Project Rule of Law Index,27
+Myanmar,MMR,2020,AP,137,2.650177,7,23.65371,32.34629,CPI score,28
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,Bertelsmann Foundation Transformation Index,21
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,Economist Intelligence Unit Country Ratings,20
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,Global Insights Country Risk Ratings,22
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,PRS International Country Risk Guide,32
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,Varieties of Democracy Project,52
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,World Bank CPIA,27
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,World Justice Project Rule of Law Index,28
+Myanmar,MMR,2019,AP,130,4.212792,7,22.09102,35.90898,CPI score,29
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,Bertelsmann Foundation Transformation Index,21
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,Economist Intelligence Unit Country Ratings,20
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,Global Insights Country Risk Ratings,22
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,PRS International Country Risk Guide,32
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,Varieties of Democracy Project,50
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,World Bank CPIA,27
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,World Justice Project Rule of Law Index,30
+Myanmar,MMR,2018,AP,132,3.94,7,23,35,CPI score,29
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,Bertelsmann Foundation Transformation Index,21
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,Economist Intelligence Unit Country Ratings,20
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,Global Insights Country Risk Ratings,22
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,PRS International Country Risk Guide,32
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,Varieties of Democracy Project,49
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,World Bank CPIA,35
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,World Justice Project Rule of Law Index,30
+Myanmar,MMR,2017,AP,130,3.91,7,24,36,CPI score,30
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,Bertelsmann Foundation Transformation Index,20
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,Economist Intelligence Unit Country Ratings,19
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,Global Insights Country Risk Ratings,22
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,PRS International Country Risk Guide,24
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,Varieties of Democracy Project,50
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,World Bank CPIA,35
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,World Economic Forum EOS,23
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,World Justice Project Rule of Law Index,27
+Myanmar,MMR,2016,AP,136,3.69,8,22,34,CPI score,28
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,Bertelsmann Foundation Transformation Index,19
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,Economist Intelligence Unit Country Ratings,21
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,Global Insights Country Risk Ratings,11
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,PRS International Country Risk Guide,21
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,World Bank CPIA,35
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,World Economic Forum EOS,27
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,World Justice Project Rule of Law Index,19
+Myanmar,MMR,2015,AP,147,2.819999933242798,7,17,27,CPI score,22
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,Bertelsmann Foundation Transformation Index,15
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,Economist Intelligence Unit Country Ratings,21
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,Global Insights Country Risk Ratings,11
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,PRS International Country Risk Guide,21
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,World Bank CPIA,23
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,World Economic Forum EOS,20
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,World Justice Project Rule of Law Index,35
+Myanmar,MMR,2014,AP,156,2.869999885559082,7,16,26,CPI score,21
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,Bertelsmann Foundation Transformation Index,15
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,Economist Intelligence Unit Country Ratings,21
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,Global Insights Country Risk Ratings,11
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,PERC Asia Risk Guide,39
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,PRS International Country Risk Guide,21
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,World Economic Forum EOS,17
+Myanmar,MMR,2013,AP,157,3.9,6,15,27,CPI score,21
+Myanmar,MMR,2012,AP,172,3.7,4,9,21,Bertelsmann Foundation Transformation Index,6
+Myanmar,MMR,2012,AP,172,3.7,4,9,21,Economist Intelligence Unit Country Ratings,21
+Myanmar,MMR,2012,AP,172,3.7,4,9,21,Global Insights Country Risk Ratings,11
+Myanmar,MMR,2012,AP,172,3.7,4,9,21,PRS International Country Risk Guide,21
+Myanmar,MMR,2012,AP,172,3.7,4,9,21,CPI score,15
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,Bertelsmann Foundation Transformation Index,32.8455
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,Global Insights Country Risk Ratings,34.50329
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,Varieties of Democracy Project,35.48721
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,World Bank CPIA,35.11188
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,World Economic Forum EOS,38.01516
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,World Justice Project Rule of Law Index,31.0894
+Nepal,NPL,2023,AP,108,0.7388446,6,33.7883,36.2117,CPI score,35
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,Bertelsmann Foundation Transformation Index,33
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,Global Insights Country Risk Ratings,35
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,Varieties of Democracy Project,30
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,World Bank CPIA,35
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,World Economic Forum EOS,38
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,World Justice Project Rule of Law Index,30
+Nepal,NPL,2022,AP,110,0.9336739,6,32.46877,35.53123,CPI score,34
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,Bertelsmann Foundation Transformation Index,32.8455
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,Global Insights Country Risk Ratings,34.50329
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,Varieties of Democracy Project,30.42337
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,World Bank CPIA,35.11188
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,World Economic Forum EOS,33.63108
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,World Justice Project Rule of Law Index,31.98768
+Nepal,NPL,2021,AP,117,0.5357912,6,32.11862,33.88138,CPI score,33
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,Bertelsmann Foundation Transformation Index,29
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,Global Insights Country Risk Ratings,35
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,Varieties of Democracy Project,29
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,World Bank CPIA,35
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,World Economic Forum EOS,40
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,World Justice Project Rule of Law Index,32
+Nepal,NPL,2020,AP,117,1.350671,6,30.7849,35.2151,CPI score,33
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,Bertelsmann Foundation Transformation Index,29
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,Global Insights Country Risk Ratings,35
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,Varieties of Democracy Project,29
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,World Bank CPIA,35
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,World Economic Forum EOS,40
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,World Justice Project Rule of Law Index,35
+Nepal,NPL,2019,AP,113,1.759387,6,31.1146,36.8854,CPI score,34
+Nepal,NPL,2018,AP,124,1.85,6,28,34,Bertelsmann Foundation Transformation Index,25
+Nepal,NPL,2018,AP,124,1.85,6,28,34,Global Insights Country Risk Ratings,35
+Nepal,NPL,2018,AP,124,1.85,6,28,34,Varieties of Democracy Project,25
+Nepal,NPL,2018,AP,124,1.85,6,28,34,World Bank CPIA,35
+Nepal,NPL,2018,AP,124,1.85,6,28,34,World Economic Forum EOS,33
+Nepal,NPL,2018,AP,124,1.85,6,28,34,World Justice Project Rule of Law Index,32
+Nepal,NPL,2018,AP,124,1.85,6,28,34,CPI score,31
+Nepal,NPL,2017,AP,122,2,6,28,34,Bertelsmann Foundation Transformation Index,25
+Nepal,NPL,2017,AP,122,2,6,28,34,Global Insights Country Risk Ratings,35
+Nepal,NPL,2017,AP,122,2,6,28,34,Varieties of Democracy Project,25
+Nepal,NPL,2017,AP,122,2,6,28,34,World Bank CPIA,35
+Nepal,NPL,2017,AP,122,2,6,28,34,World Economic Forum EOS,35
+Nepal,NPL,2017,AP,122,2,6,28,34,World Justice Project Rule of Law Index,32
+Nepal,NPL,2017,AP,122,2,6,28,34,CPI score,31
+Nepal,NPL,2016,AP,131,2.33,6,25,33,Bertelsmann Foundation Transformation Index,24
+Nepal,NPL,2016,AP,131,2.33,6,25,33,Global Insights Country Risk Ratings,34
+Nepal,NPL,2016,AP,131,2.33,6,25,33,Varieties of Democracy Project,21
+Nepal,NPL,2016,AP,131,2.33,6,25,33,World Bank CPIA,35
+Nepal,NPL,2016,AP,131,2.33,6,25,33,World Economic Forum EOS,26
+Nepal,NPL,2016,AP,131,2.33,6,25,33,World Justice Project Rule of Law Index,31
+Nepal,NPL,2016,AP,131,2.33,6,25,33,CPI score,29
+Nepal,NPL,2015,AP,130,2.7300000190734863,5,23,31,Bertelsmann Foundation Transformation Index,23
+Nepal,NPL,2015,AP,130,2.7300000190734863,5,23,31,Global Insights Country Risk Ratings,22
+Nepal,NPL,2015,AP,130,2.7300000190734863,5,23,31,World Bank CPIA,35
+Nepal,NPL,2015,AP,130,2.7300000190734863,5,23,31,World Economic Forum EOS,33
+Nepal,NPL,2015,AP,130,2.7300000190734863,5,23,31,World Justice Project Rule of Law Index,24
+Nepal,NPL,2015,AP,130,2.7300000190734863,5,23,31,CPI score,27
+Nepal,NPL,2014,AP,126,2.200000047683716,5,25,33,Bertelsmann Foundation Transformation Index,28
+Nepal,NPL,2014,AP,126,2.200000047683716,5,25,33,Global Insights Country Risk Ratings,22
+Nepal,NPL,2014,AP,126,2.200000047683716,5,25,33,World Bank CPIA,35
+Nepal,NPL,2014,AP,126,2.200000047683716,5,25,33,World Economic Forum EOS,31
+Nepal,NPL,2014,AP,126,2.200000047683716,5,25,33,World Justice Project Rule of Law Index,31
+Nepal,NPL,2014,AP,126,2.200000047683716,5,25,33,CPI score,29
+Nepal,NPL,2013,AP,116,1.4,5,29,33,Bertelsmann Foundation Transformation Index,28
+Nepal,NPL,2013,AP,116,1.4,5,29,33,Global Insights Country Risk Ratings,32
+Nepal,NPL,2013,AP,116,1.4,5,29,33,World Bank CPIA,35
+Nepal,NPL,2013,AP,116,1.4,5,29,33,World Economic Forum EOS,28
+Nepal,NPL,2013,AP,116,1.4,5,29,33,World Justice Project Rule of Law Index,32
+Nepal,NPL,2013,AP,116,1.4,5,29,33,CPI score,31
+Nepal,NPL,2012,AP,139,2.4,5,23,31,Bertelsmann Foundation Transformation Index,23
+Nepal,NPL,2012,AP,139,2.4,5,23,31,Global Insights Country Risk Ratings,22
+Nepal,NPL,2012,AP,139,2.4,5,23,31,World Bank CPIA,35
+Nepal,NPL,2012,AP,139,2.4,5,23,31,World Economic Forum EOS,27
+Nepal,NPL,2012,AP,139,2.4,5,23,31,World Justice Project Rule of Law Index,31
+Nepal,NPL,2012,AP,139,2.4,5,23,31,CPI score,27
+North Korea,PRK,2023,AP,172,3.775732,4,10.8078,23.1922,Bertelsmann Foundation Transformation Index,12.89792
+North Korea,PRK,2023,AP,172,3.775732,4,10.8078,23.1922,Global Insights Country Risk Ratings,10.21805
+North Korea,PRK,2023,AP,172,3.775732,4,10.8078,23.1922,PRS International Country Risk Guide,15.00106
+North Korea,PRK,2023,AP,172,3.775732,4,10.8078,23.1922,Varieties of Democracy Project,29.69997
+North Korea,PRK,2023,AP,172,3.775732,4,10.8078,23.1922,CPI score,17
+North Korea,PRK,2022,AP,171,3.775732,4,10.8078,23.1922,Bertelsmann Foundation Transformation Index,13
+North Korea,PRK,2022,AP,171,3.775732,4,10.8078,23.1922,Global Insights Country Risk Ratings,10
+North Korea,PRK,2022,AP,171,3.775732,4,10.8078,23.1922,PRS International Country Risk Guide,15
+North Korea,PRK,2022,AP,171,3.775732,4,10.8078,23.1922,Varieties of Democracy Project,30
+North Korea,PRK,2022,AP,171,3.775732,4,10.8078,23.1922,CPI score,17
+North Korea,PRK,2021,AP,174,2.570172,4,11.77207,20.22793,Bertelsmann Foundation Transformation Index,12.89792
+North Korea,PRK,2021,AP,174,2.570172,4,11.77207,20.22793,Global Insights Country Risk Ratings,10.21805
+North Korea,PRK,2021,AP,174,2.570172,4,11.77207,20.22793,PRS International Country Risk Guide,15.00106
+North Korea,PRK,2021,AP,174,2.570172,4,11.77207,20.22793,Varieties of Democracy Project,23.91273
+North Korea,PRK,2021,AP,174,2.570172,4,11.77207,20.22793,CPI score,16
+North Korea,PRK,2020,AP,170,3.455656,4,12.33272,23.66728,Bertelsmann Foundation Transformation Index,17
+North Korea,PRK,2020,AP,170,3.455656,4,12.33272,23.66728,Global Insights Country Risk Ratings,10
+North Korea,PRK,2020,AP,170,3.455656,4,12.33272,23.66728,PRS International Country Risk Guide,15
+North Korea,PRK,2020,AP,170,3.455656,4,12.33272,23.66728,Varieties of Democracy Project,29
+North Korea,PRK,2020,AP,170,3.455656,4,12.33272,23.66728,CPI score,18
+North Korea,PRK,2019,AP,172,3.159824,4,11.81789,22.18211,Bertelsmann Foundation Transformation Index,17
+North Korea,PRK,2019,AP,172,3.159824,4,11.81789,22.18211,Global Insights Country Risk Ratings,10
+North Korea,PRK,2019,AP,172,3.159824,4,11.81789,22.18211,PRS International Country Risk Guide,15
+North Korea,PRK,2019,AP,172,3.159824,4,11.81789,22.18211,Varieties of Democracy Project,25
+North Korea,PRK,2019,AP,172,3.159824,4,11.81789,22.18211,CPI score,17
+North Korea,PRK,2018,AP,176,1.39,4,12,16,Bertelsmann Foundation Transformation Index,13
+North Korea,PRK,2018,AP,176,1.39,4,12,16,Global Insights Country Risk Ratings,10
+North Korea,PRK,2018,AP,176,1.39,4,12,16,PRS International Country Risk Guide,15
+North Korea,PRK,2018,AP,176,1.39,4,12,16,Varieties of Democracy Project,17
+North Korea,PRK,2018,AP,176,1.39,4,12,16,CPI score,14
+North Korea,PRK,2017,AP,171,4.18,4,10,24,Bertelsmann Foundation Transformation Index,13
+North Korea,PRK,2017,AP,171,4.18,4,10,24,Global Insights Country Risk Ratings,10
+North Korea,PRK,2017,AP,171,4.18,4,10,24,PRS International Country Risk Guide,15
+North Korea,PRK,2017,AP,171,4.18,4,10,24,Varieties of Democracy Project,29
+North Korea,PRK,2017,AP,171,4.18,4,10,24,CPI score,17
+North Korea,PRK,2016,AP,174,1.39,3,10,15,Bertelsmann Foundation Transformation Index,12
+North Korea,PRK,2016,AP,174,1.39,3,10,15,Global Insights Country Risk Ratings,10
+North Korea,PRK,2016,AP,174,1.39,3,10,15,PRS International Country Risk Guide,15
+North Korea,PRK,2016,AP,174,1.39,3,10,15,CPI score,12
+North Korea,PRK,2015,AP,167,3.380000114440918,3,2,14,Bertelsmann Foundation Transformation Index,10
+North Korea,PRK,2015,AP,167,3.380000114440918,3,2,14,Global Insights Country Risk Ratings,1
+North Korea,PRK,2015,AP,167,3.380000114440918,3,2,14,PRS International Country Risk Guide,12
+North Korea,PRK,2015,AP,167,3.380000114440918,3,2,14,CPI score,8
+North Korea,PRK,2014,AP,174,3.3499999046325684,3,3,13,Bertelsmann Foundation Transformation Index,10
+North Korea,PRK,2014,AP,174,3.3499999046325684,3,3,13,Global Insights Country Risk Ratings,1
+North Korea,PRK,2014,AP,174,3.3499999046325684,3,3,13,PRS International Country Risk Guide,12
+North Korea,PRK,2014,AP,174,3.3499999046325684,3,3,13,CPI score,8
+North Korea,PRK,2013,AP,175,3.4,3,2,14,Bertelsmann Foundation Transformation Index,10
+North Korea,PRK,2013,AP,175,3.4,3,2,14,Global Insights Country Risk Ratings,1
+North Korea,PRK,2013,AP,175,3.4,3,2,14,PRS International Country Risk Guide,12
+North Korea,PRK,2013,AP,175,3.4,3,2,14,CPI score,8
+North Korea,PRK,2012,AP,174,3.4,3,2,13,Bertelsmann Foundation Transformation Index,10
+North Korea,PRK,2012,AP,174,3.4,3,2,13,Global Insights Country Risk Ratings,1
+North Korea,PRK,2012,AP,174,3.4,3,2,13,PRS International Country Risk Guide,12
+North Korea,PRK,2012,AP,174,3.4,3,2,13,CPI score,8
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,Bertelsmann Foundation Transformation Index,20.87696
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,Economist Intelligence Unit Country Ratings,19.79276
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,Global Insights Country Risk Ratings,34.50329
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,PRS International Country Risk Guide,32.41864
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,Varieties of Democracy Project,19.5723
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,World Bank CPIA,35.11188
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,World Economic Forum EOS,44.85432
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,World Justice Project Rule of Law Index,24.80145
+Pakistan,PAK,2023,AP,133,2.091568,8,25.56983,32.43017,CPI score,29
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,Bertelsmann Foundation Transformation Index,21
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,Economist Intelligence Unit Country Ratings,20
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,Global Insights Country Risk Ratings,35
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,PRS International Country Risk Guide,32
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,Varieties of Democracy Project,19
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,World Bank CPIA,35
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,World Justice Project Rule of Law Index,26
+Pakistan,PAK,2022,AP,140,1.916701,7,23.85661,30.14339,CPI score,27
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,Bertelsmann Foundation Transformation Index,20.87696
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,Economist Intelligence Unit Country Ratings,19.79276
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,Global Insights Country Risk Ratings,34.50329
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,PRS International Country Risk Guide,32.41864
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,Varieties of Democracy Project,19.5723
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,World Bank CPIA,35.11188
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,World Economic Forum EOS,40.6456
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,World Justice Project Rule of Law Index,24.80145
+Pakistan,PAK,2021,AP,140,1.86989,8,24.92403,31.07597,CPI score,28
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,Bertelsmann Foundation Transformation Index,21
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,Economist Intelligence Unit Country Ratings,37
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,Global Insights Country Risk Ratings,35
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,PRS International Country Risk Guide,32
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,Varieties of Democracy Project,22
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,World Bank CPIA,35
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,World Economic Forum EOS,43
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,World Justice Project Rule of Law Index,25
+Pakistan,PAK,2020,AP,124,1.798669,8,28.05018,33.94982,CPI score,31
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,Bertelsmann Foundation Transformation Index,21
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,Economist Intelligence Unit Country Ratings,37
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,Global Insights Country Risk Ratings,35
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,PRS International Country Risk Guide,32
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,Varieties of Democracy Project,27
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,World Bank CPIA,35
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,World Economic Forum EOS,43
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,World Justice Project Rule of Law Index,27
+Pakistan,PAK,2019,AP,120,2.461317,8,27.96344,36.03656,CPI score,32
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,Bertelsmann Foundation Transformation Index,25
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,Economist Intelligence Unit Country Ratings,37
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,Global Insights Country Risk Ratings,35
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,PRS International Country Risk Guide,32
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,Varieties of Democracy Project,27
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,World Bank CPIA,35
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,World Economic Forum EOS,43
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,World Justice Project Rule of Law Index,29
+Pakistan,PAK,2018,AP,117,2.06,8,30,36,CPI score,33
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,Bertelsmann Foundation Transformation Index,25
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,Economist Intelligence Unit Country Ratings,37
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,Global Insights Country Risk Ratings,35
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,PRS International Country Risk Guide,32
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,Varieties of Democracy Project,22
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,World Bank CPIA,35
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,World Economic Forum EOS,39
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,World Justice Project Rule of Law Index,29
+Pakistan,PAK,2017,AP,117,2.11,8,29,35,CPI score,32
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,Bertelsmann Foundation Transformation Index,20
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,Economist Intelligence Unit Country Ratings,37
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,Global Insights Country Risk Ratings,34
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,PRS International Country Risk Guide,32
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,World Bank CPIA,35
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,World Economic Forum EOS,29
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,World Justice Project Rule of Law Index,32
+Pakistan,PAK,2016,AP,116,2.12,7,28,35,CPI score,32
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,Bertelsmann Foundation Transformation Index,19
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,Economist Intelligence Unit Country Ratings,38
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,Global Insights Country Risk Ratings,42
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,PRS International Country Risk Guide,31
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,World Bank CPIA,23
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,World Economic Forum EOS,34
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,World Justice Project Rule of Law Index,26
+Pakistan,PAK,2015,AP,117,3.119999885559082,7,25,35,CPI score,30
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,Bertelsmann Foundation Transformation Index,19
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,Economist Intelligence Unit Country Ratings,38
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,Global Insights Country Risk Ratings,42
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,PRS International Country Risk Guide,31
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,World Bank CPIA,23
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,World Economic Forum EOS,30
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,World Justice Project Rule of Law Index,21
+Pakistan,PAK,2014,AP,126,3.240000009536743,7,24,34,CPI score,29
+Pakistan,PAK,2013,AP,127,3,8,23,33,Bertelsmann Foundation Transformation Index,19
+Pakistan,PAK,2013,AP,127,3,8,23,33,Economist Intelligence Unit Country Ratings,38
+Pakistan,PAK,2013,AP,127,3,8,23,33,Global Insights Country Risk Ratings,42
+Pakistan,PAK,2013,AP,127,3,8,23,33,PRS International Country Risk Guide,31
+Pakistan,PAK,2013,AP,127,3,8,23,33,World Bank CPIA,23
+Pakistan,PAK,2013,AP,127,3,8,23,33,World Economic Forum EOS,29
+Pakistan,PAK,2013,AP,127,3,8,23,33,World Justice Project Rule of Law Index,20
+Pakistan,PAK,2013,AP,127,3,8,23,33,CPI score,28
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,Bertelsmann Foundation Transformation Index,19
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,Economist Intelligence Unit Country Ratings,38
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,Global Insights Country Risk Ratings,32
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,PRS International Country Risk Guide,31
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,World Bank CPIA,23
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,World Economic Forum EOS,30
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,World Justice Project Rule of Law Index,20
+Pakistan,PAK,2012,AP,139,2.3,8,23,31,CPI score,27
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,Bertelsmann Foundation Transformation Index,32.8455
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,Economist Intelligence Unit Country Ratings,19.79276
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,Global Insights Country Risk Ratings,34.50329
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,PRS International Country Risk Guide,32.41864
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,Varieties of Democracy Project,25.35954
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,World Bank CPIA,26.78049
+Papua New Guinea,PNG,2023,AP,133,1.757385,6,26.11789,31.88211,CPI score,29
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,Bertelsmann Foundation Transformation Index,33
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,Economist Intelligence Unit Country Ratings,20
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,Global Insights Country Risk Ratings,35
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,PRS International Country Risk Guide,41
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,Varieties of Democracy Project,26
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,World Bank CPIA,27
+Papua New Guinea,PNG,2022,AP,130,2.341149,6,26.160520000000002,33.83949,CPI score,30
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,Bertelsmann Foundation Transformation Index,32.8455
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,Economist Intelligence Unit Country Ratings,19.79276
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,Global Insights Country Risk Ratings,34.50329
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,PRS International Country Risk Guide,41.12743
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,Varieties of Democracy Project,29.69997
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,World Bank CPIA,26.78049
+Papua New Guinea,PNG,2021,AP,124,2.261734,6,27.27945,34.72055,CPI score,31
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,Bertelsmann Foundation Transformation Index,29
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,Economist Intelligence Unit Country Ratings,20
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,Global Insights Country Risk Ratings,22
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,PRS International Country Risk Guide,35
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,Varieties of Democracy Project,28
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,World Bank CPIA,27
+Papua New Guinea,PNG,2020,AP,142,1.61913,6,24.34463,29.65537,CPI score,27
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,Bertelsmann Foundation Transformation Index,29
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,Economist Intelligence Unit Country Ratings,20
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,Global Insights Country Risk Ratings,22
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,PRS International Country Risk Guide,32
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,Varieties of Democracy Project,29
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,World Bank CPIA,35
+Papua New Guinea,PNG,2019,AP,137,2.379799,6,24.09713,31.90287,CPI score,28
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,Bertelsmann Foundation Transformation Index,29
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,Economist Intelligence Unit Country Ratings,20
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,Global Insights Country Risk Ratings,22
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,PRS International Country Risk Guide,32
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,Varieties of Democracy Project,32
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,World Bank CPIA,35
+Papua New Guinea,PNG,2018,AP,138,2.47,6,24,32,CPI score,28
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,Bertelsmann Foundation Transformation Index,29
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,Economist Intelligence Unit Country Ratings,20
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,Global Insights Country Risk Ratings,22
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,PRS International Country Risk Guide,32
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,Varieties of Democracy Project,33
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,World Bank CPIA,35
+Papua New Guinea,PNG,2017,AP,135,2.55,6,25,33,CPI score,29
+Papua New Guinea,PNG,2016,AP,136,3.01,5,23,32,Bertelsmann Foundation Transformation Index,28
+Papua New Guinea,PNG,2016,AP,136,3.01,5,23,32,Economist Intelligence Unit Country Ratings,19
+Papua New Guinea,PNG,2016,AP,136,3.01,5,23,32,Global Insights Country Risk Ratings,22
+Papua New Guinea,PNG,2016,AP,136,3.01,5,23,32,PRS International Country Risk Guide,32
+Papua New Guinea,PNG,2016,AP,136,3.01,5,23,32,World Bank CPIA,35
+Papua New Guinea,PNG,2016,AP,136,3.01,5,23,32,CPI score,28
+Papua New Guinea,PNG,2015,AP,139,4.21999979019165,5,18,32,Bertelsmann Foundation Transformation Index,28
+Papua New Guinea,PNG,2015,AP,139,4.21999979019165,5,18,32,Economist Intelligence Unit Country Ratings,21
+Papua New Guinea,PNG,2015,AP,139,4.21999979019165,5,18,32,Global Insights Country Risk Ratings,11
+Papua New Guinea,PNG,2015,AP,139,4.21999979019165,5,18,32,PRS International Country Risk Guide,31
+Papua New Guinea,PNG,2015,AP,139,4.21999979019165,5,18,32,World Bank CPIA,35
+Papua New Guinea,PNG,2015,AP,139,4.21999979019165,5,18,32,CPI score,25
+Papua New Guinea,PNG,2014,AP,145,4.159999847412109,5,18,32,Bertelsmann Foundation Transformation Index,28
+Papua New Guinea,PNG,2014,AP,145,4.159999847412109,5,18,32,Economist Intelligence Unit Country Ratings,21
+Papua New Guinea,PNG,2014,AP,145,4.159999847412109,5,18,32,Global Insights Country Risk Ratings,11
+Papua New Guinea,PNG,2014,AP,145,4.159999847412109,5,18,32,PRS International Country Risk Guide,31
+Papua New Guinea,PNG,2014,AP,145,4.159999847412109,5,18,32,World Bank CPIA,35
+Papua New Guinea,PNG,2014,AP,145,4.159999847412109,5,18,32,CPI score,25
+Papua New Guinea,PNG,2013,AP,144,4.2,5,18,32,Bertelsmann Foundation Transformation Index,28
+Papua New Guinea,PNG,2013,AP,144,4.2,5,18,32,Economist Intelligence Unit Country Ratings,21
+Papua New Guinea,PNG,2013,AP,144,4.2,5,18,32,Global Insights Country Risk Ratings,11
+Papua New Guinea,PNG,2013,AP,144,4.2,5,18,32,PRS International Country Risk Guide,31
+Papua New Guinea,PNG,2013,AP,144,4.2,5,18,32,World Bank CPIA,35
+Papua New Guinea,PNG,2013,AP,144,4.2,5,18,32,CPI score,25
+Papua New Guinea,PNG,2012,AP,150,4.2,5,18,32,Bertelsmann Foundation Transformation Index,28
+Papua New Guinea,PNG,2012,AP,150,4.2,5,18,32,Economist Intelligence Unit Country Ratings,21
+Papua New Guinea,PNG,2012,AP,150,4.2,5,18,32,Global Insights Country Risk Ratings,11
+Papua New Guinea,PNG,2012,AP,150,4.2,5,18,32,PRS International Country Risk Guide,31
+Papua New Guinea,PNG,2012,AP,150,4.2,5,18,32,World Bank CPIA,35
+Papua New Guinea,PNG,2012,AP,150,4.2,5,18,32,CPI score,25
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,Bertelsmann Foundation Transformation Index,32.8455
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,Economist Intelligence Unit Country Ratings,37.26319
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,Global Insights Country Risk Ratings,34.50329
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,IMD World Competitiveness Yearbook,30.95098
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,PERC Asia Risk Guide,36.10416
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,PRS International Country Risk Guide,41.12743
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,Varieties of Democracy Project,24.63613
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,World Economic Forum EOS,41.17169
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,World Justice Project Rule of Law Index,23.90317
+Philippines,PHL,2023,AP,115,1.210416,9,32.01492,35.98508,CPI score,34
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,Bertelsmann Foundation Transformation Index,33
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,Economist Intelligence Unit Country Ratings,37
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,Global Insights Country Risk Ratings,35
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,IMD World Competitiveness Yearbook,30
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,PERC Asia Risk Guide,37
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,PRS International Country Risk Guide,41
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,Varieties of Democracy Project,28
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,World Economic Forum EOS,34
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,World Justice Project Rule of Law Index,26
+Philippines,PHL,2022,AP,116,0.9319923,9,31.47153,34.52847,CPI score,33
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,Bertelsmann Foundation Transformation Index,32.8455
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,Economist Intelligence Unit Country Ratings,37.26319
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,Global Insights Country Risk Ratings,34.50329
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,IMD World Competitiveness Yearbook,29.66696
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,PERC Asia Risk Guide,37.67448
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,PRS International Country Risk Guide,41.12743
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,Varieties of Democracy Project,28.97656
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,World Economic Forum EOS,31.87744
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,World Justice Project Rule of Law Index,25.69973
+Philippines,PHL,2021,AP,117,0.9365137,9,31.45943,34.54057,CPI score,33
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,Bertelsmann Foundation Transformation Index,33
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,Economist Intelligence Unit Country Ratings,37
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,Global Insights Country Risk Ratings,35
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,IMD World Competitiveness Yearbook,34
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,PERC Asia Risk Guide,38
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,PRS International Country Risk Guide,41
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,Varieties of Democracy Project,28
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,World Economic Forum EOS,32
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,World Justice Project Rule of Law Index,27
+Philippines,PHL,2020,AP,115,0.9200366,9,32.49114,35.50886,CPI score,34
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,Bertelsmann Foundation Transformation Index,33
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,Economist Intelligence Unit Country Ratings,37
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,Global Insights Country Risk Ratings,35
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,IMD World Competitiveness Yearbook,29
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,PERC Asia Risk Guide,39
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,PRS International Country Risk Guide,41
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,Varieties of Democracy Project,30
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,World Economic Forum EOS,32
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,World Justice Project Rule of Law Index,27
+Philippines,PHL,2019,AP,113,1.585877,9,31.39916,36.60084,CPI score,34
+Philippines,PHL,2018,AP,99,1.55,9,33,39,Bertelsmann Foundation Transformation Index,37
+Philippines,PHL,2018,AP,99,1.55,9,33,39,Economist Intelligence Unit Country Ratings,37
+Philippines,PHL,2018,AP,99,1.55,9,33,39,Global Insights Country Risk Ratings,35
+Philippines,PHL,2018,AP,99,1.55,9,33,39,IMD World Competitiveness Yearbook,31
+Philippines,PHL,2018,AP,99,1.55,9,33,39,PERC Asia Risk Guide,40
+Philippines,PHL,2018,AP,99,1.55,9,33,39,PRS International Country Risk Guide,41
+Philippines,PHL,2018,AP,99,1.55,9,33,39,Varieties of Democracy Project,36
+Philippines,PHL,2018,AP,99,1.55,9,33,39,World Economic Forum EOS,40
+Philippines,PHL,2018,AP,99,1.55,9,33,39,World Justice Project Rule of Law Index,27
+Philippines,PHL,2018,AP,99,1.55,9,33,39,CPI score,36
+Philippines,PHL,2017,AP,111,1.9,9,31,37,Bertelsmann Foundation Transformation Index,37
+Philippines,PHL,2017,AP,111,1.9,9,31,37,Economist Intelligence Unit Country Ratings,37
+Philippines,PHL,2017,AP,111,1.9,9,31,37,Global Insights Country Risk Ratings,35
+Philippines,PHL,2017,AP,111,1.9,9,31,37,IMD World Competitiveness Yearbook,33
+Philippines,PHL,2017,AP,111,1.9,9,31,37,PERC Asia Risk Guide,39
+Philippines,PHL,2017,AP,111,1.9,9,31,37,PRS International Country Risk Guide,41
+Philippines,PHL,2017,AP,111,1.9,9,31,37,Varieties of Democracy Project,38
+Philippines,PHL,2017,AP,111,1.9,9,31,37,World Economic Forum EOS,24
+Philippines,PHL,2017,AP,111,1.9,9,31,37,World Justice Project Rule of Law Index,27
+Philippines,PHL,2017,AP,111,1.9,9,31,37,CPI score,34
+Philippines,PHL,2016,AP,101,1.58,9,33,38,Bertelsmann Foundation Transformation Index,36
+Philippines,PHL,2016,AP,101,1.58,9,33,38,Economist Intelligence Unit Country Ratings,37
+Philippines,PHL,2016,AP,101,1.58,9,33,38,Global Insights Country Risk Ratings,34
+Philippines,PHL,2016,AP,101,1.58,9,33,38,IMD World Competitiveness Yearbook,31
+Philippines,PHL,2016,AP,101,1.58,9,33,38,PERC Asia Risk Guide,43
+Philippines,PHL,2016,AP,101,1.58,9,33,38,PRS International Country Risk Guide,41
+Philippines,PHL,2016,AP,101,1.58,9,33,38,Varieties of Democracy Project,36
+Philippines,PHL,2016,AP,101,1.58,9,33,38,World Economic Forum EOS,29
+Philippines,PHL,2016,AP,101,1.58,9,33,38,World Justice Project Rule of Law Index,31
+Philippines,PHL,2016,AP,101,1.58,9,33,38,CPI score,35
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,Bertelsmann Foundation Transformation Index,36
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,Economist Intelligence Unit Country Ratings,38
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,Global Insights Country Risk Ratings,32
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,IMD World Competitiveness Yearbook,33
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,PERC Asia Risk Guide,37
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,PRS International Country Risk Guide,41
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,World Economic Forum EOS,36
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,World Justice Project Rule of Law Index,23
+Philippines,PHL,2015,AP,95,1.9199999570846558,8,32,38,CPI score,35
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,Bertelsmann Foundation Transformation Index,45
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,Economist Intelligence Unit Country Ratings,38
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,Global Insights Country Risk Ratings,32
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,IMD World Competitiveness Yearbook,33
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,PERC Asia Risk Guide,33
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,PRS International Country Risk Guide,41
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,World Economic Forum EOS,43
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,World Justice Project Rule of Law Index,42
+Philippines,PHL,2014,AP,85,1.840000033378601,8,35,41,CPI score,38
+Philippines,PHL,2013,AP,94,2.5,9,32,40,Bertelsmann Foundation Transformation Index,45
+Philippines,PHL,2013,AP,94,2.5,9,32,40,Economist Intelligence Unit Country Ratings,21
+Philippines,PHL,2013,AP,94,2.5,9,32,40,Global Insights Country Risk Ratings,42
+Philippines,PHL,2013,AP,94,2.5,9,32,40,IMD World Competitiveness Yearbook,38
+Philippines,PHL,2013,AP,94,2.5,9,32,40,PERC Asia Risk Guide,31
+Philippines,PHL,2013,AP,94,2.5,9,32,40,PRS International Country Risk Guide,31
+Philippines,PHL,2013,AP,94,2.5,9,32,40,World Economic Forum EOS,41
+Philippines,PHL,2013,AP,94,2.5,9,32,40,World Justice Project Rule of Law Index,34
+Philippines,PHL,2013,AP,94,2.5,9,32,40,CPI score,36
+Philippines,PHL,2012,AP,105,2.2,9,30,37,Bertelsmann Foundation Transformation Index,36
+Philippines,PHL,2012,AP,105,2.2,9,30,37,Economist Intelligence Unit Country Ratings,21
+Philippines,PHL,2012,AP,105,2.2,9,30,37,Global Insights Country Risk Ratings,42
+Philippines,PHL,2012,AP,105,2.2,9,30,37,IMD World Competitiveness Yearbook,36
+Philippines,PHL,2012,AP,105,2.2,9,30,37,PERC Asia Risk Guide,26
+Philippines,PHL,2012,AP,105,2.2,9,30,37,PRS International Country Risk Guide,31
+Philippines,PHL,2012,AP,105,2.2,9,30,37,World Economic Forum EOS,37
+Philippines,PHL,2012,AP,105,2.2,9,30,37,World Justice Project Rule of Law Index,34
+Philippines,PHL,2012,AP,105,2.2,9,30,37,CPI score,34
+Solomon Islands,SLB,2023,AP,70,7.428528,3,30.81721,55.18279,Global Insights Country Risk Ratings,58.97113
+Solomon Islands,SLB,2023,AP,70,7.428528,3,30.81721,55.18279,Varieties of Democracy Project,34.0404
+Solomon Islands,SLB,2023,AP,70,7.428528,3,30.81721,55.18279,World Bank CPIA,35.11188
+Solomon Islands,SLB,2023,AP,70,7.428528,3,30.81721,55.18279,CPI score,43
+Solomon Islands,SLB,2022,AP,77,7.67204,3,29.41785,54.58215,Global Insights Country Risk Ratings,59
+Solomon Islands,SLB,2022,AP,77,7.67204,3,29.41785,54.58215,Varieties of Democracy Project,33
+Solomon Islands,SLB,2022,AP,77,7.67204,3,29.41785,54.58215,World Bank CPIA,35
+Solomon Islands,SLB,2022,AP,77,7.67204,3,29.41785,54.58215,CPI score,42
+Solomon Islands,SLB,2021,AP,73,7.313673,3,30.96901,55.03099,Global Insights Country Risk Ratings,58.97113
+Solomon Islands,SLB,2021,AP,73,7.313673,3,30.96901,55.03099,Varieties of Democracy Project,34.7638
+Solomon Islands,SLB,2021,AP,73,7.313673,3,30.96901,55.03099,World Bank CPIA,35.11188
+Solomon Islands,SLB,2021,AP,73,7.313673,3,30.96901,55.03099,CPI score,43
+Solomon Islands,SLB,2020,AP,78,7.800267,3,29.20756,54.79244,Global Insights Country Risk Ratings,59
+Solomon Islands,SLB,2020,AP,78,7.800267,3,29.20756,54.79244,Varieties of Democracy Project,32
+Solomon Islands,SLB,2020,AP,78,7.800267,3,29.20756,54.79244,World Bank CPIA,35
+Solomon Islands,SLB,2020,AP,78,7.800267,3,29.20756,54.79244,CPI score,42
+Solomon Islands,SLB,2019,AP,77,8.689651,3,27.74897,56.25103,Global Insights Country Risk Ratings,59
+Solomon Islands,SLB,2019,AP,77,8.689651,3,27.74897,56.25103,Varieties of Democracy Project,31
+Solomon Islands,SLB,2019,AP,77,8.689651,3,27.74897,56.25103,World Bank CPIA,35
+Solomon Islands,SLB,2019,AP,77,8.689651,3,27.74897,56.25103,CPI score,42
+Solomon Islands,SLB,2018,AP,70,7.38,3,32,56,Global Insights Country Risk Ratings,59
+Solomon Islands,SLB,2018,AP,70,7.38,3,32,56,Varieties of Democracy Project,39
+Solomon Islands,SLB,2018,AP,70,7.38,3,32,56,World Bank CPIA,35
+Solomon Islands,SLB,2018,AP,70,7.38,3,32,56,CPI score,44
+Solomon Islands,SLB,2017,AP,85,3.71,3,33,45,Global Insights Country Risk Ratings,47
+Solomon Islands,SLB,2017,AP,85,3.71,3,33,45,Varieties of Democracy Project,36
+Solomon Islands,SLB,2017,AP,85,3.71,3,33,45,World Bank CPIA,35
+Solomon Islands,SLB,2017,AP,85,3.71,3,33,45,CPI score,39
+Solomon Islands,SLB,2016,AP,72,3.34,3,36,47,Global Insights Country Risk Ratings,47
+Solomon Islands,SLB,2016,AP,72,3.34,3,36,47,Varieties of Democracy Project,44
+Solomon Islands,SLB,2016,AP,72,3.34,3,36,47,World Bank CPIA,35
+Solomon Islands,SLB,2016,AP,72,3.34,3,36,47,CPI score,42
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,Bertelsmann Foundation Sustainable Governance Index,70.38703
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,Bertelsmann Foundation Transformation Index,60.77211
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,Economist Intelligence Unit Country Ratings,72.20404
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,Global Insights Country Risk Ratings,58.97113
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,IMD World Competitiveness Yearbook,58.17219
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,PERC Asia Risk Guide,47.8816
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,PRS International Country Risk Guide,63.59611
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,Varieties of Democracy Project,69.48725
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,World Economic Forum EOS,55.90219
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,World Justice Project Rule of Law Index,70.61366
+South Korea,KOR,2023,AP,32,1.250259,10,60.94957,65.05042,CPI score,63
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,Bertelsmann Foundation Sustainable Governance Index,70
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,Bertelsmann Foundation Transformation Index,61
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,Economist Intelligence Unit Country Ratings,72
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,Global Insights Country Risk Ratings,59
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,IMD World Competitiveness Yearbook,57
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,PERC Asia Risk Guide,55
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,PRS International Country Risk Guide,67
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,Varieties of Democracy Project,67
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,World Economic Forum EOS,57
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,World Justice Project Rule of Law Index,70
+South Korea,KOR,2022,AP,31,1.031307,10,61.30865,64.69135,CPI score,63
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,Bertelsmann Foundation Sustainable Governance Index,70.38703
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,Bertelsmann Foundation Transformation Index,60.77211
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,Economist Intelligence Unit Country Ratings,54.73361
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,Global Insights Country Risk Ratings,58.97113
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,IMD World Competitiveness Yearbook,53.12172
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,PERC Asia Risk Guide,53.77033
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,PRS International Country Risk Guide,67.25381
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,Varieties of Democracy Project,70.93406
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,World Economic Forum EOS,61.33846
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,World Justice Project Rule of Law Index,70.61366
+South Korea,KOR,2021,AP,32,1.132928,10,60.13633,63.86367,CPI score,62
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,Bertelsmann Foundation Sustainable Governance Index,70
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,Bertelsmann Foundation Transformation Index,61
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,Economist Intelligence Unit Country Ratings,55
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,Global Insights Country Risk Ratings,59
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,IMD World Competitiveness Yearbook,57
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,PERC Asia Risk Guide,53
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,PRS International Country Risk Guide,62
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,Varieties of Democracy Project,71
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,World Economic Forum EOS,54
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,World Justice Project Rule of Law Index,71
+South Korea,KOR,2020,AP,33,1.110525,10,59.17874,62.82126,CPI score,61
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,Bertelsmann Foundation Sustainable Governance Index,62
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,Bertelsmann Foundation Transformation Index,61
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,Economist Intelligence Unit Country Ratings,55
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,Global Insights Country Risk Ratings,59
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,IMD World Competitiveness Yearbook,55
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,PERC Asia Risk Guide,47
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,PRS International Country Risk Guide,54
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,Varieties of Democracy Project,71
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,World Economic Forum EOS,54
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,World Justice Project Rule of Law Index,72
+South Korea,KOR,2019,AP,39,2.438926,10,55.00016,62.99984,CPI score,59
+South Korea,KOR,2018,AP,45,2.74,10,53,61,Bertelsmann Foundation Sustainable Governance Index,62
+South Korea,KOR,2018,AP,45,2.74,10,53,61,Bertelsmann Foundation Transformation Index,53
+South Korea,KOR,2018,AP,45,2.74,10,53,61,Economist Intelligence Unit Country Ratings,55
+South Korea,KOR,2018,AP,45,2.74,10,53,61,Global Insights Country Risk Ratings,59
+South Korea,KOR,2018,AP,45,2.74,10,53,61,IMD World Competitiveness Yearbook,50
+South Korea,KOR,2018,AP,45,2.74,10,53,61,PERC Asia Risk Guide,42
+South Korea,KOR,2018,AP,45,2.74,10,53,61,PRS International Country Risk Guide,50
+South Korea,KOR,2018,AP,45,2.74,10,53,61,Varieties of Democracy Project,70
+South Korea,KOR,2018,AP,45,2.74,10,53,61,World Economic Forum EOS,56
+South Korea,KOR,2018,AP,45,2.74,10,53,61,World Justice Project Rule of Law Index,69
+South Korea,KOR,2018,AP,45,2.74,10,53,61,CPI score,57
+South Korea,KOR,2017,AP,51,2.24,10,50,58,Bertelsmann Foundation Sustainable Governance Index,53
+South Korea,KOR,2017,AP,51,2.24,10,50,58,Bertelsmann Foundation Transformation Index,53
+South Korea,KOR,2017,AP,51,2.24,10,50,58,Economist Intelligence Unit Country Ratings,55
+South Korea,KOR,2017,AP,51,2.24,10,50,58,Global Insights Country Risk Ratings,59
+South Korea,KOR,2017,AP,51,2.24,10,50,58,IMD World Competitiveness Yearbook,46
+South Korea,KOR,2017,AP,51,2.24,10,50,58,PERC Asia Risk Guide,45
+South Korea,KOR,2017,AP,51,2.24,10,50,58,PRS International Country Risk Guide,50
+South Korea,KOR,2017,AP,51,2.24,10,50,58,Varieties of Democracy Project,60
+South Korea,KOR,2017,AP,51,2.24,10,50,58,World Economic Forum EOS,55
+South Korea,KOR,2017,AP,51,2.24,10,50,58,World Justice Project Rule of Law Index,69
+South Korea,KOR,2017,AP,51,2.24,10,50,58,CPI score,54
+South Korea,KOR,2016,AP,52,2.33,9,49,57,Bertelsmann Foundation Sustainable Governance Index,52
+South Korea,KOR,2016,AP,52,2.33,9,49,57,Bertelsmann Foundation Transformation Index,57
+South Korea,KOR,2016,AP,52,2.33,9,49,57,Economist Intelligence Unit Country Ratings,54
+South Korea,KOR,2016,AP,52,2.33,9,49,57,Global Insights Country Risk Ratings,47
+South Korea,KOR,2016,AP,52,2.33,9,49,57,IMD World Competitiveness Yearbook,47
+South Korea,KOR,2016,AP,52,2.33,9,49,57,PERC Asia Risk Guide,50
+South Korea,KOR,2016,AP,52,2.33,9,49,57,PRS International Country Risk Guide,50
+South Korea,KOR,2016,AP,52,2.33,9,49,57,World Economic Forum EOS,49
+South Korea,KOR,2016,AP,52,2.33,9,49,57,World Justice Project Rule of Law Index,69
+South Korea,KOR,2016,AP,52,2.33,9,49,57,CPI score,53
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,Bertelsmann Foundation Sustainable Governance Index,57
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,Bertelsmann Foundation Transformation Index,58
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,Economist Intelligence Unit Country Ratings,54
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,Global Insights Country Risk Ratings,52
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,IMD World Competitiveness Yearbook,51
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,PERC Asia Risk Guide,46
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,PRS International Country Risk Guide,50
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,World Economic Forum EOS,52
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,World Justice Project Rule of Law Index,70
+South Korea,KOR,2015,AP,43,2.2899999618530273,9,50,58,CPI score,54
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,Bertelsmann Foundation Sustainable Governance Index,57
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,Bertelsmann Foundation Transformation Index,58
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,Economist Intelligence Unit Country Ratings,54
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,Global Insights Country Risk Ratings,52
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,IMD World Competitiveness Yearbook,50
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,PERC Asia Risk Guide,44
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,PRS International Country Risk Guide,50
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,World Economic Forum EOS,53
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,World Justice Project Rule of Law Index,73
+South Korea,KOR,2014,AP,44,2.640000104904175,9,51,59,CPI score,55
+South Korea,KOR,2013,AP,46,2.4,10,51,59,Bertelsmann Foundation Sustainable Governance Index,57
+South Korea,KOR,2013,AP,46,2.4,10,51,59,Bertelsmann Foundation Transformation Index,58
+South Korea,KOR,2013,AP,46,2.4,10,51,59,Economist Intelligence Unit Country Ratings,54
+South Korea,KOR,2013,AP,46,2.4,10,51,59,Global Insights Country Risk Ratings,52
+South Korea,KOR,2013,AP,46,2.4,10,51,59,IMD World Competitiveness Yearbook,59
+South Korea,KOR,2013,AP,46,2.4,10,51,59,PERC Asia Risk Guide,46
+South Korea,KOR,2013,AP,46,2.4,10,51,59,PRS International Country Risk Guide,50
+South Korea,KOR,2013,AP,46,2.4,10,51,59,World Economic Forum EOS,44
+South Korea,KOR,2013,AP,46,2.4,10,51,59,World Justice Project Rule of Law Index,67
+South Korea,KOR,2013,AP,46,2.4,10,51,59,CPI score,55
+South Korea,KOR,2012,AP,45,2.4,10,52,60,Bertelsmann Foundation Sustainable Governance Index,57
+South Korea,KOR,2012,AP,45,2.4,10,52,60,Bertelsmann Foundation Transformation Index,66
+South Korea,KOR,2012,AP,45,2.4,10,52,60,Economist Intelligence Unit Country Ratings,54
+South Korea,KOR,2012,AP,45,2.4,10,52,60,Global Insights Country Risk Ratings,52
+South Korea,KOR,2012,AP,45,2.4,10,52,60,IMD World Competitiveness Yearbook,55
+South Korea,KOR,2012,AP,45,2.4,10,52,60,PERC Asia Risk Guide,47
+South Korea,KOR,2012,AP,45,2.4,10,52,60,PRS International Country Risk Guide,50
+South Korea,KOR,2012,AP,45,2.4,10,52,60,World Economic Forum EOS,48
+South Korea,KOR,2012,AP,45,2.4,10,52,60,World Justice Project Rule of Law Index,67
+South Korea,KOR,2012,AP,45,2.4,10,52,60,CPI score,56
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,Bertelsmann Foundation Transformation Index,32.8455
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,Economist Intelligence Unit Country Ratings,37.26319
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,Global Insights Country Risk Ratings,34.50329
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,PRS International Country Risk Guide,32.41864
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,Varieties of Democracy Project,38.38083
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,World Bank CPIA,35.11188
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,World Economic Forum EOS,30.12381
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,World Justice Project Rule of Law Index,32.88596
+Sri Lanka,LKA,2023,AP,115,0.6168234,8,32.98841,35.01159,CPI score,34
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,Bertelsmann Foundation Transformation Index,37
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,Economist Intelligence Unit Country Ratings,37
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,Global Insights Country Risk Ratings,35
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,PRS International Country Risk Guide,32
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,Varieties of Democracy Project,35
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,World Economic Forum EOS,41
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,World Justice Project Rule of Law Index,33
+Sri Lanka,LKA,2022,AP,101,0.8000863,7,34.68786,37.31214,CPI score,36
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,Bertelsmann Foundation Transformation Index,36.83502
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,Economist Intelligence Unit Country Ratings,37.26319
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,Global Insights Country Risk Ratings,34.50329
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,PRS International Country Risk Guide,32.41864
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,Varieties of Democracy Project,38.38083
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,World Economic Forum EOS,44.32823
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,World Justice Project Rule of Law Index,36.47907
+Sri Lanka,LKA,2021,AP,102,0.9939778,7,35.36491,38.63509,CPI score,37
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,Bertelsmann Foundation Transformation Index,45
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,Economist Intelligence Unit Country Ratings,37
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,Global Insights Country Risk Ratings,35
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,PRS International Country Risk Guide,32
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,Varieties of Democracy Project,44
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,World Bank CPIA,35
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,World Economic Forum EOS,43
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,World Justice Project Rule of Law Index,33
+Sri Lanka,LKA,2020,AP,94,1.169462,8,36.08208,39.91792,CPI score,38
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,Bertelsmann Foundation Transformation Index,45
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,Economist Intelligence Unit Country Ratings,37
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,Global Insights Country Risk Ratings,35
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,PRS International Country Risk Guide,32
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,Varieties of Democracy Project,42
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,World Economic Forum EOS,43
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,World Justice Project Rule of Law Index,30
+Sri Lanka,LKA,2019,AP,93,2.113032,7,34.53463,41.46537,CPI score,38
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,Bertelsmann Foundation Transformation Index,41
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,Economist Intelligence Unit Country Ratings,37
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,Global Insights Country Risk Ratings,35
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,PRS International Country Risk Guide,32
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,Varieties of Democracy Project,46
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,World Economic Forum EOS,42
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,World Justice Project Rule of Law Index,34
+Sri Lanka,LKA,2018,AP,89,1.85,7,35,41,CPI score,38
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,Bertelsmann Foundation Transformation Index,41
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,Economist Intelligence Unit Country Ratings,37
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,Global Insights Country Risk Ratings,35
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,PRS International Country Risk Guide,38
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,Varieties of Democracy Project,48
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,World Economic Forum EOS,36
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,World Justice Project Rule of Law Index,34
+Sri Lanka,LKA,2017,AP,91,1.82,7,35,41,CPI score,38
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,Bertelsmann Foundation Transformation Index,28
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,Economist Intelligence Unit Country Ratings,37
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,Global Insights Country Risk Ratings,34
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,PRS International Country Risk Guide,41
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,World Bank CPIA,35
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,World Economic Forum EOS,41
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,World Justice Project Rule of Law Index,38
+Sri Lanka,LKA,2016,AP,95,1.64,7,34,39,CPI score,36
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,Bertelsmann Foundation Transformation Index,28
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,Economist Intelligence Unit Country Ratings,38
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,Global Insights Country Risk Ratings,42
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,PRS International Country Risk Guide,41
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,World Bank CPIA,35
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,World Economic Forum EOS,44
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,World Justice Project Rule of Law Index,34
+Sri Lanka,LKA,2015,AP,83,2.0899999141693115,7,34,40,CPI score,37
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,Bertelsmann Foundation Transformation Index,28
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,Economist Intelligence Unit Country Ratings,38
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,Global Insights Country Risk Ratings,42
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,PRS International Country Risk Guide,41
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,World Bank CPIA,35
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,World Economic Forum EOS,39
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,World Justice Project Rule of Law Index,45
+Sri Lanka,LKA,2014,AP,85,2.180000066757202,7,34,42,CPI score,38
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,Bertelsmann Foundation Transformation Index,28
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,Economist Intelligence Unit Country Ratings,38
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,Global Insights Country Risk Ratings,42
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,PRS International Country Risk Guide,41
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,World Bank CPIA,35
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,World Economic Forum EOS,35
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,World Justice Project Rule of Law Index,44
+Sri Lanka,LKA,2013,AP,91,2.1,7,34,40,CPI score,37
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,Bertelsmann Foundation Transformation Index,36
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,Economist Intelligence Unit Country Ratings,38
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,Global Insights Country Risk Ratings,42
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,PRS International Country Risk Guide,41
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,World Bank CPIA,35
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,World Economic Forum EOS,43
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,World Justice Project Rule of Law Index,44
+Sri Lanka,LKA,2012,AP,79,1.3,7,38,42,CPI score,40
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,Bertelsmann Foundation Transformation Index,32.8455
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,Economist Intelligence Unit Country Ratings,37.26319
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,Global Insights Country Risk Ratings,34.50329
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,IMD World Competitiveness Yearbook,42.76396
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,PERC Asia Risk Guide,37.47819
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,PRS International Country Risk Guide,32.41864
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,Varieties of Democracy Project,26.08294
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,World Economic Forum EOS,36.43689
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,World Justice Project Rule of Law Index,32.88596
+Thailand,THA,2023,AP,108,0.8833423,9,33.55132,36.44868,CPI score,35
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,Bertelsmann Foundation Transformation Index,37
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,Economist Intelligence Unit Country Ratings,37
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,Global Insights Country Risk Ratings,35
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,IMD World Competitiveness Yearbook,43
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,PERC Asia Risk Guide,35
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,PRS International Country Risk Guide,32
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,Varieties of Democracy Project,26
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,World Economic Forum EOS,45
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,World Justice Project Rule of Law Index,34
+Thailand,THA,2022,AP,101,1.091841,9,34.20938,37.79062,CPI score,36
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,Bertelsmann Foundation Transformation Index,36.83502
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,Economist Intelligence Unit Country Ratings,37.26319
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,Global Insights Country Risk Ratings,34.50329
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,IMD World Competitiveness Yearbook,38.9119
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,PERC Asia Risk Guide,35.71157
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,PRS International Country Risk Guide,32.41864
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,Varieties of Democracy Project,26.08294
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,World Economic Forum EOS,41.52242
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,World Justice Project Rule of Law Index,34.68251
+Thailand,THA,2021,AP,110,0.8400027,9,33.61819,36.38181,CPI score,35
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,Bertelsmann Foundation Transformation Index,37
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,Economist Intelligence Unit Country Ratings,37
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,Global Insights Country Risk Ratings,35
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,IMD World Competitiveness Yearbook,41
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,PERC Asia Risk Guide,38
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,PRS International Country Risk Guide,32
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,Varieties of Democracy Project,20
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,World Economic Forum EOS,43
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,World Justice Project Rule of Law Index,38
+Thailand,THA,2020,AP,104,1.307877,9,33.85508,38.14492,CPI score,36
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,Bertelsmann Foundation Transformation Index,37
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,Economist Intelligence Unit Country Ratings,37
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,Global Insights Country Risk Ratings,35
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,IMD World Competitiveness Yearbook,45
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,PERC Asia Risk Guide,38
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,PRS International Country Risk Guide,32
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,Varieties of Democracy Project,20
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,World Economic Forum EOS,43
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,World Justice Project Rule of Law Index,38
+Thailand,THA,2019,AP,101,2.448041,9,31.98521,40.01479,CPI score,36
+Thailand,THA,2018,AP,99,2.08,9,33,39,Bertelsmann Foundation Transformation Index,37
+Thailand,THA,2018,AP,99,2.08,9,33,39,Economist Intelligence Unit Country Ratings,37
+Thailand,THA,2018,AP,99,2.08,9,33,39,Global Insights Country Risk Ratings,35
+Thailand,THA,2018,AP,99,2.08,9,33,39,IMD World Competitiveness Yearbook,41
+Thailand,THA,2018,AP,99,2.08,9,33,39,PERC Asia Risk Guide,37
+Thailand,THA,2018,AP,99,2.08,9,33,39,PRS International Country Risk Guide,32
+Thailand,THA,2018,AP,99,2.08,9,33,39,Varieties of Democracy Project,21
+Thailand,THA,2018,AP,99,2.08,9,33,39,World Economic Forum EOS,42
+Thailand,THA,2018,AP,99,2.08,9,33,39,World Justice Project Rule of Law Index,40
+Thailand,THA,2018,AP,99,2.08,9,33,39,CPI score,36
+Thailand,THA,2017,AP,96,2.03,9,34,40,Bertelsmann Foundation Transformation Index,37
+Thailand,THA,2017,AP,96,2.03,9,34,40,Economist Intelligence Unit Country Ratings,37
+Thailand,THA,2017,AP,96,2.03,9,34,40,Global Insights Country Risk Ratings,35
+Thailand,THA,2017,AP,96,2.03,9,34,40,IMD World Competitiveness Yearbook,43
+Thailand,THA,2017,AP,96,2.03,9,34,40,PERC Asia Risk Guide,41
+Thailand,THA,2017,AP,96,2.03,9,34,40,PRS International Country Risk Guide,32
+Thailand,THA,2017,AP,96,2.03,9,34,40,Varieties of Democracy Project,23
+Thailand,THA,2017,AP,96,2.03,9,34,40,World Economic Forum EOS,42
+Thailand,THA,2017,AP,96,2.03,9,34,40,World Justice Project Rule of Law Index,40
+Thailand,THA,2017,AP,96,2.03,9,34,40,CPI score,37
+Thailand,THA,2016,AP,101,2.44,9,31,39,Bertelsmann Foundation Transformation Index,40
+Thailand,THA,2016,AP,101,2.44,9,31,39,Economist Intelligence Unit Country Ratings,37
+Thailand,THA,2016,AP,101,2.44,9,31,39,Global Insights Country Risk Ratings,22
+Thailand,THA,2016,AP,101,2.44,9,31,39,IMD World Competitiveness Yearbook,44
+Thailand,THA,2016,AP,101,2.44,9,31,39,PERC Asia Risk Guide,38
+Thailand,THA,2016,AP,101,2.44,9,31,39,PRS International Country Risk Guide,32
+Thailand,THA,2016,AP,101,2.44,9,31,39,Varieties of Democracy Project,24
+Thailand,THA,2016,AP,101,2.44,9,31,39,World Economic Forum EOS,37
+Thailand,THA,2016,AP,101,2.44,9,31,39,World Justice Project Rule of Law Index,37
+Thailand,THA,2016,AP,101,2.44,9,31,39,CPI score,35
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,Bertelsmann Foundation Transformation Index,40
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,Economist Intelligence Unit Country Ratings,38
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,Global Insights Country Risk Ratings,42
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,IMD World Competitiveness Yearbook,38
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,PERC Asia Risk Guide,42
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,PRS International Country Risk Guide,31
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,World Economic Forum EOS,43
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,World Justice Project Rule of Law Index,26
+Thailand,THA,2015,AP,76,2.119999885559082,8,35,41,CPI score,38
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,Bertelsmann Foundation Transformation Index,40
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,Economist Intelligence Unit Country Ratings,38
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,Global Insights Country Risk Ratings,42
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,IMD World Competitiveness Yearbook,33
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,PERC Asia Risk Guide,35
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,PRS International Country Risk Guide,31
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,World Economic Forum EOS,39
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,World Justice Project Rule of Law Index,44
+Thailand,THA,2014,AP,85,1.600000023841858,8,35,41,CPI score,38
+Thailand,THA,2013,AP,102,1.2,8,33,37,Bertelsmann Foundation Transformation Index,40
+Thailand,THA,2013,AP,102,1.2,8,33,37,Economist Intelligence Unit Country Ratings,38
+Thailand,THA,2013,AP,102,1.2,8,33,37,Global Insights Country Risk Ratings,32
+Thailand,THA,2013,AP,102,1.2,8,33,37,IMD World Competitiveness Yearbook,36
+Thailand,THA,2013,AP,102,1.2,8,33,37,PERC Asia Risk Guide,39
+Thailand,THA,2013,AP,102,1.2,8,33,37,PRS International Country Risk Guide,31
+Thailand,THA,2013,AP,102,1.2,8,33,37,World Economic Forum EOS,35
+Thailand,THA,2013,AP,102,1.2,8,33,37,World Justice Project Rule of Law Index,33
+Thailand,THA,2013,AP,102,1.2,8,33,37,CPI score,35
+Thailand,THA,2012,AP,88,1.6,8,34,40,Bertelsmann Foundation Transformation Index,45
+Thailand,THA,2012,AP,88,1.6,8,34,40,Economist Intelligence Unit Country Ratings,38
+Thailand,THA,2012,AP,88,1.6,8,34,40,Global Insights Country Risk Ratings,42
+Thailand,THA,2012,AP,88,1.6,8,34,40,IMD World Competitiveness Yearbook,38
+Thailand,THA,2012,AP,88,1.6,8,34,40,PERC Asia Risk Guide,35
+Thailand,THA,2012,AP,88,1.6,8,34,40,PRS International Country Risk Guide,31
+Thailand,THA,2012,AP,88,1.6,8,34,40,World Economic Forum EOS,35
+Thailand,THA,2012,AP,88,1.6,8,34,40,World Justice Project Rule of Law Index,33
+Thailand,THA,2012,AP,88,1.6,8,34,40,CPI score,37
+Timor-Leste,TLS,2023,AP,70,5.186713,4,34.49379,51.50621,Bertelsmann Foundation Transformation Index,40.82453
+Timor-Leste,TLS,2023,AP,70,5.186713,4,34.49379,51.50621,Global Insights Country Risk Ratings,34.50329
+Timor-Leste,TLS,2023,AP,70,5.186713,4,34.49379,51.50621,Varieties of Democracy Project,60.08298
+Timor-Leste,TLS,2023,AP,70,5.186713,4,34.49379,51.50621,World Bank CPIA,35.11188
+Timor-Leste,TLS,2023,AP,70,5.186713,4,34.49379,51.50621,CPI score,43
+Timor-Leste,TLS,2022,AP,77,5.034718,4,33.74306,50.25694,Bertelsmann Foundation Transformation Index,41
+Timor-Leste,TLS,2022,AP,77,5.034718,4,33.74306,50.25694,Global Insights Country Risk Ratings,35
+Timor-Leste,TLS,2022,AP,77,5.034718,4,33.74306,50.25694,Varieties of Democracy Project,59
+Timor-Leste,TLS,2022,AP,77,5.034718,4,33.74306,50.25694,World Bank CPIA,35
+Timor-Leste,TLS,2022,AP,77,5.034718,4,33.74306,50.25694,CPI score,42
+Timor-Leste,TLS,2021,AP,82,3.684245,4,34.93941,47.06059,Bertelsmann Foundation Transformation Index,40.82453
+Timor-Leste,TLS,2021,AP,82,3.684245,4,34.93941,47.06059,Global Insights Country Risk Ratings,34.50329
+Timor-Leste,TLS,2021,AP,82,3.684245,4,34.93941,47.06059,Varieties of Democracy Project,52.84893
+Timor-Leste,TLS,2021,AP,82,3.684245,4,34.93941,47.06059,World Bank CPIA,35.11188
+Timor-Leste,TLS,2021,AP,82,3.684245,4,34.93941,47.06059,CPI score,41
+Timor-Leste,TLS,2020,AP,86,2.707735,4,35.55931,44.44069,Bertelsmann Foundation Transformation Index,45
+Timor-Leste,TLS,2020,AP,86,2.707735,4,35.55931,44.44069,Global Insights Country Risk Ratings,35
+Timor-Leste,TLS,2020,AP,86,2.707735,4,35.55931,44.44069,Varieties of Democracy Project,46
+Timor-Leste,TLS,2020,AP,86,2.707735,4,35.55931,44.44069,World Bank CPIA,35
+Timor-Leste,TLS,2020,AP,86,2.707735,4,35.55931,44.44069,CPI score,40
+Timor-Leste,TLS,2019,AP,93,4.49538,4,30.62758,45.37243,Bertelsmann Foundation Transformation Index,45
+Timor-Leste,TLS,2019,AP,93,4.49538,4,30.62758,45.37243,Global Insights Country Risk Ratings,35
+Timor-Leste,TLS,2019,AP,93,4.49538,4,30.62758,45.37243,Varieties of Democracy Project,46
+Timor-Leste,TLS,2019,AP,93,4.49538,4,30.62758,45.37243,World Bank CPIA,27
+Timor-Leste,TLS,2019,AP,93,4.49538,4,30.62758,45.37243,CPI score,38
+Timor-Leste,TLS,2018,AP,105,4.81,3,27,43,Global Insights Country Risk Ratings,35
+Timor-Leste,TLS,2018,AP,105,4.81,3,27,43,Varieties of Democracy Project,43
+Timor-Leste,TLS,2018,AP,105,4.81,3,27,43,World Bank CPIA,27
+Timor-Leste,TLS,2018,AP,105,4.81,3,27,43,CPI score,35
+Timor-Leste,TLS,2017,AP,91,7.5,3,26,50,Global Insights Country Risk Ratings,35
+Timor-Leste,TLS,2017,AP,91,7.5,3,26,50,Varieties of Democracy Project,52
+Timor-Leste,TLS,2017,AP,91,7.5,3,26,50,World Bank CPIA,27
+Timor-Leste,TLS,2017,AP,91,7.5,3,26,50,CPI score,38
+Timor-Leste,TLS,2016,AP,101,5.97,3,25,44,Global Insights Country Risk Ratings,34
+Timor-Leste,TLS,2016,AP,101,5.97,3,25,44,Varieties of Democracy Project,45
+Timor-Leste,TLS,2016,AP,101,5.97,3,25,44,World Bank CPIA,24
+Timor-Leste,TLS,2016,AP,101,5.97,3,25,44,CPI score,35
+Timor-Leste,TLS,2015,AP,123,5.170000076293945,3,20,36,Global Insights Country Risk Ratings,22
+Timor-Leste,TLS,2015,AP,123,5.170000076293945,3,20,36,World Bank CPIA,23
+Timor-Leste,TLS,2015,AP,123,5.170000076293945,3,20,36,World Economic Forum EOS,38
+Timor-Leste,TLS,2015,AP,123,5.170000076293945,3,20,36,CPI score,28
+Timor-Leste,TLS,2014,AP,133,5.179999828338623,3,20,36,Global Insights Country Risk Ratings,22
+Timor-Leste,TLS,2014,AP,133,5.179999828338623,3,20,36,World Bank CPIA,23
+Timor-Leste,TLS,2014,AP,133,5.179999828338623,3,20,36,World Economic Forum EOS,38
+Timor-Leste,TLS,2014,AP,133,5.179999828338623,3,20,36,CPI score,28
+Timor-Leste,TLS,2013,AP,119,3.2,3,25,35,Global Insights Country Risk Ratings,32
+Timor-Leste,TLS,2013,AP,119,3.2,3,25,35,World Bank CPIA,23
+Timor-Leste,TLS,2013,AP,119,3.2,3,25,35,World Economic Forum EOS,34
+Timor-Leste,TLS,2013,AP,119,3.2,3,25,35,CPI score,30
+Timor-Leste,TLS,2012,AP,113,5.6,3,23,42,Global Insights Country Risk Ratings,32
+Timor-Leste,TLS,2012,AP,113,5.6,3,23,42,World Bank CPIA,23
+Timor-Leste,TLS,2012,AP,113,5.6,3,23,42,World Economic Forum EOS,43
+Timor-Leste,TLS,2012,AP,113,5.6,3,23,42,CPI score,33
+Vanuatu,VUT,2023,AP,61,3.143494,3,42.84467,53.15533,Global Insights Country Risk Ratings,46.73721
+Vanuatu,VUT,2023,AP,61,3.143494,3,42.84467,53.15533,Varieties of Democracy Project,55.01915
+Vanuatu,VUT,2023,AP,61,3.143494,3,42.84467,53.15533,World Bank CPIA,43.44326
+Vanuatu,VUT,2023,AP,61,3.143494,3,42.84467,53.15533,CPI score,48
+Vanuatu,VUT,2022,AP,60,2.723077,3,43.53415,52.46585,Global Insights Country Risk Ratings,47
+Vanuatu,VUT,2022,AP,60,2.723077,3,43.53415,52.46585,Varieties of Democracy Project,54
+Vanuatu,VUT,2022,AP,60,2.723077,3,43.53415,52.46585,World Bank CPIA,43
+Vanuatu,VUT,2022,AP,60,2.723077,3,43.53415,52.46585,CPI score,48
+Vanuatu,VUT,2021,AP,66,4.582811,3,37.46128,52.53872,Global Insights Country Risk Ratings,46.73721
+Vanuatu,VUT,2021,AP,66,4.582811,3,37.46128,52.53872,Varieties of Democracy Project,52.12553
+Vanuatu,VUT,2021,AP,66,4.582811,3,37.46128,52.53872,World Bank CPIA,35.11188
+Vanuatu,VUT,2021,AP,66,4.582811,3,37.46128,52.53872,CPI score,45
+Vanuatu,VUT,2020,AP,75,3.587864,3,37.1159,48.8841,Global Insights Country Risk Ratings,47
+Vanuatu,VUT,2020,AP,75,3.587864,3,37.1159,48.8841,Varieties of Democracy Project,47
+Vanuatu,VUT,2020,AP,75,3.587864,3,37.1159,48.8841,World Bank CPIA,35
+Vanuatu,VUT,2020,AP,75,3.587864,3,37.1159,48.8841,CPI score,43
+Vanuatu,VUT,2019,AP,64,6.376219,3,35.543,56.457,Global Insights Country Risk Ratings,47
+Vanuatu,VUT,2019,AP,64,6.376219,3,35.543,56.457,Varieties of Democracy Project,57
+Vanuatu,VUT,2019,AP,64,6.376219,3,35.543,56.457,World Bank CPIA,35
+Vanuatu,VUT,2019,AP,64,6.376219,3,35.543,56.457,CPI score,46
+Vanuatu,VUT,2018,AP,64,5.97,3,36,56,Global Insights Country Risk Ratings,47
+Vanuatu,VUT,2018,AP,64,5.97,3,36,56,Varieties of Democracy Project,56
+Vanuatu,VUT,2018,AP,64,5.97,3,36,56,World Bank CPIA,35
+Vanuatu,VUT,2018,AP,64,5.97,3,36,56,CPI score,46
+Vanuatu,VUT,2017,AP,71,3.93,3,37,49,Global Insights Country Risk Ratings,47
+Vanuatu,VUT,2017,AP,71,3.93,3,37,49,Varieties of Democracy Project,47
+Vanuatu,VUT,2017,AP,71,3.93,3,37,49,World Bank CPIA,35
+Vanuatu,VUT,2017,AP,71,3.93,3,37,49,CPI score,43
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,Bertelsmann Foundation Transformation Index,36.83502
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,Economist Intelligence Unit Country Ratings,37.26319
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,Global Insights Country Risk Ratings,46.73721
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,PERC Asia Risk Guide,37.08561
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,PRS International Country Risk Guide,36.77304
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,Varieties of Democracy Project,47.06169
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,World Economic Forum EOS,50.99203
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,World Justice Project Rule of Law Index,35.58079
+Vietnam,VNM,2023,AP,83,1.399817,8,38.7043,43.2957,CPI score,41
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,Bertelsmann Foundation Transformation Index,37
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,Economist Intelligence Unit Country Ratings,37
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,Global Insights Country Risk Ratings,47
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,PERC Asia Risk Guide,39
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,PRS International Country Risk Guide,41
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,Varieties of Democracy Project,44
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,World Economic Forum EOS,55
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,World Justice Project Rule of Law Index,36
+Vietnam,VNM,2022,AP,77,1.497007,8,39.54491,44.45509,CPI score,42
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,Bertelsmann Foundation Transformation Index,36.83502
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,Economist Intelligence Unit Country Ratings,37.26319
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,Global Insights Country Risk Ratings,46.73721
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,PERC Asia Risk Guide,38.45964
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,PRS International Country Risk Guide,41.12743
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,Varieties of Democracy Project,39.10423
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,World Economic Forum EOS,38.71661
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,World Justice Project Rule of Law Index,34.68251
+Vietnam,VNM,2021,AP,87,0.8228995,8,37.64633,40.35367,CPI score,39
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,Bertelsmann Foundation Transformation Index,37
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,Economist Intelligence Unit Country Ratings,20
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,Global Insights Country Risk Ratings,47
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,PERC Asia Risk Guide,37
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,PRS International Country Risk Guide,41
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,Varieties of Democracy Project,32
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,World Economic Forum EOS,40
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,World Justice Project Rule of Law Index,36
+Vietnam,VNM,2020,AP,104,1.808218,8,33.03452,38.96548,CPI score,36
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,Bertelsmann Foundation Transformation Index,37
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,Economist Intelligence Unit Country Ratings,20
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,Global Insights Country Risk Ratings,47
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,PERC Asia Risk Guide,37
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,PRS International Country Risk Guide,41
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,Varieties of Democracy Project,42
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,World Economic Forum EOS,40
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,World Justice Project Rule of Law Index,34
+Vietnam,VNM,2019,AP,96,2.841134,8,32.34054,41.65946,CPI score,37
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,Bertelsmann Foundation Transformation Index,29
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,Economist Intelligence Unit Country Ratings,20
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,Global Insights Country Risk Ratings,35
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,PERC Asia Risk Guide,30
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,PRS International Country Risk Guide,36
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,Varieties of Democracy Project,48
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,World Economic Forum EOS,32
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,World Justice Project Rule of Law Index,37
+Vietnam,VNM,2018,AP,117,2.84,8,28,38,CPI score,33
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,Bertelsmann Foundation Transformation Index,29
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,Economist Intelligence Unit Country Ratings,20
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,Global Insights Country Risk Ratings,35
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,PERC Asia Risk Guide,37
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,PRS International Country Risk Guide,38
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,Varieties of Democracy Project,47
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,World Economic Forum EOS,35
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,World Justice Project Rule of Law Index,37
+Vietnam,VNM,2017,AP,107,2.78,8,30,40,CPI score,35
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,Bertelsmann Foundation Transformation Index,28
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,Economist Intelligence Unit Country Ratings,19
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,Global Insights Country Risk Ratings,34
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,PERC Asia Risk Guide,35
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,PRS International Country Risk Guide,41
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,World Bank CPIA,35
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,World Economic Forum EOS,34
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,World Justice Project Rule of Law Index,40
+Vietnam,VNM,2016,AP,113,2.46,8,29,38,CPI score,33
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,Bertelsmann Foundation Transformation Index,28
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,Economist Intelligence Unit Country Ratings,21
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,Global Insights Country Risk Ratings,22
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,PERC Asia Risk Guide,31
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,PRS International Country Risk Guide,41
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,World Bank CPIA,35
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,World Economic Forum EOS,37
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,World Justice Project Rule of Law Index,36
+Vietnam,VNM,2015,AP,111,2.559999942779541,8,27,35,CPI score,31
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,Bertelsmann Foundation Transformation Index,28
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,Economist Intelligence Unit Country Ratings,21
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,Global Insights Country Risk Ratings,22
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,PERC Asia Risk Guide,32
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,PRS International Country Risk Guide,41
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,World Bank CPIA,35
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,World Economic Forum EOS,35
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,World Justice Project Rule of Law Index,36
+Vietnam,VNM,2014,AP,119,2.549999952316284,8,27,35,CPI score,31
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,Bertelsmann Foundation Transformation Index,28
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,Economist Intelligence Unit Country Ratings,21
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,Global Insights Country Risk Ratings,22
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,PERC Asia Risk Guide,33
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,PRS International Country Risk Guide,41
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,World Bank CPIA,35
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,World Economic Forum EOS,36
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,World Justice Project Rule of Law Index,35
+Vietnam,VNM,2013,AP,116,2.6,8,27,35,CPI score,31
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,Bertelsmann Foundation Transformation Index,28
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,Economist Intelligence Unit Country Ratings,21
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,Global Insights Country Risk Ratings,22
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,PERC Asia Risk Guide,33
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,PRS International Country Risk Guide,41
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,World Bank CPIA,35
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,World Economic Forum EOS,32
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,World Justice Project Rule of Law Index,35
+Vietnam,VNM,2012,AP,123,2.5,8,27,35,CPI score,31
