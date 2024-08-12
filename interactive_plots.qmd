@@ -1,0 +1,414 @@
+---
+title: "Crisis risk dashboard Asia-Pacific"
+author: "Sean Ng"
+date: "10 August 2024"
+toc: true
+toc-location: left
+toc-depth: 4
+format: 
+  html:
+    page-layout: full
+    code-tools: true
+    self-contained: true
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.width = 9.5)
+
+library(tidyverse)
+library(here)
+library(lubridate)
+library(patchwork)
+library(scales)
+library(sf)
+library(broom)
+library(treemapify)
+library(kableExtra)
+library(readxl)
+library(countrycode)
+library(viridis)
+library(ggraph)
+library(ggforce)
+library(plotly)
+library(widyr)
+library(tidytext)
+library(janitor)
+library(ggiraph)
+library(GGally)
+library(network)
+library(sna)
+library(intergraph)
+
+`%out%` <- Negate(`%in%`)
+options(scipen = 100)
+theme_set(theme_light())
+
+show_col(viridis_pal(option = "cividis")(8))
+
+country_list <- c("Afghanistan", "Bangladesh", "Bhutan", "Cambodia", 
+                  "China", "Fiji", "Hong Kong", "India", "Indonesia", 
+                  "Iran", "North Korea", "South Korea", "Laos", 
+                  "Malaysia", "Maldives", "Mongolia", "Myanmar", 
+                  "Nepal", "Pakistan", "Papua New Guinea", "Philippines", 
+                  "Solomon Islands", "Sri Lanka", "Thailand", "Timor-Leste", 
+                  "Vanuatu", "Vietnam")
+
+world_shape <- st_read(here("data", 
+                            "world-administrative-boundaries", 
+                            "world-administrative-boundaries.shp"), 
+                       quiet = TRUE)
+
+population_estimates <- read_csv(here("data", "population_estimates.csv")) |>
+  mutate(country_iso = countrycode(country,
+                                   origin = "country.name",
+                                   destination = "iso3c"))
+
+range01 <- function(x){(x-min(x))/(max(x)-min(x))}
+range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, na.rm = TRUE))}
+
+```
+
+## Migration 
+
+```{r}
+aggregation_list <- c("AFRICA",
+"ASIA",
+"Central and Southern Asia",
+"Central America",
+"Central Asia",
+"EUROPE",			
+"Eastern Africa",	
+"Eastern Asia",	
+"Eastern Europe",	
+"Eastern and South-Eastern Asia",
+"High-income countries",
+"LATIN AMERICA AND THE CARIBBEAN",
+"Land-locked Developing Countries (LLDC)",	
+"Latin America and the Caribbean",
+"Least developed countries",
+"Less developed regions",		
+"Less developed regions, excluding China",
+"Less developed regions, excluding least developed countries",
+"Low-income countries",		
+"Lower-middle-income countries",
+"Middle-income countries",
+"Middle Africa",
+"NORTHERN AMERICA",
+"Northern Africa",		
+"Northern Africa and Western Asia",		
+"Northern Europe",
+"OCEANIA",
+"Oceania (excluding Australia and New Zealand)",
+"Small island developing States (SIDS)",
+"Sub-Saharan Africa",
+"Upper-middle-income countries",
+"Western Africa",		
+"Western Asia",		
+"Western Europe",			
+"Western Sahara",
+"WORLD", 
+"Australia and New Zealand", 
+"Europe and Northern America", 
+"Developed regions", 
+"South-Eastern Asia", 
+"Southern Asia", 
+"Southern Europe",
+"Caribbean",
+"South America",
+"Other",
+"Southern Africa",
+"Melanesia",
+"Micronesia",
+"Polynesia")
+```
+
+
+```{r warning=FALSE}
+
+
+migrant <- read_excel(here("data", "undesa_pd_2020_ims_stock_by_sex_destination_and_origin.xlsx"), 
+           sheet = 2, 
+           skip = 8) |> 
+  janitor::clean_names() |>
+  pivot_longer(cols = 8:28, 
+               names_to = "name", 
+               values_to = "value") |> 
+  mutate(name = str_replace(name, "x", ""))|> 
+  mutate(sex = case_when(
+    name %in% c("1990_8", "1995_9", "2000_10", "2005_11", 
+                "2010_12", "2015_13", "2020_14") ~ "total", 
+    name %in% c("1990_15", "1995_16", "2000_17", "2005_18", 
+                "2010_19", "2015_20", "2020_21") ~ "male", 
+    name %in% c("1990_22", "1995_23", "2000_24", "2005_25", 
+                "2010_26", "2015_27", "2020_28") ~ "female",
+    TRUE ~ "wrong"
+  )) |> 
+  mutate(year = as.numeric(str_sub(name, start = 1L, end = 4L))) |>
+  rename(area_of_destination = region_development_group_country_or_area_of_destination, 
+         area_of_origin = region_development_group_country_or_area_of_origin) %>%
+  mutate_at(vars(area_of_destination, area_of_origin), 
+            .funs = ~str_replace_all(., "\\*", "")) |> 
+  mutate(aggregation = ifelse(
+    area_of_origin %in% aggregation_list | 
+      area_of_destination %in% aggregation_list, 
+    "yes", "no"
+  )) %>% 
+  mutate_at(vars(area_of_destination, 
+                 area_of_origin), 
+            .funs = ~case_when(
+                . == "China, Hong Kong SAR" ~ "Hong Kong", 
+                . == "Dem. People's Republic of Korea" ~ "North Korea", 
+                . == "Iran (Islamic Republic of)" ~ "Iran", 
+                . == "Lao People's Democratic Republic" ~ "Laos", 
+                . == "Republic of Korea" ~ "South Korea",
+                . == "Viet Nam" ~ "Vietnam", 
+                TRUE ~ .
+              ))
+  
+```
+
+### migrant stock changes
+
+```{r}
+migrant_stock_changes <- migrant  |>
+  filter(aggregation == "no") |> 
+  filter(area_of_destination %in% country_list | 
+           area_of_origin %in% country_list) |> 
+  filter(value != 0 & sex != "total") |> 
+  group_by(area_of_origin, area_of_destination, year, sex) |> 
+  summarise(migrants = sum(value, na.rm = TRUE), .groups = "drop") |> 
+  pivot_wider(names_from = "year", 
+              values_from = "migrants", 
+              values_fill = 0, 
+              names_prefix = "migrants_") |> 
+  mutate(origin_iso = countrycode(area_of_origin,
+                                  origin = "country.name", 
+                                   destination = "iso3c"), 
+         destination_iso = countrycode(area_of_destination, 
+                                       origin = "country.name", 
+                                       destination = "iso3c")) |> 
+  left_join(
+    population_estimates |> 
+      filter(year %in% c(2000, 2010, 2015, 2020)) |>
+      pivot_wider(names_from = year, 
+              values_from = population, 
+              names_prefix = "origin_population_") |> 
+      select(-country), 
+    by = c("origin_iso" = "country_iso")) |> 
+  left_join(
+    population_estimates |> 
+      filter(year %in% c(2000, 2010, 2015, 2020)) |>
+      pivot_wider(names_from = year, 
+              values_from = population, 
+              names_prefix = "destination_population_") |> 
+      select(-country), 
+    by = c("destination_iso" = "country_iso")) |>  
+  # Filtered small origin-destination pairs with small island territories without population data
+  # 9 rows total, minimal
+  filter(!is.na(origin_population_2020) & !is.na(destination_population_2020))
+
+```
+
+```{r}
+migrant_stock_changes |>
+  group_by(area_of_origin, 
+           area_of_destination) |> 
+  summarise(migrants_2020 = sum(migrants_2020, na.rm = TRUE))
+  
+  glimpse()
+```
+
+
+```{r}
+migrant_bars <- migrant_stock_changes |> 
+  group_by(area_of_origin, sex) |> 
+  summarise(origin_population_2020 = mean(origin_population_2020), 
+            migrants_2020 = sum(migrants_2020),
+            .groups = "drop") |> 
+  mutate(migrants_pc = migrants_2020 / origin_population_2020 * 100) |> 
+  arrange(desc(migrants_pc)) |> 
+  filter(area_of_origin %in% country_list) |> 
+  group_by(area_of_origin) |> 
+  mutate(total_migrants_sort = sum(migrants_2020), 
+         total_migrants_pc = total_migrants_sort / origin_population_2020) |> 
+  
+  ungroup() |> 
+  mutate(area_of_origin = fct_reorder(area_of_origin, total_migrants_pc), 
+         sex = str_to_title(sex)) |> 
+  ggplot(aes(x = migrants_2020, y = area_of_origin, 
+             text = paste0("Origin: ", area_of_origin, "\n", 
+                           "Migrants: ", comma(migrants_2020), "\n", 
+                           "% Migrated: ", round(migrants_pc, digits = 2)))) + 
+  geom_col(aes(fill = migrants_pc)) +
+  scale_fill_viridis(direction = -1, end= .95) +
+  scale_x_continuous(labels = number_format(scale = 1 / 1000000, suffix = "M")) + 
+  facet_row(vars(sex), scales = "free_x", space = "free") + 
+  labs(title = "Number of persons who migrated, by country of origin, 2020",  
+       fill = "% Migrated", 
+       y = "", 
+       x = "Number of migrants 2020", 
+       caption = "Source: International Migrant Stock 2020") + 
+  theme(legend.position = c(.9, .7), 
+        strip.background = element_rect(fill = "black"),
+        legend.title = element_text(size = 7), 
+        legend.text = element_text(size = 6), 
+        legend.key.width = unit(.33, "cm"))
+   
+ggplotly(migrant_bars, tooltip = c("text")) |> 
+   config(diplayModeBar = FALSE) 
+
+```
+
+
+## Migrant network graph
+
+```{r}
+test_df <- migrant_stock_changes |> 
+  select(area_of_origin, area_of_destination, sex, 
+         migrants_2020, origin_population_2020) |> 
+  pivot_wider(names_from = "sex", 
+              values_from = "migrants_2020", 
+              values_fill = 0) |> 
+  mutate(total_migrants_2020 = male + female, 
+         sex_ratio = round(male * 100 / female), 
+         sex_ratio = ifelse(is.infinite(sex_ratio), 0, sex_ratio), 
+         sex_ratio = ifelse(is.nan(sex_ratio), 0, sex_ratio)) |> 
+  arrange(desc(sex_ratio)) |> 
+  filter(sex_ratio != 0) |> 
+  mutate(n = 1,
+         origin_population_pc = round(total_migrants_2020 / origin_population_2020 * 100, 
+                                      digits = 2)) |> 
+  filter(total_migrants_2020 > 100000 | origin_population_pc > 3)
+
+```
+
+
+```{r}
+test_df |> glimpse()
+
+test_df |> select(area_of_origin, area_of_destination, )
+```
+
+
+```{r}
+
+
+
+ggnet2(test, color = "sex_ratio", edge.size = "total_migrants_2020")
+
+
+  networkD3::forceNetwork(
+    links = migrants_2020, 
+    
+  )
+  ggplot() + 
+  geom_spoke_interactive(aes(radius = total_migrants_2020, 
+                             colour = sex_ratio))
+
+girafe(test_graph)
+
+geom_edge_link(aes(edge_width = total_migrants_2020, 
+                     alpha = origin_population_pc, 
+                     edge_colour = sex_ratio, 
+                     colour = sex_ratio),
+                 lineend = "round",
+                 check_overlap = TRUE) + 
+  scale_edge_colour_gradient2(low = "#5DC863FF", 
+                              mid = "#F58C46FF", 
+                              high = "#0D0887FF", 
+                              midpoint = 1,
+                              trans = "log10") +
+  scale_edge_width_continuous(range = c(.1, 7), 
+                              labels = number_format(scale = 1 / 1000000, 
+                                                     suffix = "M"), 
+                              breaks = c(500000, 1000000, 2000000, 3000000)) + 
+  scale_alpha_continuous(range = c(.5, 1)) 
+
+net = rgraph(10, mode = "graph", tprob = 0.5)
+
+```
+
+
+```{r}
+
+set.seed(2243)
+
+migration_network_graph <- migrant_stock_changes |> 
+  select(area_of_origin, area_of_destination, sex, 
+         migrants_2020, origin_population_2020) |> 
+  pivot_wider(names_from = "sex", 
+              values_from = "migrants_2020", 
+              values_fill = 0) |> 
+  mutate(total_migrants_2020 = male + female, 
+         sex_ratio = round(male * 100 / female), 
+         sex_ratio = ifelse(is.infinite(sex_ratio), 0, sex_ratio), 
+         sex_ratio = ifelse(is.nan(sex_ratio), 0, sex_ratio)) |> 
+  arrange(desc(sex_ratio)) |> 
+  filter(sex_ratio != 0) |> 
+  mutate(n = 1,
+         origin_population_pc = round(total_migrants_2020 / origin_population_2020 * 100, 
+                                      digits = 2)) |> 
+  ungroup() |> 
+  filter(total_migrants_2020 > 100000 | origin_population_pc > 3) |> 
+  igraph::graph_from_data_frame() |> 
+  ggraph(layout = "circle") + 
+  geom_edge_link(aes(edge_width = total_migrants_2020, 
+                     alpha = origin_population_pc, 
+                     edge_colour = sex_ratio, 
+                     colour = sex_ratio),
+                 lineend = "round",
+                 check_overlap = TRUE) + 
+  scale_edge_colour_gradient2(low = "#5DC863FF", 
+                              mid = "#F58C46FF", 
+                              high = "#0D0887FF", 
+                              midpoint = 1,
+                              trans = "log10") +
+  scale_edge_width_continuous(range = c(.1, 7), 
+                              labels = number_format(scale = 1 / 1000000, 
+                                                     suffix = "M"), 
+                              breaks = c(500000, 1000000, 2000000, 3000000)) + 
+  scale_alpha_continuous(range = c(.5, 1)) +
+  geom_node_text(aes(label = name), size = 3) +
+  geom_node_point(alpha = 0.1) +
+  labs(title = "Origins and destinations of Asia-Pacific migrants in 2020", 
+       subtitle = "Thickness of line indicates number of migrants, trasparency indicates % of origin population migrated,\nSex ratio is # of males per 100 females. Only displaying the top origin-destination pairs", 
+       caption = "Source: International Migrant Stock 2020", 
+       edge_width = "No. Migrants", 
+       edge_colour = "Sex ratio", 
+       edge_alpha = "% Migrated") + 
+  theme(legend.key.size = unit(.48, "cm"), 
+        legend.title = element_text(size = 8), 
+        legend.text = element_text(size = 7), 
+        plot.subtitle = element_text(size = 10), 
+        plot.title = element_text(size = 11)) 
+
+
+girafe(ggobj = z, width_svg = 5, height_svg = 5,
+       options = list(opts_sizing(rescale = FALSE)))
+
+girafe(ggobj = migration_network_graph,
+       opts_hover(css = girafe_css(
+           segment = "color:blue; stroke-width:3px; opacity:1",
+           line = "color:blue; stroke-width:3px; opacity:1"
+           ) )
+```
+
+```{r}
+dat <- readRDS("data/species-ts.RDS")
+
+gg <- ggplot(dat, aes(x = date, y = score, 
+                      colour = species, group = species)) +
+  geom_line_interactive(aes(tooltip = species, data_id = species)) +
+  scale_color_viridis_d() + 
+  labs(title = "move mouse over lines")
+
+x <- girafe(ggobj = gg, width_svg = 8, height_svg = 6,
+  options = list(
+    opts_hover_inv(css = "opacity:0.1;"),
+    opts_hover(css = "stroke-width:2;")
+  ))
+x
+```
+
