@@ -1544,10 +1544,83 @@ maldives |>
 ## HRI
 
 ```{r}
-hri <- read_excel(here("data", "human_rights_index.xlsx"))
+hri <- read_excel(here("data", "human_rights_index.xlsx")) |> clean_names()
 
-hri |>glimpse()
-  clean_names() |> 
-  count(countries_concerned)
+
+hri_long_filtered <- hri |> 
+  rename(recommending_body = reccomending_body) %>% 
+   mutate_at(vars(countries_concerned, 
+                 recommending_body, 
+                 recommending_regions, 
+                 regions_concerned,
+                 themes, 
+                 affected_persons, 
+                 sdgs, 
+                 type), 
+            ~ str_replace_all(., "\\- ", "")) |> 
+  separate(countries_concerned, sep = "\r\n", 
+           remove = TRUE, 
+           into = paste0("country", 1:20)) |> 
+  pivot_longer(cols = country1:country20, 
+               names_to = "ignore1", 
+               values_to = "country") |>
+  filter(!is.na(country)) |>
+  mutate(country = case_when(
+    country == "Democratic People's Republic of Korea" ~ "North Korea", 
+    country == "Iran (Islamic Republic of)" ~ "Iran", 
+    country == "Lao People's Democratic Republic" ~ "Laos", 
+    country == "Republic of Korea" ~ "South Korea", 
+    country == "Viet Nam" ~ "Vietnam",
+    TRUE ~ country
+  )) |> 
+  filter(country %in% country_list) |> 
+  separate(themes, sep = "\r\n", 
+           remove = TRUE, 
+           into = paste0("theme", 1:36)) |>
+  pivot_longer(cols = theme1:theme36, 
+               names_to = "ignore2", 
+               values_to = "theme") |>
+  filter(!is.na(theme)) |>
+  separate(affected_persons, sep = "\r\n", 
+           remove = TRUE, 
+           into = paste0("affected_persons", 1:18)) |>
+  pivot_longer(cols = affected_persons1:affected_persons18, 
+               names_to = "ignore3", 
+               values_to = "persons_affected") |>
+  filter(!is.na(persons_affected))  |> 
+  separate(sdgs, sep = "\r\n", 
+           remove = TRUE, 
+           into = paste0("sdgs", 1:37)) |>
+  pivot_longer(cols = sdgs1:sdgs37, 
+               names_to = "ignore4", 
+               values_to = "sdg") |>
+  filter(!is.na(sdg)) |> 
+  distinct(ohchr_annotation_id, 
+           type, 
+           sdg,
+           country, 
+           theme, 
+           persons_affected)
+
+annotation_id_list <- hri_long_filtered |>
+  pull(ohchr_annotation_id)
+
+hri_filtered <- hri |> 
+    filter(ohchr_annotation_id %in% annotation_id_list)
+
+hri_long_filtered |> 
+  write_csv(here("data", "hri_long_filtered.csv"))
+
+hri_filtered |> 
+  write_csv(here("data", "hri_filtered.csv"))
+```
+
+```{r}
+hri |> count(ohchr_annotation_id, sort = TRUE)
+```
+
+
+```{r}
+country_list
 ```
 

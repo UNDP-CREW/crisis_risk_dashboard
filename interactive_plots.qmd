@@ -36,10 +36,6 @@ library(widyr)
 library(tidytext)
 library(janitor)
 library(ggiraph)
-library(GGally)
-library(network)
-library(sna)
-library(intergraph)
 
 `%out%` <- Negate(`%in%`)
 options(scipen = 100)
@@ -169,8 +165,6 @@ migrant <- read_excel(here("data", "undesa_pd_2020_ims_stock_by_sex_destination_
   
 ```
 
-### migrant stock changes
-
 ```{r}
 migrant_stock_changes <- migrant  |>
   filter(aggregation == "no") |> 
@@ -211,17 +205,9 @@ migrant_stock_changes <- migrant  |>
 
 ```
 
-```{r}
-migrant_stock_changes |>
-  group_by(area_of_origin, 
-           area_of_destination) |> 
-  summarise(migrants_2020 = sum(migrants_2020, na.rm = TRUE))
-  
-  glimpse()
-```
+### Migrant barchart
 
-
-```{r}
+```{r fig.height = 8}
 migrant_bars <- migrant_stock_changes |> 
   group_by(area_of_origin, sex) |> 
   summarise(origin_population_2020 = mean(origin_population_2020), 
@@ -236,12 +222,13 @@ migrant_bars <- migrant_stock_changes |>
   
   ungroup() |> 
   mutate(area_of_origin = fct_reorder(area_of_origin, total_migrants_pc), 
-         sex = str_to_title(sex)) |> 
-  ggplot(aes(x = migrants_2020, y = area_of_origin, 
-             text = paste0("Origin: ", area_of_origin, "\n", 
+         sex = str_to_title(sex), 
+         tooltip = paste0("Origin: ", area_of_origin, ", ", sex, "\n",
                            "Migrants: ", comma(migrants_2020), "\n", 
-                           "% Migrated: ", round(migrants_pc, digits = 2)))) + 
-  geom_col(aes(fill = migrants_pc)) +
+                           "% Migrated: ", round(migrants_pc, digits = 2))) |> 
+  ggplot(aes(x = migrants_2020, y = area_of_origin, 
+             tooltip = tooltip)) + 
+  geom_col_interactive(aes(fill = migrants_pc)) +
   scale_fill_viridis(direction = -1, end= .95) +
   scale_x_continuous(labels = number_format(scale = 1 / 1000000, suffix = "M")) + 
   facet_row(vars(sex), scales = "free_x", space = "free") + 
@@ -254,10 +241,10 @@ migrant_bars <- migrant_stock_changes |>
         strip.background = element_rect(fill = "black"),
         legend.title = element_text(size = 7), 
         legend.text = element_text(size = 6), 
-        legend.key.width = unit(.33, "cm"))
+        plot.title = element_text(size = 11))
    
-ggplotly(migrant_bars, tooltip = c("text")) |> 
-   config(diplayModeBar = FALSE) 
+girafe(ggobj = migrant_bars, 
+       options = list(opts_tooltip(use_fill = TRUE)))
 
 ```
 
@@ -285,57 +272,13 @@ test_df <- migrant_stock_changes |>
 ```
 
 
-```{r}
-test_df |> glimpse()
-
-test_df |> select(area_of_origin, area_of_destination, )
-```
-
-
-```{r}
-
-
-
-ggnet2(test, color = "sex_ratio", edge.size = "total_migrants_2020")
-
-
-  networkD3::forceNetwork(
-    links = migrants_2020, 
-    
-  )
-  ggplot() + 
-  geom_spoke_interactive(aes(radius = total_migrants_2020, 
-                             colour = sex_ratio))
-
-girafe(test_graph)
-
-geom_edge_link(aes(edge_width = total_migrants_2020, 
-                     alpha = origin_population_pc, 
-                     edge_colour = sex_ratio, 
-                     colour = sex_ratio),
-                 lineend = "round",
-                 check_overlap = TRUE) + 
-  scale_edge_colour_gradient2(low = "#5DC863FF", 
-                              mid = "#F58C46FF", 
-                              high = "#0D0887FF", 
-                              midpoint = 1,
-                              trans = "log10") +
-  scale_edge_width_continuous(range = c(.1, 7), 
-                              labels = number_format(scale = 1 / 1000000, 
-                                                     suffix = "M"), 
-                              breaks = c(500000, 1000000, 2000000, 3000000)) + 
-  scale_alpha_continuous(range = c(.5, 1)) 
-
-net = rgraph(10, mode = "graph", tprob = 0.5)
-
-```
 
 
 ```{r}
 
 set.seed(2243)
 
-migration_network_graph <- migrant_stock_changes |> 
+migrant_stock_changes |> 
   select(area_of_origin, area_of_destination, sex, 
          migrants_2020, origin_population_2020) |> 
   pivot_wider(names_from = "sex", 
@@ -384,31 +327,92 @@ migration_network_graph <- migrant_stock_changes |>
         plot.subtitle = element_text(size = 10), 
         plot.title = element_text(size = 11)) 
 
-
-girafe(ggobj = z, width_svg = 5, height_svg = 5,
-       options = list(opts_sizing(rescale = FALSE)))
-
-girafe(ggobj = migration_network_graph,
-       opts_hover(css = girafe_css(
-           segment = "color:blue; stroke-width:3px; opacity:1",
-           line = "color:blue; stroke-width:3px; opacity:1"
-           ) )
 ```
+
+
+
+## Economic Stability
 
 ```{r}
-dat <- readRDS("data/species-ts.RDS")
+econ_stab <- read_csv(here("data", "economic_stability_data.csv"))
 
-gg <- ggplot(dat, aes(x = date, y = score, 
-                      colour = species, group = species)) +
-  geom_line_interactive(aes(tooltip = species, data_id = species)) +
-  scale_color_viridis_d() + 
-  labs(title = "move mouse over lines")
+# Correcting the wrong GDP per capita values
 
-x <- girafe(ggobj = gg, width_svg = 8, height_svg = 6,
-  options = list(
-    opts_hover_inv(css = "opacity:0.1;"),
-    opts_hover(css = "stroke-width:2;")
-  ))
-x
+gdp <- read_csv(here("data", "gdp_per_capita.csv")) |> 
+  clean_names() |> 
+  filter(!is.na(country_code)) |> 
+  mutate(country_name = 
+           case_when(
+             str_detect(country_name, "Iran") ~ "Iran", 
+             str_detect(country_name, "Micronesia") ~ "Micronesia", 
+             country_name == "Viet Nam" ~ "Vietnam", 
+             TRUE ~ country_name
+           ))
+
 ```
+
+
+
+```{r fig.height = 9.5, fig.width = 7.5}
+economic_stability <- econ_stab |>
+  filter(Indicator_SubType != "GDP per capita, PPP (constant 2017 international $)") |> 
+  rbind(gdp |> 
+  pivot_longer(cols = c(x2012_yr2012:x2023_yr2023), 
+               names_to = "Year", 
+               values_to = "Value") |> 
+  mutate(Year = str_sub(Year, start = 2, end = 5), 
+         Indicator_SubType = "GDP per capita (constant 2015 US$)") |> 
+  select(Country_Name_Short = country_name, 
+         Indicator_SubType, 
+         Year, 
+         Value)  |> 
+    mutate(Value = parse_number(Value), 
+           Year = parse_double(Year)) |>
+    filter(!is.na(Value))) |> 
+  group_by(Country_Name_Short, Indicator_SubType) |> 
+  mutate(rescaled_value = range_wna(Value)) |>
+  ungroup() %>% 
+  mutate(indicator_label = 
+           case_when(
+             str_detect(Indicator_SubType, "Consumer price index") ~ "Consumer price index", 
+             Indicator_SubType == "GDP per capita (constant 2015 US$)" ~ "GDP per capita", 
+             str_detect(Indicator_SubType, "Total debt service") ~ "Total debt service", 
+             str_detect(Indicator_SubType, "Inflation") ~ "Inflation annual", 
+             TRUE ~ Indicator_SubType
+           ), 
+         Value = case_when(Value <= 100 ~ round(Value, digits = 2), 
+                           Value > 100 ~ (round(Value))),
+         label = paste0(indicator_label, "\n", 
+                         "Year: ", Year, "\n", 
+                         "Value: ", Value)) |>
+  filter(indicator_label != "Consumer price index") |>
+  ggplot(aes(x = Year, y = rescaled_value, group = indicator_label)) + 
+  geom_line(aes(colour = indicator_label, 
+                            tooltip = label)) + 
+  scale_colour_manual(values = c("#35B779FF", "#440154FF", "#EDD03AFF")) + 
+  scale_x_continuous(breaks = seq(2012, 2024, 2)) +
+  facet_wrap(~ Country_Name_Short, ncol = 6) + 
+  labs(title = "Macroeconomic indicator trends; hover for details",
+       colour = "", 
+       y = "Rescaled value", 
+       x = "", 
+       caption = "Source: World Bank") + 
+  theme(legend.position = "top", 
+        axis.text.x = element_text(angle = 40, hjust = .8, vjust = 1, size = 6), 
+        axis.text.y = element_text(size = 6), 
+        plot.caption = element_text(hjust = .5), 
+        strip.background = element_rect(fill = "black"), 
+        element_text(size=6), 
+        plot.title = element_text(size = 11))
+
+
+ ggplotly(economic_stability,
+          height = 750,
+          tooltip = c("tooltip")) |> 
+   layout(legend = list(orientation = "h", x = 0.4, y = .06))
+ 
+
+
+```
+
 
