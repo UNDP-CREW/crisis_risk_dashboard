@@ -307,3 +307,31 @@ hrd_long |>
   filter(violation_long == "(Arbitrary) Arrest and Detention") |> 
   sample_n(5) |> 
   pull(summary_for_publications)
+
+
+
+
+girafe(ggobj = z, width_svg = 5, height_svg = 5,
+       options = list(opts_sizing(rescale = FALSE)))
+
+girafe(ggobj = migration_network_graph,
+       opts_hover(css = girafe_css(
+         segment = "color:blue; stroke-width:3px; opacity:1",
+         line = "color:blue; stroke-width:3px; opacity:1"
+       ) ))
+
+
+dat <- readRDS("data/species-ts.RDS")
+
+gg <- ggplot(dat, aes(x = date, y = score, 
+                      colour = species, group = species)) +
+  geom_line_interactive(aes(tooltip = species, data_id = species)) +
+  scale_color_viridis_d() + 
+  labs(title = "move mouse over lines")
+
+x <- girafe(ggobj = gg, width_svg = 8, height_svg = 6,
+            options = list(
+              opts_hover_inv(css = "opacity:0.1;"),
+              opts_hover(css = "stroke-width:2;")
+            ))
+x

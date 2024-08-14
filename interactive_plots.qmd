@@ -2,9 +2,7 @@
 title: "Crisis risk dashboard Asia-Pacific"
 author: "Sean Ng"
 date: "10 August 2024"
-toc: true
-toc-location: left
-toc-depth: 4
+toc: false
 format: 
   html:
     page-layout: full
@@ -64,6 +62,118 @@ population_estimates <- read_csv(here("data", "population_estimates.csv")) |>
 range01 <- function(x){(x-min(x))/(max(x)-min(x))}
 range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, na.rm = TRUE))}
 
+```
+
+
+
+## Economic Stability
+
+```{r}
+econ_stab <- read_csv(here("data", "economic_stability_data.csv"))
+
+# Correcting the wrong GDP per capita values
+
+gdp <- read_csv(here("data", "gdp_per_capita.csv")) |> 
+  clean_names() |> 
+  filter(!is.na(country_code)) |> 
+  mutate(country_name = 
+           case_when(
+             str_detect(country_name, "Iran") ~ "Iran", 
+             str_detect(country_name, "Micronesia") ~ "Micronesia", 
+             country_name == "Viet Nam" ~ "Vietnam", 
+             TRUE ~ country_name
+           ))
+
+```
+
+
+
+```{r fig.height = 10, fig.width = 9}
+economic_stability <- econ_stab |>
+  filter(Indicator_SubType != "GDP per capita, PPP (constant 2017 international $)") |> 
+  rbind(gdp |> 
+  pivot_longer(cols = c(x2012_yr2012:x2023_yr2023), 
+               names_to = "Year", 
+               values_to = "Value") |> 
+  mutate(Year = str_sub(Year, start = 2, end = 5), 
+         Indicator_SubType = "GDP per capita (constant 2015 US$)") |> 
+  select(Country_Name_Short = country_name, 
+         Indicator_SubType, 
+         Year, 
+         Value)  |> 
+    mutate(Value = parse_number(Value), 
+           Year = parse_double(Year)) |>
+    filter(!is.na(Value))) |> 
+  group_by(Country_Name_Short, Indicator_SubType) |> 
+  mutate(rescaled_value = range_wna(Value)) |>
+  ungroup() %>% 
+  mutate(indicator_label = 
+           case_when(
+             str_detect(Indicator_SubType, "Consumer price index") ~ "Consumer price index", 
+             Indicator_SubType == "GDP per capita (constant 2015 US$)" ~ "GDP per capita", 
+             str_detect(Indicator_SubType, "Total debt service") ~ "Total debt service", 
+             str_detect(Indicator_SubType, "Inflation") ~ "Inflation annual", 
+             TRUE ~ Indicator_SubType
+           ), 
+         Value = case_when(Value <= 100 ~ round(Value, digits = 2), 
+                           Value > 100 ~ (round(Value))),
+         label = paste0(indicator_label, "\n", 
+                         "Year: ", Year, "\n", 
+                         "Value: ", Value)) |>
+  filter(indicator_label != "Consumer price index") |>
+  ggplot(aes(x = Year, y = rescaled_value, group = indicator_label)) + 
+  geom_line(aes(colour = indicator_label, 
+                            tooltip = label)) + 
+  scale_colour_manual(values = c("#35B779FF", "#440154FF", "#EDD03AFF")) + 
+  scale_x_continuous(breaks = seq(2012, 2024, 2)) +
+  facet_wrap(~ Country_Name_Short, ncol = 6) + 
+  labs(title = "Macroeconomic indicator trends; hover for details",
+       colour = "", 
+       y = "Rescaled value", 
+       x = "", 
+       caption = "Source: World Bank") + 
+  theme(legend.position = "top", 
+        axis.text.x = element_text(angle = 40, hjust = .8, vjust = 1, size = 6), 
+        axis.text.y = element_text(size = 6), 
+        plot.caption = element_text(hjust = .5), 
+        strip.background = element_rect(fill = "black"), 
+        element_text(size=6), 
+        plot.title = element_text(size = 11))
+
+
+   
+ 
+
+
+```
+
+
+```{r fig.height = 10, fig.width = 9}
+
+ggplotly(economic_stability,
+          autosize = F, 
+          height = 800,
+          width = 1200,
+          tooltip = c("tooltip")) |> 
+   layout(legend = list(orientation = "h", x = 0, y = 1.15), 
+          title = list(x = 0, y = 1.01))  
+```
+
+
+
+<br><br><br>
+
+```{r}
+websites <- tribble(
+  ~ref, ~url, 
+  "economic_stability_barchart", "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#htmlwidget-ce5e08db6fad6f468036' style =  'width:100%;height:100vh;'></iframe?>",
+  "migration_barchart", 
+  "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#htmlwidget-b187a3b213c2b014f28a' style =  'width:100%;height:100vh;'></iframe?>", 
+  "economic_stability_alternative", "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#economic-stability' style =  'width:100%;height:100vh;'></iframe?>"
+  
+)
+
+websites |> write_csv(here("data", "websites.csv"))
 ```
 
 ## Migration 
@@ -274,7 +384,7 @@ test_df <- migrant_stock_changes |>
 
 
 
-```{r}
+```{r fig.height=7}
 
 set.seed(2243)
 
@@ -329,90 +439,5 @@ migrant_stock_changes |>
 
 ```
 
-
-
-## Economic Stability
-
-```{r}
-econ_stab <- read_csv(here("data", "economic_stability_data.csv"))
-
-# Correcting the wrong GDP per capita values
-
-gdp <- read_csv(here("data", "gdp_per_capita.csv")) |> 
-  clean_names() |> 
-  filter(!is.na(country_code)) |> 
-  mutate(country_name = 
-           case_when(
-             str_detect(country_name, "Iran") ~ "Iran", 
-             str_detect(country_name, "Micronesia") ~ "Micronesia", 
-             country_name == "Viet Nam" ~ "Vietnam", 
-             TRUE ~ country_name
-           ))
-
-```
-
-
-
-```{r fig.height = 9.5, fig.width = 7.5}
-economic_stability <- econ_stab |>
-  filter(Indicator_SubType != "GDP per capita, PPP (constant 2017 international $)") |> 
-  rbind(gdp |> 
-  pivot_longer(cols = c(x2012_yr2012:x2023_yr2023), 
-               names_to = "Year", 
-               values_to = "Value") |> 
-  mutate(Year = str_sub(Year, start = 2, end = 5), 
-         Indicator_SubType = "GDP per capita (constant 2015 US$)") |> 
-  select(Country_Name_Short = country_name, 
-         Indicator_SubType, 
-         Year, 
-         Value)  |> 
-    mutate(Value = parse_number(Value), 
-           Year = parse_double(Year)) |>
-    filter(!is.na(Value))) |> 
-  group_by(Country_Name_Short, Indicator_SubType) |> 
-  mutate(rescaled_value = range_wna(Value)) |>
-  ungroup() %>% 
-  mutate(indicator_label = 
-           case_when(
-             str_detect(Indicator_SubType, "Consumer price index") ~ "Consumer price index", 
-             Indicator_SubType == "GDP per capita (constant 2015 US$)" ~ "GDP per capita", 
-             str_detect(Indicator_SubType, "Total debt service") ~ "Total debt service", 
-             str_detect(Indicator_SubType, "Inflation") ~ "Inflation annual", 
-             TRUE ~ Indicator_SubType
-           ), 
-         Value = case_when(Value <= 100 ~ round(Value, digits = 2), 
-                           Value > 100 ~ (round(Value))),
-         label = paste0(indicator_label, "\n", 
-                         "Year: ", Year, "\n", 
-                         "Value: ", Value)) |>
-  filter(indicator_label != "Consumer price index") |>
-  ggplot(aes(x = Year, y = rescaled_value, group = indicator_label)) + 
-  geom_line(aes(colour = indicator_label, 
-                            tooltip = label)) + 
-  scale_colour_manual(values = c("#35B779FF", "#440154FF", "#EDD03AFF")) + 
-  scale_x_continuous(breaks = seq(2012, 2024, 2)) +
-  facet_wrap(~ Country_Name_Short, ncol = 6) + 
-  labs(title = "Macroeconomic indicator trends; hover for details",
-       colour = "", 
-       y = "Rescaled value", 
-       x = "", 
-       caption = "Source: World Bank") + 
-  theme(legend.position = "top", 
-        axis.text.x = element_text(angle = 40, hjust = .8, vjust = 1, size = 6), 
-        axis.text.y = element_text(size = 6), 
-        plot.caption = element_text(hjust = .5), 
-        strip.background = element_rect(fill = "black"), 
-        element_text(size=6), 
-        plot.title = element_text(size = 11))
-
-
- ggplotly(economic_stability,
-          height = 750,
-          tooltip = c("tooltip")) |> 
-   layout(legend = list(orientation = "h", x = 0.4, y = .06))
- 
-
-
-```
 
 
