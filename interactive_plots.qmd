@@ -88,7 +88,7 @@ gdp <- read_csv(here("data", "gdp_per_capita.csv")) |>
 
 
 
-```{r fig.height = 10, fig.width = 9}
+```{r}
 economic_stability <- econ_stab |>
   filter(Indicator_SubType != "GDP per capita, PPP (constant 2017 international $)") |> 
   rbind(gdp |> 
@@ -148,12 +148,12 @@ economic_stability <- econ_stab |>
 ```
 
 
-```{r fig.height = 10, fig.width = 9}
+```{r fig.height=8}
 
 ggplotly(economic_stability,
           autosize = F, 
           height = 800,
-          width = 1200,
+          width = 1000,
           tooltip = c("tooltip")) |> 
    layout(legend = list(orientation = "h", x = 0, y = 1.15), 
           title = list(x = 0, y = 1.01))  
@@ -162,6 +162,66 @@ ggplotly(economic_stability,
 
 
 <br><br><br>
+
+```{r fig.height=8}
+
+economic_stability_alt <- econ_stab |>
+  filter(Indicator_SubType != "GDP per capita, PPP (constant 2017 international $)") |> 
+  rbind(gdp |> 
+  pivot_longer(cols = c(x2012_yr2012:x2023_yr2023), 
+               names_to = "Year", 
+               values_to = "Value") |> 
+  mutate(Year = str_sub(Year, start = 2, end = 5), 
+         Indicator_SubType = "GDP per capita (constant 2015 US$)") |> 
+  select(Country_Name_Short = country_name, 
+         Indicator_SubType, 
+         Year, 
+         Value)  |> 
+    mutate(Value = parse_number(Value), 
+           Year = parse_double(Year)) |>
+    filter(!is.na(Value))) |> 
+  group_by(Country_Name_Short, Indicator_SubType) |> 
+  mutate(rescaled_value = range_wna(Value)) |>
+  ungroup() %>% 
+  mutate(indicator_label = 
+           case_when(
+             str_detect(Indicator_SubType, "Consumer price index") ~ "Consumer price index", 
+             Indicator_SubType == "GDP per capita (constant 2015 US$)" ~ "GDP per capita", 
+             str_detect(Indicator_SubType, "Total debt service") ~ "Total debt service", 
+             str_detect(Indicator_SubType, "Inflation") ~ "Inflation annual", 
+             TRUE ~ Indicator_SubType
+           ), 
+         Value = case_when(Value <= 100 ~ round(Value, digits = 2), 
+                           Value > 100 ~ (round(Value))),
+         label = paste0(indicator_label, "\n", 
+                         "Year: ", Year, "\n", 
+                         "Value: ", Value)) |>
+  filter(indicator_label != "Consumer price index") |>
+  ggplot(aes(x = Year, y = rescaled_value, group = indicator_label)) + 
+  geom_line_interactive(aes(colour = indicator_label, 
+                            tooltip = label)) + 
+  scale_colour_manual(values = c("#35B779FF", "#440154FF", "#EDD03AFF")) + 
+  scale_x_continuous(breaks = seq(2012, 2024, 2)) +
+  facet_wrap(~ Country_Name_Short, ncol = 6) + 
+  labs(title = "Macroeconomic indicator trends; hover for details",
+       colour = "", 
+       y = "Rescaled value", 
+       x = "", 
+       caption = "Source: World Bank") + 
+  theme(legend.position = "top", 
+        axis.text.x = element_text(angle = 40, hjust = .8, vjust = 1, size = 6), 
+        axis.text.y = element_text(size = 6), 
+        plot.caption = element_text(hjust = .5), 
+        strip.background = element_rect(fill = "black"), 
+        element_text(size=6), 
+        plot.title = element_text(size = 11))
+
+
+girafe(ggobj = economic_stability_alt,
+         options = list(opts_tooltip(use_fill = TRUE)))
+
+```
+
 
 ```{r}
 websites <- tribble(
