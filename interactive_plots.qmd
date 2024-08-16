@@ -229,7 +229,7 @@ websites <- tribble(
   "economic_stability_barchart", "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#htmlwidget-ce5e08db6fad6f468036' style =  'width:100%;height:100vh;'></iframe?>",
   "migration_barchart", 
   "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#htmlwidget-b187a3b213c2b014f28a' style =  'width:100%;height:100vh;'></iframe?>", 
-  "economic_stability_alternative", "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#economic-stability' style =  'width:100%;height:100vh;'></iframe?>"
+  "economic_stability_alternative", "<iframe src='https://risk-anticipation-hub.github.io/crisis_risk_dashboard/interactive_plots.html#htmlwidget-0706004438a670f120d8' style =  'width:100%;height:100vh;'></iframe?>"
   
 )
 
