@@ -1522,6 +1522,11 @@ maldives_poverty <- read_excel(here("data", "Poverty Datasheet Maldives HIES 201
 maldives |> 
   filter(!is.na(island_correct)) |> 
   count(administration, population)
+
+read_csv(here("data", "maldives_atoll_indicator.csv")) |> 
+  left_join(
+    
+  )
   
 ```
 
@@ -1588,26 +1593,90 @@ maldives |>
   mutate(indicator2 = indicator, 
          value2 = value, 
          range2 = range) |> 
+    left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, `Atoll Official Name`), 
+    by = "atoll_official"
+  ) |> 
+  select(
+    atoll_official, 
+    atoll_local_names = `Atoll Official Name`,
+    indicator, 
+    value, 
+    range, 
+    indicator2, 
+    value2, 
+    range2
+  ) |> 
   write_csv(here("data", "maldives_atoll_indicator.csv"))
   #write_csv(here("data", "maldives_atoll_indicator2.csv"))
 
 ```
 
 ```{r}
-read_csv(here("data", "maldives_atoll_indicator.csv")) |> 
-  filter(indicator == "Aged-Dependency Ratio") |> 
-  arrange(desc(value))
+read_csv(here("data", "maldives_atoll_indicator.csv")) |> glimpse()
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, `Atoll Official Name`), 
+    by = "atoll_official"
+  ) |> 
+  select(
+    atoll_official, 
+    atoll_local_names = `Atoll Official Name`,
+    indicator, 
+    value, 
+    range, 
+    indicator2, 
+    value2, 
+    range2
+  )
+
 
 
 ```
+
 
 
 ```{r}
-maldives |> 
-  filter(atoll_official %out% c("Industrial Islands", "Resorts")) |>
-  filter(!is.na(island)) |> 
-  count(population, administration)
+maldives  |> 
+  filter(population == "Resident Population" & 
+           administration == "Administrative & Non-administrative Islands") |>
+  select(atoll_official, atoll_local_names, 
+         indicator, value) |>
+  rbind(maldives_poverty) |> 
+  group_by(indicator) |> 
+  mutate(range = range_wna(value)) |> 
+  ungroup() |> 
+  mutate(range2 = range, 
+         indicator2 = indicator) |>   
+  filter(!is.na(range)) |> 
+  count(indicator)
+
+maldives |>
+  filter(indicator == "Population" & population == "Resident Population") |> 
+  group_by(atoll_official, atoll_local_names) |> 
+  summarise(population = round(sum(value))) |> 
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, `Atoll Official Name`), 
+    by = "atoll_official"
+  ) |> 
+  select(
+    atoll_official, 
+    atoll_local_names = `Atoll Official Name`, 
+    population
+  ) |> 
+  write_csv(here("data", "maldives_atoll_populations.csv"))
+
+maldives  |> count(indicator)
+  filter(population == "Resident Population" & 
+           administration == "Administrative & Non-administrative Islands") |> 
+  count(indicator)
+  
+
 ```
+
+
 
 Deprecated
 
@@ -1645,34 +1714,6 @@ maldives  |>
 
 ```
 
-```{r}
-maldives  |> 
-  filter(population == "Resident Population" & 
-           administration == "Administrative & Non-administrative Islands") |>
-  select(atoll_official, atoll_local_names, 
-         indicator, value) |>
-  rbind(maldives_poverty) |> 
-  group_by(indicator) |> 
-  mutate(range = range_wna(value)) |> 
-  ungroup() |> 
-  mutate(range2 = range, 
-         indicator2 = indicator) |>   
-  filter(!is.na(range)) |> 
-  count(indicator)
-
-maldives |>
-  filter(indicator == "Population" & population == "Resident Population") |> 
-  group_by(atoll_official, atoll_local_names) |> 
-  summarise(population = round(sum(value))) |> 
-  write_csv(here("data", "maldives_atoll_populations.csv"))
-
-maldives  |> count(indicator)
-  filter(population == "Resident Population" & 
-           administration == "Administrative & Non-administrative Islands") |> 
-  count(indicator)
-  
-
-```
 
 ```{r}
 maldives |> 
@@ -1735,6 +1776,12 @@ islands_atolls <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-P
   arrange(atoll_official)
 ```
 
+```{r}
+islands_atolls |> 
+  
+```
+
+
 
 ```{r}
 islands <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-Population Cleaned V1.xlsx"),
@@ -1768,8 +1815,81 @@ islands <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-Populati
 ```
 
 ```{r}
-islands |>  
+islands |>  glimpse()
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, `Atoll Official Name`), 
+    by = c("atoll_official"))
+  ) |> 
+  select(
+    Atoll = `Atoll Official Name`, 
+    island, 
+    atoll_official, 
+    indicator_full, 
+    value, 
+    sex_modifier, 
+    population_modifier
+  )
   glimpse()
+
+islands_atolls |> 
+  filter(str_detect(atoll_official, "Kaafu"))
+```
+
+```{r}
+atolls_official <- read_csv(here("data", "marwa_atolls.csv"))
+```
+
+
+
+```{r}
+
+maldives_match <- read_excel(here("data", "List_Atolls & Islands.xlsx"), 
+          .name_repair = "unique_quiet") |> 
+  clean_names() |> 
+  rename(atoll_official_name = official_atoll_name, 
+         Atoll = x3)
+
+```
+
+```{r}
+islands |> 
+  filter(indicator_full == "Resident Maldivians Population Both sexes") |> 
+  summarise(value = sum(value))
+  glimpse()
+```
+
+
+```{r}
+islands_atolls |> 
+      mutate(Atoll = case_when(Atoll == "Adh" ~ "ADh",
+                               TRUE ~ Atoll), 
+        island = case_when(island == "Mundhoo" ~ "Mundoo", 
+                           island == "Madeveli" ~ "Madaveli", 
+                           TRUE ~ island)) |> 
+  left_join(
+    maldives_match |> 
+      select(atoll_official_name, Atoll, atoll_alternate = atoll) |> 
+      mutate(Atoll = str_trim(Atoll)), 
+    by = c("Atoll")
+  ) |> 
+  distinct(Atoll, island, atoll_official, atoll_official_name, atoll_alternate) |> 
+  write_csv(here("data", "maldives_match.csv"))
+
+islands_atolls |> 
+      mutate(Atoll = case_when(Atoll == "Adh" ~ "ADh",
+                               TRUE ~ Atoll), 
+        island = case_when(island == "Mundhoo" ~ "Mundoo", 
+                           island == "Madeveli" ~ "Madaveli", 
+                           TRUE ~ island)) |> 
+  left_join(
+    maldives_match |> 
+      select(atoll_official_name, Atoll, atoll_alternate = atoll) |> 
+      mutate(Atoll = str_trim(Atoll)), 
+    by = c("Atoll")
+  ) |> 
+  distinct(Atoll, atoll_official, atoll_official_name, atoll_alternate) |> 
+  write_csv(here("data", "maldives_atoll_match.csv"))
 ```
 
 
@@ -1789,8 +1909,24 @@ maldives |>
   count(island_correct)
 ```
 
+### Islands CSV
+
 ```{r}
 islands |> 
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, `Atoll Official Name`), 
+    by = c("atoll_official")
+  ) |> 
+  select(
+    Atoll = `Atoll Official Name`, 
+    island, 
+    atoll_official, 
+    indicator_full, 
+    value, 
+    sex_modifier, 
+    population_modifier
+  ) |> 
   filter(population_modifier == "Resident Maldivians" | is.na(population_modifier)) |> 
   filter(sex_modifier == "Both sexes" | is.na(sex_modifier)) |> 
   filter(indicator_full %out% c("Median Age Resident Foreigners", 
@@ -1798,17 +1934,24 @@ islands |>
   mutate(indicator = str_remove(indicator_full, "Resident Maldivian Population"), 
          indicator2 = indicator, 
          value2 = value, 
-         index = paste0(island, ", ",  atoll_official)) |> 
-  write_csv(here("data", "maldives_islands1.csv"))
+         index = paste0(island, ", ",  Atoll)) |> 
+  write_csv(here("data", "maldives_islands2.csv"))
 ```
 
 ```{r}
-islands_pop <- islands |> 
+ islands |> 
   filter(indicator_full == "Resident Population Both sexes") |> 
-  select(island, atoll_official, population = value) |> 
+  select(island, atoll_official, population = value) |>
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, `Atoll Official Name`), 
+    by = c("atoll_official")
+  ) |>
+  rename(atoll_local_name = `Atoll Official Name`) |>
   write_csv(here("data", "islands_pop.csv"))
 
 islands |> count(indicator_full)
+select(island, atoll_official, population = value) 
 ```
 
 
