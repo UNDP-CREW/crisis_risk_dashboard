@@ -127,7 +127,39 @@ special_procedures <- read_xlsx(here("data", "Special Procedurces Communications
     country == "Republic of Korea" ~ "South Korea", 
     TRUE ~ country)) |> 
   mutate(mandate = str_to_lower(mandate)) 
+
+
 ```
+
+
+
+
+Higer rates 
+
+
+```{r}
+cities <- tribble(~x, ~y, ~name,
+  35.5018, 33.8938, "Beirut", 
+  36.2768, 33.5132, "Damascus", 
+  34.27, 31.31, "Gaza", 
+  32.0853, 34.7818, "Tel Aviv", 
+  35.2034, 31.9038, "Ramallah",
+  35.8362, 34.4346, "Tripoli", 
+  36.7135, 34.7325, "Homs"
+  
+)
+
+cities |> 
+  set
+```
+
+
+
+```{r}
+world_shape |> filter(str_detect(name, "Lebanon|Gaza Strip|Israel|West Bank|Syrian Arab Republic"))
+```
+
+
 
 ```{r}
 special_procedures_top5 <- special_procedures |>
@@ -1953,6 +1985,7 @@ islands |>
 islands |> count(indicator_full)
 select(island, atoll_official, population = value) 
 ```
+
 
 
 
