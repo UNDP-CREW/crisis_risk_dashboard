@@ -1,0 +1,76 @@
+indicator,observations,admin_level
+% below poverty line,21,Atoll
+% of poor persons nationally,21,Atoll
+Adolescent Population (International) (10-19 yrs),20,Atoll
+Aged-Dependency Ratio,20,Atoll
+Cases Sent for Prosecution per 100k,19,Atoll
+Child Dependency Ratio,20,Atoll
+Child Population (0-17 yrs),20,Atoll
+Combined rate of unemployment and potential labour force (%),20,Atoll
+Dependency Ratio,20,Atoll
+Economic and Financial Abuse per 100k,21,Atoll
+Emotional Abuse per 100k,21,Atoll
+Employment-to-population ratio (%),20,Atoll
+Growth Rate ( 2014 to 2022),20,Atoll
+Inactivity rate (%),20,Atoll
+Intimidating per 100k,21,Atoll
+Investigated Cases per 100k,21,Atoll
+Labour force participation rate (%),20,Atoll
+NEET rate (15-24 years) (%),20,Atoll
+NEET rate (18-35 years) (%),20,Atoll
+Physical Abuse per 100k,21,Atoll
+Population,20,Atoll
+Population density,20,Atoll
+Reported Crimes per 100k,21,Atoll
+Sex Ratio (males per 100 female),20,Atoll
+Sexual Abuse per 100k,21,Atoll
+Sexual Harrasment per 100k,21,Atoll
+Stalking per 100k,21,Atoll
+Unemployment rate (%),20,Atoll
+Working Age Population (15-64 yrs),20,Atoll
+Youth Population (National) (18-35 yrs),20,Atoll
+Youth unemployment rate (15-24 years),20,Atoll
+Youth unemployment rate (18-35years),20,Atoll
+ (%) Adolescent Population (International) (10-19 yrs),186,Island
+ (%) Child Population (0-17 yrs),186,Island
+ (%) Child Population (International) (0-14 yrs),186,Island
+ (%) Elderly Population  (65+ yrs),186,Island
+ (%) Working Age Population (15-64 yrs),186,Island
+ (%) Youth Population (International) (15-24 yrs),186,Island
+ (%) Youth Population (National) (18-35 yrs),186,Island
+ 2022 Adolescent Population (International) (10-19 yrs) Both sexes,186,Island
+ 2022 Adolescent Population (International) (10-19 yrs) Female,186,Island
+ 2022 Adolescent Population (International) (10-19 yrs) Male,186,Island
+ 2022 Aged-Dependency Ratio,186,Island
+ 2022 Child Dependency Ratio,186,Island
+ 2022 Child Population (0-17 yrs) Both sexes,186,Island
+ 2022 Child Population (0-17 yrs) Female,186,Island
+ 2022 Child Population (0-17 yrs) Male,186,Island
+ 2022 Child Population (International) (0-14 yrs) Both sexes,186,Island
+ 2022 Child Population (International) (0-14 yrs) Female,186,Island
+ 2022 Child Population (International) (0-14 yrs) Male,186,Island
+ 2022 Dependency Ratio,186,Island
+ 2022 Elderly Population  (65+ yrs) Both sexes,186,Island
+ 2022 Elderly Population  (65+ yrs) Female,186,Island
+ 2022 Elderly Population  (65+ yrs) Male,186,Island
+ 2022 Sex Ratio (males per 100 female),186,Island
+ 2022 Working Age Population (15-64 yrs) Both sexes,186,Island
+ 2022 Working Age Population (15-64 yrs) Female,186,Island
+ 2022 Working Age Population (15-64 yrs) Male,186,Island
+ 2022 Youth Population (International) (15-24 yrs) Both sexes,186,Island
+ 2022 Youth Population (International) (15-24 yrs) Female,186,Island
+ 2022 Youth Population (International) (15-24 yrs) Male,186,Island
+ 2022 Youth Population (National) (18-35 yrs) Both sexes,186,Island
+ 2022 Youth Population (National) (18-35 yrs) Female,186,Island
+ 2022 Youth Population (National) (18-35 yrs) Male,186,Island
+Growth Rate (for  - 2014 to 2022),186,Island
+Median Age Resident Maldivians,186,Island
+Median Age Total Resident Population,186,Island
+Population density ,186,Island
+Population density Total Resident Population,186,Island
+Resident Maldivians Population Both sexes,186,Island
+Resident Maldivians Population Female,186,Island
+Resident Maldivians Population Male,186,Island
+Resident Population Both sexes,186,Island
+Resident Population Female,186,Island
+Resident Population Male,186,Island
