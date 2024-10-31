@@ -2331,6 +2331,8 @@ hri |> count(ohchr_annotation_id, sort = TRUE)
 
 ## Sri Lanka
 
+For the human rights violations dataset, neither the `sub_category` nor the `further_classification`
+
 ```{r}
 
 lka_adm2 <- read_excel(here("data", "lka_adminboundaries_tabulardata.xlsx"), 
@@ -2498,6 +2500,17 @@ lka_adm2_pop <- read_csv(here("data", "lka_admpop_adm2_2023.csv")) |>
 
 
 ```
+
+```{r}
+read_excel(here("data", "hate_speech_keywords_N.xlsx")) |> 
+  mutate(estimated_engagement = 
+           case_when(Engagement == "<100" ~ 50, 
+                     Engagement == "100-1000" ~ 500, 
+                     Engagement == "1000-10000" ~ 5000)) |> 
+  writexl::write_xlsx(here("data", "hate_speech_keywords_N_alt.xlsx"))
+  count(Engagement)
+```
+
 
 ```{r}
 religious 
@@ -2831,9 +2844,31 @@ caru <- read_excel(here("data", "CARU_Security_incident_2023.xlsx")) |>
     TRUE ~ nationality_of_perpetrator
   )) |> 
   naniar::replace_with_na(list(nationality_of_perpetrator = "Unknown")) |> 
-  mutate(date = ymd(date))
+  mutate(date = ymd(date)) %>% 
+  mutate_at(vars(c(year, week, longitude, latitude, time)), 
+            ~ as.numeric(.)) |> 
+  filter(!is.na(year) & !is.na(longitude) & !is.na(latitude)) |>
+  replace_na(list(
+    time = 0, 
+    death_bd_f = 0
+  )) |> 
+  select(-column2)
 ```
 
+
+```{r}
+read_excel(here("data", "INFORM_Sub-national Risk Index for Bangladesh_ 2022_Admin Level-2_V1.xlsx")) |> 
+  pivot_longer(cols = c(`Earthquake Risk`:`Rank-Risk`)) |> 
+  
+  glimpse()
+
+caru 
+
+```
+
+```{r}
+caru |> skimr::skim()
+```
 
 
 
@@ -2849,6 +2884,8 @@ bangladesh |>
 
 caru |> 
   writexl::write_xlsx(here("data", "caru_bangladesh.xlsx"))
+
+caru |> write_csv(here("data", "caru.csv"))
 
 bgd_food |> 
   writexl::write_xlsx(here("data", "bgd_food_prices.xlsx"))
