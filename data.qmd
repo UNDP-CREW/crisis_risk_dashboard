@@ -36,6 +36,7 @@ library(plotly)
 library(widyr)
 library(tidytext)
 library(janitor)
+library(writexl)
 
 `%out%` <- Negate(`%in%`)
 options(scipen = 100)
@@ -130,10 +131,15 @@ special_procedures <- read_xlsx(here("data", "Special Procedurces Communications
 
 ```
 
+```{r}
+uhri |> count(type)
+```
 
 
 
-Higer rates 
+
+
+Higher rates 
 
 
 ```{r}
@@ -1096,20 +1102,6 @@ migrant <- read_excel(here("data", "undesa_pd_2020_ims_stock_by_sex_destination_
 
 
 
-```{r}
-migrant |> 
-  filter(aggregation == "no") |> 
-  select(-name) |> 
-  filter(area_of_destination %in% country_list | 
-           area_of_origin %in% country_list) |> 
-  filter(value != 0 & sex == "total") |> 
-```
-
-```{r}
-migrant |> glimpse()
-
-migrant |> count(sex)
-```
 
 
 #### Keep working on this
@@ -1180,14 +1172,19 @@ migrant_stock_changes <- migrant  |>
   left_join(
     population_estimates |> 
       filter(year %in% c(2000, 2010, 2015, 2020)) |>
+      mutate(country_iso = countrycode(country, origin = "country.name", destination = "iso3c")) |> 
       pivot_wider(names_from = year, 
               values_from = population, 
-              names_prefix = "origin_population_") |> 
+              names_prefix = "origin_population_") |>
       select(-country), 
     by = c("origin_iso" = "country_iso")) |> 
+
+
+
   left_join(
     population_estimates |> 
       filter(year %in% c(2000, 2010, 2015, 2020)) |>
+      mutate(country_iso = countrycode(country, origin = "country.name", destination = "iso3c")) |> 
       pivot_wider(names_from = year, 
               values_from = population, 
               names_prefix = "destination_population_") |> 
@@ -1195,8 +1192,24 @@ migrant_stock_changes <- migrant  |>
     by = c("destination_iso" = "country_iso")) |>  
   # Filtered small origin-destination pairs with small island territories without population data
   # 9 rows total, minimal
-  filter(!is.na(origin_population_2020) & !is.na(destination_population_2020))
+  filter(!is.na(origin_population_2020) & !is.na(destination_population_2020)) 
 
+```
+```{r}
+migrant_treemaps <- migrant_stock_changes |>
+  select(area_of_origin, area_of_destination, sex, 
+         migrants_1990:migrants_2020, 
+         origin_iso, destination_iso) |> 
+  pivot_longer(cols = c(migrants_1990:migrants_2020), 
+               names_to = "year", 
+               values_to = "value") |> 
+  mutate(year = str_remove_all(year, "migrants_"), 
+         year = as.numeric(year)) 
+```
+
+```{r}
+migrant_treemaps |> 
+  writexl::write_xlsx(here("data", "migrant_treemaps1.xlsx"))
 ```
 
 
@@ -2248,10 +2261,21 @@ maldives |>
 ## HRI
 
 ```{r}
+
+uhri <- read_excel(here("data", "uhri-export-full-en.xlsx")) |> 
+  janitor::clean_names() 
+
+
+
+```
+
+
+
+```{r}
 hri <- read_excel(here("data", "human_rights_index.xlsx")) |> clean_names()
 
 
-hri_long_filtered <- hri |> 
+hri_long_filtered <- uhri |> 
   rename(recommending_body = reccomending_body) %>% 
    mutate_at(vars(countries_concerned, 
                  recommending_body, 
@@ -2304,12 +2328,13 @@ hri_long_filtered <- hri |>
            sdg,
            country, 
            theme, 
-           persons_affected)
+           persons_affected) |> 
+  mutate(iso3 = countrycode(country, origin = "country.name", destination = "iso3c"))
 
 annotation_id_list <- hri_long_filtered |>
   pull(ohchr_annotation_id)
 
-hri_filtered <- hri |> 
+hri_filtered <- uhri |> 
     filter(ohchr_annotation_id %in% annotation_id_list)
 
 hri_long_filtered |> 
@@ -2323,11 +2348,57 @@ hri_filtered |>
 hri |> count(ohchr_annotation_id, sort = TRUE)
 ```
 
+This might be related to data update, but FSI (2023), HR Observations (2023), WGI (2022), IDMC (2019), Gender Inequality (2022)  are not up to date. ACLED too – wouldn’t the CRD pick-up ACLED’s more dynamic data?
+Is it possible to get some clarity on data updating? Do I understand that it is not automatic, and needs to be done periodically? If so, how periodically? How would this impede a dynamic data set like ACLED? I understand that Worldwide Governance Indicators for example will update with 2024 data soon – will this get picked up automatically or does it need to be done?
+The Asia-Pacific Forum tab is still in
+Economic Stability (Debt, Inflation tab) – pop-up box blocking the visualization.
+On migration tab, please revise the title to ‘Migration Trends’
+On migration tab (second one on remittances), please revise title to ‘Remittances Trends’
+The tabs explaining the indicators are no longer available
 
 
+```{r}
+hri_long_filtered |> 
+  count(country, iso3)
+  glimpse()
+```
+
+## Gender Inequality
+
+```{r}
 
 
+gender_inequality <- read_excel(here("data", "HDR23-24_Statistical_Annex_GII_Table.xlsx"), 
+           col_types = c(
+             "numeric", "text", "numeric", "numeric", 
+             "numeric", "numeric", "numeric", "numeric", 
+             "numeric", "numeric", "numeric"
+           )) |> 
+  setNames(c(
+    "hdi_rank", 
+    "country", 
+    "gender_inequality_index", 
+    "gender_inequality_rank",
+    "maternal_mortality_ratio", 
+    "adolescent_birth_rate", 
+    "share_of_seats_in_parliament",
+    "percent_females_have_some_secondary_education", 
+    "percent_males_have_some_secondary_education", 
+    "labour_force_participation_rate_female", 
+    "labour_force_participation_rate_male"
+    
+  )) |> 
+  slice(7:230) |> 
+  filter(!is.na(hdi_rank) | country == "Korea (Democratic People's Rep. of)") |> 
+  pivot_longer(cols = -country,
+               names_to = "indicator", 
+               values_to = "value")
 
+
+gender_inequality |> writexl::write_xlsx(here("data", "gender_inquality2022.xlsx"))
+```
+
+x4, x6
 
 ## Sri Lanka
 
@@ -2358,6 +2429,7 @@ hr_violations <- read_excel(here("data", "HR Violations_Consolidated_2021.03.01_
       "Police shooting/ Custody escape",
       "Police shooting/ Prison Riot"
   ), 
+
   further_classification, 
   sub_category)) |> 
   # This new further_classification column should now be used over sub_category (since that is now more incomplete)
@@ -2511,6 +2583,27 @@ read_excel(here("data", "hate_speech_keywords_N.xlsx")) |>
   count(Engagement)
 ```
 
+```{r}
+hr_violations |> 
+  filter(!str_detect(sources, "http")) |> 
+  pull(sources)
+
+land_issues |> glimpse()
+```
+
+The HR violations dataset contains 388 observations of violations across 14 columns. Violations are classified through their sub-category. All except 16 violations were first reported in online sources. 
+
+The land issues dataset contains 127 observations of land-related incidents across 18 columns. Incidents are classified by category and the key actors involved. All except 11 violations werer first reported in online sources. 
+
+```{r}
+land_issues |> 
+  filter(!str_detect(sources, "http")) |> 
+  pull(sources)
+```
+
+
+
+
 
 ```{r}
 religious 
@@ -2621,6 +2714,8 @@ lka_econ <- rbind(
 )
 ```
 
+The economics dataset is comprised of tourist arrivals, imports and exports, remittances, public finances, unemployment, purchasing managers' index and the FX rate. These indicators are plotted over time below. 
+
 ```{r}
 glimpse(hr_violations)
 
@@ -2628,6 +2723,8 @@ glimpse(hr_violations)
     
 
 ```
+
+
 ```{r}
 glimpse(land_issues)
 ```
@@ -2654,7 +2751,15 @@ crime |>
   group_by(year, crime) |> 
   summarise(count = sum(count)) |> 
   arrange(desc(count))
+
+crime |> glimpse()
+
 ```
+
+The crime dataset consists of 15,562 reported crimes. The dataset is categorised by type of crime and district. 
+
+
+
 
 ```{r}
 religious |> 
@@ -2755,10 +2860,21 @@ hate_speech |>
 
 ## Bangladesh
 
+### Shapefiles
+
+```{r}
+
+bgd_adm2 <- st_read(here("data", "bgd_adm2_bbs_20201113", "bgd_admbnda_adm2_bbs_20201113.shp")) |> 
+  clean_names()
+```
+
+
+### ACLED
+
 ```{r}
 
 
-bangladesh <- read_csv(here("data", "1900-01-01-2024-10-24-Bangladesh.csv")) |> 
+bgd_acled <- read_csv(here("data", "1900-01-01-2024-11-07-Bangladesh.csv")) |> 
   acled_cleaning()
 ```
 
@@ -2821,14 +2937,20 @@ acled_cleaning <- function(tbl) {
 }
 ```
 
+### Food 
 
 ```{r}
 
 bgd_food <- read_csv(here("data", "wfp_food_prices_bgd.csv")) |> 
-  slice(2:14179)
+  slice(2:14179) |> mutate(date = ymd(date))
 
+bgd_food |> glimpse()
+
+bgd_food   %>% {max(.$date)}
 
 ```
+
+### CARU
 
 ```{r}
 
@@ -2855,21 +2977,98 @@ caru <- read_excel(here("data", "CARU_Security_incident_2023.xlsx")) |>
   select(-column2)
 ```
 
+### ?IPC
+```{r}
+ipc_bgd_national_long_latest.csv
+
+ipc <- read_csv(here("data", "ipc_bgd_national_long_latest.csv"))
+
+ipc |> 
+  clean_names()
+```
+
 
 ```{r}
-read_excel(here("data", "INFORM_Sub-national Risk Index for Bangladesh_ 2022_Admin Level-2_V1.xlsx")) |> 
-  pivot_longer(cols = c(`Earthquake Risk`:`Rank-Risk`)) |> 
-  
+
+
+
+
+
+bgd_adm2 |> glimpse()
+```
+
+
+```{r}
+inform_bgd <- read_excel(here("data", 
+                              "INFORM_Sub-national Risk Index for Bangladesh_ 2022_Admin Level-2_V1.xlsx")) |> 
+  naniar::replace_with_na(list(`Riverbank Erosion` = "x")) |> 
+  mutate(`Riverbank Erosion` = as.numeric(`Riverbank Erosion`)) |> 
+  pivot_longer(cols = c(`Earthquake Risk`:`HAZARD & EXPOSURE`, 
+                        `Rank_Hazard Exposure`:`INFORM Vulnerability`, 
+                        `Rank-\r\nVulnerability`:`LACK OF COPING CAPACITY`,
+                        `Rank-\r\nCoping Capacity`, 
+                        `INFORM RISK`, `Rank-Risk`), 
+               names_to = "indicator", values_to = "value") |> 
+  clean_names() |>
+  mutate(adm2_pcode = paste0("BD", geocode)) 
+
+
+
+```
+
+```{r}
+bgd_pop <- read_csv(here("data", "bgd_admpop_adm2_2022.csv")) |> clean_names()
+```
+
+
+```{r}
+bgd_adm2_area <- bgd_adm2 |> 
+  mutate(area = st_area(geometry), 
+         area_km2 = as.numeric(area / 1000000)) |> 
+  st_drop_geometry() 
+
+```
+
+```{r}
+bgd_population_density <- bgd_adm2_area |> 
+  select(adm1_en, adm2_en, adm2_pcode, area, area_km2) |> 
+  left_join(
+    bgd_pop |> 
+      select(adm2_pcode, population = t_tl),
+    by = "adm2_pcode"
+  ) |> 
+  mutate(population_density = population / area_km2) |> 
+  arrange(desc(population_density)) |> 
+  select(-area) |> 
+  pivot_longer(cols = c(area_km2:population_density), 
+               names_to = "indicator", 
+               values_to = "value") |> 
+  mutate(indicator = str_to_title(str_replace_all(indicator, "\\_", " ")))
+```
+
+```{r}
+bgd_adm2 |> 
+  st_as_sf() |> 
+  ggplot() +
+  geom_sf() + 
+  geom_sf_text(aes(label = adm2_en), 
+               size = 2) + 
+  theme_void()
+```
+
+
+```{r}
+bgd_adm2_area |> 
+  arrange(desc(area_km))
+```
+
+### Census 
+
+```{r}
+read_excel(here("data", "bangladesh_bbs_population-and-housing-census-dataset_2022_admin-02.xlsx")) |> 
+  clean_names() |> glimpse()
   glimpse()
-
-caru 
-
 ```
-
-```{r}
-caru |> skimr::skim()
-```
-
 
 
 ### Bangladesh write 
@@ -2889,6 +3088,13 @@ caru |> write_csv(here("data", "caru.csv"))
 
 bgd_food |> 
   writexl::write_xlsx(here("data", "bgd_food_prices.xlsx"))
+
+inform_bgd |> 
+  write_xlsx(here("data", "inform_bgd2.xlsx"))
+
+bgd_population_density |> 
+  write_xlsx(here("data", "bgd_population_density.xlsx"))
+  
 
 ```
 

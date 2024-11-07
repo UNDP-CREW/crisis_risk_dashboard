@@ -1,0 +1,1931 @@
+country,indicator,value
+Switzerland,hdi_rank,1
+Switzerland,gender_inequality_index,0.018
+Switzerland,gender_inequality_rank,3
+Switzerland,maternal_mortality_ratio,7.378754713
+Switzerland,adolescent_birth_rate,2.2
+Switzerland,share_of_seats_in_parliament,39.02439024
+Switzerland,percent_females_have_some_secondary_education,96.93972611
+Switzerland,percent_males_have_some_secondary_education,97.5174373
+Switzerland,labour_force_participation_rate_female,61.49
+Switzerland,labour_force_participation_rate_male,71.94
+Norway,hdi_rank,2
+Norway,gender_inequality_index,0.012
+Norway,gender_inequality_rank,2
+Norway,maternal_mortality_ratio,1.663741403
+Norway,adolescent_birth_rate,2.195
+Norway,share_of_seats_in_parliament,44.9704142
+Norway,percent_females_have_some_secondary_education,99.09403104
+Norway,percent_males_have_some_secondary_education,99.27497953
+Norway,labour_force_participation_rate_female,62.53
+Norway,labour_force_participation_rate_male,69.59
+Iceland,hdi_rank,3
+Iceland,gender_inequality_index,0.039
+Iceland,gender_inequality_rank,9
+Iceland,maternal_mortality_ratio,2.654417805
+Iceland,adolescent_birth_rate,5.077
+Iceland,share_of_seats_in_parliament,47.61904762
+Iceland,percent_females_have_some_secondary_education,99.76841736
+Iceland,percent_males_have_some_secondary_education,99.66255188
+Iceland,labour_force_participation_rate_female,70.7
+Iceland,labour_force_participation_rate_male,78.29
+"Hong Kong, China (SAR)",hdi_rank,4
+"Hong Kong, China (SAR)",gender_inequality_index,NA
+"Hong Kong, China (SAR)",gender_inequality_rank,NA
+"Hong Kong, China (SAR)",maternal_mortality_ratio,NA
+"Hong Kong, China (SAR)",adolescent_birth_rate,1.571
+"Hong Kong, China (SAR)",share_of_seats_in_parliament,NA
+"Hong Kong, China (SAR)",percent_females_have_some_secondary_education,77.86691284
+"Hong Kong, China (SAR)",percent_males_have_some_secondary_education,84.06780243
+"Hong Kong, China (SAR)",labour_force_participation_rate_female,52.91
+"Hong Kong, China (SAR)",labour_force_participation_rate_male,64.71
+Denmark,hdi_rank,5
+Denmark,gender_inequality_index,0.009
+Denmark,gender_inequality_rank,1
+Denmark,maternal_mortality_ratio,4.65771671
+Denmark,adolescent_birth_rate,1.814
+Denmark,share_of_seats_in_parliament,43.57541899
+Denmark,percent_females_have_some_secondary_education,95.06726074
+Denmark,percent_males_have_some_secondary_education,95.23809814
+Denmark,labour_force_participation_rate_female,59.42
+Denmark,labour_force_participation_rate_male,67.42
+Sweden,hdi_rank,5
+Sweden,gender_inequality_index,0.023
+Sweden,gender_inequality_rank,4
+Sweden,maternal_mortality_ratio,4.507839264
+Sweden,adolescent_birth_rate,3.312
+Sweden,share_of_seats_in_parliament,46.41833811
+Sweden,percent_females_have_some_secondary_education,92.36278933
+Sweden,percent_males_have_some_secondary_education,92.70197297
+Sweden,labour_force_participation_rate_female,63.68
+Sweden,labour_force_participation_rate_male,70.38
+Germany,hdi_rank,7
+Germany,gender_inequality_index,0.071
+Germany,gender_inequality_rank,19
+Germany,maternal_mortality_ratio,4.428440323
+Germany,adolescent_birth_rate,7.186
+Germany,share_of_seats_in_parliament,34.82032218
+Germany,percent_females_have_some_secondary_education,95.4335022
+Germany,percent_males_have_some_secondary_education,95.93977356
+Germany,labour_force_participation_rate_female,56.13
+Germany,labour_force_participation_rate_male,66.59
+Ireland,hdi_rank,7
+Ireland,gender_inequality_index,0.072
+Ireland,gender_inequality_rank,20
+Ireland,maternal_mortality_ratio,4.983957073
+Ireland,adolescent_birth_rate,5.872
+Ireland,share_of_seats_in_parliament,27.39726027
+Ireland,percent_females_have_some_secondary_education,88.5856389
+Ireland,percent_males_have_some_secondary_education,86.41741482
+Ireland,labour_force_participation_rate_female,59.4
+Ireland,labour_force_participation_rate_male,70.51
+Singapore,hdi_rank,9
+Singapore,gender_inequality_index,0.036
+Singapore,gender_inequality_rank,8
+Singapore,maternal_mortality_ratio,7.452762692
+Singapore,adolescent_birth_rate,2.462
+Singapore,share_of_seats_in_parliament,29.12621359
+Singapore,percent_females_have_some_secondary_education,80.46401978
+Singapore,percent_males_have_some_secondary_education,85.93203735
+Singapore,labour_force_participation_rate_female,63.37
+Singapore,labour_force_participation_rate_male,77
+Australia,hdi_rank,10
+Australia,gender_inequality_index,0.063
+Australia,gender_inequality_rank,17
+Australia,maternal_mortality_ratio,2.941509495
+Australia,adolescent_birth_rate,7.731
+Australia,share_of_seats_in_parliament,44.49339207
+Australia,percent_females_have_some_secondary_education,94.58006287
+Australia,percent_males_have_some_secondary_education,94.43006897
+Australia,labour_force_participation_rate_female,62.31
+Australia,labour_force_participation_rate_male,71.13
+Netherlands,hdi_rank,10
+Netherlands,gender_inequality_index,0.025
+Netherlands,gender_inequality_rank,5
+Netherlands,maternal_mortality_ratio,4.311738966
+Netherlands,adolescent_birth_rate,2.747
+Netherlands,share_of_seats_in_parliament,37.77777778
+Netherlands,percent_females_have_some_secondary_education,89.80818939
+Netherlands,percent_males_have_some_secondary_education,92.67472839
+Netherlands,labour_force_participation_rate_female,63.58
+Netherlands,labour_force_participation_rate_male,72.35
+Belgium,hdi_rank,12
+Belgium,gender_inequality_index,0.044
+Belgium,gender_inequality_rank,11
+Belgium,maternal_mortality_ratio,4.755863198
+Belgium,adolescent_birth_rate,5.105
+Belgium,share_of_seats_in_parliament,44.28571429
+Belgium,percent_females_have_some_secondary_education,88.69869175
+Belgium,percent_males_have_some_secondary_education,90.74669673
+Belgium,labour_force_participation_rate_female,50.8
+Belgium,labour_force_participation_rate_male,59.54
+Finland,hdi_rank,12
+Finland,gender_inequality_index,0.032
+Finland,gender_inequality_rank,6
+Finland,maternal_mortality_ratio,8.338901656
+Finland,adolescent_birth_rate,4.1
+Finland,share_of_seats_in_parliament,45.5
+Finland,percent_females_have_some_secondary_education,99.2017433
+Finland,percent_males_have_some_secondary_education,98.8740322
+Finland,labour_force_participation_rate_female,58.17
+Finland,labour_force_participation_rate_male,64.18
+Liechtenstein,hdi_rank,12
+Liechtenstein,gender_inequality_index,NA
+Liechtenstein,gender_inequality_rank,NA
+Liechtenstein,maternal_mortality_ratio,NA
+Liechtenstein,adolescent_birth_rate,2.98
+Liechtenstein,share_of_seats_in_parliament,28
+Liechtenstein,percent_females_have_some_secondary_education,NA
+Liechtenstein,percent_males_have_some_secondary_education,NA
+Liechtenstein,labour_force_participation_rate_female,52.79
+Liechtenstein,labour_force_participation_rate_male,67.26
+United Kingdom,hdi_rank,15
+United Kingdom,gender_inequality_index,0.094
+United Kingdom,gender_inequality_rank,28
+United Kingdom,maternal_mortality_ratio,9.842479183
+United Kingdom,adolescent_birth_rate,9.985
+United Kingdom,share_of_seats_in_parliament,31.32022472
+United Kingdom,percent_females_have_some_secondary_education,99.80036926
+United Kingdom,percent_males_have_some_secondary_education,99.80490875
+United Kingdom,labour_force_participation_rate_female,59.1
+United Kingdom,labour_force_participation_rate_male,67.98
+New Zealand,hdi_rank,16
+New Zealand,gender_inequality_index,0.082
+New Zealand,gender_inequality_rank,23
+New Zealand,maternal_mortality_ratio,7.030437332
+New Zealand,adolescent_birth_rate,11.799
+New Zealand,share_of_seats_in_parliament,50.42016807
+New Zealand,percent_females_have_some_secondary_education,82.03005219
+New Zealand,percent_males_have_some_secondary_education,81.80406952
+New Zealand,labour_force_participation_rate_female,66.9
+New Zealand,labour_force_participation_rate_male,75.87
+United Arab Emirates,hdi_rank,17
+United Arab Emirates,gender_inequality_index,0.035
+United Arab Emirates,gender_inequality_rank,7
+United Arab Emirates,maternal_mortality_ratio,9.340701211
+United Arab Emirates,adolescent_birth_rate,2.844
+United Arab Emirates,share_of_seats_in_parliament,50
+United Arab Emirates,percent_females_have_some_secondary_education,82.02913666
+United Arab Emirates,percent_males_have_some_secondary_education,86.14517212
+United Arab Emirates,labour_force_participation_rate_female,55.32
+United Arab Emirates,labour_force_participation_rate_male,89.45
+Canada,hdi_rank,18
+Canada,gender_inequality_index,0.069
+Canada,gender_inequality_rank,18
+Canada,maternal_mortality_ratio,11.01286682
+Canada,adolescent_birth_rate,6.618
+Canada,share_of_seats_in_parliament,35.03480278
+Canada,percent_females_have_some_secondary_education,97.76331517
+Canada,percent_males_have_some_secondary_education,97.59402898
+Canada,labour_force_participation_rate_female,61.48
+Canada,labour_force_participation_rate_male,69.5
+Korea (Republic of),hdi_rank,19
+Korea (Republic of),gender_inequality_index,0.062
+Korea (Republic of),gender_inequality_rank,16
+Korea (Republic of),maternal_mortality_ratio,8.1156225
+Korea (Republic of),adolescent_birth_rate,2.108
+Korea (Republic of),share_of_seats_in_parliament,18.6440678
+Korea (Republic of),percent_females_have_some_secondary_education,83.78057161
+Korea (Republic of),percent_males_have_some_secondary_education,93.54354944
+Korea (Republic of),labour_force_participation_rate_female,55.04
+Korea (Republic of),labour_force_participation_rate_male,73.66
+Luxembourg,hdi_rank,20
+Luxembourg,gender_inequality_index,0.043
+Luxembourg,gender_inequality_rank,10
+Luxembourg,maternal_mortality_ratio,6.485500142
+Luxembourg,adolescent_birth_rate,4.248
+Luxembourg,share_of_seats_in_parliament,33.33333333
+Luxembourg,percent_females_have_some_secondary_education,96.57935047
+Luxembourg,percent_males_have_some_secondary_education,89.32828252
+Luxembourg,labour_force_participation_rate_female,57.99
+Luxembourg,labour_force_participation_rate_male,65.09
+United States,hdi_rank,20
+United States,gender_inequality_index,0.18
+United States,gender_inequality_rank,44
+United States,maternal_mortality_ratio,21.08490543
+United States,adolescent_birth_rate,15.119
+United States,share_of_seats_in_parliament,28.06026365
+United States,percent_females_have_some_secondary_education,95.42427826
+United States,percent_males_have_some_secondary_education,95.0670929
+United States,labour_force_participation_rate_female,56.79
+United States,labour_force_participation_rate_male,67.97
+Austria,hdi_rank,22
+Austria,gender_inequality_index,0.048
+Austria,gender_inequality_rank,12
+Austria,maternal_mortality_ratio,5.228388414
+Austria,adolescent_birth_rate,5.243
+Austria,share_of_seats_in_parliament,40.98360656
+Austria,percent_females_have_some_secondary_education,100
+Austria,percent_males_have_some_secondary_education,100
+Austria,labour_force_participation_rate_female,56.55
+Austria,labour_force_participation_rate_male,66.69
+Slovenia,hdi_rank,22
+Slovenia,gender_inequality_index,0.049
+Slovenia,gender_inequality_rank,13
+Slovenia,maternal_mortality_ratio,4.533144056
+Slovenia,adolescent_birth_rate,4.365
+Slovenia,share_of_seats_in_parliament,33.07692308
+Slovenia,percent_females_have_some_secondary_education,97.76996212
+Slovenia,percent_males_have_some_secondary_education,98.81544466
+Slovenia,labour_force_participation_rate_female,54.25
+Slovenia,labour_force_participation_rate_male,63.58
+Japan,hdi_rank,24
+Japan,gender_inequality_index,0.078
+Japan,gender_inequality_rank,22
+Japan,maternal_mortality_ratio,4.314909415
+Japan,adolescent_birth_rate,2.813
+Japan,share_of_seats_in_parliament,15.4494382
+Japan,percent_females_have_some_secondary_education,98.21291351
+Japan,percent_males_have_some_secondary_education,99.0597229
+Japan,labour_force_participation_rate_female,54.2
+Japan,labour_force_participation_rate_male,71.4
+Israel,hdi_rank,25
+Israel,gender_inequality_index,0.092
+Israel,gender_inequality_rank,26
+Israel,maternal_mortality_ratio,2.837861862
+Israel,adolescent_birth_rate,7.42
+Israel,share_of_seats_in_parliament,23.33333333
+Israel,percent_females_have_some_secondary_education,92.49434106
+Israel,percent_males_have_some_secondary_education,94.50644355
+Israel,labour_force_participation_rate_female,61.15
+Israel,labour_force_participation_rate_male,68.54
+Malta,hdi_rank,25
+Malta,gender_inequality_index,0.117
+Malta,gender_inequality_rank,35
+Malta,maternal_mortality_ratio,2.892779838
+Malta,adolescent_birth_rate,11.509
+Malta,share_of_seats_in_parliament,27.84810127
+Malta,percent_females_have_some_secondary_education,82.18309021
+Malta,percent_males_have_some_secondary_education,88.08731842
+Malta,labour_force_participation_rate_female,56.13
+Malta,labour_force_participation_rate_male,71.22
+Spain,hdi_rank,27
+Spain,gender_inequality_index,0.059
+Spain,gender_inequality_rank,15
+Spain,maternal_mortality_ratio,3.441251488
+Spain,adolescent_birth_rate,6.349
+Spain,share_of_seats_in_parliament,41.36807818
+Spain,percent_females_have_some_secondary_education,78.534729
+Spain,percent_males_have_some_secondary_education,83.16280365
+Spain,labour_force_participation_rate_female,53.19
+Spain,labour_force_participation_rate_male,62.86
+France,hdi_rank,28
+France,gender_inequality_index,0.084
+France,gender_inequality_rank,24
+France,maternal_mortality_ratio,7.909078636
+France,adolescent_birth_rate,9.442
+France,share_of_seats_in_parliament,36.43243243
+France,percent_females_have_some_secondary_education,84.29435712
+France,percent_males_have_some_secondary_education,88.33190192
+France,labour_force_participation_rate_female,52.52
+France,labour_force_participation_rate_male,60.18
+Cyprus,hdi_rank,29
+Cyprus,gender_inequality_index,0.253
+Cyprus,gender_inequality_rank,62
+Cyprus,maternal_mortality_ratio,68.40658507
+Cyprus,adolescent_birth_rate,6.825
+Cyprus,share_of_seats_in_parliament,14.28571429
+Cyprus,percent_females_have_some_secondary_education,81.13751221
+Cyprus,percent_males_have_some_secondary_education,84.81717682
+Cyprus,labour_force_participation_rate_female,59.63
+Cyprus,labour_force_participation_rate_male,71.07
+Italy,hdi_rank,30
+Italy,gender_inequality_index,0.057
+Italy,gender_inequality_rank,14
+Italy,maternal_mortality_ratio,4.590938693
+Italy,adolescent_birth_rate,3.899
+Italy,share_of_seats_in_parliament,33.00330033
+Italy,percent_females_have_some_secondary_education,78.6272583
+Italy,percent_males_have_some_secondary_education,86.09230804
+Italy,labour_force_participation_rate_female,40.69
+Italy,labour_force_participation_rate_male,58.08
+Estonia,hdi_rank,31
+Estonia,gender_inequality_index,0.093
+Estonia,gender_inequality_rank,27
+Estonia,maternal_mortality_ratio,5.179642171
+Estonia,adolescent_birth_rate,8.1
+Estonia,share_of_seats_in_parliament,25.74257426
+Estonia,percent_females_have_some_secondary_education,97.55341339
+Estonia,percent_males_have_some_secondary_education,98.1432724
+Estonia,labour_force_participation_rate_female,60.63
+Estonia,labour_force_participation_rate_male,71.38
+Czechia,hdi_rank,32
+Czechia,gender_inequality_index,0.113
+Czechia,gender_inequality_rank,32
+Czechia,maternal_mortality_ratio,3.374016344
+Czechia,adolescent_birth_rate,9.364
+Czechia,share_of_seats_in_parliament,23.48754448
+Czechia,percent_females_have_some_secondary_education,99.84135245
+Czechia,percent_males_have_some_secondary_education,99.77364732
+Czechia,labour_force_participation_rate_female,52.16
+Czechia,labour_force_participation_rate_male,67.89
+Greece,hdi_rank,33
+Greece,gender_inequality_index,0.12
+Greece,gender_inequality_rank,37
+Greece,maternal_mortality_ratio,7.654345551
+Greece,adolescent_birth_rate,8.315
+Greece,share_of_seats_in_parliament,21
+Greece,percent_females_have_some_secondary_education,69.86016083
+Greece,percent_males_have_some_secondary_education,77.78988647
+Greece,labour_force_participation_rate_female,44.67
+Greece,labour_force_participation_rate_male,60.36
+Bahrain,hdi_rank,34
+Bahrain,gender_inequality_index,0.181
+Bahrain,gender_inequality_rank,45
+Bahrain,maternal_mortality_ratio,15.89788184
+Bahrain,adolescent_birth_rate,8.714
+Bahrain,share_of_seats_in_parliament,22.5
+Bahrain,percent_females_have_some_secondary_education,79.90357208
+Bahrain,percent_males_have_some_secondary_education,83.08016205
+Bahrain,labour_force_participation_rate_female,42.43
+Bahrain,labour_force_participation_rate_male,85.77
+Andorra,hdi_rank,35
+Andorra,gender_inequality_index,NA
+Andorra,gender_inequality_rank,NA
+Andorra,maternal_mortality_ratio,NA
+Andorra,adolescent_birth_rate,5.91
+Andorra,share_of_seats_in_parliament,46.42857143
+Andorra,percent_females_have_some_secondary_education,81.71827698
+Andorra,percent_males_have_some_secondary_education,84.59999847
+Andorra,labour_force_participation_rate_female,NA
+Andorra,labour_force_participation_rate_male,NA
+Poland,hdi_rank,36
+Poland,gender_inequality_index,0.105
+Poland,gender_inequality_rank,31
+Poland,maternal_mortality_ratio,1.959465471
+Poland,adolescent_birth_rate,9.16
+Poland,share_of_seats_in_parliament,27.5
+Poland,percent_females_have_some_secondary_education,86.51820374
+Poland,percent_males_have_some_secondary_education,90.7297821
+Poland,labour_force_participation_rate_female,50.09
+Poland,labour_force_participation_rate_male,65.51
+Latvia,hdi_rank,37
+Latvia,gender_inequality_index,0.142
+Latvia,gender_inequality_rank,39
+Latvia,maternal_mortality_ratio,18.32162266
+Latvia,adolescent_birth_rate,10.536
+Latvia,share_of_seats_in_parliament,30
+Latvia,percent_females_have_some_secondary_education,99.8234528
+Latvia,percent_males_have_some_secondary_education,99.34465956
+Latvia,labour_force_participation_rate_female,55.61
+Latvia,labour_force_participation_rate_male,67.89
+Lithuania,hdi_rank,37
+Lithuania,gender_inequality_index,0.098
+Lithuania,gender_inequality_rank,30
+Lithuania,maternal_mortality_ratio,8.660484461
+Lithuania,adolescent_birth_rate,9.714
+Lithuania,share_of_seats_in_parliament,28.36879433
+Lithuania,percent_females_have_some_secondary_education,95.53431702
+Lithuania,percent_males_have_some_secondary_education,97.90854645
+Lithuania,labour_force_participation_rate_female,58.84
+Lithuania,labour_force_participation_rate_male,67.71
+Croatia,hdi_rank,39
+Croatia,gender_inequality_index,0.087
+Croatia,gender_inequality_rank,25
+Croatia,maternal_mortality_ratio,4.816821554
+Croatia,adolescent_birth_rate,8.236
+Croatia,share_of_seats_in_parliament,31.78807947
+Croatia,percent_females_have_some_secondary_education,95.49993813
+Croatia,percent_males_have_some_secondary_education,97.4147363
+Croatia,labour_force_participation_rate_female,46.85
+Croatia,labour_force_participation_rate_male,58.24
+Qatar,hdi_rank,40
+Qatar,gender_inequality_index,0.212
+Qatar,gender_inequality_rank,54
+Qatar,maternal_mortality_ratio,7.605434417
+Qatar,adolescent_birth_rate,6.896
+Qatar,share_of_seats_in_parliament,4.444444444
+Qatar,percent_females_have_some_secondary_education,81.8327411
+Qatar,percent_males_have_some_secondary_education,71.4179765
+Qatar,labour_force_participation_rate_female,61.73
+Qatar,labour_force_participation_rate_male,95.33
+Saudi Arabia,hdi_rank,40
+Saudi Arabia,gender_inequality_index,0.229
+Saudi Arabia,gender_inequality_rank,55
+Saudi Arabia,maternal_mortality_ratio,16.20375848
+Saudi Arabia,adolescent_birth_rate,11.577
+Saudi Arabia,share_of_seats_in_parliament,19.86754967
+Saudi Arabia,percent_females_have_some_secondary_education,71.27487946
+Saudi Arabia,percent_males_have_some_secondary_education,80.92530823
+Saudi Arabia,labour_force_participation_rate_female,34.46
+Saudi Arabia,labour_force_participation_rate_male,79.64
+Portugal,hdi_rank,42
+Portugal,gender_inequality_index,0.076
+Portugal,gender_inequality_rank,21
+Portugal,maternal_mortality_ratio,11.79945488
+Portugal,adolescent_birth_rate,7.065
+Portugal,share_of_seats_in_parliament,36.95652174
+Portugal,percent_females_have_some_secondary_education,59.74694061
+Portugal,percent_males_have_some_secondary_education,61.92316818
+Portugal,labour_force_participation_rate_female,54.7
+Portugal,labour_force_participation_rate_male,63.12
+San Marino,hdi_rank,43
+San Marino,gender_inequality_index,NA
+San Marino,gender_inequality_rank,NA
+San Marino,maternal_mortality_ratio,NA
+San Marino,adolescent_birth_rate,3.65
+San Marino,share_of_seats_in_parliament,33.33333333
+San Marino,percent_females_have_some_secondary_education,81.75823975
+San Marino,percent_males_have_some_secondary_education,84.284729
+San Marino,labour_force_participation_rate_female,70.36
+San Marino,labour_force_participation_rate_male,70.58
+Chile,hdi_rank,44
+Chile,gender_inequality_index,0.19
+Chile,gender_inequality_rank,49
+Chile,maternal_mortality_ratio,15.03073946
+Chile,adolescent_birth_rate,22.793
+Chile,share_of_seats_in_parliament,32.68292683
+Chile,percent_females_have_some_secondary_education,82.16999817
+Chile,percent_males_have_some_secondary_education,84.41999817
+Chile,labour_force_participation_rate_female,50.13
+Chile,labour_force_participation_rate_male,70.64
+Slovakia,hdi_rank,45
+Slovakia,gender_inequality_index,0.184
+Slovakia,gender_inequality_rank,46
+Slovakia,maternal_mortality_ratio,4.824665876
+Slovakia,adolescent_birth_rate,26.623
+Slovakia,share_of_seats_in_parliament,21.33333333
+Slovakia,percent_females_have_some_secondary_education,98.7970428
+Slovakia,percent_males_have_some_secondary_education,99.11751898
+Slovakia,labour_force_participation_rate_female,56.18
+Slovakia,labour_force_participation_rate_male,67.25
+Türkiye,hdi_rank,45
+Türkiye,gender_inequality_index,0.259
+Türkiye,gender_inequality_rank,63
+Türkiye,maternal_mortality_ratio,17.33207026
+Türkiye,adolescent_birth_rate,15.656
+Türkiye,share_of_seats_in_parliament,17.35395189
+Türkiye,percent_females_have_some_secondary_education,59.08446032
+Türkiye,percent_males_have_some_secondary_education,78.12152062
+Türkiye,labour_force_participation_rate_female,35.11
+Türkiye,labour_force_participation_rate_male,71.43
+Hungary,hdi_rank,47
+Hungary,gender_inequality_index,0.23
+Hungary,gender_inequality_rank,56
+Hungary,maternal_mortality_ratio,15.04888628
+Hungary,adolescent_birth_rate,21.889
+Hungary,share_of_seats_in_parliament,14.07035176
+Hungary,percent_females_have_some_secondary_education,97.61313629
+Hungary,percent_males_have_some_secondary_education,98.82952881
+Hungary,labour_force_participation_rate_female,53.68
+Hungary,labour_force_participation_rate_male,67.75
+Argentina,hdi_rank,48
+Argentina,gender_inequality_index,0.292
+Argentina,gender_inequality_rank,71
+Argentina,maternal_mortality_ratio,44.90007716
+Argentina,adolescent_birth_rate,37.932
+Argentina,share_of_seats_in_parliament,44.3768997
+Argentina,percent_females_have_some_secondary_education,73.59154056
+Argentina,percent_males_have_some_secondary_education,71.6480851
+Argentina,labour_force_participation_rate_female,52.08
+Argentina,labour_force_participation_rate_male,71.74
+Kuwait,hdi_rank,49
+Kuwait,gender_inequality_index,0.199
+Kuwait,gender_inequality_rank,51
+Kuwait,maternal_mortality_ratio,7.170899064
+Kuwait,adolescent_birth_rate,5.298
+Kuwait,share_of_seats_in_parliament,6.25
+Kuwait,percent_females_have_some_secondary_education,61.80728762
+Kuwait,percent_males_have_some_secondary_education,56.45168673
+Kuwait,labour_force_participation_rate_female,44.41
+Kuwait,labour_force_participation_rate_male,88.45
+Montenegro,hdi_rank,50
+Montenegro,gender_inequality_index,0.114
+Montenegro,gender_inequality_rank,33
+Montenegro,maternal_mortality_ratio,6.174434257
+Montenegro,adolescent_birth_rate,9.747
+Montenegro,share_of_seats_in_parliament,27.16049383
+Montenegro,percent_females_have_some_secondary_education,70.8252214
+Montenegro,percent_males_have_some_secondary_education,83.66965647
+Montenegro,labour_force_participation_rate_female,44.41
+Montenegro,labour_force_participation_rate_male,57.82
+Saint Kitts and Nevis,hdi_rank,51
+Saint Kitts and Nevis,gender_inequality_index,NA
+Saint Kitts and Nevis,gender_inequality_rank,NA
+Saint Kitts and Nevis,maternal_mortality_ratio,NA
+Saint Kitts and Nevis,adolescent_birth_rate,36.756
+Saint Kitts and Nevis,share_of_seats_in_parliament,31.25
+Saint Kitts and Nevis,percent_females_have_some_secondary_education,NA
+Saint Kitts and Nevis,percent_males_have_some_secondary_education,NA
+Saint Kitts and Nevis,labour_force_participation_rate_female,NA
+Saint Kitts and Nevis,labour_force_participation_rate_male,NA
+Uruguay,hdi_rank,52
+Uruguay,gender_inequality_index,0.24
+Uruguay,gender_inequality_rank,60
+Uruguay,maternal_mortality_ratio,18.6383616
+Uruguay,adolescent_birth_rate,35.196
+Uruguay,share_of_seats_in_parliament,26.92307692
+Uruguay,percent_females_have_some_secondary_education,62.52999878
+Uruguay,percent_males_have_some_secondary_education,59.29999924
+Uruguay,labour_force_participation_rate_female,55.65
+Uruguay,labour_force_participation_rate_male,71.38
+Romania,hdi_rank,53
+Romania,gender_inequality_index,0.23
+Romania,gender_inequality_rank,56
+Romania,maternal_mortality_ratio,10.07080153
+Romania,adolescent_birth_rate,35.423
+Romania,share_of_seats_in_parliament,18.88412017
+Romania,percent_females_have_some_secondary_education,89.36717029
+Romania,percent_males_have_some_secondary_education,93.99737853
+Romania,labour_force_participation_rate_female,42.29
+Romania,labour_force_participation_rate_male,62.04
+Antigua and Barbuda,hdi_rank,54
+Antigua and Barbuda,gender_inequality_index,NA
+Antigua and Barbuda,gender_inequality_rank,NA
+Antigua and Barbuda,maternal_mortality_ratio,21.24794783
+Antigua and Barbuda,adolescent_birth_rate,32.262
+Antigua and Barbuda,share_of_seats_in_parliament,31.42857143
+Antigua and Barbuda,percent_females_have_some_secondary_education,NA
+Antigua and Barbuda,percent_males_have_some_secondary_education,NA
+Antigua and Barbuda,labour_force_participation_rate_female,NA
+Antigua and Barbuda,labour_force_participation_rate_male,NA
+Brunei Darussalam,hdi_rank,55
+Brunei Darussalam,gender_inequality_index,0.279
+Brunei Darussalam,gender_inequality_rank,68
+Brunei Darussalam,maternal_mortality_ratio,44.236057
+Brunei Darussalam,adolescent_birth_rate,9.524
+Brunei Darussalam,share_of_seats_in_parliament,9.090909091
+Brunei Darussalam,percent_females_have_some_secondary_education,70.9
+Brunei Darussalam,percent_males_have_some_secondary_education,71.5
+Brunei Darussalam,labour_force_participation_rate_female,54.89
+Brunei Darussalam,labour_force_participation_rate_male,71.65
+Russian Federation,hdi_rank,56
+Russian Federation,gender_inequality_index,0.178
+Russian Federation,gender_inequality_rank,43
+Russian Federation,maternal_mortality_ratio,13.72279181
+Russian Federation,adolescent_birth_rate,14.471
+Russian Federation,share_of_seats_in_parliament,17.77059774
+Russian Federation,percent_females_have_some_secondary_education,98.27648926
+Russian Federation,percent_males_have_some_secondary_education,98.94474792
+Russian Federation,labour_force_participation_rate_female,55.53
+Russian Federation,labour_force_participation_rate_male,70.33
+Bahamas,hdi_rank,57
+Bahamas,gender_inequality_index,0.333
+Bahamas,gender_inequality_rank,79
+Bahamas,maternal_mortality_ratio,77.05063334
+Bahamas,adolescent_birth_rate,25.079
+Bahamas,share_of_seats_in_parliament,20
+Bahamas,percent_females_have_some_secondary_education,86.76156148
+Bahamas,percent_males_have_some_secondary_education,90.02490432
+Bahamas,labour_force_participation_rate_female,68.96
+Bahamas,labour_force_participation_rate_male,73.91
+Panama,hdi_rank,57
+Panama,gender_inequality_index,0.392
+Panama,gender_inequality_rank,95
+Panama,maternal_mortality_ratio,49.51727278
+Panama,adolescent_birth_rate,68.49
+Panama,share_of_seats_in_parliament,22.53521127
+Panama,percent_females_have_some_secondary_education,67.56999969
+Panama,percent_males_have_some_secondary_education,65.61000061
+Panama,labour_force_participation_rate_female,49.71
+Panama,labour_force_participation_rate_male,76.98
+Oman,hdi_rank,59
+Oman,gender_inequality_index,0.267
+Oman,gender_inequality_rank,66
+Oman,maternal_mortality_ratio,17.00671046
+Oman,adolescent_birth_rate,9.693
+Oman,share_of_seats_in_parliament,9.941520468
+Oman,percent_females_have_some_secondary_education,93.2646637
+Oman,percent_males_have_some_secondary_education,98.6502533
+Oman,labour_force_participation_rate_female,34.97
+Oman,labour_force_participation_rate_male,83.84
+Georgia,hdi_rank,60
+Georgia,gender_inequality_index,0.283
+Georgia,gender_inequality_rank,69
+Georgia,maternal_mortality_ratio,27.60824572
+Georgia,adolescent_birth_rate,29.693
+Georgia,share_of_seats_in_parliament,19.04761905
+Georgia,percent_females_have_some_secondary_education,98.21996307
+Georgia,percent_males_have_some_secondary_education,98.68755341
+Georgia,labour_force_participation_rate_female,55.48
+Georgia,labour_force_participation_rate_male,73.5
+Trinidad and Tobago,hdi_rank,60
+Trinidad and Tobago,gender_inequality_index,0.264
+Trinidad and Tobago,gender_inequality_rank,64
+Trinidad and Tobago,maternal_mortality_ratio,26.58299776
+Trinidad and Tobago,adolescent_birth_rate,37.73
+Trinidad and Tobago,share_of_seats_in_parliament,32.43243243
+Trinidad and Tobago,percent_females_have_some_secondary_education,86.02335869
+Trinidad and Tobago,percent_males_have_some_secondary_education,81.88103187
+Trinidad and Tobago,labour_force_participation_rate_female,47.28
+Trinidad and Tobago,labour_force_participation_rate_male,62.37
+Barbados,hdi_rank,62
+Barbados,gender_inequality_index,0.289
+Barbados,gender_inequality_rank,70
+Barbados,maternal_mortality_ratio,39.10801491
+Barbados,adolescent_birth_rate,41.864
+Barbados,share_of_seats_in_parliament,32.65306122
+Barbados,percent_females_have_some_secondary_education,95.72636154
+Barbados,percent_males_have_some_secondary_education,86.27997705
+Barbados,labour_force_participation_rate_female,58.17
+Barbados,labour_force_participation_rate_male,65.14
+Malaysia,hdi_rank,63
+Malaysia,gender_inequality_index,0.202
+Malaysia,gender_inequality_rank,52
+Malaysia,maternal_mortality_ratio,21.13193118
+Malaysia,adolescent_birth_rate,9.127
+Malaysia,share_of_seats_in_parliament,14.49275362
+Malaysia,percent_females_have_some_secondary_education,76.12813868
+Malaysia,percent_males_have_some_secondary_education,79.24223022
+Malaysia,labour_force_participation_rate_female,55.08
+Malaysia,labour_force_participation_rate_male,80.47
+Costa Rica,hdi_rank,64
+Costa Rica,gender_inequality_index,0.232
+Costa Rica,gender_inequality_rank,58
+Costa Rica,maternal_mortality_ratio,22.00380558
+Costa Rica,adolescent_birth_rate,35.749
+Costa Rica,share_of_seats_in_parliament,47.36842105
+Costa Rica,percent_females_have_some_secondary_education,50.18999863
+Costa Rica,percent_males_have_some_secondary_education,48.08000183
+Costa Rica,labour_force_participation_rate_female,50.08
+Costa Rica,labour_force_participation_rate_male,72.85
+Serbia,hdi_rank,65
+Serbia,gender_inequality_index,0.119
+Serbia,gender_inequality_rank,36
+Serbia,maternal_mortality_ratio,10.1813354
+Serbia,adolescent_birth_rate,14.356
+Serbia,share_of_seats_in_parliament,36.55462185
+Serbia,percent_females_have_some_secondary_education,89.87883544
+Serbia,percent_males_have_some_secondary_education,96.0627568
+Serbia,labour_force_participation_rate_female,50.97
+Serbia,labour_force_participation_rate_male,66.1
+Thailand,hdi_rank,66
+Thailand,gender_inequality_index,0.31
+Thailand,gender_inequality_rank,74
+Thailand,maternal_mortality_ratio,28.60043381
+Thailand,adolescent_birth_rate,31.585
+Thailand,share_of_seats_in_parliament,13.97557666
+Thailand,percent_females_have_some_secondary_education,49.31797153
+Thailand,percent_males_have_some_secondary_education,53.02398051
+Thailand,labour_force_participation_rate_female,59.86
+Thailand,labour_force_participation_rate_male,75.96
+Kazakhstan,hdi_rank,67
+Kazakhstan,gender_inequality_index,0.177
+Kazakhstan,gender_inequality_rank,42
+Kazakhstan,maternal_mortality_ratio,13.38363194
+Kazakhstan,adolescent_birth_rate,20.882
+Kazakhstan,share_of_seats_in_parliament,24.67532468
+Kazakhstan,percent_females_have_some_secondary_education,100
+Kazakhstan,percent_males_have_some_secondary_education,100
+Kazakhstan,labour_force_participation_rate_female,63.3
+Kazakhstan,labour_force_participation_rate_male,74.6
+Seychelles,hdi_rank,67
+Seychelles,gender_inequality_index,NA
+Seychelles,gender_inequality_rank,NA
+Seychelles,maternal_mortality_ratio,3.33320948
+Seychelles,adolescent_birth_rate,52.121
+Seychelles,share_of_seats_in_parliament,22.85714286
+Seychelles,percent_females_have_some_secondary_education,NA
+Seychelles,percent_males_have_some_secondary_education,NA
+Seychelles,labour_force_participation_rate_female,65.23
+Seychelles,labour_force_participation_rate_male,65.25
+Belarus,hdi_rank,69
+Belarus,gender_inequality_index,0.096
+Belarus,gender_inequality_rank,29
+Belarus,maternal_mortality_ratio,1.101917215
+Belarus,adolescent_birth_rate,11.191
+Belarus,share_of_seats_in_parliament,34.70588235
+Belarus,percent_females_have_some_secondary_education,98.37734548
+Belarus,percent_males_have_some_secondary_education,99.45970879
+Belarus,labour_force_participation_rate_female,65.79
+Belarus,labour_force_participation_rate_male,75.26
+Bulgaria,hdi_rank,70
+Bulgaria,gender_inequality_index,0.206
+Bulgaria,gender_inequality_rank,53
+Bulgaria,maternal_mortality_ratio,7.086025283
+Bulgaria,adolescent_birth_rate,38.215
+Bulgaria,share_of_seats_in_parliament,24.16666667
+Bulgaria,percent_females_have_some_secondary_education,94.88394165
+Bulgaria,percent_males_have_some_secondary_education,96.54078674
+Bulgaria,labour_force_participation_rate_female,50.57
+Bulgaria,labour_force_participation_rate_male,63.11
+Palau,hdi_rank,71
+Palau,gender_inequality_index,NA
+Palau,gender_inequality_rank,NA
+Palau,maternal_mortality_ratio,NA
+Palau,adolescent_birth_rate,42.111
+Palau,share_of_seats_in_parliament,6.896551724
+Palau,percent_females_have_some_secondary_education,96.88913727
+Palau,percent_males_have_some_secondary_education,97.33132172
+Palau,labour_force_participation_rate_female,59.82
+Palau,labour_force_participation_rate_male,73.61
+Mauritius,hdi_rank,72
+Mauritius,gender_inequality_index,0.369
+Mauritius,gender_inequality_rank,87
+Mauritius,maternal_mortality_ratio,84.35797631
+Mauritius,adolescent_birth_rate,24.023
+Mauritius,share_of_seats_in_parliament,20
+Mauritius,percent_females_have_some_secondary_education,66.52111097
+Mauritius,percent_males_have_some_secondary_education,72.40921213
+Mauritius,labour_force_participation_rate_female,42.21
+Mauritius,labour_force_participation_rate_male,68.37
+Grenada,hdi_rank,73
+Grenada,gender_inequality_index,NA
+Grenada,gender_inequality_rank,NA
+Grenada,maternal_mortality_ratio,21.13828979
+Grenada,adolescent_birth_rate,32.141
+Grenada,share_of_seats_in_parliament,31.03448276
+Grenada,percent_females_have_some_secondary_education,NA
+Grenada,percent_males_have_some_secondary_education,NA
+Grenada,labour_force_participation_rate_female,37.65
+Grenada,labour_force_participation_rate_male,54.31
+Albania,hdi_rank,74
+Albania,gender_inequality_index,0.116
+Albania,gender_inequality_rank,34
+Albania,maternal_mortality_ratio,8.276445584
+Albania,adolescent_birth_rate,14.46
+Albania,share_of_seats_in_parliament,35.71428571
+Albania,percent_females_have_some_secondary_education,82.24918524
+Albania,percent_males_have_some_secondary_education,86.47663419
+Albania,labour_force_participation_rate_female,56.08
+Albania,labour_force_participation_rate_male,69.91
+China,hdi_rank,75
+China,gender_inequality_index,0.186
+China,gender_inequality_rank,47
+China,maternal_mortality_ratio,23.04763188
+China,adolescent_birth_rate,11.146
+China,share_of_seats_in_parliament,24.94117647
+China,percent_females_have_some_secondary_education,79.70198229
+China,percent_males_have_some_secondary_education,86.36580148
+China,labour_force_participation_rate_female,53.76
+China,labour_force_participation_rate_male,74.54
+Armenia,hdi_rank,76
+Armenia,gender_inequality_index,0.198
+Armenia,gender_inequality_rank,50
+Armenia,maternal_mortality_ratio,27.18972179
+Armenia,adolescent_birth_rate,18.305
+Armenia,share_of_seats_in_parliament,35.51401869
+Armenia,percent_females_have_some_secondary_education,96.00138092
+Armenia,percent_males_have_some_secondary_education,97.05095673
+Armenia,labour_force_participation_rate_female,62.8
+Armenia,labour_force_participation_rate_male,71.84
+Mexico,hdi_rank,77
+Mexico,gender_inequality_index,0.352
+Mexico,gender_inequality_rank,84
+Mexico,maternal_mortality_ratio,59.12507106
+Mexico,adolescent_birth_rate,53.693
+Mexico,share_of_seats_in_parliament,49.84076433
+Mexico,percent_females_have_some_secondary_education,63.70000076
+Mexico,percent_males_have_some_secondary_education,65.40000153
+Mexico,labour_force_participation_rate_female,45.03
+Mexico,labour_force_participation_rate_male,76.31
+Iran (Islamic Republic of),hdi_rank,78
+Iran (Islamic Republic of),gender_inequality_index,0.484
+Iran (Islamic Republic of),gender_inequality_rank,121
+Iran (Islamic Republic of),maternal_mortality_ratio,22.01888656
+Iran (Islamic Republic of),adolescent_birth_rate,29.663
+Iran (Islamic Republic of),share_of_seats_in_parliament,5.594405594
+Iran (Islamic Republic of),percent_females_have_some_secondary_education,73.06498735
+Iran (Islamic Republic of),percent_males_have_some_secondary_education,77.32628477
+Iran (Islamic Republic of),labour_force_participation_rate_female,13.58
+Iran (Islamic Republic of),labour_force_participation_rate_male,67.54
+Sri Lanka,hdi_rank,78
+Sri Lanka,gender_inequality_index,0.376
+Sri Lanka,gender_inequality_rank,90
+Sri Lanka,maternal_mortality_ratio,28.84230517
+Sri Lanka,adolescent_birth_rate,15.355
+Sri Lanka,share_of_seats_in_parliament,5.333333333
+Sri Lanka,percent_females_have_some_secondary_education,80.6453476
+Sri Lanka,percent_males_have_some_secondary_education,83.28645325
+Sri Lanka,labour_force_participation_rate_female,29.68
+Sri Lanka,labour_force_participation_rate_male,70.69
+Bosnia and Herzegovina,hdi_rank,80
+Bosnia and Herzegovina,gender_inequality_index,0.148
+Bosnia and Herzegovina,gender_inequality_rank,40
+Bosnia and Herzegovina,maternal_mortality_ratio,5.668398678
+Bosnia and Herzegovina,adolescent_birth_rate,9.384
+Bosnia and Herzegovina,share_of_seats_in_parliament,17.54385965
+Bosnia and Herzegovina,percent_females_have_some_secondary_education,82.73858643
+Bosnia and Herzegovina,percent_males_have_some_secondary_education,94.02471924
+Bosnia and Herzegovina,labour_force_participation_rate_female,41.11
+Bosnia and Herzegovina,labour_force_participation_rate_male,61.8
+Saint Vincent and the Grenadines,hdi_rank,81
+Saint Vincent and the Grenadines,gender_inequality_index,NA
+Saint Vincent and the Grenadines,gender_inequality_rank,NA
+Saint Vincent and the Grenadines,maternal_mortality_ratio,61.79403226
+Saint Vincent and the Grenadines,adolescent_birth_rate,46.51
+Saint Vincent and the Grenadines,share_of_seats_in_parliament,18.18181818
+Saint Vincent and the Grenadines,percent_females_have_some_secondary_education,43.63830469
+Saint Vincent and the Grenadines,percent_males_have_some_secondary_education,41.79062887
+Saint Vincent and the Grenadines,labour_force_participation_rate_female,NA
+Saint Vincent and the Grenadines,labour_force_participation_rate_male,NA
+Dominican Republic,hdi_rank,82
+Dominican Republic,gender_inequality_index,0.433
+Dominican Republic,gender_inequality_rank,107
+Dominican Republic,maternal_mortality_ratio,107.3475396
+Dominican Republic,adolescent_birth_rate,63.198
+Dominican Republic,share_of_seats_in_parliament,25.67567568
+Dominican Republic,percent_females_have_some_secondary_education,67.51000214
+Dominican Republic,percent_males_have_some_secondary_education,64.23000336
+Dominican Republic,labour_force_participation_rate_female,50.86
+Dominican Republic,labour_force_participation_rate_male,76.93
+Ecuador,hdi_rank,83
+Ecuador,gender_inequality_index,0.371
+Ecuador,gender_inequality_rank,89
+Ecuador,maternal_mortality_ratio,65.74967089
+Ecuador,adolescent_birth_rate,62.065
+Ecuador,share_of_seats_in_parliament,38.68613139
+Ecuador,percent_females_have_some_secondary_education,54.06529999
+Ecuador,percent_males_have_some_secondary_education,54.19174957
+Ecuador,labour_force_participation_rate_female,53.57
+Ecuador,labour_force_participation_rate_male,76.93
+North Macedonia,hdi_rank,83
+North Macedonia,gender_inequality_index,0.134
+North Macedonia,gender_inequality_rank,38
+North Macedonia,maternal_mortality_ratio,3.035965537
+North Macedonia,adolescent_birth_rate,16.123
+North Macedonia,share_of_seats_in_parliament,41.66666667
+North Macedonia,percent_females_have_some_secondary_education,61.9025116
+North Macedonia,percent_males_have_some_secondary_education,75.12754822
+North Macedonia,labour_force_participation_rate_female,42.22
+North Macedonia,labour_force_participation_rate_male,64.14
+Cuba,hdi_rank,85
+Cuba,gender_inequality_index,0.3
+Cuba,gender_inequality_rank,73
+Cuba,maternal_mortality_ratio,39.25454627
+Cuba,adolescent_birth_rate,48.914
+Cuba,share_of_seats_in_parliament,53.41296928
+Cuba,percent_females_have_some_secondary_education,78.57671636
+Cuba,percent_males_have_some_secondary_education,81.80157682
+Cuba,labour_force_participation_rate_female,55.52
+Cuba,labour_force_participation_rate_male,83.96
+Moldova (Republic of),hdi_rank,86
+Moldova (Republic of),gender_inequality_index,0.156
+Moldova (Republic of),gender_inequality_rank,41
+Moldova (Republic of),maternal_mortality_ratio,12.2647713
+Moldova (Republic of),adolescent_birth_rate,27.208
+Moldova (Republic of),share_of_seats_in_parliament,40.59405941
+Moldova (Republic of),percent_females_have_some_secondary_education,96.2943566
+Moldova (Republic of),percent_males_have_some_secondary_education,98.09250551
+Moldova (Republic of),labour_force_participation_rate_female,71.5
+Moldova (Republic of),labour_force_participation_rate_male,73.71
+Maldives,hdi_rank,87
+Maldives,gender_inequality_index,0.328
+Maldives,gender_inequality_rank,76
+Maldives,maternal_mortality_ratio,56.69380391
+Maldives,adolescent_birth_rate,6.814
+Maldives,share_of_seats_in_parliament,4.597701149
+Maldives,percent_females_have_some_secondary_education,46.92806785
+Maldives,percent_males_have_some_secondary_education,46.26936583
+Maldives,labour_force_participation_rate_female,53.34
+Maldives,labour_force_participation_rate_male,78.21
+Peru,hdi_rank,87
+Peru,gender_inequality_index,0.36
+Peru,gender_inequality_rank,85
+Peru,maternal_mortality_ratio,68.53598225
+Peru,adolescent_birth_rate,56.091
+Peru,share_of_seats_in_parliament,40
+Peru,percent_females_have_some_secondary_education,55.56000137
+Peru,percent_males_have_some_secondary_education,66.72000122
+Peru,labour_force_participation_rate_female,66.73
+Peru,labour_force_participation_rate_male,82.43
+Azerbaijan,hdi_rank,89
+Azerbaijan,gender_inequality_index,0.329
+Azerbaijan,gender_inequality_rank,77
+Azerbaijan,maternal_mortality_ratio,40.76367015
+Azerbaijan,adolescent_birth_rate,40.081
+Azerbaijan,share_of_seats_in_parliament,18.33333333
+Azerbaijan,percent_females_have_some_secondary_education,93.5774011
+Azerbaijan,percent_males_have_some_secondary_education,97.57326992
+Azerbaijan,labour_force_participation_rate_female,61.9
+Azerbaijan,labour_force_participation_rate_male,69.6
+Brazil,hdi_rank,89
+Brazil,gender_inequality_index,0.391
+Brazil,gender_inequality_rank,94
+Brazil,maternal_mortality_ratio,72.14753684
+Brazil,adolescent_birth_rate,43.582
+Brazil,share_of_seats_in_parliament,17.50841751
+Brazil,percent_females_have_some_secondary_education,67.40000153
+Brazil,percent_males_have_some_secondary_education,64.97000122
+Brazil,labour_force_participation_rate_female,53.75
+Brazil,labour_force_participation_rate_male,73.64
+Colombia,hdi_rank,91
+Colombia,gender_inequality_index,0.392
+Colombia,gender_inequality_rank,95
+Colombia,maternal_mortality_ratio,74.76289736
+Colombia,adolescent_birth_rate,57.612
+Colombia,share_of_seats_in_parliament,29.15254237
+Colombia,percent_females_have_some_secondary_education,59.72999954
+Colombia,percent_males_have_some_secondary_education,57.13999939
+Colombia,labour_force_participation_rate_female,51.11
+Colombia,labour_force_participation_rate_male,76.21
+Libya,hdi_rank,92
+Libya,gender_inequality_index,0.266
+Libya,gender_inequality_rank,65
+Libya,maternal_mortality_ratio,72.12710336
+Libya,adolescent_birth_rate,6.987
+Libya,share_of_seats_in_parliament,16.47058824
+Libya,percent_females_have_some_secondary_education,62.1799143
+Libya,percent_males_have_some_secondary_education,45.33414026
+Libya,labour_force_participation_rate_female,32.76
+Libya,labour_force_participation_rate_male,59.86
+Algeria,hdi_rank,93
+Algeria,gender_inequality_index,0.46
+Algeria,gender_inequality_rank,114
+Algeria,maternal_mortality_ratio,77.69478932
+Algeria,adolescent_birth_rate,11.564
+Algeria,share_of_seats_in_parliament,7.00525394
+Algeria,percent_females_have_some_secondary_education,42.91045642
+Algeria,percent_males_have_some_secondary_education,46.81516971
+Algeria,labour_force_participation_rate_female,17.57
+Algeria,labour_force_participation_rate_male,65.53
+Turkmenistan,hdi_rank,94
+Turkmenistan,gender_inequality_index,NA
+Turkmenistan,gender_inequality_rank,NA
+Turkmenistan,maternal_mortality_ratio,5.148083393
+Turkmenistan,adolescent_birth_rate,21.184
+Turkmenistan,share_of_seats_in_parliament,25.73099415
+Turkmenistan,percent_females_have_some_secondary_education,98.05849678
+Turkmenistan,percent_males_have_some_secondary_education,98.43949646
+Turkmenistan,labour_force_participation_rate_female,NA
+Turkmenistan,labour_force_participation_rate_male,NA
+Guyana,hdi_rank,95
+Guyana,gender_inequality_index,0.416
+Guyana,gender_inequality_rank,104
+Guyana,maternal_mortality_ratio,111.9429401
+Guyana,adolescent_birth_rate,64.636
+Guyana,share_of_seats_in_parliament,35.38461538
+Guyana,percent_females_have_some_secondary_education,58.74348609
+Guyana,percent_males_have_some_secondary_education,56.44360471
+Guyana,labour_force_participation_rate_female,37.81
+Guyana,labour_force_participation_rate_male,53.38
+Mongolia,hdi_rank,96
+Mongolia,gender_inequality_index,0.297
+Mongolia,gender_inequality_rank,72
+Mongolia,maternal_mortality_ratio,39.49361184
+Mongolia,adolescent_birth_rate,25.031
+Mongolia,share_of_seats_in_parliament,17.10526316
+Mongolia,percent_females_have_some_secondary_education,79.25840759
+Mongolia,percent_males_have_some_secondary_education,73.04766846
+Mongolia,labour_force_participation_rate_female,53.48
+Mongolia,labour_force_participation_rate_male,68.4
+Dominica,hdi_rank,97
+Dominica,gender_inequality_index,NA
+Dominica,gender_inequality_rank,NA
+Dominica,maternal_mortality_ratio,NA
+Dominica,adolescent_birth_rate,37.933
+Dominica,share_of_seats_in_parliament,34.375
+Dominica,percent_females_have_some_secondary_education,NA
+Dominica,percent_males_have_some_secondary_education,NA
+Dominica,labour_force_participation_rate_female,NA
+Dominica,labour_force_participation_rate_male,NA
+Tonga,hdi_rank,98
+Tonga,gender_inequality_index,0.462
+Tonga,gender_inequality_rank,115
+Tonga,maternal_mortality_ratio,125.6376347
+Tonga,adolescent_birth_rate,19.245
+Tonga,share_of_seats_in_parliament,3.703703704
+Tonga,percent_females_have_some_secondary_education,93.74305134
+Tonga,percent_males_have_some_secondary_education,93.38483877
+Tonga,labour_force_participation_rate_female,42.96
+Tonga,labour_force_participation_rate_male,54.89
+Jordan,hdi_rank,99
+Jordan,gender_inequality_index,0.449
+Jordan,gender_inequality_rank,111
+Jordan,maternal_mortality_ratio,41.31479125
+Jordan,adolescent_birth_rate,24.87
+Jordan,share_of_seats_in_parliament,13.33333333
+Jordan,percent_females_have_some_secondary_education,77.37870026
+Jordan,percent_males_have_some_secondary_education,84.21157074
+Jordan,labour_force_participation_rate_female,13.81
+Jordan,labour_force_participation_rate_male,60.71
+Ukraine,hdi_rank,100
+Ukraine,gender_inequality_index,0.188
+Ukraine,gender_inequality_rank,48
+Ukraine,maternal_mortality_ratio,16.54036907
+Ukraine,adolescent_birth_rate,15.175
+Ukraine,share_of_seats_in_parliament,20.33096927
+Ukraine,percent_females_have_some_secondary_education,95.65286698
+Ukraine,percent_males_have_some_secondary_education,93.48713834
+Ukraine,labour_force_participation_rate_female,47.77
+Ukraine,labour_force_participation_rate_male,62.87
+Tunisia,hdi_rank,101
+Tunisia,gender_inequality_index,0.237
+Tunisia,gender_inequality_rank,59
+Tunisia,maternal_mortality_ratio,36.62558326
+Tunisia,adolescent_birth_rate,6.632
+Tunisia,share_of_seats_in_parliament,26.26728111
+Tunisia,percent_females_have_some_secondary_education,40.01865832
+Tunisia,percent_males_have_some_secondary_education,47.17494938
+Tunisia,labour_force_participation_rate_female,29.25
+Tunisia,labour_force_participation_rate_male,71.81
+Marshall Islands,hdi_rank,102
+Marshall Islands,gender_inequality_index,NA
+Marshall Islands,gender_inequality_rank,NA
+Marshall Islands,maternal_mortality_ratio,NA
+Marshall Islands,adolescent_birth_rate,57.47
+Marshall Islands,share_of_seats_in_parliament,6.060606061
+Marshall Islands,percent_females_have_some_secondary_education,91.6442337
+Marshall Islands,percent_males_have_some_secondary_education,92.46858215
+Marshall Islands,labour_force_participation_rate_female,37.34
+Marshall Islands,labour_force_participation_rate_male,61.23
+Paraguay,hdi_rank,102
+Paraguay,gender_inequality_index,0.429
+Paraguay,gender_inequality_rank,106
+Paraguay,maternal_mortality_ratio,71.12280792
+Paraguay,adolescent_birth_rate,69.916
+Paraguay,share_of_seats_in_parliament,16.8
+Paraguay,percent_females_have_some_secondary_education,54.31000137
+Paraguay,percent_males_have_some_secondary_education,53.34999847
+Paraguay,labour_force_participation_rate_female,59.06
+Paraguay,labour_force_participation_rate_male,82.38
+Fiji,hdi_rank,104
+Fiji,gender_inequality_index,0.332
+Fiji,gender_inequality_rank,78
+Fiji,maternal_mortality_ratio,38.04679493
+Fiji,adolescent_birth_rate,26.141
+Fiji,share_of_seats_in_parliament,19.60784314
+Fiji,percent_females_have_some_secondary_education,66.0850296
+Fiji,percent_males_have_some_secondary_education,61.26940155
+Fiji,labour_force_participation_rate_female,37.26
+Fiji,labour_force_participation_rate_male,77.71
+Egypt,hdi_rank,105
+Egypt,gender_inequality_index,0.389
+Egypt,gender_inequality_rank,93
+Egypt,maternal_mortality_ratio,16.81970781
+Egypt,adolescent_birth_rate,43.603
+Egypt,share_of_seats_in_parliament,22.78338945
+Egypt,percent_females_have_some_secondary_education,85.93412225
+Egypt,percent_males_have_some_secondary_education,78.72511144
+Egypt,labour_force_participation_rate_female,15.34
+Egypt,labour_force_participation_rate_male,69.1
+Uzbekistan,hdi_rank,106
+Uzbekistan,gender_inequality_index,0.242
+Uzbekistan,gender_inequality_rank,61
+Uzbekistan,maternal_mortality_ratio,30.17849377
+Uzbekistan,adolescent_birth_rate,15.693
+Uzbekistan,share_of_seats_in_parliament,29.09836066
+Uzbekistan,percent_females_have_some_secondary_education,99.95729828
+Uzbekistan,percent_males_have_some_secondary_education,100
+Uzbekistan,labour_force_participation_rate_female,39.92
+Uzbekistan,labour_force_participation_rate_male,73.14
+Viet Nam,hdi_rank,107
+Viet Nam,gender_inequality_index,0.378
+Viet Nam,gender_inequality_rank,91
+Viet Nam,maternal_mortality_ratio,124.2570792
+Viet Nam,adolescent_birth_rate,34.992
+Viet Nam,share_of_seats_in_parliament,30.26052104
+Viet Nam,percent_females_have_some_secondary_education,61.47644004
+Viet Nam,percent_males_have_some_secondary_education,69.48935602
+Viet Nam,labour_force_participation_rate_female,68.54
+Viet Nam,labour_force_participation_rate_male,77.84
+Saint Lucia,hdi_rank,108
+Saint Lucia,gender_inequality_index,0.347
+Saint Lucia,gender_inequality_rank,82
+Saint Lucia,maternal_mortality_ratio,73.26797861
+Saint Lucia,adolescent_birth_rate,36.264
+Saint Lucia,share_of_seats_in_parliament,24.13793103
+Saint Lucia,percent_females_have_some_secondary_education,50.00593172
+Saint Lucia,percent_males_have_some_secondary_education,44.02722023
+Saint Lucia,labour_force_participation_rate_female,62.66
+Saint Lucia,labour_force_participation_rate_male,75.83
+Lebanon,hdi_rank,109
+Lebanon,gender_inequality_index,0.365
+Lebanon,gender_inequality_rank,86
+Lebanon,maternal_mortality_ratio,20.62462437
+Lebanon,adolescent_birth_rate,20.04
+Lebanon,share_of_seats_in_parliament,6.25
+Lebanon,percent_females_have_some_secondary_education,54.74398998
+Lebanon,percent_males_have_some_secondary_education,61.07482541
+Lebanon,labour_force_participation_rate_female,29.81
+Lebanon,labour_force_participation_rate_male,70.17
+South Africa,hdi_rank,110
+South Africa,gender_inequality_index,0.401
+South Africa,gender_inequality_rank,99
+South Africa,maternal_mortality_ratio,126.8326855
+South Africa,adolescent_birth_rate,60.891
+South Africa,share_of_seats_in_parliament,45.37444934
+South Africa,percent_females_have_some_secondary_education,83.04311371
+South Africa,percent_males_have_some_secondary_education,84.88062286
+South Africa,labour_force_participation_rate_female,50.82
+South Africa,labour_force_participation_rate_male,63.46
+"Palestine, State of",hdi_rank,111
+"Palestine, State of",gender_inequality_index,NA
+"Palestine, State of",gender_inequality_rank,NA
+"Palestine, State of",maternal_mortality_ratio,20.43431277
+"Palestine, State of",adolescent_birth_rate,42.901
+"Palestine, State of",share_of_seats_in_parliament,NA
+"Palestine, State of",percent_females_have_some_secondary_education,67.92896271
+"Palestine, State of",percent_males_have_some_secondary_education,67.63430786
+"Palestine, State of",labour_force_participation_rate_female,18.58
+"Palestine, State of",labour_force_participation_rate_male,70.73
+Indonesia,hdi_rank,112
+Indonesia,gender_inequality_index,0.439
+Indonesia,gender_inequality_rank,109
+Indonesia,maternal_mortality_ratio,172.9225117
+Indonesia,adolescent_birth_rate,32.94
+Indonesia,share_of_seats_in_parliament,21.91304348
+Indonesia,percent_females_have_some_secondary_education,51.00518036
+Indonesia,percent_males_have_some_secondary_education,58.21279907
+Indonesia,labour_force_participation_rate_female,52.5
+Indonesia,labour_force_participation_rate_male,81.45
+Philippines,hdi_rank,113
+Philippines,gender_inequality_index,0.388
+Philippines,gender_inequality_rank,92
+Philippines,maternal_mortality_ratio,78.23625789
+Philippines,adolescent_birth_rate,48.059
+Philippines,share_of_seats_in_parliament,27.46268657
+Philippines,percent_females_have_some_secondary_education,74.41607525
+Philippines,percent_males_have_some_secondary_education,69.9263245
+Philippines,labour_force_participation_rate_female,44.06
+Philippines,labour_force_participation_rate_male,68.77
+Botswana,hdi_rank,114
+Botswana,gender_inequality_index,0.483
+Botswana,gender_inequality_rank,120
+Botswana,maternal_mortality_ratio,185.8968424
+Botswana,adolescent_birth_rate,48.343
+Botswana,share_of_seats_in_parliament,11.11111111
+Botswana,percent_females_have_some_secondary_education,92.1
+Botswana,percent_males_have_some_secondary_education,92.5
+Botswana,labour_force_participation_rate_female,60.06
+Botswana,labour_force_participation_rate_male,69.71
+Jamaica,hdi_rank,115
+Jamaica,gender_inequality_index,0.35
+Jamaica,gender_inequality_rank,83
+Jamaica,maternal_mortality_ratio,98.87891185
+Jamaica,adolescent_birth_rate,32.021
+Jamaica,share_of_seats_in_parliament,30.95238095
+Jamaica,percent_females_have_some_secondary_education,74.82249179
+Jamaica,percent_males_have_some_secondary_education,67.03675933
+Jamaica,labour_force_participation_rate_female,56.04
+Jamaica,labour_force_participation_rate_male,69.93
+Samoa,hdi_rank,116
+Samoa,gender_inequality_index,0.406
+Samoa,gender_inequality_rank,101
+Samoa,maternal_mortality_ratio,59.07907356
+Samoa,adolescent_birth_rate,43.766
+Samoa,share_of_seats_in_parliament,12.96296296
+Samoa,percent_females_have_some_secondary_education,92.44230652
+Samoa,percent_males_have_some_secondary_education,86.98742676
+Samoa,labour_force_participation_rate_female,49.8
+Samoa,labour_force_participation_rate_male,80.63
+Kyrgyzstan,hdi_rank,117
+Kyrgyzstan,gender_inequality_index,0.345
+Kyrgyzstan,gender_inequality_rank,81
+Kyrgyzstan,maternal_mortality_ratio,50.38244477
+Kyrgyzstan,adolescent_birth_rate,33.766
+Kyrgyzstan,share_of_seats_in_parliament,20.45454545
+Kyrgyzstan,percent_females_have_some_secondary_education,92.35070479
+Kyrgyzstan,percent_males_have_some_secondary_education,94.40516115
+Kyrgyzstan,labour_force_participation_rate_female,52.49
+Kyrgyzstan,labour_force_participation_rate_male,78.01
+Belize,hdi_rank,118
+Belize,gender_inequality_index,0.454
+Belize,gender_inequality_rank,113
+Belize,maternal_mortality_ratio,129.7882665
+Belize,adolescent_birth_rate,56.569
+Belize,share_of_seats_in_parliament,19.56521739
+Belize,percent_females_have_some_secondary_education,54.48728943
+Belize,percent_males_have_some_secondary_education,49.83901978
+Belize,labour_force_participation_rate_female,48.56
+Belize,labour_force_participation_rate_male,75.61
+Venezuela (Bolivarian Republic of),hdi_rank,119
+Venezuela (Bolivarian Republic of),gender_inequality_index,0.521
+Venezuela (Bolivarian Republic of),gender_inequality_rank,134
+Venezuela (Bolivarian Republic of),maternal_mortality_ratio,259.1864495
+Venezuela (Bolivarian Republic of),adolescent_birth_rate,82.006
+Venezuela (Bolivarian Republic of),share_of_seats_in_parliament,22.15568862
+Venezuela (Bolivarian Republic of),percent_females_have_some_secondary_education,80.95437283
+Venezuela (Bolivarian Republic of),percent_males_have_some_secondary_education,76.40734894
+Venezuela (Bolivarian Republic of),labour_force_participation_rate_female,45.21
+Venezuela (Bolivarian Republic of),labour_force_participation_rate_male,70.57
+Bolivia (Plurinational State of),hdi_rank,120
+Bolivia (Plurinational State of),gender_inequality_index,0.418
+Bolivia (Plurinational State of),gender_inequality_rank,105
+Bolivia (Plurinational State of),maternal_mortality_ratio,160.9074003
+Bolivia (Plurinational State of),adolescent_birth_rate,63.073
+Bolivia (Plurinational State of),share_of_seats_in_parliament,48.19277108
+Bolivia (Plurinational State of),percent_females_have_some_secondary_education,58.40999985
+Bolivia (Plurinational State of),percent_males_have_some_secondary_education,69.51999664
+Bolivia (Plurinational State of),labour_force_participation_rate_female,71.84
+Bolivia (Plurinational State of),labour_force_participation_rate_male,85.03
+Morocco,hdi_rank,120
+Morocco,gender_inequality_index,0.44
+Morocco,gender_inequality_rank,110
+Morocco,maternal_mortality_ratio,71.85185202
+Morocco,adolescent_birth_rate,25.455
+Morocco,share_of_seats_in_parliament,21.3592233
+Morocco,percent_females_have_some_secondary_education,31.9
+Morocco,percent_males_have_some_secondary_education,37.9
+Morocco,labour_force_participation_rate_female,19.8
+Morocco,labour_force_participation_rate_male,69.6
+Nauru,hdi_rank,122
+Nauru,gender_inequality_index,NA
+Nauru,gender_inequality_rank,NA
+Nauru,maternal_mortality_ratio,NA
+Nauru,adolescent_birth_rate,71.085
+Nauru,share_of_seats_in_parliament,10.52631579
+Nauru,percent_females_have_some_secondary_education,NA
+Nauru,percent_males_have_some_secondary_education,NA
+Nauru,labour_force_participation_rate_female,56.79
+Nauru,labour_force_participation_rate_male,73.63
+Gabon,hdi_rank,123
+Gabon,gender_inequality_index,0.524
+Gabon,gender_inequality_rank,136
+Gabon,maternal_mortality_ratio,226.5504366
+Gabon,adolescent_birth_rate,89.807
+Gabon,share_of_seats_in_parliament,18.0952381
+Gabon,percent_females_have_some_secondary_education,70.4
+Gabon,percent_males_have_some_secondary_education,55.3
+Gabon,labour_force_participation_rate_female,34.71
+Gabon,labour_force_participation_rate_male,56.19
+Suriname,hdi_rank,124
+Suriname,gender_inequality_index,0.405
+Suriname,gender_inequality_rank,100
+Suriname,maternal_mortality_ratio,96.45954135
+Suriname,adolescent_birth_rate,55.223
+Suriname,share_of_seats_in_parliament,29.41176471
+Suriname,percent_females_have_some_secondary_education,45.46498871
+Suriname,percent_males_have_some_secondary_education,42.28636169
+Suriname,labour_force_participation_rate_female,42.3
+Suriname,labour_force_participation_rate_male,61.69
+Bhutan,hdi_rank,125
+Bhutan,gender_inequality_index,0.334
+Bhutan,gender_inequality_rank,80
+Bhutan,maternal_mortality_ratio,59.94775675
+Bhutan,adolescent_birth_rate,18.481
+Bhutan,share_of_seats_in_parliament,15.71428571
+Bhutan,percent_females_have_some_secondary_education,26.6817707
+Bhutan,percent_males_have_some_secondary_education,34.25285327
+Bhutan,labour_force_participation_rate_female,53.48
+Bhutan,labour_force_participation_rate_male,73.45
+Tajikistan,hdi_rank,126
+Tajikistan,gender_inequality_index,0.269
+Tajikistan,gender_inequality_rank,67
+Tajikistan,maternal_mortality_ratio,16.63169841
+Tajikistan,adolescent_birth_rate,44.923
+Tajikistan,share_of_seats_in_parliament,26.59574468
+Tajikistan,percent_females_have_some_secondary_education,93.57733366
+Tajikistan,percent_males_have_some_secondary_education,94.01243126
+Tajikistan,labour_force_participation_rate_female,33.31
+Tajikistan,labour_force_participation_rate_male,52.09
+El Salvador,hdi_rank,127
+El Salvador,gender_inequality_index,0.369
+El Salvador,gender_inequality_rank,87
+El Salvador,maternal_mortality_ratio,42.79046022
+El Salvador,adolescent_birth_rate,54.546
+El Salvador,share_of_seats_in_parliament,27.38095238
+El Salvador,percent_females_have_some_secondary_education,42.65000153
+El Salvador,percent_males_have_some_secondary_education,51.43000031
+El Salvador,labour_force_participation_rate_female,46.38
+El Salvador,labour_force_participation_rate_male,77.71
+Iraq,hdi_rank,128
+Iraq,gender_inequality_index,0.562
+Iraq,gender_inequality_rank,143
+Iraq,maternal_mortality_ratio,76.11045758
+Iraq,adolescent_birth_rate,61.151
+Iraq,share_of_seats_in_parliament,28.87537994
+Iraq,percent_females_have_some_secondary_education,25.29957764
+Iraq,percent_males_have_some_secondary_education,40.35295432
+Iraq,labour_force_participation_rate_female,10.77
+Iraq,labour_force_participation_rate_male,68.24
+Bangladesh,hdi_rank,129
+Bangladesh,gender_inequality_index,0.498
+Bangladesh,gender_inequality_rank,127
+Bangladesh,maternal_mortality_ratio,123.0282527
+Bangladesh,adolescent_birth_rate,73.345
+Bangladesh,share_of_seats_in_parliament,20.85714286
+Bangladesh,percent_females_have_some_secondary_education,43.65986785
+Bangladesh,percent_males_have_some_secondary_education,50.50793677
+Bangladesh,labour_force_participation_rate_female,39.15
+Bangladesh,labour_force_participation_rate_male,81.39
+Nicaragua,hdi_rank,130
+Nicaragua,gender_inequality_index,0.397
+Nicaragua,gender_inequality_rank,97
+Nicaragua,maternal_mortality_ratio,77.87857279
+Nicaragua,adolescent_birth_rate,83.964
+Nicaragua,share_of_seats_in_parliament,51.64835165
+Nicaragua,percent_females_have_some_secondary_education,49.4265712
+Nicaragua,percent_males_have_some_secondary_education,40.25622896
+Nicaragua,labour_force_participation_rate_female,48.61
+Nicaragua,labour_force_participation_rate_male,81.06
+Cabo Verde,hdi_rank,131
+Cabo Verde,gender_inequality_index,0.325
+Cabo Verde,gender_inequality_rank,75
+Cabo Verde,maternal_mortality_ratio,42.24144007
+Cabo Verde,adolescent_birth_rate,53.987
+Cabo Verde,share_of_seats_in_parliament,38.88888889
+Cabo Verde,percent_females_have_some_secondary_education,28.82934555
+Cabo Verde,percent_males_have_some_secondary_education,31.68248541
+Cabo Verde,labour_force_participation_rate_female,46.71
+Cabo Verde,labour_force_participation_rate_male,62.76
+Tuvalu,hdi_rank,132
+Tuvalu,gender_inequality_index,NA
+Tuvalu,gender_inequality_rank,NA
+Tuvalu,maternal_mortality_ratio,NA
+Tuvalu,adolescent_birth_rate,31.678
+Tuvalu,share_of_seats_in_parliament,6.25
+Tuvalu,percent_females_have_some_secondary_education,58.06927872
+Tuvalu,percent_males_have_some_secondary_education,58.50217056
+Tuvalu,labour_force_participation_rate_female,20.03
+Tuvalu,labour_force_participation_rate_male,29.63
+Equatorial Guinea,hdi_rank,133
+Equatorial Guinea,gender_inequality_index,NA
+Equatorial Guinea,gender_inequality_rank,NA
+Equatorial Guinea,maternal_mortality_ratio,212.3303009
+Equatorial Guinea,adolescent_birth_rate,136.439
+Equatorial Guinea,share_of_seats_in_parliament,27.01149425
+Equatorial Guinea,percent_females_have_some_secondary_education,NA
+Equatorial Guinea,percent_males_have_some_secondary_education,NA
+Equatorial Guinea,labour_force_participation_rate_female,NA
+Equatorial Guinea,labour_force_participation_rate_male,NA
+India,hdi_rank,134
+India,gender_inequality_index,0.437
+India,gender_inequality_rank,108
+India,maternal_mortality_ratio,102.653912
+India,adolescent_birth_rate,16.299
+India,share_of_seats_in_parliament,14.63414634
+India,percent_females_have_some_secondary_education,40.95923996
+India,percent_males_have_some_secondary_education,58.66342926
+India,labour_force_participation_rate_female,28.26
+India,labour_force_participation_rate_male,76.14
+Micronesia (Federated States of),hdi_rank,135
+Micronesia (Federated States of),gender_inequality_index,NA
+Micronesia (Federated States of),gender_inequality_rank,NA
+Micronesia (Federated States of),maternal_mortality_ratio,74.31193375
+Micronesia (Federated States of),adolescent_birth_rate,35.692
+Micronesia (Federated States of),share_of_seats_in_parliament,7.142857143
+Micronesia (Federated States of),percent_females_have_some_secondary_education,NA
+Micronesia (Federated States of),percent_males_have_some_secondary_education,NA
+Micronesia (Federated States of),labour_force_participation_rate_female,45.01
+Micronesia (Federated States of),labour_force_participation_rate_male,65.95
+Guatemala,hdi_rank,136
+Guatemala,gender_inequality_index,0.474
+Guatemala,gender_inequality_rank,117
+Guatemala,maternal_mortality_ratio,95.50207508
+Guatemala,adolescent_birth_rate,63.163
+Guatemala,share_of_seats_in_parliament,19.375
+Guatemala,percent_females_have_some_secondary_education,31.06823311
+Guatemala,percent_males_have_some_secondary_education,37.79858434
+Guatemala,labour_force_participation_rate_female,41.53
+Guatemala,labour_force_participation_rate_male,82.79
+Kiribati,hdi_rank,137
+Kiribati,gender_inequality_index,NA
+Kiribati,gender_inequality_rank,NA
+Kiribati,maternal_mortality_ratio,76.33471243
+Kiribati,adolescent_birth_rate,39.585
+Kiribati,share_of_seats_in_parliament,6.666666667
+Kiribati,percent_females_have_some_secondary_education,NA
+Kiribati,percent_males_have_some_secondary_education,NA
+Kiribati,labour_force_participation_rate_female,16.11
+Kiribati,labour_force_participation_rate_male,73.04
+Honduras,hdi_rank,138
+Honduras,gender_inequality_index,0.413
+Honduras,gender_inequality_rank,102
+Honduras,maternal_mortality_ratio,71.81927749
+Honduras,adolescent_birth_rate,71.333
+Honduras,share_of_seats_in_parliament,27.34375
+Honduras,percent_females_have_some_secondary_education,34.76135231
+Honduras,percent_males_have_some_secondary_education,31.38680084
+Honduras,labour_force_participation_rate_female,49.63
+Honduras,labour_force_participation_rate_male,81.07
+Lao People's Democratic Republic,hdi_rank,139
+Lao People's Democratic Republic,gender_inequality_index,0.467
+Lao People's Democratic Republic,gender_inequality_rank,116
+Lao People's Democratic Republic,maternal_mortality_ratio,126.0617471
+Lao People's Democratic Republic,adolescent_birth_rate,71.782
+Lao People's Democratic Republic,share_of_seats_in_parliament,21.95121951
+Lao People's Democratic Republic,percent_females_have_some_secondary_education,18.6842884
+Lao People's Democratic Republic,percent_males_have_some_secondary_education,30.41258525
+Lao People's Democratic Republic,labour_force_participation_rate_female,61.47
+Lao People's Democratic Republic,labour_force_participation_rate_male,70.76
+Vanuatu,hdi_rank,140
+Vanuatu,gender_inequality_index,NA
+Vanuatu,gender_inequality_rank,NA
+Vanuatu,maternal_mortality_ratio,94.44281395
+Vanuatu,adolescent_birth_rate,63.164
+Vanuatu,share_of_seats_in_parliament,1.923076923
+Vanuatu,percent_females_have_some_secondary_education,NA
+Vanuatu,percent_males_have_some_secondary_education,NA
+Vanuatu,labour_force_participation_rate_female,26.65
+Vanuatu,labour_force_participation_rate_male,36.36
+Sao Tome and Principe,hdi_rank,141
+Sao Tome and Principe,gender_inequality_index,NA
+Sao Tome and Principe,gender_inequality_rank,NA
+Sao Tome and Principe,maternal_mortality_ratio,146.2400532
+Sao Tome and Principe,adolescent_birth_rate,77.367
+Sao Tome and Principe,share_of_seats_in_parliament,14.54545455
+Sao Tome and Principe,percent_females_have_some_secondary_education,42.87084032
+Sao Tome and Principe,percent_males_have_some_secondary_education,52.81669149
+Sao Tome and Principe,labour_force_participation_rate_female,NA
+Sao Tome and Principe,labour_force_participation_rate_male,NA
+Eswatini (Kingdom of),hdi_rank,142
+Eswatini (Kingdom of),gender_inequality_index,0.491
+Eswatini (Kingdom of),gender_inequality_rank,124
+Eswatini (Kingdom of),maternal_mortality_ratio,239.6323914
+Eswatini (Kingdom of),adolescent_birth_rate,68.426
+Eswatini (Kingdom of),share_of_seats_in_parliament,21.15384615
+Eswatini (Kingdom of),percent_females_have_some_secondary_education,35.3
+Eswatini (Kingdom of),percent_males_have_some_secondary_education,37.3
+Eswatini (Kingdom of),labour_force_participation_rate_female,44.87
+Eswatini (Kingdom of),labour_force_participation_rate_male,51.48
+Namibia,hdi_rank,142
+Namibia,gender_inequality_index,0.45
+Namibia,gender_inequality_rank,112
+Namibia,maternal_mortality_ratio,214.6350593
+Namibia,adolescent_birth_rate,63.074
+Namibia,share_of_seats_in_parliament,35.61643836
+Namibia,percent_females_have_some_secondary_education,42.0822997
+Namibia,percent_males_have_some_secondary_education,44.98894249
+Namibia,labour_force_participation_rate_female,54.12
+Namibia,labour_force_participation_rate_male,61.19
+Myanmar,hdi_rank,144
+Myanmar,gender_inequality_index,0.479
+Myanmar,gender_inequality_rank,119
+Myanmar,maternal_mortality_ratio,178.6743751
+Myanmar,adolescent_birth_rate,32.764
+Myanmar,share_of_seats_in_parliament,14.97659906
+Myanmar,percent_females_have_some_secondary_education,39.19248558
+Myanmar,percent_males_have_some_secondary_education,49.91804481
+Myanmar,labour_force_participation_rate_female,44.17
+Myanmar,labour_force_participation_rate_male,78.56
+Ghana,hdi_rank,145
+Ghana,gender_inequality_index,0.512
+Ghana,gender_inequality_rank,130
+Ghana,maternal_mortality_ratio,263.1085862
+Ghana,adolescent_birth_rate,63.41
+Ghana,share_of_seats_in_parliament,14.54545455
+Ghana,percent_females_have_some_secondary_education,59.1002853
+Ghana,percent_males_have_some_secondary_education,73.97693434
+Ghana,labour_force_participation_rate_female,72.07
+Ghana,labour_force_participation_rate_male,73.07
+Kenya,hdi_rank,146
+Kenya,gender_inequality_index,0.533
+Kenya,gender_inequality_rank,139
+Kenya,maternal_mortality_ratio,529.9622562
+Kenya,adolescent_birth_rate,62.61
+Kenya,share_of_seats_in_parliament,24.75961538
+Kenya,percent_females_have_some_secondary_education,54.59402847
+Kenya,percent_males_have_some_secondary_education,63.49470139
+Kenya,labour_force_participation_rate_female,62.85
+Kenya,labour_force_participation_rate_male,72.58
+Nepal,hdi_rank,146
+Nepal,gender_inequality_index,0.495
+Nepal,gender_inequality_rank,126
+Nepal,maternal_mortality_ratio,174.4101759
+Nepal,adolescent_birth_rate,63.358
+Nepal,share_of_seats_in_parliament,33.83233533
+Nepal,percent_females_have_some_secondary_education,25.97287447
+Nepal,percent_males_have_some_secondary_education,42.77925595
+Nepal,labour_force_participation_rate_female,27.91
+Nepal,labour_force_participation_rate_male,54.95
+Cambodia,hdi_rank,148
+Cambodia,gender_inequality_index,0.486
+Cambodia,gender_inequality_rank,122
+Cambodia,maternal_mortality_ratio,217.983153
+Cambodia,adolescent_birth_rate,45.657
+Cambodia,share_of_seats_in_parliament,19.2513369
+Cambodia,percent_females_have_some_secondary_education,16.44873047
+Cambodia,percent_males_have_some_secondary_education,29.0128994
+Cambodia,labour_force_participation_rate_female,73.73
+Cambodia,labour_force_participation_rate_male,85.82
+Congo,hdi_rank,149
+Congo,gender_inequality_index,0.572
+Congo,gender_inequality_rank,144
+Congo,maternal_mortality_ratio,282.3857526
+Congo,adolescent_birth_rate,101.197
+Congo,share_of_seats_in_parliament,15.90909091
+Congo,percent_females_have_some_secondary_education,32.08125585
+Congo,percent_males_have_some_secondary_education,50.04781946
+Congo,labour_force_participation_rate_female,44.1
+Congo,labour_force_participation_rate_male,63.85
+Angola,hdi_rank,150
+Angola,gender_inequality_index,0.52
+Angola,gender_inequality_rank,133
+Angola,maternal_mortality_ratio,221.9064903
+Angola,adolescent_birth_rate,135.792
+Angola,share_of_seats_in_parliament,33.63636364
+Angola,percent_females_have_some_secondary_education,21.33986532
+Angola,percent_males_have_some_secondary_education,37.41194629
+Angola,labour_force_participation_rate_female,74.73
+Angola,labour_force_participation_rate_male,78.16
+Cameroon,hdi_rank,151
+Cameroon,gender_inequality_index,0.555
+Cameroon,gender_inequality_rank,142
+Cameroon,maternal_mortality_ratio,437.7528524
+Cameroon,adolescent_birth_rate,108.618
+Cameroon,share_of_seats_in_parliament,31.07142857
+Cameroon,percent_females_have_some_secondary_education,24.53424513
+Cameroon,percent_males_have_some_secondary_education,39.3197935
+Cameroon,labour_force_participation_rate_female,66.82
+Cameroon,labour_force_participation_rate_male,76.83
+Comoros,hdi_rank,152
+Comoros,gender_inequality_index,NA
+Comoros,gender_inequality_rank,NA
+Comoros,maternal_mortality_ratio,216.9537272
+Comoros,adolescent_birth_rate,56.081
+Comoros,share_of_seats_in_parliament,16.66666667
+Comoros,percent_females_have_some_secondary_education,NA
+Comoros,percent_males_have_some_secondary_education,NA
+Comoros,labour_force_participation_rate_female,41.13
+Comoros,labour_force_participation_rate_male,59.35
+Zambia,hdi_rank,153
+Zambia,gender_inequality_index,0.526
+Zambia,gender_inequality_rank,137
+Zambia,maternal_mortality_ratio,134.6654218
+Zambia,adolescent_birth_rate,116.091
+Zambia,share_of_seats_in_parliament,15.06024096
+Zambia,percent_females_have_some_secondary_education,33.73203586
+Zambia,percent_males_have_some_secondary_education,51.36293324
+Zambia,labour_force_participation_rate_female,54.16
+Zambia,labour_force_participation_rate_male,66.36
+Papua New Guinea,hdi_rank,154
+Papua New Guinea,gender_inequality_index,0.604
+Papua New Guinea,gender_inequality_rank,151
+Papua New Guinea,maternal_mortality_ratio,191.8387443
+Papua New Guinea,adolescent_birth_rate,54.335
+Papua New Guinea,share_of_seats_in_parliament,1.739130435
+Papua New Guinea,percent_females_have_some_secondary_education,26.34166408
+Papua New Guinea,percent_males_have_some_secondary_education,37.4968198
+Papua New Guinea,labour_force_participation_rate_female,46.01
+Papua New Guinea,labour_force_participation_rate_male,48.01
+Timor-Leste,hdi_rank,155
+Timor-Leste,gender_inequality_index,0.415
+Timor-Leste,gender_inequality_rank,103
+Timor-Leste,maternal_mortality_ratio,203.9242348
+Timor-Leste,adolescent_birth_rate,33.265
+Timor-Leste,share_of_seats_in_parliament,40
+Timor-Leste,percent_females_have_some_secondary_education,33.4715131
+Timor-Leste,percent_males_have_some_secondary_education,39.79870998
+Timor-Leste,labour_force_participation_rate_female,27.91
+Timor-Leste,labour_force_participation_rate_male,41.38
+Solomon Islands,hdi_rank,156
+Solomon Islands,gender_inequality_index,NA
+Solomon Islands,gender_inequality_rank,NA
+Solomon Islands,maternal_mortality_ratio,122.2495124
+Solomon Islands,adolescent_birth_rate,59.426
+Solomon Islands,share_of_seats_in_parliament,8
+Solomon Islands,percent_females_have_some_secondary_education,NA
+Solomon Islands,percent_males_have_some_secondary_education,NA
+Solomon Islands,labour_force_participation_rate_female,82.94
+Solomon Islands,labour_force_participation_rate_male,85.98
+Syrian Arab Republic,hdi_rank,157
+Syrian Arab Republic,gender_inequality_index,0.487
+Syrian Arab Republic,gender_inequality_rank,123
+Syrian Arab Republic,maternal_mortality_ratio,29.91732592
+Syrian Arab Republic,adolescent_birth_rate,38.129
+Syrian Arab Republic,share_of_seats_in_parliament,11.2
+Syrian Arab Republic,percent_females_have_some_secondary_education,24.05722504
+Syrian Arab Republic,percent_males_have_some_secondary_education,31.98297212
+Syrian Arab Republic,labour_force_participation_rate_female,14.43
+Syrian Arab Republic,labour_force_participation_rate_male,68.9
+Haiti,hdi_rank,158
+Haiti,gender_inequality_index,0.621
+Haiti,gender_inequality_rank,158
+Haiti,maternal_mortality_ratio,350.4002257
+Haiti,adolescent_birth_rate,51.837
+Haiti,share_of_seats_in_parliament,2.739726027
+Haiti,percent_females_have_some_secondary_education,28.04501983
+Haiti,percent_males_have_some_secondary_education,36.9299118
+Haiti,labour_force_participation_rate_female,48.81
+Haiti,labour_force_participation_rate_male,65.95
+Uganda,hdi_rank,159
+Uganda,gender_inequality_index,0.527
+Uganda,gender_inequality_rank,138
+Uganda,maternal_mortality_ratio,284.1407767
+Uganda,adolescent_birth_rate,105.679
+Uganda,share_of_seats_in_parliament,33.81294964
+Uganda,percent_females_have_some_secondary_education,10.79458253
+Uganda,percent_males_have_some_secondary_education,20.43357187
+Uganda,labour_force_participation_rate_female,74.53
+Uganda,labour_force_participation_rate_male,84.24
+Zimbabwe,hdi_rank,159
+Zimbabwe,gender_inequality_index,0.519
+Zimbabwe,gender_inequality_rank,132
+Zimbabwe,maternal_mortality_ratio,356.7589193
+Zimbabwe,adolescent_birth_rate,92.566
+Zimbabwe,share_of_seats_in_parliament,33.62573099
+Zimbabwe,percent_females_have_some_secondary_education,63.43482439
+Zimbabwe,percent_males_have_some_secondary_education,73.59148496
+Zimbabwe,labour_force_participation_rate_female,60.01
+Zimbabwe,labour_force_participation_rate_male,71.59
+Nigeria,hdi_rank,161
+Nigeria,gender_inequality_index,0.677
+Nigeria,gender_inequality_rank,165
+Nigeria,maternal_mortality_ratio,1047.235352
+Nigeria,adolescent_birth_rate,99.56
+Nigeria,share_of_seats_in_parliament,4.47761194
+Nigeria,percent_females_have_some_secondary_education,42.39007187
+Nigeria,percent_males_have_some_secondary_education,57.8144989
+Nigeria,labour_force_participation_rate_female,77.04
+Nigeria,labour_force_participation_rate_male,85.66
+Rwanda,hdi_rank,161
+Rwanda,gender_inequality_index,0.4
+Rwanda,gender_inequality_rank,98
+Rwanda,maternal_mortality_ratio,258.9246287
+Rwanda,adolescent_birth_rate,32.248
+Rwanda,share_of_seats_in_parliament,54.71698113
+Rwanda,percent_females_have_some_secondary_education,14.60159969
+Rwanda,percent_males_have_some_secondary_education,18.73987961
+Rwanda,labour_force_participation_rate_female,54.76
+Rwanda,labour_force_participation_rate_male,66.21
+Togo,hdi_rank,163
+Togo,gender_inequality_index,0.578
+Togo,gender_inequality_rank,147
+Togo,maternal_mortality_ratio,399.0398502
+Togo,adolescent_birth_rate,77.034
+Togo,share_of_seats_in_parliament,18.68131868
+Togo,percent_females_have_some_secondary_education,13.50093241
+Togo,percent_males_have_some_secondary_education,33.07840422
+Togo,labour_force_participation_rate_female,79.78
+Togo,labour_force_participation_rate_male,98.58
+Mauritania,hdi_rank,164
+Mauritania,gender_inequality_index,0.603
+Mauritania,gender_inequality_rank,150
+Mauritania,maternal_mortality_ratio,463.8320971
+Mauritania,adolescent_birth_rate,76.845
+Mauritania,share_of_seats_in_parliament,20.26143791
+Mauritania,percent_females_have_some_secondary_education,16.07508449
+Mauritania,percent_males_have_some_secondary_education,27.55589289
+Mauritania,labour_force_participation_rate_female,30.99
+Mauritania,labour_force_participation_rate_male,65.71
+Pakistan,hdi_rank,164
+Pakistan,gender_inequality_index,0.522
+Pakistan,gender_inequality_rank,135
+Pakistan,maternal_mortality_ratio,154.1639358
+Pakistan,adolescent_birth_rate,41.205
+Pakistan,share_of_seats_in_parliament,20.13574661
+Pakistan,percent_females_have_some_secondary_education,22.04421511
+Pakistan,percent_males_have_some_secondary_education,26.87501103
+Pakistan,labour_force_participation_rate_female,24.53
+Pakistan,labour_force_participation_rate_male,80.67
+Côte d'Ivoire,hdi_rank,166
+Côte d'Ivoire,gender_inequality_index,0.612
+Côte d'Ivoire,gender_inequality_rank,156
+Côte d'Ivoire,maternal_mortality_ratio,479.9067504
+Côte d'Ivoire,adolescent_birth_rate,103.293
+Côte d'Ivoire,share_of_seats_in_parliament,15.58073654
+Côte d'Ivoire,percent_females_have_some_secondary_education,13.54285555
+Côte d'Ivoire,percent_males_have_some_secondary_education,29.33250436
+Côte d'Ivoire,labour_force_participation_rate_female,54.53
+Côte d'Ivoire,labour_force_participation_rate_male,71.21
+Tanzania (United Republic of),hdi_rank,167
+Tanzania (United Republic of),gender_inequality_index,0.513
+Tanzania (United Republic of),gender_inequality_rank,131
+Tanzania (United Republic of),maternal_mortality_ratio,238.2987945
+Tanzania (United Republic of),adolescent_birth_rate,123.44
+Tanzania (United Republic of),share_of_seats_in_parliament,36.8556701
+Tanzania (United Republic of),percent_females_have_some_secondary_education,9.29535266
+Tanzania (United Republic of),percent_males_have_some_secondary_education,14.31607304
+Tanzania (United Republic of),labour_force_participation_rate_female,75.5
+Tanzania (United Republic of),labour_force_participation_rate_male,84.52
+Lesotho,hdi_rank,168
+Lesotho,gender_inequality_index,0.552
+Lesotho,gender_inequality_rank,141
+Lesotho,maternal_mortality_ratio,566.2062536
+Lesotho,adolescent_birth_rate,89.077
+Lesotho,share_of_seats_in_parliament,25.97402597
+Lesotho,percent_females_have_some_secondary_education,34.12507847
+Lesotho,percent_males_have_some_secondary_education,29.69854533
+Lesotho,labour_force_participation_rate_female,51.55
+Lesotho,labour_force_participation_rate_male,64.95
+Senegal,hdi_rank,169
+Senegal,gender_inequality_index,0.505
+Senegal,gender_inequality_rank,129
+Senegal,maternal_mortality_ratio,260.8806328
+Senegal,adolescent_birth_rate,64.613
+Senegal,share_of_seats_in_parliament,44.24242424
+Senegal,percent_females_have_some_secondary_education,9.153320224
+Senegal,percent_males_have_some_secondary_education,19.04797925
+Senegal,labour_force_participation_rate_female,39.31
+Senegal,labour_force_participation_rate_male,68.37
+Sudan,hdi_rank,170
+Sudan,gender_inequality_index,0.548
+Sudan,gender_inequality_rank,140
+Sudan,maternal_mortality_ratio,270.3553499
+Sudan,adolescent_birth_rate,77.58
+Sudan,share_of_seats_in_parliament,31.04166667
+Sudan,percent_females_have_some_secondary_education,17
+Sudan,percent_males_have_some_secondary_education,20.4
+Sudan,labour_force_participation_rate_female,28.04
+Sudan,labour_force_participation_rate_male,69.07
+Djibouti,hdi_rank,171
+Djibouti,gender_inequality_index,NA
+Djibouti,gender_inequality_rank,NA
+Djibouti,maternal_mortality_ratio,234.4900707
+Djibouti,adolescent_birth_rate,22.675
+Djibouti,share_of_seats_in_parliament,26.15384615
+Djibouti,percent_females_have_some_secondary_education,NA
+Djibouti,percent_males_have_some_secondary_education,NA
+Djibouti,labour_force_participation_rate_female,18.22
+Djibouti,labour_force_participation_rate_male,48.06
+Malawi,hdi_rank,172
+Malawi,gender_inequality_index,0.579
+Malawi,gender_inequality_rank,148
+Malawi,maternal_mortality_ratio,380.6698944
+Malawi,adolescent_birth_rate,117.23
+Malawi,share_of_seats_in_parliament,22.91666667
+Malawi,percent_females_have_some_secondary_education,12.71358013
+Malawi,percent_males_have_some_secondary_education,26.16975021
+Malawi,labour_force_participation_rate_female,63.14
+Malawi,labour_force_participation_rate_male,74.55
+Benin,hdi_rank,173
+Benin,gender_inequality_index,0.649
+Benin,gender_inequality_rank,160
+Benin,maternal_mortality_ratio,522.604743
+Benin,adolescent_birth_rate,90.835
+Benin,share_of_seats_in_parliament,7.407407407
+Benin,percent_females_have_some_secondary_education,9.189770574
+Benin,percent_males_have_some_secondary_education,21.49103186
+Benin,labour_force_participation_rate_female,51.59
+Benin,labour_force_participation_rate_male,67.8
+Gambia,hdi_rank,174
+Gambia,gender_inequality_index,0.585
+Gambia,gender_inequality_rank,149
+Gambia,maternal_mortality_ratio,458.2402899
+Gambia,adolescent_birth_rate,60.681
+Gambia,share_of_seats_in_parliament,8.620689655
+Gambia,percent_females_have_some_secondary_education,26.04137039
+Gambia,percent_males_have_some_secondary_education,40.72243118
+Gambia,labour_force_participation_rate_female,59
+Gambia,labour_force_participation_rate_male,64.46
+Eritrea,hdi_rank,175
+Eritrea,gender_inequality_index,NA
+Eritrea,gender_inequality_rank,NA
+Eritrea,maternal_mortality_ratio,321.5507139
+Eritrea,adolescent_birth_rate,63.639
+Eritrea,share_of_seats_in_parliament,22
+Eritrea,percent_females_have_some_secondary_education,NA
+Eritrea,percent_males_have_some_secondary_education,NA
+Eritrea,labour_force_participation_rate_female,NA
+Eritrea,labour_force_participation_rate_male,NA
+Ethiopia,hdi_rank,176
+Ethiopia,gender_inequality_index,0.494
+Ethiopia,gender_inequality_rank,125
+Ethiopia,maternal_mortality_ratio,266.6895641
+Ethiopia,adolescent_birth_rate,66.502
+Ethiopia,share_of_seats_in_parliament,38.92508143
+Ethiopia,percent_females_have_some_secondary_education,7.456801249
+Ethiopia,percent_males_have_some_secondary_education,13.14200887
+Ethiopia,labour_force_participation_rate_female,57.6
+Ethiopia,labour_force_participation_rate_male,79.2
+Liberia,hdi_rank,177
+Liberia,gender_inequality_index,0.656
+Liberia,gender_inequality_rank,161
+Liberia,maternal_mortality_ratio,652.3387327
+Liberia,adolescent_birth_rate,121.996
+Liberia,share_of_seats_in_parliament,9.708737864
+Liberia,percent_females_have_some_secondary_education,19.72875425
+Liberia,percent_males_have_some_secondary_education,45.78054035
+Liberia,labour_force_participation_rate_female,43.51
+Liberia,labour_force_participation_rate_male,50.05
+Madagascar,hdi_rank,177
+Madagascar,gender_inequality_index,0.574
+Madagascar,gender_inequality_rank,145
+Madagascar,maternal_mortality_ratio,391.5169181
+Madagascar,adolescent_birth_rate,118.125
+Madagascar,share_of_seats_in_parliament,17.75147929
+Madagascar,percent_females_have_some_secondary_education,15.90098
+Madagascar,percent_males_have_some_secondary_education,21.22050095
+Madagascar,labour_force_participation_rate_female,78.81
+Madagascar,labour_force_participation_rate_male,88.91
+Guinea-Bissau,hdi_rank,179
+Guinea-Bissau,gender_inequality_index,0.631
+Guinea-Bissau,gender_inequality_rank,159
+Guinea-Bissau,maternal_mortality_ratio,725.0924251
+Guinea-Bissau,adolescent_birth_rate,85.775
+Guinea-Bissau,share_of_seats_in_parliament,13.7254902
+Guinea-Bissau,percent_females_have_some_secondary_education,10.89719
+Guinea-Bissau,percent_males_have_some_secondary_education,24.57486
+Guinea-Bissau,labour_force_participation_rate_female,52.11
+Guinea-Bissau,labour_force_participation_rate_male,66.12
+Congo (Democratic Republic of the),hdi_rank,180
+Congo (Democratic Republic of the),gender_inequality_index,0.605
+Congo (Democratic Republic of the),gender_inequality_rank,152
+Congo (Democratic Republic of the),maternal_mortality_ratio,547.360277
+Congo (Democratic Republic of the),adolescent_birth_rate,107.481
+Congo (Democratic Republic of the),share_of_seats_in_parliament,14.77832512
+Congo (Democratic Republic of the),percent_females_have_some_secondary_education,38.78568082
+Congo (Democratic Republic of the),percent_males_have_some_secondary_education,65.70857476
+Congo (Democratic Republic of the),labour_force_participation_rate_female,60.01
+Congo (Democratic Republic of the),labour_force_participation_rate_male,66.37
+Guinea,hdi_rank,181
+Guinea,gender_inequality_index,0.609
+Guinea,gender_inequality_rank,154
+Guinea,maternal_mortality_ratio,553.4015874
+Guinea,adolescent_birth_rate,112.231
+Guinea,share_of_seats_in_parliament,29.62962963
+Guinea,percent_females_have_some_secondary_education,7.484393948
+Guinea,percent_males_have_some_secondary_education,20.03857033
+Guinea,labour_force_participation_rate_female,44.6
+Guinea,labour_force_participation_rate_male,66.95
+Afghanistan,hdi_rank,182
+Afghanistan,gender_inequality_index,0.665
+Afghanistan,gender_inequality_rank,162
+Afghanistan,maternal_mortality_ratio,620.4075093
+Afghanistan,adolescent_birth_rate,79.735
+Afghanistan,share_of_seats_in_parliament,27.21518987
+Afghanistan,percent_females_have_some_secondary_education,7.042049885
+Afghanistan,percent_males_have_some_secondary_education,24.07703972
+Afghanistan,labour_force_participation_rate_female,23.33
+Afghanistan,labour_force_participation_rate_male,77.09
+Mozambique,hdi_rank,183
+Mozambique,gender_inequality_index,0.477
+Mozambique,gender_inequality_rank,118
+Mozambique,maternal_mortality_ratio,127.1105289
+Mozambique,adolescent_birth_rate,165.136
+Mozambique,share_of_seats_in_parliament,42.4
+Mozambique,percent_females_have_some_secondary_education,17.86639977
+Mozambique,percent_males_have_some_secondary_education,25.05237961
+Mozambique,labour_force_participation_rate_female,73.94
+Mozambique,labour_force_participation_rate_male,80.05
+Sierra Leone,hdi_rank,184
+Sierra Leone,gender_inequality_index,0.613
+Sierra Leone,gender_inequality_rank,157
+Sierra Leone,maternal_mortality_ratio,442.8304294
+Sierra Leone,adolescent_birth_rate,97.943
+Sierra Leone,share_of_seats_in_parliament,12.32876712
+Sierra Leone,percent_females_have_some_secondary_education,14.52282018
+Sierra Leone,percent_males_have_some_secondary_education,33.86528526
+Sierra Leone,labour_force_participation_rate_female,48.28
+Sierra Leone,labour_force_participation_rate_male,55.91
+Burkina Faso,hdi_rank,185
+Burkina Faso,gender_inequality_index,0.577
+Burkina Faso,gender_inequality_rank,146
+Burkina Faso,maternal_mortality_ratio,263.7554049
+Burkina Faso,adolescent_birth_rate,108.692
+Burkina Faso,share_of_seats_in_parliament,16.90140845
+Burkina Faso,percent_females_have_some_secondary_education,11.1812398
+Burkina Faso,percent_males_have_some_secondary_education,20.34372055
+Burkina Faso,labour_force_participation_rate_female,27.54
+Burkina Faso,labour_force_participation_rate_male,40.97
+Yemen,hdi_rank,186
+Yemen,gender_inequality_index,0.82
+Yemen,gender_inequality_rank,166
+Yemen,maternal_mortality_ratio,183.3997163
+Yemen,adolescent_birth_rate,52.497
+Yemen,share_of_seats_in_parliament,0.294117647
+Yemen,percent_females_have_some_secondary_education,23.7
+Yemen,percent_males_have_some_secondary_education,38.2
+Yemen,labour_force_participation_rate_female,5.84
+Yemen,labour_force_participation_rate_male,64.69
+Burundi,hdi_rank,187
+Burundi,gender_inequality_index,0.499
+Burundi,gender_inequality_rank,128
+Burundi,maternal_mortality_ratio,494.4297813
+Burundi,adolescent_birth_rate,52.595
+Burundi,share_of_seats_in_parliament,38.88888889
+Burundi,percent_females_have_some_secondary_education,8.178422559
+Burundi,percent_males_have_some_secondary_education,13.76234396
+Burundi,labour_force_participation_rate_female,77.99
+Burundi,labour_force_participation_rate_male,79.12
+Mali,hdi_rank,188
+Mali,gender_inequality_index,0.607
+Mali,gender_inequality_rank,153
+Mali,maternal_mortality_ratio,440.2247966
+Mali,adolescent_birth_rate,147.652
+Mali,share_of_seats_in_parliament,28.57142857
+Mali,percent_females_have_some_secondary_education,7.999770164
+Mali,percent_males_have_some_secondary_education,15.48596954
+Mali,labour_force_participation_rate_female,51.51
+Mali,labour_force_participation_rate_male,84.99
+Chad,hdi_rank,189
+Chad,gender_inequality_index,0.671
+Chad,gender_inequality_rank,163
+Chad,maternal_mortality_ratio,1063.493291
+Chad,adolescent_birth_rate,135.678
+Chad,share_of_seats_in_parliament,25.88832487
+Chad,percent_females_have_some_secondary_education,3.666509381
+Chad,percent_males_have_some_secondary_education,14.95313718
+Chad,labour_force_participation_rate_female,51.14
+Chad,labour_force_participation_rate_male,74.98
+Niger,hdi_rank,189
+Niger,gender_inequality_index,0.609
+Niger,gender_inequality_rank,154
+Niger,maternal_mortality_ratio,441.0725479
+Niger,adolescent_birth_rate,168.04
+Niger,share_of_seats_in_parliament,25.90361446
+Niger,percent_females_have_some_secondary_education,2.578340428
+Niger,percent_males_have_some_secondary_education,4.483989669
+Niger,labour_force_participation_rate_female,64.56
+Niger,labour_force_participation_rate_male,96.49
+Central African Republic,hdi_rank,191
+Central African Republic,gender_inequality_index,NA
+Central African Republic,gender_inequality_rank,NA
+Central African Republic,maternal_mortality_ratio,835.266007
+Central African Republic,adolescent_birth_rate,158.998
+Central African Republic,share_of_seats_in_parliament,12.85714286
+Central African Republic,percent_females_have_some_secondary_education,14.2
+Central African Republic,percent_males_have_some_secondary_education,31.8
+Central African Republic,labour_force_participation_rate_female,NA
+Central African Republic,labour_force_participation_rate_male,NA
+South Sudan,hdi_rank,192
+South Sudan,gender_inequality_index,NA
+South Sudan,gender_inequality_rank,NA
+South Sudan,maternal_mortality_ratio,1222.530912
+South Sudan,adolescent_birth_rate,97.418
+South Sudan,share_of_seats_in_parliament,32.33438486
+South Sudan,percent_females_have_some_secondary_education,26.53763962
+South Sudan,percent_males_have_some_secondary_education,36.35723877
+South Sudan,labour_force_participation_rate_female,NA
+South Sudan,labour_force_participation_rate_male,NA
+Somalia,hdi_rank,193
+Somalia,gender_inequality_index,0.674
+Somalia,gender_inequality_rank,164
+Somalia,maternal_mortality_ratio,620.6823212
+Somalia,adolescent_birth_rate,116.067
+Somalia,share_of_seats_in_parliament,20.73170732
+Somalia,percent_females_have_some_secondary_education,4.449260235
+Somalia,percent_males_have_some_secondary_education,17.77499962
+Somalia,labour_force_participation_rate_female,22.32
+Somalia,labour_force_participation_rate_male,49.31
