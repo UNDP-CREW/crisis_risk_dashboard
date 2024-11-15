@@ -1,0 +1,163 @@
+---
+title: "Crisis risk dashboard"
+author: "Risk Anticipation Hub"
+date: "12 November 2024"
+toc: true
+toc-location: left
+toc-depth: 4
+format: 
+  html:
+    page-layout: full
+    code-tools: true
+    self-contained: true
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.width = 9.5)
+
+library(tidyverse)
+library(here)
+library(lubridate)
+library(patchwork)
+library(scales)
+library(sf)
+library(broom)
+library(treemapify)
+library(kableExtra)
+library(readxl)
+library(countrycode)
+library(viridis)
+library(ggraph)
+library(ggforce)
+library(plotly)
+library(widyr)
+library(tidytext)
+library(janitor)
+library(writexl)
+library(psych)
+library(corrplot)
+library(tidymodels)
+library(randomForest)
+library(vip)
+
+`%out%` <- Negate(`%in%`)
+options(scipen = 100)
+theme_set(theme_light())
+
+
+
+
+range01 <- function(x){(x-min(x))/(max(x)-min(x))}
+range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, na.rm = TRUE))}
+
+```
+
+```{r}
+
+maldives_atoll <- read_excel(here("data", "maldives_atoll_indicator1.xlsx"))
+
+islands <- read_excel(here("data", "islands_indicators1.xlsx"))
+
+maldives_admin2 <- st_read(here("data", 
+                         "mdv_admbnd_gov_20210329_shp", 
+                         "mdv_admbnda_adm2_gov_20210329.shp"))
+
+
+
+# Atolls official 
+atolls_official <- read_csv(here("data", "marwa_atolls.csv"))
+
+
+```
+
+
+# Atoll correlations
+
+```{r}
+maldives_wide <- maldives_atoll |> 
+  filter(indicator %out% c("Population density", "Cases Sent for Prosecution per 100k")) |> 
+  # group_by(indicator) |> 
+  # mutate(imputed_zero = replace(value, is.na(value), 0), 
+  #        imputed_mean = replace(value, is.na(value), mean(value, na.rm = TRUE)), 
+  #        imputed_median = replace(value, is.na(value), median(value, na.rm = TRUE))) |> 
+  # ungroup() |> 
+  select(atoll_official_name, indicator, value) |> 
+  filter(str_detect(indicator, "Reported|\\%|Median Age|Population|Sex Ratio") & 
+           !str_detect(indicator, "yrs")) |>
+  mutate(indicator = str_replace_all(indicator, 
+                                     "Combined rate of unemployment", 
+                                     "Unemployment")) |> 
+  pivot_wider(names_from = indicator, values_from = value) |> 
+  select(-atoll_official_name, -`% of poor persons nationally`) |> 
+  filter(!is.na(`% below poverty line`))
+
+maldives_wide |> glimpse()
+```
+
+```{r}
+
+set.seed(2021) 
+
+
+rf_model <- 
+  rand_forest(trees = 200, min_n = 5) |> 
+  set_mode("regression") |> 
+  set_engine("ranger", importance = "impurity")
+
+rf_recipe <- recipe(`Reported Crimes per 100k` ~ ., data = maldives_wide)
+
+rf_workflow <- 
+  workflow() %>% 
+  add_model(rf_model) %>% 
+  add_recipe(rf_recipe)
+
+rf_workflow %>%
+  fit(maldives_wide) %>% 
+  extract_fit_parsnip() %>% 
+  vip(num_features = 12)
+
+
+
+
+
+```
+
+```{r fig.height=8}
+maldives_wide |>
+  cor(method = c("pearson")) %>%
+  corrplot.mixed(title = "Atoll-level statistics",
+                 order = "hclust", 
+                 mar = c(0,0,1,0),
+                 number.cex = 1,
+                 number.digits = 2, 
+                 diag = "l", tl.pos = "lt", 
+                 insig = "blank")
+```
+
+
+```{r}
+
+islandwide <- islands |>  
+  filter(str_detect(indicator, "\\%|Median Age|Theft per 100k persons")) |>
+  pivot_wider(names_from = indicator, values_from = value, 
+              values_fill = NA_integer_) |> 
+  group_by(atoll_official, island) %>%
+  summarise_at(vars(`Labour force participation rate (%)`:`Theft per 100k persons`), 
+               ~mean(., na.rm = TRUE)) |> 
+  filter(!is.nan(`Labour force participation rate (%)`)) |> 
+  select(-atoll_official, -island)
+
+islandwide |> count(`NEET rate (15-24 years) (%)`)
+```
+
+```{r}
+set.seed(13345)
+
+island_split <- initial_split(islandwide)
+island_train <- training(island_split)
+island_test <- testing(island_split)
+```
+

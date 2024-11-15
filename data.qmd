@@ -37,6 +37,11 @@ library(widyr)
 library(tidytext)
 library(janitor)
 library(writexl)
+library(psych)
+library(corrplot)
+library(tidymodels)
+library(randomForest)
+library(vip)
 
 `%out%` <- Negate(`%in%`)
 options(scipen = 100)
@@ -130,11 +135,6 @@ special_procedures <- read_xlsx(here("data", "Special Procedurces Communications
 
 
 ```
-
-```{r}
-uhri |> count(type)
-```
-
 
 
 
@@ -1554,10 +1554,6 @@ vdem |>
 
 ## Corruption Perceptions Index
 
-```{r}
-country_list
-```
-
 
 ```{r}
 cpi <- read_excel(here("data", "CPI2023_Global_Results__Trends.xlsx"), 
@@ -1579,7 +1575,6 @@ cpi <- read_excel(here("data", "CPI2023_Global_Results__Trends.xlsx"),
 
 cpi |> write_csv(here("data", "cpi_long.csv"))
 
-cpi |> skimr::skim()
 ```
 
 
@@ -1596,12 +1591,18 @@ cpi |>
 
 ## Maldives 
 
+
 ### Maldives data
 
 
 
+
+
 ```{r}
-maldives <- read_excel(here("data", "Maldives Combined Datasets-Cleaned.xlsx")) |> 
+
+# Main dataset 
+maldives <- read_excel(here("data", "Maldives Combined Datasets-Cleaned.xlsx"), 
+                       sheet = 2) |> 
   janitor::clean_names() |> 
   mutate(administration = case_when(
     administration == "Administrative Islands & Non-administrative Islands" ~ 
@@ -1613,8 +1614,9 @@ maldives <- read_excel(here("data", "Maldives Combined Datasets-Cleaned.xlsx")) 
   mutate(atoll_official = case_when(
     atoll_official == "GNAVIYANI Atoll" ~ "Gnaviyani Atoll", 
     atoll_official == "LHAVIYANI Atoll" ~ "Lhaviyani Atoll", 
-    atoll_official == "Male'|Male" ~ "Greater Male Region", 
+    str_detect(atoll_official, "Male") ~ "Greater Male Region", 
     atoll_official == "NOONU Atoll" ~ "Noonu Atoll", 
+    atoll_local_names == "Addu (S)" ~ "Seenu Atoll", 
     TRUE ~ atoll_official
   )) |> 
   mutate(atoll_local_names = 
@@ -1661,13 +1663,63 @@ maldives <- read_excel(here("data", "Maldives Combined Datasets-Cleaned.xlsx")) 
              island %in% c("Nolhivaran", "Nolhivaramu") & 
                atoll_official == "Haa Dhaal Atoll" ~ "Nolhivaram",
              TRUE ~ island
-           )) |> 
-    mutate(population = ifelse(population == "Resident population", "Resident Population", population))
+           )) |>
+  mutate(population = ifelse(population == "Resident population", "Resident Population", population)) |>
+  mutate(indicator = case_when(str_detect(indicator, "Elderly") & 
+                                 str_detect(indicator, "\\%") ~ "Elderly Population (65+ yrs)%", 
+                               str_detect(indicator, "Elderly") & 
+                                 !str_detect(indicator, "\\%") ~ "Elderly Population (65+ yrs)", 
+                               TRUE ~ indicator)) |> 
+  mutate(island_correct = case_when(
+    island == "Angolhitheemu" ~ "Agolhitheemu", 
+    island %in% c("Meedhoo", "Hulhudhoo") ~ "Hulhumeedhoo", 
+    TRUE ~ island_correct))
 
 maldives_admin2 <- st_read(here("data", 
                          "mdv_admbnd_gov_20210329_shp", 
                          "mdv_admbnda_adm2_gov_20210329.shp"))
 
+
+
+
+# Atolls official 
+atolls_official <- read_csv(here("data", "marwa_atolls.csv"))
+```
+
+
+
+### Maldives atoll indicator
+
+Long table formed of crime, demographic and economic data. 
+
+See the chunk below for the structure of the dataset. 
+
+
+```{r}
+atoll_names_clean <- function(tbl){
+  tbl |>
+    mutate(
+      atoll_official = case_when(
+        str_detect(atoll_official, "Male") ~ "Greater Male Region",
+        str_detect(atoll_official, "Gaaf Dhaal") ~ "Gaaf Dhaal Atoll",
+        str_detect(atoll_official, "Haa Alif") ~ "Haa Alif Atoll",
+        TRUE ~ atoll_official
+      ),
+      atoll_local_names = case_when(
+        atoll_local_names == "Haa Alif  (HA)" ~ "Haa Alif (HA)", 
+        atoll_local_names == "Gaafu Dhaalu  (GDh)" ~ "Gaafu Dhaalu (GDh)", 
+        str_detect(atoll_local_names, "Haa Alif") ~ "Haa Alif (HA)",
+        str_detect(atoll_local_names, "Male") ~ "Greater Male Region",
+        TRUE ~ atoll_local_names
+      ) 
+
+    )
+}
+```
+
+
+```{r}
+# Maldives poverty
 maldives_poverty <- read_excel(here("data", "Poverty Datasheet Maldives HIES 2019 (1).xlsx")) |> 
   janitor::clean_names() |> 
   slice(3:23) |> 
@@ -1682,7 +1734,7 @@ maldives_poverty <- read_excel(here("data", "Poverty Datasheet Maldives HIES 201
   mutate(atoll = case_when(
     atoll == "Lhaviyani ( (Lh)" ~ "Lhaviyani (Lh)", 
     TRUE ~ atoll
-  )) |> 
+  )) |>  
   left_join(
     maldives |> 
       distinct(atoll_official, atoll_local_names) |> 
@@ -1697,16 +1749,18 @@ maldives_poverty <- read_excel(here("data", "Poverty Datasheet Maldives HIES 201
   ), 
   indicator = case_when(indicator == "pc_below_poverty_line" ~ "% below poverty line", 
                         indicator == "pc_national_poor" ~ "% of poor persons nationally")) |> 
-  rename(atoll_local_names = atoll)
+  rename(atoll_local_names = atoll) |> 
+  atoll_names_clean() 
 
-atolls_official <- read_csv(here("data", "marwa_atolls.csv"))
 ```
 
 
 
-### Maldives atoll indicator
+
 
 ```{r}
+
+
 maldives_crimes <- maldives |> 
   filter(atoll_official %out% c("Industrial Islands", "Resorts")) |>
   filter(indicator %in% c("Cases Sent for Prosecution", 
@@ -1719,7 +1773,9 @@ maldives_crimes <- maldives |>
                           "Sexual Harrasment", 
                           "Stalking", 
                           "Population", 
-                          "Reported Crimes")) |> 
+                          "Reported Crimes")) |>
+  filter(is.na(population) | population == "Resident Population") |> 
+  atoll_names_clean() |> 
   group_by(atoll_official, atoll_local_names, indicator) |> 
   summarise(value = sum(value)) |>
   group_by(atoll_official, atoll_local_names) |> 
@@ -1733,20 +1789,26 @@ maldives_crimes <- maldives |>
 
 maldives_demographics <- maldives |> 
   filter(atoll_official %out% c("Industrial Islands", "Resorts")) |>
-  filter(indicator %in% c("Child Population (0-17 yrs)",
-                          "Youth Population (National) (18-35 yrs)",
-                          "Working Age Population (15-64 yrs)",
-                          "Elderly Population (65+ yrs)", 
-                          "Adolescent Population (International) (10-19 yrs)",
-                          "Population",
-                          "Population density",
-                          "Sex Ratio (males per 100 female)")) |> 
+    filter(indicator %in% c("Child Population (0-17 yrs)",
+                            "Youth Population (National) (18-35 yrs)",
+                            "Working Age Population (15-64 yrs)",
+                            "Elderly Population (65+ yrs)", 
+                            "Adolescent Population (International) (10-19 yrs)",
+                            "Population",
+                            "Population density",
+                            "Median Age", 
+                            "Sex Ratio (males per 100 female)")) |> 
+  mutate(concat = paste0(indicator, population, island_correct, atoll_official)) |> 
+  filter(!str_detect(concat, "Population densityMaldivians|PopulationMaldivians")) |>
+  filter(population != "Foreigners") |>
+  atoll_names_clean() |> 
   group_by(atoll_official, atoll_local_names, indicator) |> 
   summarise(value = sum(value), 
             .groups = "drop")
 
 maldives_economy <- maldives |>
-      filter(atoll_official %out% c("Industrial Islands", "Resorts")) |>
+      filter(atoll_official %out% c("Industrial Islands", "Resorts") & 
+               population == "Resident Population") |>
       filter(indicator %in% c(
         "Aged-Dependency Ratio",
         "Child Dependency Ratio",
@@ -1764,6 +1826,7 @@ maldives_economy <- maldives |>
         "NEET rate (15-24 years) (%)", 
         "NEET rate (18-35 years) (%)"
       )) |> 
+  atoll_names_clean() |> 
       group_by(atoll_official, atoll_local_names, indicator) |>
       summarise(value = mean(value, na.rm = TRUE), 
                 .groups = "drop") 
@@ -1781,6 +1844,9 @@ maldives_atoll <- rbind(
   ) |> 
   group_by(indicator) |>
   mutate(range = range_wna(value)) |> 
+  mutate(atoll_official_name = ifelse(atoll_official == "Greater Male Region", 
+                                      "Greater Male Region", 
+                                      atoll_official_name)) |> 
   ungroup() |> 
   mutate(indicator2 = indicator, 
          value2 = value, 
@@ -1801,16 +1867,219 @@ maldives_atoll <- rbind(
 ```
 
 
+
+
+### Maldives correlations
+
+
+
+
 ```{r}
+maldives_wide <- maldives_atoll |> 
+  filter(indicator %out% c("Population density", "Cases Sent for Prosecution per 100k")) |> 
+  # group_by(indicator) |> 
+  # mutate(imputed_zero = replace(value, is.na(value), 0), 
+  #        imputed_mean = replace(value, is.na(value), mean(value, na.rm = TRUE)), 
+  #        imputed_median = replace(value, is.na(value), median(value, na.rm = TRUE))) |> 
+  # ungroup() |> 
+  select(atoll_official_name, indicator, value) |> 
+  filter(str_detect(indicator, "Investigated|\\%|Median Age|Population|Sex Ratio") & 
+           !str_detect(indicator, "yrs")) |>
+  pivot_wider(names_from = indicator, values_from = value) |> 
+  select(-atoll_official_name, -`% of poor persons nationally`) |> 
+  filter(!is.na(`% below poverty line`))
+
+maldives_wide |> glimpse()
+```
+
+```{r}
+
+set.seed(2021) 
+
+
+rf_model <- 
+  rand_forest(trees = 200, min_n = 5) |> 
+  set_mode("regression") |> 
+  set_engine("ranger", importance = "impurity")
+
+rf_recipe <- recipe(`Investigated Cases per 100k` ~ ., data = maldives_wide)
+
+rf_workflow <- 
+  workflow() %>% 
+  add_model(rf_model) %>% 
+  add_recipe(rf_recipe)
+
+rf_workflow %>%
+  fit(maldives_wide) %>% 
+  extract_fit_parsnip() %>% 
+  vip(num_features = 12)
+
+
+
+
+
+```
+
+
+
+
+```{r}
+
+# Initialize file path
+png(height=1800, width=1800, file=here("plots", "atoll_correlation_plot.png"), type = "cairo")
+
+# Your function to plot image goes here
 maldives_atoll |> 
-  writexl::write_xlsx(here("data", "maldives_atoll_indicator2.xlsx"))
+  filter(indicator %out% c("Population density", "Cases Sent for Prosecution per 100k")) |> 
+  group_by(indicator) |> 
+  mutate(imputed_zero = replace(value, is.na(value), 0), 
+         imputed_mean = replace(value, is.na(value), mean(value, na.rm = TRUE)), 
+         imputed_median = replace(value, is.na(value), median(value, na.rm = TRUE))) |> 
+  ungroup() |> 
+  select(atoll_official_name, indicator, imputed_median) |> 
+  pivot_wider(names_from = indicator, values_from = imputed_median) |>
+  select(-atoll_official_name) |>
+  cor(method = c("pearson")) %>%
+  corrplot.mixed(title = "Demographic statistics",
+                 mar = c(0,0,1,0),
+                 number.cex = 1,
+                 number.digits = 2, 
+                 diag = "l", tl.pos = "lt", 
+                 insig = "blank")
+
+# Then
+dev.off()    
+ 
+```
+
+
+
+
+```{r}
+# Initialize file path
+png(height=1800, width=1800, file=here("plots", "correlation_plot.png"), type = "cairo")
+
+# Your function to plot image goes here
+islands |> 
+  filter(index == "Demographic statistics") |> 
+  filter(indicator_full %out% c("Population density Resident Maldivian Population",
+                                "Median Age Resident Maldivians") & 
+           !str_detect(indicator_full, "International|\\%")) |>
+  select(Atoll, island, concat, indicator_full, value) |> 
+  pivot_wider(names_from = indicator_full, 
+               values_from = value) |> 
+  select(-Atoll, -island, -concat) |>
+  cor(method = c("pearson")) %>%
+  corrplot.mixed(order = "AOE", 
+                 title = "Demographic statistics",
+                 mar = c(0,0,1,0),
+                 number.cex = 5,
+                 number.digits = 2, 
+                 diag = "l", tl.pos = "lt")
+
+# Then
+dev.off()  
+```
+
+
+```{r}
+islands |> glimpse(
+  
+) |> 
+  filter(str_detect(indicator, "Median Age|\\%|Poplation density|"))
+  count(indicator)
+
+
+```
+
+```{r fig.height=8}
+islands |> 
+  filter(index == "Demographic statistics") |> 
+  filter(indicator_full %out% c("Population density Resident Maldivian Population",
+                                "Median Age Resident Maldivians") & 
+           !str_detect(indicator_full, "International")) |> 
+  select(Atoll, island, concat, indicator_full, value) |> 
+  pivot_wider(names_from = indicator_full, 
+               values_from = value) |> 
+  select(-Atoll, -island, -concat) |> 
+  cor(method = c("pearson")) %>% 
+  corrplot.mixed(order = "AOE", tl.cex = 1)
+  
+  corrplot(type = "upper", tl.cex = 1)
+  corrplot.mixed(order = "AOE")
+
+
+  
+
+  psych::pairs.panels(smooth = TRUE,      # If TRUE, draws loess smooths
+               scale = FALSE,      # If TRUE, scales the correlation text font
+               density = TRUE,     # If TRUE, adds density plots and histograms
+               ellipses = FALSE,   # If TRUE, draws ellipses
+               method = "pearson", # Correlation method (also "spearman" or "kendall")
+               pch = 8,            # pch symbol
+               lm = TRUE,          # If TRUE, plots linear fit rather than the LOESS (smoothed) fit
+               cor = TRUE,         # If TRUE, reports correlations
+               jiggle = FALSE,     # If TRUE, data points are jittered
+               factor = 2,         # Jittering factor
+               hist.col = 4,       # Histograms color
+               stars = TRUE,       # If TRUE, adds significance level with stars
+               ci = FALSE,         # If TRUE, adds confidence intervals
+               main = "Correlation plot of conflict indicators (acleddata.com) and FSC partners and beneficiaries")
+  
+  cor(method = c("pearson")) %>% 
+  corrplot(type = "upper", col = RColorBrewer::brewer.pal(n = 8, name = "RdYlBu"), tl.srt = 35, 
+           title = "Correlation plot between conflict indicators and FSC presence \n",  mar=c(0,0,2,0), diag = FALSE)
+
+  glimpse()
+  glimpse()
+  count(indicator, index
+        )
+  glimpse()
+  
+
+Population density Resident Maldivian Population
+Median Age Resident Maldivians
+
+ggsave(here("plots", "corrplot.png"))
+```
+
+```{r}
+# Initialize file path
+png(height=1800, width=1800, file=here("plots", "correlation_plot.png"), type = "cairo")
+
+# Your function to plot image goes here
+islands |> 
+  filter(index == "Demographic statistics") |> 
+  filter(indicator_full %out% c("Population density Resident Maldivian Population",
+                                "Median Age Resident Maldivians") & 
+           !str_detect(indicator_full, "International|\\%")) |>
+  select(Atoll, island, concat, indicator_full, value) |> 
+  pivot_wider(names_from = indicator_full, 
+               values_from = value) |> 
+  select(-Atoll, -island, -concat) |>
+  cor(method = c("pearson")) %>%
+  corrplot.mixed(order = "AOE", 
+                 title = "Demographic statistics",
+                 mar = c(0,0,1,0),
+                 number.cex = 5,
+                 number.digits = 2, 
+                 diag = "l", tl.pos = "lt")
+
+# Then
+dev.off()  
 ```
 
 
 
 
 
+
 ### Maldives islands 
+
+Remake the islands dataset from the `maldives` dataset. 
+
+
+
 
 ```{r warning=FALSE, message=FALSE}
 
@@ -1863,9 +2132,215 @@ islands_atolls <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-P
 
 
 
+#### Islands new
+
 
 ```{r}
-islands <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-Population Cleaned V1.xlsx"),
+
+not_per_capita_list <- c(
+  "Combined rate of unemployment and potential labour force (%)",
+  "Employment-to-population ratio (%)",
+  "Inactivity rate (%)",
+  "Labour force participation rate (%)",
+  "NEET rate (15-24 years) (%)",
+  "Median Age",
+  "NEET rate (18-35 years) (%)",
+  "Population",
+  "Population density",
+  "Unemployment rate (%)",
+  "Youth unemployment rate (15-24 years) (%)",
+  "Youth unemployment rate (18-35years) (%)"
+)
+
+
+islands <- read_excel(here("data", "Combined Datasets.xlsx"), 
+           col_types = c("text", "text", "text", "text", 
+                         "numeric", "numeric", "numeric")) |> 
+  clean_names() |> 
+  rename(atoll_official = atoll) |> 
+  mutate(
+      atoll_official = case_when(
+        str_detect(atoll_official, "Male") ~ "Greater Male Region",
+        str_detect(atoll_official, "Gaaf Dhaal") ~ "Gaaf Dhaal Atoll",
+        str_detect(atoll_official, "Haa Alif") ~ "Haa Alif Atoll",
+        TRUE ~ atoll_official
+      )) |> 
+  filter(!is.na(island)) |> 
+  filter(!str_detect(island, "Uninhabited islands and resorts|Industrial Islands|Resorts")) |> 
+  mutate(island = trimws(island),
+         island = 
+           case_when(
+             island == "Bandidhoo" & atoll_official == "Dhaal Atoll" ~ "Badidhoo", 
+             island == "Bilehdhoo" & atoll_official == "Faafu Atoll" ~ "Biledhdhoo", 
+             island == "Dhanbidhoo" & atoll_official == "Laamu Atoll" ~ "Dhabidhoo", 
+             island == "Faresmaathodaa" & atoll_official == "Gaaf Dhaal Atoll" ~ "Fares-Maathodaa", 
+             island == "Fiyoaree" & atoll_official == "Gaaf Dhaal Atoll" ~ "Fiyoari", 
+             str_detect(island, "Hangnameedhoo|Hangnaameedhoo") & 
+               atoll_official == "Alif Dhekunu Buri" ~ "Hanghghaameedhoo",
+             island == "Henbadhoo" & atoll_official == "Noonu Atoll" ~ "Hebadhoo", 
+             island == "Himendhoo" & atoll_official == "Alif Uthuru Buri" ~ "Himandhoo",
+             island == "Hinmafushi" & atoll_official == "Kaafu Atoll" ~ "Himmafushi", 
+             island == "Kedhikulhudhoo" & atoll_official == "Noonu Atoll" ~ "Kedhikolhudhoo",
+             island == "Kalaidhoo" & atoll_official == "Laamu Atoll" ~ "Kalhaidhoo",
+             island == "Kulhudhuffushi City" & atoll_official == "Haa Dhaal Atoll" ~ "Kalhaidhoo",
+             island == "Kuribi" & atoll_official == "Haa Dhaal Atoll" ~ "Kurinbi",
+             island == "Maaenboodhoo" & atoll_official == "Dhaal Atoll" ~ "Maaeboodhoo",
+             island == "Maalhos" & atoll_official == "Alif Uthuru Buri" ~ "Maalhoss",
+             island == "Maradhoo Feydhoo" & atoll_official == "Seenu Atoll" ~ "Maradhoo-Feydhoo",
+             island == "Nadellaa" & atoll_official == "Gaaf Dhaal Atoll" ~ "Nadallaa",
+             island == "Nolhivaranfaru" & atoll_official == "Haa Dhaal Atoll" ~ "Nolhivaramfaru",
+             island == "Thuraakunu" & atoll_official == "Haa Alif Atoll" ~ "Thurakunu",
+             island == "Dhagethi" & atoll_official == "Alif Dhekunu Buri" ~ "Dhangethi",
+             str_detect(island, "Kunburudhoo|Kuburudhoo") & atoll_official == "Alif Dhekunu Buri" ~ "Kunburudhoo",
+             island == "dharanboodhoo" & atoll_official == "Faafu Atoll" ~ "Dharaboodhoo",
+             island == "Vilingili" & atoll_official == "Gaaf Alif Atoll" ~ "Viligili",
+             island == "Molhadhoo" & atoll_official == "Haa Alif Atoll" ~ "Mulhadhoo",
+             island == "Inguraidhoo" & atoll_official == "Raa Atoll" ~ "Iguraidhoo",
+             island == "Ungoofaaru" & atoll_official == "Raa Atoll" ~ "Ugoofaaru", 
+             island == "Hulhudhoo	" & atoll_official == "Seenu Atoll" ~ "Hulhumeedhoo",
+             island == "Kanditheemu" & atoll_official == "Shaviyani Atoll" ~ "Kaditheemu",
+             island == "Kinbidhoo" & atoll_official == "Thaa Atoll" ~ "Kibidhoo",
+             island %in% c("Nolhivaran", "Nolhivaramu") & 
+               atoll_official == "Haa Dhaal Atoll" ~ "Nolhivaram",
+             island == "Angolhitheemu" ~ "Agolhitheemu", 
+             island %in% c("Meedhoo", "Hulhudhoo") ~ "Hulhumeedhoo",
+             island == "Dhonfan" ~ "Dhonfanu", 
+             island == "Mundoo" & atoll_official == "Laamu Atoll" ~ "Mundhoo", 
+             island == "Raiymandhoo" & atoll_official == "Meemu Atoll" ~ "Raimandhoo", 
+             str_detect(island, "Kedhikolhudhoo") & atoll_official == "Noonu Atoll" ~ "Kendhikulhudhoo", 
+             island == "Bilehfahi" & atoll_official == "Shaviyani Atoll" ~ "Bilehffahi", 
+             island == "Maaugoodhoo" & atoll_official == "Shaviyani Atoll" ~ "Maaungoodhoo", 
+             island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
+             island == "Hoadedhdhoo" & atoll_official == "Gaaf Dhaal Atoll" ~ "Hoandedhdhoo",
+             island == "Foammulah" & atoll_official == "Gnaviyani Atoll" ~ "Fuvahmulah",
+             island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
+             island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
+             island == "Madeveli" & atoll_official == "Gaaf Dhaal Atoll" ~ "Madaveli",
+             
+             TRUE ~ island
+           )) |> 
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, atoll_official_name = `Atoll Official Name`), 
+    by = "atoll_official"
+  ) |> 
+  mutate(atoll_official_name = ifelse(atoll_official == "Greater Male Region", 
+                                      atoll_official,
+                                      atoll_official_name)) |> 
+  rename(value = data_value) |> 
+  rbind(
+    tribble(
+      ~dataset, ~indicator, ~atoll_official, ~island, ~value,
+      "Population", "Population", "Greater Male Region", "Hulhule", 80,
+      "Population", "Population", "Greater Male Region", "Hulhumale'", 53193,
+      "Population", "Population", "Greater Male Region", "Male'", 211908,
+      "Population", "Population", "Greater Male Region","Vilimale'", 6754,
+      "Population", "Population", "Haa Dhaal Atoll", "Kalhaidhoo", 10398, 
+      "Population", "Population density", "Greater Male Region", "Male'", 17500,
+      "Population", "Population density", "Greater Male Region","Vilimale'", 25000,
+      "Population", "Population density", "Greater Male Region", "Hulhumale'", 18184) |> 
+  mutate(
+    sort_order = 5, 
+    normalized_value = .5, 
+    atoll_official_name = atoll_official
+  )) |>  
+  mutate(dataset = paste0(island, ", ", atoll_official_name)) |> 
+  group_by(dataset) |> 
+  mutate(population = ifelse(indicator == "Population", value, NA_integer_)) |> 
+  fill(population, .direction = c("downup")) |> 
+  ungroup() |> 
+  
+
+  mutate(value = ifelse(indicator %out% not_per_capita_list, 
+                        value / population * 100000, 
+                        value), 
+         indicator = ifelse(indicator %out% not_per_capita_list, 
+                            paste0(indicator, " per 100k persons"), 
+                            indicator), 
+         indicator2 = indicator,
+         value2 = value) |> 
+  distinct(dataset, indicator, atoll_official, island,
+           value, normalized_value, sort_order, atoll_official_name, 
+           population, indicator2, value2)
+
+  
+```
+
+
+```{r}
+islands |> glimpse()
+```
+
+
+```{r}
+
+islands |> filter(indicator == "Population" & atoll_official == "Greater Male Region")
+```
+
+
+```{r}
+islands |> 
+  filter(indicator == "Population density" & atoll_official == "Greater Male Region")
+
+mutate()
+    
+  
+  count(indicator)
+```
+
+
+
+
+```{r}
+islands |> 
+  distinct(dataset, indicator, atoll_official, value, normalized_value, sort_order, atoll_official_name, 
+           population, indicator2, value2)
+  filter(str_detect(indicator, "Arson"))
+```
+
+
+
+
+
+
+### Maldives write 
+
+```{r}
+islands |> 
+  filter(indicator %out% c("Others", "Population", "Population density")) |> 
+  writexl::write_xlsx(here("data", "islands_indicators2.xlsx"))
+
+# island_pop 
+islands |> 
+  filter(indicator %in% c("Population", "Population density")) |> 
+  writexl::write_xlsx(here("data", "island_population_statistics.xlsx"))
+
+maldives_atoll |> 
+  writexl::write_xlsx(here("data", "maldives_atoll_indicator2.xlsx"))
+
+
+
+
+maldives_demographics |> 
+  select(atoll_local_names, atoll_official,indicator, value) |> 
+  write_csv(here("data", "maldives_atoll_population.csv"))
+  
+
+
+```
+
+
+```{r}
+islands_deprecated |> count(atoll_official)
+
+
+islands |> filter(atoll_official == "Greater Male Region")
+```
+
+
+
+```{r deprecated}
+islands_deprecated <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-Population Cleaned V1.xlsx"),
                              sheet = 1, 
                              skip = 7, 
                              col_names = island_colnames) |> 
@@ -1909,45 +2384,7 @@ islands <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-Populati
     is.na(sex_modifier) ~ "Demographic statistics", 
     TRUE ~ "Population counts"
   ))
-```
 
-
-```{r}
-islands |> count(index, sex_modifier, population_modifier)
-
-islands |> glimpse()
-```
-
-```{r}
-islands |> 
-  count(sex_modifier, population_modifier)   
-
-islands |> filter(!is.na(sex_modifier)) |> count(indicator)
-
-islands 
-```
-
-
-
-```{r}
-
-
-islands |> 
-  filter(indicator_full %in% c ("Median Age Resident Maldivians", "Population density Total Resident Population")) |>
-  select(concat, indicator, value) |> 
-  pivot_wider(names_from = indicator, values_from = value) |> 
-  ggplot(aes(x = `Population density Total Resident Population`, y = `Median Age Resident Maldivians`)) + 
-  geom_point()
-
-
-  glimpse()
-  glimpse()
-  count(value)
-  ggplot(aes(x = value)) + 
-  geom_histogram()
-```
-
-```{r}
  islands |> 
   filter(indicator_full == "Resident Population Both sexes") |> 
   select(island, atoll_official, population = value) |>
@@ -1960,46 +2397,29 @@ islands |>
   mutate(concat = paste0(island, ", ", atoll_official)) |> 
   write_csv(here("data", "islands_pop.csv"))
 
-islands |> count(indicator_full)
+islands |> count(island, atoll_official)
 
 select(island, atoll_official, population = value) 
 
-# island_pop 
 maldives |> 
-  filter(!is.na(island) & indicator == "Population") |> 
+  filter(indicator == "Population" & population == "Resident Population") |> 
+  mutate(island = ifelse(atoll_official == "Greater Male Region", "Male", island), 
+         island_correct = ifelse(atoll_official == "Greater Male Region", 
+                                 "Male", 
+                                 island_correct)) |> 
   group_by(island = island_correct, atoll_official) |> 
   summarise(population = sum(value), .groups = "drop") |> 
   mutate(concat = paste0(island, ", ", atoll_official)) |> 
   write_csv(here("data", "mal_island_population.csv"))
-  filter(str_detect(indicator, "Population|population"))
-```
-
-```{r}
-
-rbind(
-  maldives_atoll |> 
-  count(indicator) |> 
-  mutate(admin_level = "Atoll"), 
-
-islands |> 
-  count(indicator) |> 
-  mutate(admin_level = "Island")) |> 
-  rename(observations = n) |> 
-  write_csv(here("data", "maldives_indicator_list.csv"))
-```
-
-
-
-### Maldives write 
-
-```{r}
-islands |> writexl::write_xlsx(here("data", "islands_indicators1.xlsx"))
 
 ```
 
-
 ```{r}
-maldives_at
+maldives_atoll |> 
+  filter(population)
+
+maldives |> 
+  filter(atoll_official == "Greater Male Region")
 ```
 
 
@@ -2073,28 +2493,6 @@ maldives |>
 
 
 
-
-```{r}
-maldives |>
-  filter(!is.na(island) & !str_detect(island, "Uninhabited") & indicator != "Population" & population == "Maldivians") |>
-  group_by(indicator, island = island_correct, atoll_official, atoll_local_names, population) |> 
-  summarise(value = mean(value, na.rm = TRUE), .groups = "drop") |> 
-  mutate(value2 = value, 
-         indicator2 = indicator) |> 
-  write_csv(here("data", "maldives_island_indicator2.csv"))
-  
-maldives |>
-  filter(!is.na(island) & !str_detect(island, "Uninhabited") & 
-           population == "Resident Population" & 
-           indicator != "Population") |> 
-  filter(island == "Kuburudhoo" & indicator == "Inactivity rate (%)")
-```
-
-
-```{r}
-
-
-```
 
 
 
@@ -2178,9 +2576,6 @@ maldives_duplicates <- maldives |>
 maldives_duplicates |> write_csv(here("data", "maldives_duplicates.csv"))
 ```
 
-```{r}
-maldives |> filter(duplicate == TRUE)
-```
 
 
 
@@ -2214,49 +2609,9 @@ maldives |>
 ```
 
 
-```{r}
-maldives |> 
-  filter(indicator %out% exclude_indicators) |> 
-  count(administration)
-  glimpse()
-```
-
-
-```{r}
-maldives_normalised |> 
-  filter(population == "Maldivians") |> 
-  filter(indicator %in% c("Population", "Aged-Dependency Ratio")) |>
-   pivot_wider(names_from = indicator, 
-              values_from = range01)
-
-
-  filter(!is.na(`Total Population`) & !is.na(`Unemployment rate (%)`))
-  select(indicator, island, atoll_official, population, range01) |> 
-  
-  ggplot(aes(x = `Population`, y = `Unemployment rate (%)`)) + 
-  geom_point()
-  
-maldives_normalised |> 
-  filter(indicator %in% c("Unemployment rate (%)", "Population")) |> 
-  count(indicator)
-
-
-maldives |> count(indicator)
-  filter(indicator == "Population") |> 
-  group_by(island, atoll_official, population) |> 
-  summarise(rows = n())
-  # filter(indicator %in% c("Unemployment rate (%)", "Population")) |>
-  count(indicator)
-  
-maldives |> count(indicator, population)
-```
 
 
 
-```{r}
-maldives |> 
-  filter(indicator == "NEET rate (18-35 years) (%)")
-```
 
 ## HRI
 
