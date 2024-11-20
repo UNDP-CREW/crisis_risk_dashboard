@@ -59,19 +59,286 @@ range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, n
 
 maldives_atoll <- read_excel(here("data", "maldives_atoll_indicator1.xlsx"))
 
-islands <- read_excel(here("data", "islands_indicators1.xlsx"))
-
-maldives_admin2 <- st_read(here("data", 
-                         "mdv_admbnd_gov_20210329_shp", 
-                         "mdv_admbnda_adm2_gov_20210329.shp"))
-
-
-
 # Atolls official 
 atolls_official <- read_csv(here("data", "marwa_atolls.csv"))
 
+not_per_capita_list <- c(
+  "Combined rate of unemployment and potential labour force (%)",
+  "Employment-to-population ratio (%)",
+  "Inactivity rate (%)",
+  "Labour force participation rate (%)",
+  "NEET rate (15-24 years) (%)",
+  "Median Age",
+  "NEET rate (18-35 years) (%)",
+  "Population",
+  "Population density",
+  "Unemployment rate (%)",
+  "Youth unemployment rate (15-24 years) (%)",
+  "Youth unemployment rate (18-35years) (%)"
+)
+
+adm1_match <- atolls_official |>
+  clean_names() |> 
+  rename(atoll_official = atoll) |> 
+  select(-sort_order) |> 
+  count(atoll_official, atoll_official_name, local_names) |> 
+  left_join(
+    maldives_shape |> st_drop_geometry() |>
+      distinct(adm1_en, adm1_pcode) |> 
+      mutate(adm1_en_alt = paste0(adm1_en, " Atoll")) |> 
+      mutate(adm1_en_alt = 
+               case_when(
+                 adm1_en == "Dhaalu" ~ "Dhaal Atoll", 
+                 adm1_en == "Gaafu Dhaalu" ~ "Gaaf Dhaal Atoll", 
+                 adm1_en == "Alifu Alifu" ~ "Alif Uthuru Buri", 
+                 adm1_en == "Haa Alifu" ~ "Haa Alif Atoll", 
+                 adm1_en == "Alifu Dhaalu" ~ "Alif Dhekunu Buri", 
+                 adm1_en == "Haa Dhaalu" ~ "Haa Dhaal Atoll", 
+                 adm1_en == "Gaafu Alifu" ~ "Gaaf Alif Atoll", 
+                 adm1_en == "Male'" ~ "Greater Male Region", 
+                 TRUE ~ adm1_en_alt
+               ))
+      , 
+    by = c("atoll_official" = "adm1_en_alt")
+  )
+
+
+islands <- read_excel(here("data", "Combined Datasets.xlsx"), 
+           col_types = c("text", "text", "text", "text", 
+                         "numeric", "numeric", "numeric")) |> 
+  clean_names() |> 
+  rename(atoll_official = atoll) |> 
+  mutate(
+      atoll_official = case_when(
+        str_detect(atoll_official, "Male") ~ "Greater Male Region",
+        str_detect(atoll_official, "Gaaf Dhaal") ~ "Gaaf Dhaal Atoll",
+        str_detect(atoll_official, "Haa Alif") ~ "Haa Alif Atoll",
+        TRUE ~ atoll_official
+      )) |> 
+  filter(!is.na(island)) |> 
+  filter(!str_detect(island, "Uninhabited islands and resorts|Industrial Islands|Resorts")) |> 
+  mutate(island = trimws(island),
+         island = 
+           case_when(
+             island == "Bandidhoo" & atoll_official == "Dhaal Atoll" ~ "Badidhoo", 
+             island == "Bilehdhoo" & atoll_official == "Faafu Atoll" ~ "Biledhdhoo", 
+             island == "Dhanbidhoo" & atoll_official == "Laamu Atoll" ~ "Dhabidhoo", 
+             str_detect(island, "Faresmaathodaa|Fares") & atoll_official == "Gaaf Dhaal Atoll" ~ "Fares-Maathodaa", 
+             island == "Fiyoaree" & atoll_official == "Gaaf Dhaal Atoll" ~ "Fiyoari", 
+             str_detect(island, "Hangnameedhoo|Hangnaameedhoo") & 
+               atoll_official == "Alif Dhekunu Buri" ~ "Hanghghaameedhoo",
+             island == "Henbadhoo" & atoll_official == "Noonu Atoll" ~ "Hebadhoo", 
+             island == "Himendhoo" & atoll_official == "Alif Uthuru Buri" ~ "Himandhoo",
+             island == "Hinmafushi" & atoll_official == "Kaafu Atoll" ~ "Himmafushi", 
+             island == "Kedhikulhudhoo" & atoll_official == "Noonu Atoll" ~ "Kedhikolhudhoo",
+             island == "Kalaidhoo" & atoll_official == "Laamu Atoll" ~ "Kalhaidhoo",
+             island == "Kulhudhuffushi City" & atoll_official == "Haa Dhaal Atoll" ~ "Kalhaidhoo",
+             island == "Kuribi" & atoll_official == "Haa Dhaal Atoll" ~ "Kurinbi",
+             island == "Maaenboodhoo" & atoll_official == "Dhaal Atoll" ~ "Maaeboodhoo",
+             island == "Maalhos" & atoll_official == "Alif Uthuru Buri" ~ "Maalhoss",
+             island == "Maradhoo Feydhoo" & atoll_official == "Seenu Atoll" ~ "Maradhoo-Feydhoo",
+             island == "Nadellaa" & atoll_official == "Gaaf Dhaal Atoll" ~ "Nadallaa",
+             island == "Nolhivaranfaru" & atoll_official == "Haa Dhaal Atoll" ~ "Nolhivaramfaru",
+             island == "Thuraakunu" & atoll_official == "Haa Alif Atoll" ~ "Thurakunu",
+             island == "Dhagethi" & atoll_official == "Alif Dhekunu Buri" ~ "Dhangethi",
+             str_detect(island, "Kunburudhoo|Kuburudhoo") & atoll_official == "Alif Dhekunu Buri" ~ "Kunburudhoo",
+             island == "dharanboodhoo" & atoll_official == "Faafu Atoll" ~ "Dharaboodhoo",
+             island == "Vilingili" & atoll_official == "Gaaf Alif Atoll" ~ "Viligili",
+             island == "Molhadhoo" & atoll_official == "Haa Alif Atoll" ~ "Mulhadhoo",
+             island == "Inguraidhoo" & atoll_official == "Raa Atoll" ~ "Iguraidhoo",
+             island == "Ungoofaaru" & atoll_official == "Raa Atoll" ~ "Ugoofaaru", 
+             island == "Hulhudhoo	" & atoll_official == "Seenu Atoll" ~ "Hulhumeedhoo",
+             island == "Kanditheemu" & atoll_official == "Shaviyani Atoll" ~ "Kaditheemu",
+             island == "Kinbidhoo" & atoll_official == "Thaa Atoll" ~ "Kibidhoo",
+             island %in% c("Nolhivaran", "Nolhivaramu") & 
+               atoll_official == "Haa Dhaal Atoll" ~ "Nolhivaram",
+             island == "Angolhitheemu" ~ "Agolhitheemu", 
+             island %in% c("Meedhoo", "Hulhudhoo") ~ "Hulhumeedhoo",
+             island == "Dhonfan" ~ "Dhonfanu", 
+             island == "Mundoo" & atoll_official == "Laamu Atoll" ~ "Mundhoo", 
+             island == "Raiymandhoo" & atoll_official == "Meemu Atoll" ~ "Raimandhoo", 
+             str_detect(island, "Kedhikolhudhoo") & atoll_official == "Noonu Atoll" ~ "Kendhikulhudhoo", 
+             island == "Bilehfahi" & atoll_official == "Shaviyani Atoll" ~ "Bilehffahi", 
+             island == "Maaugoodhoo" & atoll_official == "Shaviyani Atoll" ~ "Maaungoodhoo", 
+             island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
+             island == "Hoadedhdhoo" & atoll_official == "Gaaf Dhaal Atoll" ~ "Hoandedhdhoo",
+             island == "Foammulah" & atoll_official == "Gnaviyani Atoll" ~ "Fuvahmulah",
+             island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
+             island == "Madeveli" & atoll_official == "Gaaf Dhaal Atoll" ~ "Madaveli",
+             island == "Rinbudhoo" & atoll_official == "Dhaal Atoll" ~ "Ribudhoo",
+             island == "Kondey" ~ "Kodey",
+             
+             TRUE ~ island
+           )) |> 
+  left_join(
+    atolls_official |> 
+      distinct(atoll_official = Atoll, atoll_official_name = `Atoll Official Name`), 
+    by = "atoll_official"
+  ) |> 
+  mutate(atoll_official_name = ifelse(atoll_official == "Greater Male Region", 
+                                      atoll_official,
+                                      atoll_official_name)) |> 
+  rename(value = data_value) |> 
+  rbind(
+    tribble(
+      ~dataset, ~indicator, ~atoll_official, ~island, ~value,
+      "Population", "Population", "Greater Male Region", "Hulhule", 80,
+      "Population", "Population", "Greater Male Region", "Hulhumale'", 53193,
+      "Population", "Population", "Greater Male Region", "Male'", 211908,
+      "Population", "Population", "Greater Male Region","Vilimale'", 6754,
+      "Population", "Population", "Haa Dhaal Atoll", "Kalhaidhoo", 10398, 
+      "Population", "Population density", "Greater Male Region", "Male'", 17500,
+      "Population", "Population density", "Greater Male Region","Vilimale'", 25000,
+      "Population", "Population density", "Greater Male Region", "Hulhumale'", 18184) |> 
+  mutate(
+    sort_order = 5, 
+    normalized_value = .5, 
+    atoll_official_name = atoll_official
+  )) |>  
+  mutate(dataset = paste0(island, ", ", atoll_official_name)) |> 
+  group_by(dataset) |> 
+  mutate(population = ifelse(indicator == "Population", value, NA_integer_)) |> 
+  fill(population, .direction = c("downup")) |> 
+  ungroup() |> 
+  mutate(atoll_official_name = ifelse(atoll_official_name == "Haa Dhaal Atoll", 
+                                      "Thiladhunmathee Dhekunuburi", 
+                                      atoll_official_name)) |> 
+
+
+  mutate(value = ifelse(indicator %out% not_per_capita_list, 
+                        value / population * 100000, 
+                        value), 
+         indicator = ifelse(indicator %out% not_per_capita_list, 
+                            paste0(indicator, " per 100k persons"), 
+                            indicator), 
+         indicator2 = indicator,
+         value2 = value) |> 
+  distinct(dataset, indicator, atoll_official, island,
+           value, normalized_value, sort_order, atoll_official_name, 
+           population, indicator2, value2) |> 
+  left_join(
+    adm1_match |> 
+      select(atoll_official, adm1_pcode), 
+    by = "atoll_official"
+  ) |> 
+  mutate(adm1_pcode = ifelse(atoll_official_name == "Greater Male Region", 
+                             "MV021", 
+                             adm1_pcode))
+
+
 
 ```
+
+```{r}
+maldives_shape |> 
+  st_drop_geometry() |> 
+  distinct(adm1_en, adm2_en, adm2_pcode, adm1_pcode) |> 	
+  filter(adm1_pcode == "MV020")
+```
+
+```{r}
+islands |> filter(is.na(adm1_pcode))
+```
+
+
+
+```{r}
+adm2_match <- islands |> 
+  distinct(adm1_pcode, atoll_official, island) |> 
+  left_join(
+    maldives_shape |>
+      st_drop_geometry() |>
+      distinct(adm2_en, adm2_pcode, adm1_pcode) |>
+      mutate(adm2_en_alt = str_remove_all(adm2_en, "\\'")) |> 
+      mutate(adm2_en_alt = case_when(
+        adm1_pcode == "MV001" & adm2_en == "Thuraakunu" ~ "Thurakunu",
+        adm1_pcode == "MV001" & adm2_en == "Dhihdhoo" ~ "Dhidhdhoo",
+        adm1_pcode == "MV001" & adm2_en == "Huvarafushi" ~ "Hoarafushi",
+        adm1_pcode == "MV001" & adm2_en == "Uligamu" ~ "Uligan",
+        adm1_pcode == "MV002" & adm2_en == "Kulhudhuffushi" ~ "Kalhaidhoo",
+        adm1_pcode == "MV002" & adm2_en == "Kun'burudhoo" ~ "Kunburudoo",
+        adm1_pcode == "MV002" & adm2_en == "Kurin'bee" ~ "Kurinbi",
+        adm1_pcode == "MV002" & adm2_en == "Nolhivaramu" ~ "Nolhivaram",
+        adm1_pcode == "MV002" & adm2_en == "Nolhivaranfaru" ~ "Nolhivaramfaru",
+        adm1_pcode == "MV003" & str_detect(adm2_en, "Kin'bidhoo") ~ "Kibidhoo",
+        adm1_pcode == "MV003" & adm2_en == "Bileiyfahi" ~ "Bilehffahi",
+        adm1_pcode == "MV003" & str_detect(adm2_en, "Kan'ditheemu") ~ "Kaditheemu",
+        adm1_pcode == "MV003" & str_detect(adm2_en, "Maakan'doodhoo") ~ "Maakandoodhoo",
+        adm1_pcode == "MV003" & str_detect(adm2_en, "Maaun'goodhoo") ~ "Maaungoodhoo",
+        adm1_pcode == "MV004" & adm2_en == "Fohdhoo" ~ "Fodhdhoo",
+        adm1_pcode == "MV004" & adm2_en == "Hen'badhoo" ~ "Hebadhoo",
+        adm1_pcode == "MV004" & str_detect(adm2_en, "dhikulhudhoo") ~ "Kedhikolhudhoo",
+        adm1_pcode == "MV006" & adm2_en == "An'golhitheemu" ~ "Agolhitheemu",
+        adm1_pcode == "MV006" & adm2_en == "In'guraidhoo" ~ "Iguraidhoo",
+        adm1_pcode == "MV006" & adm2_en == "Hulhudhoo" ~ "Hulhumeedhoo",
+        adm1_pcode == "MV006" & adm2_en == "Un'goofaaru" ~ "Ugoofaaru",
+        adm1_pcode == "MV006" & str_detect(adm2_en, "Kan'dholhudhoo") ~ "Kandholhudhoo",
+        adm1_pcode == "MV007" & adm2_en == "MV007007" ~ "Maalhos",
+        adm1_pcode == "MV008" & adm2_en == "Himendhoo" ~ "Himandhoo",
+        adm1_pcode == "MV009" & adm2_en == "Hinmafushi" ~ "Himmafushi",
+        adm1_pcode == "MV011" & adm2_en == "Bileiydhoo" ~ "Biledhdhoo", 
+        adm1_pcode == "MV011" & adm2_en == "Dharan'boodhoo" ~ "Dharaboodhoo", 
+        adm1_pcode == "MV012" & adm2_en == "Ban'didhoo" ~ "Badidhoo", 
+        adm1_pcode == "MV012" & adm2_en == "Maaen'boodhoo" ~ "Maaeboodhoo", 
+        adm1_pcode == "MV012" & adm2_en == "Meedhoo" ~ "Hulhumeedhoo", 
+        adm1_pcode == "MV012" & str_detect(adm2_en, "Rin'budhoo") ~ "Ribudhoo", 
+        adm1_pcode == "MV013" & adm2_en == "Raiymandhoo" ~ "Raimandhoo",
+        adm1_pcode == "MV014" & adm2_en == "Burunee" ~ "Buruni",
+        adm1_pcode == "MV014" & str_detect(adm2_en, "Kan'doodhoo") ~ "Kandoodhoo",
+        adm1_pcode == "MV014" & str_detect(adm2_en, "Kin'bidhoo") ~ "Kibidhoo",
+        adm1_pcode == "MV015" & adm2_en == "Dhan'bidhoo" ~ "Dhabidhoo",
+        adm1_pcode == "MV015" & adm2_en == "Mundoo" ~ "Mundhoo",
+        adm1_pcode == "MV016" & adm2_en == "Kon'dey" ~ "Kodey", 
+        adm1_pcode == "MV016" & adm2_en == "Vilin'gili" ~ "Viligili",
+        adm1_pcode == "MV016" & adm2_en == "Kon'dey" ~ "Kodey",
+        adm1_pcode == "MV016" & adm2_en == "Kan'duhulhudhoo" ~ "Kanduhulhudhoo",
+        adm1_pcode == "MV017" & adm2_en == "Faresmaathodaa" ~ "Fares-Maathodaa",
+        adm1_pcode == "MV017" & adm2_en == "Gahdhoo" ~ "Gadhdhoo",
+        adm1_pcode == "MV017" & adm2_en == "Hoadehdhoo" ~ "Hoandedhdhoo",
+        adm1_pcode == "MV017" & adm2_en == "Nadellaa" ~ "Nadallaa",
+        adm1_pcode == "MV019" & adm2_en == "Meedhoo" ~ "Hulhumeedhoo",
+        adm1_pcode == "MV019" & adm2_en == "Maradhoofeydhoo" ~ "Maradhoo-Feydhoo",
+        adm1_pcode == "MV020" & adm2_en == "Hangnaameedhoo" ~ "Hanghghaameedhoo",
+        adm1_pcode == "MV020" & adm2_en == "Dhihdhoo" ~ "Dhidhdhoo", 
+        adm1_pcode == "MV020" & adm2_pcode == "MV020006" ~ "Dhangethi", 
+        adm1_pcode == "MV020" & adm2_en == "Maamin'gili" ~ "Maamigili",
+        
+        
+        TRUE ~ adm2_en)), 
+    by = c("island" = "adm2_en_alt", "adm1_pcode")
+  ) |> 
+  mutate(adm2_pcode = case_when(
+        adm1_pcode == "MV021" & str_detect(island, "Male'") ~ "MV021001", 
+        adm1_pcode == "MV021" & str_detect(island, "Hulhumale'") ~ "MV021003", 
+        adm1_pcode == "MV021" & str_detect(island, "Vilimale'") ~ "MV021002",
+        atoll_official == "Haa Alif Atoll" & str_detect(island, "Uligamu") ~ "MV001002",
+        atoll_official == "Haa Dhaal Atoll" & str_detect(island, "Kulhudhuffushi") ~ "MV002012",
+        atoll_official == "Baa Atoll" & str_detect(island, "Maalhoss") ~ "MV007007",
+        atoll_official == "Alif Uthuru Buri" & str_detect(island, "Maalhoss") ~ "MV008007",
+        atoll_official == "Laamu Atoll" & str_detect(island, "Gamu") ~ "MV015013",
+        atoll_official == "Noonu Atoll" & str_detect(island, "Kendhikulhudhoo") ~ "MV004002",
+        adm1_pcode == "MV020" & str_detect(island, "Kunburudhoo") ~ "MV020003",
+        
+        TRUE ~ adm2_pcode
+      )) |> 
+  mutate(adm2_en = ifelse(island == "Gamu", "Gan", adm2_en)) |> 
+  filter(atoll_official != "Greater Male Region" | island != "Hulhule") |> 
+  filter(atoll_official != "Lammu Atoll" | island != "Gan") |> 
+  arrange(adm1_pcode)
+
+
+```
+
+```{r}
+islands |> 
+  count(atoll_official, island)
+  glimpse()
+```
+
+
+
+
+
 
 
 # Atoll correlations
@@ -159,5 +426,72 @@ set.seed(13345)
 island_split <- initial_split(islandwide)
 island_train <- training(island_split)
 island_test <- testing(island_split)
+```
+
+## Relative wealth index
+
+```{r fig.height=7}
+rwi <- read_csv(here("data", "mdv_relative_wealth_index.csv")) |> 
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
+
+maldives_shape <- st_read(here("data", "mdv_adm_gov_20241022_ab_shp", "mdv_admbnda_adm2_gov_20241022.shp")) |> 
+  clean_names()
+
+closest_feature <- st_nearest_feature(rwi, maldives_shape)
+
+rwi_matched <- maldives_shape[closest_feature,] |> st_drop_geometry() |> cbind(rwi)
+
+ggplot() + 
+  geom_sf(data = maldives_shape, size = .1) +  
+  geom_point(data = rwi_matched, aes(geometry = geometry,
+                             colour = rwi), 
+             stat = "sf_coordinates")
+
+  
+  
+islands |> count(atoll_official)
+  filter(indicator == "Population")
+  count(indicator)
+  glimpse()
+  
+maldives_shape |> st_drop_geometry() |> 
+  distinct(adm1_en, adm1_pcode)
+
+
+
+```
+
+
+```{r}
+islands_rwi <- islands |> 
+  left_join(
+    adm2_match |> 
+      select(adm1_pcode, island, adm2_pcode), 
+    by = c("adm1_pcode", "island")
+  ) |> 
+  filter(!is.na(adm2_pcode)) |> 
+  filter(indicator == "Population") |> 
+  left_join(rwi_matched |>
+              group_by(adm1_en, adm1_pcode, adm2_en, adm2_pcode) |>
+              summarise(rwi = mean(rwi, na.rm = TRUE))) |> 
+  # Do you want to impute values?
+  filter(!is.na(rwi)) |> 
+  mutate(rwi_range = range_wna(rwi))
+```
+
+
+
+```{r fig.height=25}
+
+islands_rwi |>
+  left_join(
+    maldives_shape |> 
+      st_buffer(.5), 
+    by = "adm2_pcode"
+  ) |> 
+  st_as_sf() |> 
+  ggplot() + 
+  geom_sf(aes(fill = rwi_range)) + 
+  scale_fill_viridis(option = "turbo")
 ```
 

@@ -2137,20 +2137,30 @@ islands_atolls <- read_xlsx(here("data", "Atoll - Island-Level-Indicator-Sheet-P
 
 ```{r}
 
-not_per_capita_list <- c(
-  "Combined rate of unemployment and potential labour force (%)",
-  "Employment-to-population ratio (%)",
-  "Inactivity rate (%)",
-  "Labour force participation rate (%)",
-  "NEET rate (15-24 years) (%)",
-  "Median Age",
-  "NEET rate (18-35 years) (%)",
-  "Population",
-  "Population density",
-  "Unemployment rate (%)",
-  "Youth unemployment rate (15-24 years) (%)",
-  "Youth unemployment rate (18-35years) (%)"
-)
+adm1_match <- atolls_official |>
+  clean_names() |> 
+  rename(atoll_official = atoll) |> 
+  select(-sort_order) |> 
+  count(atoll_official, atoll_official_name, local_names) |> 
+  left_join(
+    maldives_shape |> st_drop_geometry() |>
+      distinct(adm1_en, adm1_pcode) |> 
+      mutate(adm1_en_alt = paste0(adm1_en, " Atoll")) |> 
+      mutate(adm1_en_alt = 
+               case_when(
+                 adm1_en == "Dhaalu" ~ "Dhaal Atoll", 
+                 adm1_en == "Gaafu Dhaalu" ~ "Gaaf Dhaal Atoll", 
+                 adm1_en == "Alifu Alifu" ~ "Alif Uthuru Buri", 
+                 adm1_en == "Haa Alifu" ~ "Haa Alif Atoll", 
+                 adm1_en == "Alifu Dhaalu" ~ "Alif Dhekunu Buri", 
+                 adm1_en == "Haa Dhaalu" ~ "Haa Dhaal Atoll", 
+                 adm1_en == "Gaafu Alifu" ~ "Gaaf Alif Atoll", 
+                 adm1_en == "Male" ~ "Greater Male Region", 
+                 TRUE ~ adm1_en_alt
+               ))
+      , 
+    by = c("atoll_official" = "adm1_en_alt")
+  )
 
 
 islands <- read_excel(here("data", "Combined Datasets.xlsx"), 
@@ -2173,7 +2183,7 @@ islands <- read_excel(here("data", "Combined Datasets.xlsx"),
              island == "Bandidhoo" & atoll_official == "Dhaal Atoll" ~ "Badidhoo", 
              island == "Bilehdhoo" & atoll_official == "Faafu Atoll" ~ "Biledhdhoo", 
              island == "Dhanbidhoo" & atoll_official == "Laamu Atoll" ~ "Dhabidhoo", 
-             island == "Faresmaathodaa" & atoll_official == "Gaaf Dhaal Atoll" ~ "Fares-Maathodaa", 
+             str_detect(island, "Faresmaathodaa|Fares") & atoll_official == "Gaaf Dhaal Atoll" ~ "Fares-Maathodaa", 
              island == "Fiyoaree" & atoll_official == "Gaaf Dhaal Atoll" ~ "Fiyoari", 
              str_detect(island, "Hangnameedhoo|Hangnaameedhoo") & 
                atoll_official == "Alif Dhekunu Buri" ~ "Hanghghaameedhoo",
@@ -2214,8 +2224,9 @@ islands <- read_excel(here("data", "Combined Datasets.xlsx"),
              island == "Hoadedhdhoo" & atoll_official == "Gaaf Dhaal Atoll" ~ "Hoandedhdhoo",
              island == "Foammulah" & atoll_official == "Gnaviyani Atoll" ~ "Fuvahmulah",
              island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
-             island == "Kadoodhoo" & atoll_official == "Thaa Atoll" ~ "Kandoodhoo",
              island == "Madeveli" & atoll_official == "Gaaf Dhaal Atoll" ~ "Madaveli",
+             island == "Rinbudhoo" & atoll_official == "Dhaal Atoll" ~ "Ribudhoo",
+             island == "Kondey" ~ "Kodey",
              
              TRUE ~ island
            )) |> 
@@ -2249,7 +2260,10 @@ islands <- read_excel(here("data", "Combined Datasets.xlsx"),
   mutate(population = ifelse(indicator == "Population", value, NA_integer_)) |> 
   fill(population, .direction = c("downup")) |> 
   ungroup() |> 
-  
+  mutate(atoll_official_name = ifelse(atoll_official_name == "Haa Dhaal Atoll", 
+                                      "Thiladhunmathee Dhekunuburi", 
+                                      atoll_official_name)) |> 
+
 
   mutate(value = ifelse(indicator %out% not_per_capita_list, 
                         value / population * 100000, 
@@ -2261,8 +2275,12 @@ islands <- read_excel(here("data", "Combined Datasets.xlsx"),
          value2 = value) |> 
   distinct(dataset, indicator, atoll_official, island,
            value, normalized_value, sort_order, atoll_official_name, 
-           population, indicator2, value2)
-
+           population, indicator2, value2) |> 
+  left_join(
+    adm1_match |> 
+      select(atoll_official, adm1_pcode), 
+    by = "atoll_official"
+  )
   
 ```
 
@@ -2760,6 +2778,17 @@ x4, x6
 For the human rights violations dataset, neither the `sub_category` nor the `further_classification`
 
 ```{r}
+hr_violations <- read_excel(here("data", "HR Violations_Consolidated_2021.03.01_CRD.xlsx"), 
+                            sheet = "Consolidated") |> 
+  clean_names()
+
+hr_violations |> count(further_classification)
+
+hate_speech |> count(rco_primary_category)
+```
+
+
+```{r}
 
 lka_adm2 <- read_excel(here("data", "lka_adminboundaries_tabulardata.xlsx"), 
            sheet = "Admin2") |> 
@@ -2925,7 +2954,7 @@ lka_adm2_pop <- read_csv(here("data", "lka_admpop_adm2_2023.csv")) |>
   clean_names() |> 
   distinct(adm2_name, adm2_pcode, f_tl, m_tl, t_tl)
 
-
+religious |> count(primary_targets)
 ```
 
 ```{r}
@@ -3071,13 +3100,6 @@ lka_econ <- rbind(
 
 The economics dataset is comprised of tourist arrivals, imports and exports, remittances, public finances, unemployment, purchasing managers' index and the FX rate. These indicators are plotted over time below. 
 
-```{r}
-glimpse(hr_violations)
-
-
-    
-
-```
 
 
 ```{r}
