@@ -1591,6 +1591,7 @@ cpi |>
 
 ## Maldives 
 
+This section is largely deprecated. Updated Maldives code may be found in `maldives_correlations.qmd`. 
 
 ### Maldives data
 
@@ -1883,7 +1884,7 @@ maldives_wide <- maldives_atoll |>
   #        imputed_median = replace(value, is.na(value), median(value, na.rm = TRUE))) |> 
   # ungroup() |> 
   select(atoll_official_name, indicator, value) |> 
-  filter(str_detect(indicator, "Investigated|\\%|Median Age|Population|Sex Ratio") & 
+  filter(str_detect(indicator, "Reported|\\%|Median Age|Population|Sex Ratio") & 
            !str_detect(indicator, "yrs")) |>
   pivot_wider(names_from = indicator, values_from = value) |> 
   select(-atoll_official_name, -`% of poor persons nationally`) |> 
@@ -1902,7 +1903,7 @@ rf_model <-
   set_mode("regression") |> 
   set_engine("ranger", importance = "impurity")
 
-rf_recipe <- recipe(`Investigated Cases per 100k` ~ ., data = maldives_wide)
+rf_recipe <- recipe(`Reported Crimes per 100k` ~ ., data = maldives_wide)
 
 rf_workflow <- 
   workflow() %>% 
@@ -1991,84 +1992,6 @@ islands |> glimpse(
 
 
 ```
-
-```{r fig.height=8}
-islands |> 
-  filter(index == "Demographic statistics") |> 
-  filter(indicator_full %out% c("Population density Resident Maldivian Population",
-                                "Median Age Resident Maldivians") & 
-           !str_detect(indicator_full, "International")) |> 
-  select(Atoll, island, concat, indicator_full, value) |> 
-  pivot_wider(names_from = indicator_full, 
-               values_from = value) |> 
-  select(-Atoll, -island, -concat) |> 
-  cor(method = c("pearson")) %>% 
-  corrplot.mixed(order = "AOE", tl.cex = 1)
-  
-  corrplot(type = "upper", tl.cex = 1)
-  corrplot.mixed(order = "AOE")
-
-
-  
-
-  psych::pairs.panels(smooth = TRUE,      # If TRUE, draws loess smooths
-               scale = FALSE,      # If TRUE, scales the correlation text font
-               density = TRUE,     # If TRUE, adds density plots and histograms
-               ellipses = FALSE,   # If TRUE, draws ellipses
-               method = "pearson", # Correlation method (also "spearman" or "kendall")
-               pch = 8,            # pch symbol
-               lm = TRUE,          # If TRUE, plots linear fit rather than the LOESS (smoothed) fit
-               cor = TRUE,         # If TRUE, reports correlations
-               jiggle = FALSE,     # If TRUE, data points are jittered
-               factor = 2,         # Jittering factor
-               hist.col = 4,       # Histograms color
-               stars = TRUE,       # If TRUE, adds significance level with stars
-               ci = FALSE,         # If TRUE, adds confidence intervals
-               main = "Correlation plot of conflict indicators (acleddata.com) and FSC partners and beneficiaries")
-  
-  cor(method = c("pearson")) %>% 
-  corrplot(type = "upper", col = RColorBrewer::brewer.pal(n = 8, name = "RdYlBu"), tl.srt = 35, 
-           title = "Correlation plot between conflict indicators and FSC presence \n",  mar=c(0,0,2,0), diag = FALSE)
-
-  glimpse()
-  glimpse()
-  count(indicator, index
-        )
-  glimpse()
-  
-
-Population density Resident Maldivian Population
-Median Age Resident Maldivians
-
-ggsave(here("plots", "corrplot.png"))
-```
-
-```{r}
-# Initialize file path
-png(height=1800, width=1800, file=here("plots", "correlation_plot.png"), type = "cairo")
-
-# Your function to plot image goes here
-islands |> 
-  filter(index == "Demographic statistics") |> 
-  filter(indicator_full %out% c("Population density Resident Maldivian Population",
-                                "Median Age Resident Maldivians") & 
-           !str_detect(indicator_full, "International|\\%")) |>
-  select(Atoll, island, concat, indicator_full, value) |> 
-  pivot_wider(names_from = indicator_full, 
-               values_from = value) |> 
-  select(-Atoll, -island, -concat) |>
-  cor(method = c("pearson")) %>%
-  corrplot.mixed(order = "AOE", 
-                 title = "Demographic statistics",
-                 mar = c(0,0,1,0),
-                 number.cex = 5,
-                 number.digits = 2, 
-                 diag = "l", tl.pos = "lt")
-
-# Then
-dev.off()  
-```
-
 
 
 
@@ -2285,9 +2208,7 @@ islands <- read_excel(here("data", "Combined Datasets.xlsx"),
 ```
 
 
-```{r}
-islands |> glimpse()
-```
+
 
 
 ```{r}
@@ -2296,25 +2217,6 @@ islands |> filter(indicator == "Population" & atoll_official == "Greater Male Re
 ```
 
 
-```{r}
-islands |> 
-  filter(indicator == "Population density" & atoll_official == "Greater Male Region")
-
-mutate()
-    
-  
-  count(indicator)
-```
-
-
-
-
-```{r}
-islands |> 
-  distinct(dataset, indicator, atoll_official, value, normalized_value, sort_order, atoll_official_name, 
-           population, indicator2, value2)
-  filter(str_detect(indicator, "Arson"))
-```
 
 
 
